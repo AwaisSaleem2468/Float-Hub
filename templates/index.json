@@ -41,6 +41,71 @@
         "button_primary_text": "#FFFFFF"
       }
     },
+    "custom_section_static_feature": {
+      "type": "custom-section-static-feature",
+      "name": "Static Feature Bar",
+      "blocks": {
+        "feature_1": {
+          "type": "feature",
+          "settings": {
+            "text": "London's Highest Rated Float Centre",
+            "show_icon": true,
+            "link": ""
+          }
+        },
+        "feature_2": {
+          "type": "feature",
+          "settings": {
+            "text": "300+ Five-Star Reviews Online",
+            "show_icon": false,
+            "link": ""
+          }
+        },
+        "feature_3": {
+          "type": "feature",
+          "settings": {
+            "text": "6 Tanks - Largest in London",
+            "show_icon": false,
+            "link": ""
+          }
+        },
+        "feature_4": {
+          "type": "feature",
+          "settings": {
+            "text": "Old Street, Shoreditch · EC1V 9NQ",
+            "show_icon": false,
+            "link": ""
+          }
+        },
+        "feature_5": {
+          "type": "feature",
+          "settings": {
+            "text": "Open 7 Days - Book Online Instantly",
+            "show_icon": false,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_1",
+        "feature_2",
+        "feature_3",
+        "feature_4",
+        "feature_5"
+      ],
+      "settings": {
+        "accessibility_label": "Store highlights",
+        "background_color": "#0B1220",
+        "text_color": "#C8CED8",
+        "icon_color": "#D4AF37",
+        "text_size_desktop": 13,
+        "text_size_mobile": 12,
+        "content_width": 1280,
+        "item_gap": 40,
+        "padding_top": 14,
+        "padding_bottom": 14
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -112,6 +177,7 @@
   },
   "order": [
     "custom_section_video_banner_tiAqWk",
+    "custom_section_static_feature",
     "image_banner",
     "featured_collection"
   ]
