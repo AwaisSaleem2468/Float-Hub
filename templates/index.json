@@ -112,6 +112,30 @@
         "padding_bottom": 20
       }
     },
+    "custom_section_richtext": {
+      "type": "custom-section-richtext",
+      "name": "Custom Rich Text",
+      "settings": {
+        "show_badge": true,
+        "show_stars": true,
+        "badge_text": "21K+ Happy Customers",
+        "badge_size_desktop": 12,
+        "badge_size_mobile": 11,
+        "badge_spacing": 28,
+        "content": "<p>Float Hub exists to redefine <strong>wellness through the power of water</strong><br/>by creating science-backed float experiences that support your recovery and transformations</p>",
+        "text_size_desktop": 28,
+        "text_size_mobile": 20,
+        "content_width": 820,
+        "background_color": "#0B1220",
+        "text_color": "#E8EDF5",
+        "strong_color": "#FFFFFF",
+        "badge_background": "#1A2436",
+        "badge_text_color": "#D5DCE8",
+        "star_color": "#F5C518",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -184,6 +208,7 @@
   "order": [
     "custom_section_video_banner_tiAqWk",
     "custom_section_static_feature",
+    "custom_section_richtext",
     "image_banner",
     "featured_collection"
   ]

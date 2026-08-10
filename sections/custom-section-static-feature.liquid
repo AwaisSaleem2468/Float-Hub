@@ -1,6 +1,9 @@
 {%- liquid
   assign text_size_desktop = section.settings.text_size_desktop | default: 13
   assign text_size_mobile = section.settings.text_size_mobile | default: 12
+  assign enable_marquee = section.settings.enable_marquee
+  assign marquee_speed = section.settings.marquee_speed | default: 40
+  assign pause_on_hover = section.settings.pause_on_hover
 -%}
 
 {% style %}
@@ -13,23 +16,35 @@
     --sf-size: {{ text_size_desktop }}px;
     --sf-size-mobile: {{ text_size_mobile }}px;
     --sf-gap: {{ section.settings.item_gap }}px;
+    --sf-marquee-duration: {{ marquee_speed }}s;
     background-color: var(--sf-bg);
     color: var(--sf-text);
     border-top: var(--sf-border-width) solid var(--sf-border);
     border-bottom: var(--sf-border-width) solid var(--sf-border);
     padding-top: {{ section.settings.padding_top }}px;
     padding-bottom: {{ section.settings.padding_bottom }}px;
+    overflow: hidden;
   }
 
-  #StaticFeature-{{ section.id }} .static-feature__inner {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 0.65rem var(--sf-gap);
+  #StaticFeature-{{ section.id }} .static-feature__viewport {
     width: 100%;
-    margin: 0 auto;
-    padding: 0 1.5rem;
+    overflow: hidden;
+  }
+
+  #StaticFeature-{{ section.id }} .static-feature__track {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    gap: 0;
+  }
+
+  #StaticFeature-{{ section.id }} .static-feature__group {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: var(--sf-gap);
+    padding-right: var(--sf-gap);
+    flex-shrink: 0;
   }
 
   #StaticFeature-{{ section.id }} .static-feature__item {
@@ -58,8 +73,8 @@
   #StaticFeature-{{ section.id }} .static-feature__icon {
     display: inline-flex;
     flex-shrink: 0;
-    width: 2rem;
-    height: 2rem;
+    width: 1em;
+    height: 1em;
     color: var(--sf-icon);
   }
 
@@ -70,61 +85,129 @@
     fill: currentColor;
   }
 
-  @media screen and (max-width: 989px) {
-    #StaticFeature-{{ section.id }} .static-feature__inner {
-      flex-wrap: nowrap;
-      justify-content: flex-start;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      scrollbar-width: none;
-      padding-left: 1.25rem;
-      padding-right: 1.25rem;
-      max-width: none;
+  {%- if enable_marquee -%}
+    #StaticFeature-{{ section.id }} .static-feature__track {
+      animation: static-feature-marquee-{{ section.id }} var(--sf-marquee-duration) linear infinite;
     }
 
-    #StaticFeature-{{ section.id }} .static-feature__inner::-webkit-scrollbar {
+    {%- if pause_on_hover -%}
+      #StaticFeature-{{ section.id }} .static-feature__viewport:hover .static-feature__track,
+      #StaticFeature-{{ section.id }} .static-feature__viewport:focus-within .static-feature__track {
+        animation-play-state: paused;
+      }
+    {%- endif -%}
+
+    @keyframes static-feature-marquee-{{ section.id }} {
+      from {
+        transform: translate3d(0, 0, 0);
+      }
+      to {
+        transform: translate3d(-50%, 0, 0);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      #StaticFeature-{{ section.id }} .static-feature__track {
+        animation: none;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+      }
+
+      #StaticFeature-{{ section.id }} .static-feature__group--clone {
+        display: none;
+      }
+
+      #StaticFeature-{{ section.id }} .static-feature__group {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-right: 0;
+        width: 100%;
+        gap: 0.65rem var(--sf-gap);
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+      }
+    }
+  {%- else -%}
+    #StaticFeature-{{ section.id }} .static-feature__track {
+      width: 100%;
+      justify-content: center;
+    }
+
+    #StaticFeature-{{ section.id }} .static-feature__group {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-right: 0;
+      gap: 0.65rem var(--sf-gap);
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+
+    #StaticFeature-{{ section.id }} .static-feature__group--clone {
       display: none;
     }
-
-    #StaticFeature-{{ section.id }} .static-feature__item {
-      font-size: var(--sf-size-mobile);
-      flex: 0 0 auto;
-    }
-  }
+  {%- endif -%}
 
   @media screen and (max-width: 749px) {
     #StaticFeature-{{ section.id }} {
       padding-top: {{ section.settings.padding_top | times: 0.85 | round: 0 }}px;
       padding-bottom: {{ section.settings.padding_bottom | times: 0.85 | round: 0 }}px;
     }
+
+    #StaticFeature-{{ section.id }} .static-feature__item {
+      font-size: var(--sf-size-mobile);
+    }
   }
 {% endstyle %}
 
 <section
   id="StaticFeature-{{ section.id }}"
-  class="static-feature"
+  class="static-feature{% if enable_marquee %} static-feature--marquee{% endif %}"
   aria-label="{{ section.settings.accessibility_label | escape }}"
 >
   {%- if section.blocks.size > 0 -%}
-    <div class="page-width static-feature__inner">
-      {%- for block in section.blocks -%}
-        {%- if block.settings.text != blank -%}
-          <p class="static-feature__item" {{ block.shopify_attributes }}>
-            {%- if block.settings.show_icon -%}
-              <span class="static-feature__icon" aria-hidden="true">
-                <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" focusable="false">
-                  <path d="M8 1.2l1.85 3.75 4.15.6-3 2.93.7 4.12L8 10.7l-3.7 1.9.7-4.12-3-2.93 4.15-.6L8 1.2z"/>
-                </svg>
-              </span>
+    <div class="static-feature__viewport">
+      <div class="static-feature__track"{% if enable_marquee %} aria-hidden="false"{% endif %}>
+        <div class="static-feature__group">
+          {%- for block in section.blocks -%}
+            {%- if block.settings.text != blank -%}
+              <p class="static-feature__item" {{ block.shopify_attributes }}>
+                {%- if block.settings.show_icon -%}
+                  <span class="static-feature__icon" aria-hidden="true">
+                    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                      <path d="M8 1.2l1.85 3.75 4.15.6-3 2.93.7 4.12L8 10.7l-3.7 1.9.7-4.12-3-2.93 4.15-.6L8 1.2z"/>
+                    </svg>
+                  </span>
+                {%- endif -%}
+                {%- if block.settings.link != blank -%}
+                  <a href="{{ block.settings.link }}">{{ block.settings.text | escape }}</a>
+                {%- else -%}
+                  <span>{{ block.settings.text | escape }}</span>
+                {%- endif -%}
+              </p>
             {%- endif -%}
-            {%- if block.settings.link != blank -%}
-              <a href="{{ block.settings.link }}">{{ block.settings.text | escape }}</a>
-            {%- else -%}
-              <span>{{ block.settings.text | escape }}</span>
-            {%- endif -%}
-          </p>
+          {%- endfor -%}
+        </div>
+
+        {%- if enable_marquee -%}
+          <div class="static-feature__group static-feature__group--clone" aria-hidden="true">
+            {%- for block in section.blocks -%}
+              {%- if block.settings.text != blank -%}
+                <p class="static-feature__item">
+                  {%- if block.settings.show_icon -%}
+                    <span class="static-feature__icon">
+                      <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                        <path d="M8 1.2l1.85 3.75 4.15.6-3 2.93.7 4.12L8 10.7l-3.7 1.9.7-4.12-3-2.93 4.15-.6L8 1.2z"/>
+                      </svg>
+                    </span>
+                  {%- endif -%}
+                  <span>{{ block.settings.text | escape }}</span>
+                </p>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
         {%- endif -%}
-      {%- endfor -%}
+      </div>
     </div>
   {%- endif -%}
 </section>
@@ -141,6 +224,33 @@
       "id": "accessibility_label",
       "label": "Accessibility label",
       "default": "Store highlights"
+    },
+    {
+      "type": "header",
+      "content": "Marquee"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_marquee",
+      "label": "Enable auto-scroll (marquee)",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "marquee_speed",
+      "min": 10,
+      "max": 80,
+      "step": 5,
+      "unit": "s",
+      "label": "Scroll duration",
+      "default": 40,
+      "info": "Higher value = slower scroll."
+    },
+    {
+      "type": "checkbox",
+      "id": "pause_on_hover",
+      "label": "Pause on hover",
+      "default": true
     },
     {
       "type": "header",
@@ -207,16 +317,6 @@
     {
       "type": "header",
       "content": "Layout"
-    },
-    {
-      "type": "range",
-      "id": "content_width",
-      "min": 900,
-      "max": 1600,
-      "step": 20,
-      "unit": "px",
-      "label": "Content max width",
-      "default": 1280
     },
     {
       "type": "range",
