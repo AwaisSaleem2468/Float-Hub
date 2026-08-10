@@ -35,10 +35,10 @@
         "show_discover": true,
         "discover_label": "Discover",
         "text_color": "#FFFFFF",
-        "accent_color": "#2DE2C5",
+        "accent_color": "#0DAAEF",
         "badge_color": "#D4AF37",
-        "button_primary_bg": "#2DE2C5",
-        "button_primary_text": "#0A1F1C"
+        "button_primary_bg": "#0DAAEF",
+        "button_primary_text": "#FFFFFF"
       }
     },
     "image_banner": {
