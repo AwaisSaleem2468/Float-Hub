@@ -1,0 +1,17 @@
+{
+  "name": "float-hub",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Float Hub Shopify theme",
+  "scripts": {
+    "dev": "shopify theme dev --store=6jf909-nj.myshopify.com",
+    "push": "shopify theme push --store=6jf909-nj.myshopify.com",
+    "pull": "shopify theme pull --store=6jf909-nj.myshopify.com",
+    "list": "shopify theme list --store=6jf909-nj.myshopify.com",
+    "check": "shopify theme check",
+    "info": "shopify theme info --store=6jf909-nj.myshopify.com"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
