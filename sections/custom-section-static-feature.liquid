@@ -8,11 +8,15 @@
     --sf-bg: {{ section.settings.background_color }};
     --sf-text: {{ section.settings.text_color }};
     --sf-icon: {{ section.settings.icon_color }};
+    --sf-border: {{ section.settings.border_color }};
+    --sf-border-width: {{ section.settings.border_width }}px;
     --sf-size: {{ text_size_desktop }}px;
     --sf-size-mobile: {{ text_size_mobile }}px;
     --sf-gap: {{ section.settings.item_gap }}px;
     background-color: var(--sf-bg);
     color: var(--sf-text);
+    border-top: var(--sf-border-width) solid var(--sf-border);
+    border-bottom: var(--sf-border-width) solid var(--sf-border);
     padding-top: {{ section.settings.padding_top }}px;
     padding-bottom: {{ section.settings.padding_bottom }}px;
   }
@@ -161,6 +165,22 @@
       "id": "icon_color",
       "label": "Star icon",
       "default": "#D4AF37"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Top & bottom border",
+      "default": "#243044"
+    },
+    {
+      "type": "range",
+      "id": "border_width",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "label": "Border thickness",
+      "default": 1
     },
     {
       "type": "header",

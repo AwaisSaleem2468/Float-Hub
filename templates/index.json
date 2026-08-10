@@ -98,6 +98,8 @@
         "background_color": "#0B1220",
         "text_color": "#C8CED8",
         "icon_color": "#D4AF37",
+        "border_color": "#243044",
+        "border_width": 1,
         "text_size_desktop": 13,
         "text_size_mobile": 12,
         "content_width": 1280,
