@@ -38,7 +38,7 @@
         "button_link_2": "",
         "show_discover": true,
         "discover_label": "Discover",
-        "text_color": "#ffffff",
+        "text_color": "#FFFFFF",
         "accent_color": "#0daaef",
         "badge_color": "#d4af37",
         "button_primary_bg": "#0daaef",
@@ -102,14 +102,14 @@
         "background_color": "#0b1220",
         "text_color": "#c8ced8",
         "icon_color": "#d4af37",
-        "border_color": "#243044",
+        "border_color": "#C8CED8",
         "border_width": 1,
-        "text_size_desktop": 13,
-        "text_size_mobile": 12,
+        "text_size_desktop": 16,
+        "text_size_mobile": 14,
         "content_width": 1280,
         "item_gap": 40,
-        "padding_top": 14,
-        "padding_bottom": 14
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "image_banner": {
