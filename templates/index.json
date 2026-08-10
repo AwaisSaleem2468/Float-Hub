@@ -26,7 +26,11 @@
         "badge_text": "200+ Five-Star Reviews | London's #1",
         "heading": "Float Beyond",
         "heading_accent": "Every Limit.",
+        "heading_size_desktop": 78,
+        "heading_size_mobile": 36,
         "description": "<p>Experience complete weightlessness in spacious float pods or float together in our exclusive double suites. Enhance your reset with our 1.5ATA HBOT chamber and premium German-engineered red light bed.</p>",
+        "description_size_desktop": 18,
+        "description_size_mobile": 15,
         "button_label_1": "Book Your First Float",
         "button_link_1": "",
         "show_button_arrow": true,
@@ -34,16 +38,15 @@
         "button_link_2": "",
         "show_discover": true,
         "discover_label": "Discover",
-        "text_color": "#FFFFFF",
-        "accent_color": "#0DAAEF",
-        "badge_color": "#D4AF37",
-        "button_primary_bg": "#0DAAEF",
-        "button_primary_text": "#FFFFFF"
+        "text_color": "#ffffff",
+        "accent_color": "#0daaef",
+        "badge_color": "#d4af37",
+        "button_primary_bg": "#0daaef",
+        "button_primary_text": "#ffffff"
       }
     },
     "custom_section_static_feature": {
       "type": "custom-section-static-feature",
-      "name": "Static Feature Bar",
       "blocks": {
         "feature_1": {
           "type": "feature",
@@ -93,11 +96,12 @@
         "feature_4",
         "feature_5"
       ],
+      "name": "Static Feature Bar",
       "settings": {
         "accessibility_label": "Store highlights",
-        "background_color": "#0B1220",
-        "text_color": "#C8CED8",
-        "icon_color": "#D4AF37",
+        "background_color": "#0b1220",
+        "text_color": "#c8ced8",
+        "icon_color": "#d4af37",
         "border_color": "#243044",
         "border_width": 1,
         "text_size_desktop": 13,
