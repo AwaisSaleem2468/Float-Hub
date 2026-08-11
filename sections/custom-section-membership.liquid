@@ -15,11 +15,6 @@
   }
 
   #Membership-{{ section.id }} .membership__inner {
-    width: 100%;
-    max-width: {{ section.settings.content_width }}px;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-    box-sizing: border-box;
     display: grid;
     grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
     gap: clamp(2rem, 4vw, 3.5rem);
@@ -293,7 +288,7 @@
 {% endstyle %}
 
 <section id="Membership-{{ section.id }}" class="membership">
-  <div class="membership__inner">
+  <div class="page-width membership__inner">
     <div class="membership__content">
       {% if section.settings.label != blank %}
         <p class="membership__label">{{ section.settings.label | escape }}</p>
