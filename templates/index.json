@@ -26,11 +26,11 @@
         "badge_text": "200+ Five-Star Reviews | London's #1",
         "heading": "Float Beyond",
         "heading_accent": "Every Limit.",
-        "heading_size_desktop": 78,
-        "heading_size_mobile": 48,
+        "heading_size_desktop": 72,
+        "heading_size_mobile": 42,
         "description": "<p>Experience complete weightlessness in spacious float pods or float together in our exclusive double suites. Enhance your reset with our 1.5ATA HBOT chamber and premium German-engineered red light bed.</p>",
-        "description_size_desktop": 18,
-        "description_size_mobile": 16,
+        "description_size_desktop": 17,
+        "description_size_mobile": 14,
         "button_label_1": "Book Your First Float",
         "button_link_1": "",
         "show_button_arrow": true,
@@ -105,10 +105,10 @@
         "background_color": "#09121d",
         "text_color": "#c8ced8",
         "icon_color": "#0daaef",
-        "border_color": "#11251E",
+        "border_color": "#11251e",
         "border_width": 1,
-        "text_size_desktop": 16,
-        "text_size_mobile": 14,
+        "text_size_desktop": 18,
+        "text_size_mobile": 15,
         "item_gap": 40,
         "padding_top": 20,
         "padding_bottom": 20
@@ -126,16 +126,93 @@
         "badge_spacing": 28,
         "content": "<p>With more than 575kg of high-quality epsom salt, you will float <em>effortlessly </em>in the waters of our spacious float pods for 60 minutes with no light, sound, or external pressures to refresh your mind and restore your health to new levels.</p>",
         "text_size_desktop": 18,
-        "text_size_mobile": 16,
-        "content_width": 820,
-        "background_color": "#060D18",
-        "text_color": "#C8CED8",
+        "text_size_mobile": 15,
+        "content_width": 760,
+        "background_color": "#060d18",
+        "text_color": "#c8ced8",
         "strong_color": "#ffffff",
-        "badge_background": "#1A2436",
-        "badge_text_color": "#C8CED8",
-        "star_color": "#F5C518",
+        "badge_background": "#1a2436",
+        "badge_text_color": "#c8ced8",
+        "star_color": "#f5c518",
         "padding_top": 60,
         "padding_bottom": 60
+      }
+    },
+    "custom_section_featured_collection": {
+      "type": "custom-section-featured-collection",
+      "blocks": {
+        "product_card_3": {
+          "type": "product_card",
+          "settings": {
+            "product": "single-float-60-min",
+            "featured": false,
+            "badge_text": "Most Popular",
+            "price_note": "/ month",
+            "button_label": "Book Now",
+            "button_link": ""
+          }
+        },
+        "product_card_2": {
+          "type": "product_card",
+          "settings": {
+            "product": "float-for-two",
+            "featured": true,
+            "badge_text": "Most Popular",
+            "price_note": "/ 2 floats",
+            "button_label": "Book Now",
+            "button_link": ""
+          }
+        },
+        "product_card_1": {
+          "type": "product_card",
+          "settings": {
+            "product": "2-float-intro-course",
+            "featured": false,
+            "badge_text": "Most Popular",
+            "price_note": "",
+            "button_label": "Get Intro Course",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_card_3",
+        "product_card_2",
+        "product_card_1"
+      ],
+      "name": "Custom Feat collection",
+      "settings": {
+        "label": "Transparent Pricing",
+        "heading": "No hidden costs.",
+        "heading_accent": "No contracts.",
+        "heading_size_desktop": 52,
+        "heading_size_mobile": 34,
+        "label_size": 12,
+        "description": "<p>Start with a single session or save with our intro pack. Cancel your membership any time.</p>",
+        "description_size_desktop": 16,
+        "description_size_mobile": 15,
+        "caption_size": 14,
+        "title_size": 22,
+        "price_size": 48,
+        "feature_size": 15,
+        "button_size": 15,
+        "content_width": 1120,
+        "header_spacing": 48,
+        "background_color": "#070d16",
+        "card_background": "#121a27",
+        "text_color": "#ffffff",
+        "muted_color": "#a8b0bd",
+        "accent_color": "#0daaef",
+        "accent_text_color": "#061018",
+        "gold_color": "#c9a46a",
+        "gold_text_color": "#1a1208",
+        "show_view_all": true,
+        "view_all_label": "View all",
+        "view_all_link": "",
+        "view_all_style": "ghost",
+        "view_all_spacing": 32,
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "image_banner": {
@@ -176,75 +253,6 @@
         "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
         "show_text_below": false
-      }
-    },
-    "custom_section_featured_collection": {
-      "type": "custom-section-featured-collection",
-      "name": "Custom Feat collection",
-      "blocks": {
-        "product_card_1": {
-          "type": "product_card",
-          "settings": {
-            "featured": false,
-            "badge_text": "Most Popular",
-            "price_note": "",
-            "button_label": "Book Now",
-            "button_link": ""
-          }
-        },
-        "product_card_2": {
-          "type": "product_card",
-          "settings": {
-            "featured": true,
-            "badge_text": "Most Popular",
-            "price_note": "/ 2 floats",
-            "button_label": "Get Intro Pack",
-            "button_link": ""
-          }
-        },
-        "product_card_3": {
-          "type": "product_card",
-          "settings": {
-            "featured": false,
-            "badge_text": "Most Popular",
-            "price_note": "/ month",
-            "button_label": "Join Now",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "product_card_1",
-        "product_card_2",
-        "product_card_3"
-      ],
-      "settings": {
-        "label": "Transparent Pricing",
-        "heading": "No hidden costs.",
-        "heading_accent": "No contracts.",
-        "heading_size_desktop": 52,
-        "heading_size_mobile": 34,
-        "label_size": 12,
-        "description": "<p>Start with a single session or save with our intro pack. Cancel your membership any time.</p>",
-        "description_size_desktop": 16,
-        "description_size_mobile": 15,
-        "caption_size": 14,
-        "title_size": 22,
-        "price_size": 48,
-        "feature_size": 15,
-        "button_size": 15,
-        "content_width": 1120,
-        "header_spacing": 48,
-        "background_color": "#070D16",
-        "card_background": "#121A27",
-        "text_color": "#FFFFFF",
-        "muted_color": "#A8B0BD",
-        "accent_color": "#0DAAEF",
-        "accent_text_color": "#061018",
-        "gold_color": "#C9A46A",
-        "gold_text_color": "#1A1208",
-        "padding_top": 80,
-        "padding_bottom": 80
       }
     },
     "featured_collection": {
