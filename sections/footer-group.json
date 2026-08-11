@@ -37,8 +37,8 @@
         "text_4PCCci": {
           "type": "text",
           "settings": {
-            "heading": "Heading",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
+            "heading": "Float Hum",
+            "subtext": "<p><strong>Address : </strong>346 Old Street, Lower Ground Floor, London, EC1V 9NQ<br/><strong>Phone #</strong> : <a href=\"tel:+442012345678\">+44 20 1234 5678</a><strong><br/>Email: </strong><a href=\"mailto:team@floathub.co.uk\">team@floathub.co.uk</a></p>"
           }
         }
       },
