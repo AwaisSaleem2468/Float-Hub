@@ -417,7 +417,7 @@
             "label": "Grab handles",
             "x": 20,
             "y": 5,
-            "tooltip_position": "bottom",
+            "tooltip_position": "right",
             "popup_text": "<p>The programmable lights inspired by nature help ease you into your float.</p>"
           }
         },
@@ -427,7 +427,7 @@
             "label": "Filtration",
             "x": 30,
             "y": 58,
-            "tooltip_position": "top",
+            "tooltip_position": "right",
             "popup_text": "<p>The ultra-wide power-assisted door makes opening and closing effortless.</p>"
           }
         },
@@ -437,7 +437,7 @@
             "label": "Lighting",
             "x": 65,
             "y": 25,
-            "tooltip_position": "right",
+            "tooltip_position": "left",
             "popup_text": "<p>Better accessibility, the moulded grab handles allow the customer to step over the low threshold and in with ease.</p>"
           }
         },
@@ -447,7 +447,7 @@
             "label": "Door",
             "x": 80,
             "y": 60,
-            "tooltip_position": "bottom",
+            "tooltip_position": "left",
             "popup_text": "<p>Our tanks are designed to comfortably accommodate persons up to 7 foot 4 inches within its internal space. Plus, it feels expansive inside while floating with no light or sound.</p>"
           }
         },
@@ -465,7 +465,7 @@
           "type": "feature_card",
           "settings": {
             "title": "EXTREME CLEANLINESS",
-            "items": "Advanced filtration system\nUV sterilisation\nHydrogen peroxide dosing\nHeated floors",
+            "items": "Approx. 575 kg epsom salt\nAdvanced filtration system\nFiltered between every float\nCrystal clear solution\n1-micron filter (no particles)\nUV Sanitation",
             "content": "",
             "accent_style": false,
             "link_items": false,
@@ -476,7 +476,7 @@
           "type": "feature_card",
           "settings": {
             "title": "SAFE & COMFORTABLE",
-            "items": "Private, luxurious rooms\nSpacious tanks\nOptional music\nOptional lighting",
+            "items": "Private, luxurious rooms\nYou have complete control\nExpansive environment\nOptional lights or music\nSafe to fall asleep\nEase of accessibility",
             "content": "",
             "accent_style": false,
             "link_items": false,
@@ -486,10 +486,10 @@
         "feature_card_J3Fjzi": {
           "type": "feature_card",
           "settings": {
-            "title": "HELPS WITH",
-            "items": "High Anxiety\nDepression\nChronic pain\nInsomnia\nPTSD",
+            "title": "Backed by Continued Studies",
+            "items": "High Anxiety\nGeneralized Anxiety Disorder\nHigh Stress and Burnout\nDepression\nElite Athletes\nStress-related Pain",
             "content": "",
-            "accent_style": true,
+            "accent_style": false,
             "link_items": false,
             "item_link": ""
           }
@@ -497,8 +497,8 @@
         "feature_card_pjUGCr": {
           "type": "feature_card",
           "settings": {
-            "title": "IDEAL FOR",
-            "items": "Artists\nAthletes\nProfessionals\nAnyone seeking calm",
+            "title": "Recommended By",
+            "items": "Artists\nAthletes\nEntrepreneurs\nStudents\nParents\nPhysiotherapists \nYogis",
             "content": "",
             "accent_style": false,
             "link_items": false,
