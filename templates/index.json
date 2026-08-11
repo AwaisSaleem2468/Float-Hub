@@ -709,7 +709,7 @@
         "enable_autoplay": true,
         "autoplay_speed": 8,
         "show_arrows": true,
-        "show_dots": true,
+        "show_dots": false,
         "card_gap": 16,
         "card_radius": 12,
         "avatar_size": 64,
