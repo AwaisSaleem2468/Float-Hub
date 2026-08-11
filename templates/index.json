@@ -599,13 +599,79 @@
             "name": "Beccy Reese",
             "designation": "Facebook"
           }
+        },
+        "testimonial_NCKbic": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/avatar059.jpg",
+            "review_title": "It’s like floating in space!",
+            "review_text": "This is amazing! So relaxing. Very friendly and helpful staff - Tony was very knowledgable and put me at ease. I would highly recommend this.",
+            "name": "Louise",
+            "designation": "TripAdvisor"
+          }
+        },
+        "testimonial_6VwiHp": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Screen-Shot-2019-07-11-at-8.06.14-PM-245x300.png",
+            "review_title": "An Absolute Dream",
+            "review_text": "If you've never tried this before, you really should. A total dream from start to finish. The staff are attentive, the decor is high-end and looks great, the vibe is super chilled, and you hear nothing from the busy streets above you. I had never done anything like it before. I felt safe and warm and completely at peace. My lower back felt great (which is very rare).",
+            "name": "Christopher",
+            "designation": "TripAdvisor"
+          }
+        },
+        "testimonial_H4hBJi": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/14991347_10157759337275158_2328856854046519928_o-225x300.jpg",
+            "review_title": "I felt my anxiety melt away I",
+            "review_text": "I had never tried floating before, but it was an incredible experience. I left feeling completely relaxed and reinvigorated. The staff were wonderful and helpful, the facilities were clean and luxurious, and the floatation pods were state of the art.",
+            "name": "J Sergio Del Guidici",
+            "designation": "Facebook"
+          }
+        },
+        "testimonial_3xeMpk": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/avatar050-300x300.jpg",
+            "review_title": "I highly recommend it.",
+            "review_text": "This was my first float experience. I found it very interesting and very relaxing. The float equipment is obviously brand new and of first class quality. I did not quite drift off to sleep, but was on the brink. I think that, on a second trip, I would slip into the zone more easily! I have practised meditation in the past (but over 10 years ago) and found that I was able to remember some simply breathing techniques to help me relax.",
+            "name": "Rob",
+            "designation": "TripAdvisor"
+          }
+        },
+        "testimonial_ri4GpJ": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/avatar059.jpg",
+            "review_title": "From the moment you enter, a sense of calm and quiet descends over you.",
+            "review_text": "This is embodied by the chic and simple surroundings which promote a sense of wellness and relaxation. The facilities were clean and new and the team looked after my friend and I amazingly. I would relish the opportunity to go back again, making a floating tank a regular part of my wellness regime. I came away feeling as though I'd spent all day in a spa!",
+            "name": "Fabian H.",
+            "designation": "TripAdvisor"
+          }
+        },
+        "testimonial_wGTTP8": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/avatar055-300x300.jpg",
+            "review_title": "It’s definitely a place I would recommend everyone to visit!",
+            "review_text": "The actual float for me was a positive sensorial challenge, and it opened a personal depth which allowed for deep meditation and self-knowledge. I also liked that, from the moment I stepped through the door until the end, each step of the process was mindfully considered.",
+            "name": "Patricia",
+            "designation": "TripAdvisor"
+          }
         }
       },
       "block_order": [
         "testimonial_9wFD6Y",
         "testimonial_WbX8E7",
         "testimonial_AignVf",
-        "testimonial_EqACNW"
+        "testimonial_EqACNW",
+        "testimonial_NCKbic",
+        "testimonial_6VwiHp",
+        "testimonial_H4hBJi",
+        "testimonial_3xeMpk",
+        "testimonial_ri4GpJ",
+        "testimonial_wGTTP8"
       ],
       "name": "Custom Testimonial",
       "settings": {
