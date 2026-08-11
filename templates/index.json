@@ -563,18 +563,20 @@
         "testimonial_AignVf": {
           "type": "testimonial",
           "settings": {
-            "review_title": "I felt my anxiety melt away",
-            "review_text": "during my first float. The silence and weightlessness gave me a sense of calm I hadn’t felt in years. Now I float twice a month and sleep better than ever.",
-            "name": "Sarah M.",
-            "designation": "Facebook"
+            "image": "shopify://shop_images/avatar008.jpg",
+            "review_title": "My first float, but definitely not my last.",
+            "review_text": "I wasn’t really sure what to expect but it had been highly recommended by a friend so I thought I’d give it a go - I’m glad I did. I left feeling completely relaxed and really set up for the week ahead. It was the perfect opportunity to switch off from everything and recharge",
+            "name": "Andrew",
+            "designation": "TripAdvisor"
           }
         },
         "testimonial_9wFD6Y": {
           "type": "testimonial",
           "settings": {
-            "review_title": "I highly recommend it.",
-            "review_text": "As an athlete, floating has become a key part of my recovery. My muscles feel looser, my mind sharper, and my performance has improved.",
-            "name": "James T.",
+            "image": "shopify://shop_images/Screen-Shot-2019-07-10-at-4.46.55-PM-300x296.jpg",
+            "review_title": "The most relaxing hour of my year so far!",
+            "review_text": "This experience is honestly not to be underestimated - I was in so much pain from a gym session... and it wiped away all my pain in that hour alone! p.s. it’s not claustrophobic at all, I’ll be back!",
+            "name": "Elizabeth S.",
             "designation": "TripAdvisor"
           }
         },
@@ -612,13 +614,13 @@
         "heading_size_mobile": 32,
         "header_spacing": 40,
         "slides_desktop": 2,
-        "slides_tablet": 2,
+        "slides_tablet": 1,
         "slides_mobile": 1,
         "enable_autoplay": true,
-        "autoplay_speed": 5,
+        "autoplay_speed": 8,
         "show_arrows": true,
         "show_dots": true,
-        "card_gap": 24,
+        "card_gap": 16,
         "card_radius": 12,
         "avatar_size": 64,
         "review_size": 16,
