@@ -283,6 +283,80 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "custom_section_float_benefits": {
+      "type": "custom-section-float-benefits",
+      "name": "Float Benefits",
+      "blocks": {
+        "tab_mind": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Mind",
+            "tab_icon_style": "mind",
+            "benefit_1_title": "Deep mental reset",
+            "benefit_1_text": "Quiet mental noise and return to clarity.",
+            "benefit_2_title": "Anxiety relief",
+            "benefit_2_text": "Calm an overstimulated nervous system.",
+            "benefit_3_title": "Improved sleep",
+            "benefit_3_text": "Drift into deeper, more restorative rest."
+          }
+        },
+        "tab_body": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Body",
+            "tab_icon_style": "body",
+            "benefit_1_title": "Muscle recovery",
+            "benefit_1_text": "Release tension and support faster recovery.",
+            "benefit_2_title": "Pain relief",
+            "benefit_2_text": "Ease pressure on joints and sore tissue.",
+            "benefit_3_title": "Nervous system reset",
+            "benefit_3_text": "Help your body shift into deep rest mode."
+          }
+        },
+        "tab_performance": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Performance",
+            "tab_icon_style": "performance",
+            "benefit_1_title": "Athletic recovery acceleration",
+            "benefit_1_text": "Recover faster between training sessions.",
+            "benefit_2_title": "Pre-competition mental preparation",
+            "benefit_2_text": "Sharpen focus before high-pressure moments.",
+            "benefit_3_title": "Cognitive peak states",
+            "benefit_3_text": "Access clearer thinking and better decision-making."
+          }
+        }
+      },
+      "block_order": [
+        "tab_mind",
+        "tab_body",
+        "tab_performance"
+      ],
+      "settings": {
+        "label": "Why Float?",
+        "label_size": 12,
+        "heading": "Your mind and body know what to do—",
+        "heading_accent": "when given space.",
+        "heading_size_desktop": 44,
+        "heading_size_mobile": 32,
+        "description": "<p>In a float pod, your nervous system drops into deep rest. Heart rate slows. Brainwaves shift. Cortisol falls. What happens next is entirely up to you.</p>",
+        "description_size": 16,
+        "benefit_title_size": 17,
+        "benefit_text_size": 14,
+        "show_recommend": true,
+        "recommend_label": "Recommended for",
+        "recommend_text": "Athletes · Anxiety & stress · Chronic pain · Better sleep · Mental performance",
+        "background_color": "#070D16",
+        "card_background": "#121A27",
+        "text_color": "#FFFFFF",
+        "muted_color": "#A8B0BD",
+        "accent_color": "#0DAAEF",
+        "accent_text_color": "#061018",
+        "content_width": 1200,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -290,6 +364,7 @@
     "custom_section_static_feature",
     "custom_section_richtext",
     "custom_section_featured_collection",
+    "custom_section_float_benefits",
     "image_banner",
     "featured_collection"
   ]
