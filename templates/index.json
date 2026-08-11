@@ -560,16 +560,6 @@
     "custom_section_testimonial_XpLhbw": {
       "type": "custom-section-testimonial",
       "blocks": {
-        "testimonial_AignVf": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/avatar008.jpg",
-            "review_title": "My first float, but definitely not my last.",
-            "review_text": "I wasn’t really sure what to expect but it had been highly recommended by a friend so I thought I’d give it a go - I’m glad I did. I left feeling completely relaxed and really set up for the week ahead. It was the perfect opportunity to switch off from everything and recharge",
-            "name": "Andrew",
-            "designation": "TripAdvisor"
-          }
-        },
         "testimonial_9wFD6Y": {
           "type": "testimonial",
           "settings": {
@@ -590,20 +580,31 @@
             "designation": "Facebook"
           }
         },
+        "testimonial_AignVf": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/avatar008.jpg",
+            "review_title": "My first float, but definitely not my last.",
+            "review_text": "I wasn’t really sure what to expect but it had been highly recommended by a friend so I thought I’d give it a go - I’m glad I did. I left feeling completely relaxed and really set up for the week ahead. It was the perfect opportunity to switch off from everything and recharge",
+            "name": "Andrew",
+            "designation": "TripAdvisor"
+          }
+        },
         "testimonial_EqACNW": {
           "type": "testimonial",
           "settings": {
-            "review_title": "Best wellness decision I’ve made.",
-            "review_text": "I came in skeptical and left converted. The pods are spacious, the staff are lovely, and the afterglow lasts for days.",
-            "name": "Daniel K.",
+            "image": "shopify://shop_images/11222227_10152970901417396_9044583712647267181_n.jpg",
+            "review_title": "I've used floatation for over 10 years",
+            "review_text": "For relaxation and as a reset, it was great to try out such a lovely new space. The tanks were fabulous and spacious, and the facility was beautifully designed. Looking forward to coming back again soon.",
+            "name": "Beccy Reese",
             "designation": "Facebook"
           }
         }
       },
       "block_order": [
-        "testimonial_AignVf",
         "testimonial_9wFD6Y",
         "testimonial_WbX8E7",
+        "testimonial_AignVf",
         "testimonial_EqACNW"
       ],
       "name": "Custom Testimonial",
