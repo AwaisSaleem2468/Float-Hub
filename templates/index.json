@@ -183,11 +183,11 @@
       "name": "Custom Feat collection",
       "settings": {
         "label": "London’s best Float Therapy,",
-        "heading": "No hidden costs.",
-        "heading_accent": "No contracts.",
+        "heading": "Float Therapy",
+        "heading_accent": "",
         "heading_size_desktop": 48,
-        "heading_size_mobile": 32,
-        "label_size": 14,
+        "heading_size_mobile": 36,
+        "label_size": 12,
         "description": "<p>Our premium recovery centre offers a luxurious, multi-modality wellness experience. Featuring 100% water filtration twice between sessions</p>",
         "description_size_desktop": 18,
         "description_size_mobile": 15,
@@ -209,9 +209,9 @@
         "show_view_all": true,
         "view_all_label": "View all",
         "view_all_link": "",
-        "view_all_style": "ghost",
-        "view_all_spacing": 32,
-        "padding_top": 80,
+        "view_all_style": "solid",
+        "view_all_spacing": 40,
+        "padding_top": 40,
         "padding_bottom": 80
       }
     },
