@@ -346,8 +346,8 @@
           "type": "hotspot",
           "settings": {
             "label": "Grab handles",
-            "x": 20,
-            "y": 5,
+            "x": 25,
+            "y": 10,
             "tooltip_position": "right",
             "popup_text": "<p>The programmable lights inspired by nature help ease you into your float.</p>"
           }
@@ -356,8 +356,8 @@
           "type": "hotspot",
           "settings": {
             "label": "Filtration",
-            "x": 30,
-            "y": 58,
+            "x": 10,
+            "y": 50,
             "tooltip_position": "right",
             "popup_text": "<p>The ultra-wide power-assisted door makes opening and closing effortless.</p>"
           }
@@ -366,9 +366,9 @@
           "type": "hotspot",
           "settings": {
             "label": "Lighting",
-            "x": 65,
-            "y": 25,
-            "tooltip_position": "left",
+            "x": 55,
+            "y": 40,
+            "tooltip_position": "bottom",
             "popup_text": "<p>Better accessibility, the moulded grab handles allow the customer to step over the low threshold and in with ease.</p>"
           }
         },
@@ -376,8 +376,8 @@
           "type": "hotspot",
           "settings": {
             "label": "Door",
-            "x": 80,
-            "y": 60,
+            "x": 90,
+            "y": 65,
             "tooltip_position": "left",
             "popup_text": "<p>Our tanks are designed to comfortably accommodate persons up to 7 foot 4 inches within its internal space. Plus, it feels expansive inside while floating with no light or sound.</p>"
           }
@@ -386,7 +386,7 @@
           "type": "hotspot",
           "settings": {
             "label": "Interior",
-            "x": 40,
+            "x": 45,
             "y": 90,
             "tooltip_position": "top",
             "popup_text": "<p>Auto empties 100% of water between floats. Every customer is safe in the knowledge that their solution has been completely cleaned, filtered then filled just for them.</p>"
@@ -458,7 +458,7 @@
         "subtitle_size": 12,
         "heading_alignment": "center",
         "header_spacing": 40,
-        "image": "shopify://shop_images/FloatHub-Float-Therapy-Orbit-Tanks-Premium-Float-Center-cc-Photoroom.png",
+        "image": "shopify://shop_images/Float-hub-pod-opened.png",
         "media_spacing": 52,
         "hotspot_size": 30,
         "tooltip_size": 12,
