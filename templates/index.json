@@ -590,6 +590,16 @@
             "designation": "TripAdvisor"
           }
         },
+        "testimonial_RmRKHz": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot-2022-08-31-at-14.35.16-300x268.png",
+            "review_title": "One of my favourite ways to bring myself into a parasympathetic state, is to do an evening float therapy session.",
+            "review_text": "The magnesium salts, restful position of my body, and focusing on my breath all help my body and mind to relax. Combining this with some yoga poses, and writing down my thoughts, can really help me get a good sleep.\"",
+            "name": "Charlie Tunmore",
+            "designation": ""
+          }
+        },
         "testimonial_EqACNW": {
           "type": "testimonial",
           "settings": {
@@ -659,19 +669,31 @@
             "name": "Patricia",
             "designation": "TripAdvisor"
           }
+        },
+        "testimonial_8XQhHq": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot-2022-07-27-at-13.39.26-300x285.png",
+            "review_title": "I had a fantastic experience.",
+            "review_text": "The session was super relaxing and I felt I could let go of tensions and stress. The stuff is very friendly and helpful. The facility is clean and comfortable. I highly recommend it.”",
+            "name": "Francesco Gatti",
+            "designation": "TripAMeditation & Lifestyle expert, author and co-founder of Blissdvisor"
+          }
         }
       },
       "block_order": [
         "testimonial_9wFD6Y",
         "testimonial_WbX8E7",
         "testimonial_AignVf",
+        "testimonial_RmRKHz",
         "testimonial_EqACNW",
         "testimonial_NCKbic",
         "testimonial_6VwiHp",
         "testimonial_H4hBJi",
         "testimonial_3xeMpk",
         "testimonial_ri4GpJ",
-        "testimonial_wGTTP8"
+        "testimonial_wGTTP8",
+        "testimonial_8XQhHq"
       ],
       "name": "Custom Testimonial",
       "settings": {
