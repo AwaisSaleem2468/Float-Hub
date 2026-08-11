@@ -166,10 +166,10 @@
         "button_link_2": "",
         "button_size": 16,
         "button_radius": 10,
-        "background_color": "#070D16",
-        "text_color": "#FFFFFF",
-        "muted_color": "#A8B0BD",
-        "accent_color": "#0DAAEF",
+        "background_color": "#070d16",
+        "text_color": "#ffffff",
+        "muted_color": "#a8b0bd",
+        "accent_color": "#0daaef",
         "content_width": 1200,
         "padding_top": 80,
         "padding_bottom": 80
@@ -415,40 +415,40 @@
           "type": "hotspot",
           "settings": {
             "label": "Grab handles",
-            "x": 28,
-            "y": 42,
-            "tooltip_position": "top",
-            "popup_text": "<p>Better accessibility, the moulded grab handles make entry and exit easier.</p>"
+            "x": 20,
+            "y": 5,
+            "tooltip_position": "bottom",
+            "popup_text": "<p>The programmable lights inspired by nature help ease you into your float.</p>"
           }
         },
         "hotspot_nm8Lxj": {
           "type": "hotspot",
           "settings": {
             "label": "Filtration",
-            "x": 48,
+            "x": 30,
             "y": 58,
             "tooltip_position": "top",
-            "popup_text": "<p>Advanced filtration keeps water crystal clear between sessions.</p>"
+            "popup_text": "<p>The ultra-wide power-assisted door makes opening and closing effortless.</p>"
           }
         },
         "hotspot_arYh4Q": {
           "type": "hotspot",
           "settings": {
             "label": "Lighting",
-            "x": 62,
-            "y": 36,
+            "x": 65,
+            "y": 25,
             "tooltip_position": "right",
-            "popup_text": "<p>Soft ambient lighting helps you settle into a calm float experience.</p>"
+            "popup_text": "<p>Better accessibility, the moulded grab handles allow the customer to step over the low threshold and in with ease.</p>"
           }
         },
         "hotspot_kReMQH": {
           "type": "hotspot",
           "settings": {
             "label": "Door",
-            "x": 72,
-            "y": 52,
-            "tooltip_position": "left",
-            "popup_text": "<p>A spacious door design for comfortable, private access.</p>"
+            "x": 80,
+            "y": 60,
+            "tooltip_position": "bottom",
+            "popup_text": "<p>Our tanks are designed to comfortably accommodate persons up to 7 foot 4 inches within its internal space. Plus, it feels expansive inside while floating with no light or sound.</p>"
           }
         },
         "hotspot_gnHH4J": {
@@ -456,9 +456,9 @@
           "settings": {
             "label": "Interior",
             "x": 40,
-            "y": 70,
+            "y": 90,
             "tooltip_position": "top",
-            "popup_text": "<p>Roomy interior for complete relaxation and freedom of movement.</p>"
+            "popup_text": "<p>Auto empties 100% of water between floats. Every customer is safe in the knowledge that their solution has been completely cleaned, filtered then filled just for them.</p>"
           }
         },
         "feature_card_krEncT": {
@@ -543,15 +543,15 @@
         "button_spacing": 32,
         "button_size": 16,
         "button_radius": 10,
-        "background_color": "#070D16",
-        "text_color": "#FFFFFF",
-        "muted_color": "#A8B0BD",
-        "accent_color": "#0DAAEF",
-        "card_background": "#121A27",
-        "card_border_color": "#1E2A3C",
-        "hotspot_color": "#0DAAEF",
-        "tooltip_background": "#FFFFFF",
-        "tooltip_text_color": "#1A1A1A",
+        "background_color": "#070d16",
+        "text_color": "#ffffff",
+        "muted_color": "#a8b0bd",
+        "accent_color": "#0daaef",
+        "card_background": "#121a27",
+        "card_border_color": "#1e2a3c",
+        "hotspot_color": "#0daaef",
+        "tooltip_background": "#ffffff",
+        "tooltip_text_color": "#1a1a1a",
         "content_width": 1200,
         "padding_top": 80,
         "padding_bottom": 80
