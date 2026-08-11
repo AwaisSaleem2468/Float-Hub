@@ -583,10 +583,11 @@
         "testimonial_WbX8E7": {
           "type": "testimonial",
           "settings": {
-            "review_title": "A true reset for body and mind.",
-            "review_text": "Float Hub is my go-to when I need to decompress. Every session leaves me clearer, calmer, and ready for the week ahead.",
-            "name": "Aisha R.",
-            "designation": "Google"
+            "image": "shopify://shop_images/Screen-Shot-2019-07-10-at-4.18.45-PM.png",
+            "review_title": "Cannot recommend this place enough.",
+            "review_text": "For anyone that is sitting on the fence about this kind of Therapy. I suffer from insomnia, depression and anxiety. This is goal changing for me and thats after ONE session. I will be back. Frequently.",
+            "name": "Wayne Gibbons",
+            "designation": "Facebook"
           }
         },
         "testimonial_EqACNW": {
