@@ -223,12 +223,12 @@
           "settings": {
             "tab_title": "Mind",
             "tab_icon_style": "mind",
-            "benefit_1_title": "Deep mental reset",
-            "benefit_1_text": "Quiet mental noise and return to clarity.",
-            "benefit_2_title": "Anxiety relief",
-            "benefit_2_text": "Calm an overstimulated nervous system.",
-            "benefit_3_title": "Improved sleep",
-            "benefit_3_text": "Drift into deeper, more restorative rest."
+            "benefit_1_title": "Improved Sleep",
+            "benefit_1_text": "Floating brings your sympathetic and parasympathetic nervous systems back into sync for deeper, more restorative sleep.",
+            "benefit_2_title": "Stress Relief",
+            "benefit_2_text": "The lack of sensory input and pressures on your mind and body allow them to go into deep states of rest and healing processes.",
+            "benefit_3_title": "Mental Health",
+            "benefit_3_text": "Studies are starting to show the benefits of float therapy for people who struggle with anxiety, depression and PTSD."
           }
         },
         "tab_body": {
@@ -236,12 +236,12 @@
           "settings": {
             "tab_title": "Body",
             "tab_icon_style": "body",
-            "benefit_1_title": "Muscle recovery",
-            "benefit_1_text": "Release tension and support faster recovery.",
-            "benefit_2_title": "Pain relief",
-            "benefit_2_text": "Ease pressure on joints and sore tissue.",
-            "benefit_3_title": "Nervous system reset",
-            "benefit_3_text": "Help your body shift into deep rest mode."
+            "benefit_1_title": "Pain Relief",
+            "benefit_1_text": "Floating's weightlessness relieves all pressure on your body so it can release endorphins that help with chronic pain, fibromyalgia and other conditions.",
+            "benefit_2_title": "Faster Recovery",
+            "benefit_2_text": "Many of the world's top performing athletes rely on floating thanks to its role in speeding up recovery times, aiding visualization techniques and supporting injury healing.",
+            "benefit_3_title": "Pregnancy Support",
+            "benefit_3_text": "Women who are pregnant have found profound relief from floating to alleviate the weight and pressure on their body, while allowing a deeper connection to their child."
           }
         },
         "tab_performance": {
@@ -249,12 +249,12 @@
           "settings": {
             "tab_title": "Performance",
             "tab_icon_style": "performance",
-            "benefit_1_title": "Athletic recovery acceleration",
-            "benefit_1_text": "Recover faster between training sessions.",
-            "benefit_2_title": "Pre-competition mental preparation",
-            "benefit_2_text": "Sharpen focus before high-pressure moments.",
-            "benefit_3_title": "Cognitive peak states",
-            "benefit_3_text": "Access clearer thinking and better decision-making."
+            "benefit_1_title": "Faster Learning",
+            "benefit_1_text": "The Navy Seals reduced learning languages from 6 months to 6 weeks, thanks to the improved focus, creativity and state of \"super-learning\" from floating.",
+            "benefit_2_title": "Effortless Mindfulness",
+            "benefit_2_text": "The environment and practice of floating allows anyone new to mindfulness to achieve the same deep meditation and Theta brainwaves as expert meditators and yogis.",
+            "benefit_3_title": "Focus & Creativity",
+            "benefit_3_text": "Your mind becomes endlessly more productive, creative and clear in the calm state it reaches through floating, which can improve focus and help with problem solving."
           }
         }
       },
@@ -265,27 +265,27 @@
       ],
       "name": "Float Benefits",
       "settings": {
-        "label": "Why Float?",
+        "label": "",
         "label_size": 12,
         "heading": "Your mind and body know what to do—",
         "heading_accent": "when given space.",
-        "heading_size_desktop": 44,
+        "heading_size_desktop": 42,
         "heading_size_mobile": 32,
         "description": "<p>In a float pod, your nervous system drops into deep rest. Heart rate slows. Brainwaves shift. Cortisol falls. What happens next is entirely up to you.</p>",
-        "description_size": 16,
-        "benefit_title_size": 17,
+        "description_size": 18,
+        "benefit_title_size": 18,
         "benefit_text_size": 14,
         "image": "shopify://shop_images/float-hub--benefit.png",
         "show_recommend": true,
         "recommend_label": "Recommended for",
         "recommend_text": "Athletes · Anxiety & stress · Chronic pain · Better sleep · Mental performance",
-        "background_color": "#070d16",
+        "background_color": "#121A27",
         "card_background": "#121a27",
-        "text_color": "#ffffff",
-        "muted_color": "#a8b0bd",
-        "accent_color": "#0daaef",
-        "accent_text_color": "#061018",
-        "content_width": 1200,
+        "text_color": "#FFFFFF",
+        "muted_color": "#C8CED8",
+        "accent_color": "#23A3DF",
+        "accent_text_color": "#C8CED8",
+        "content_width": 1400,
         "padding_top": 80,
         "padding_bottom": 80
       }
