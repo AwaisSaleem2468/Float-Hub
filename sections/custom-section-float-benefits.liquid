@@ -104,7 +104,7 @@
     width: 4rem;
     height: 4rem;
     flex-shrink: 0;
-    color: inherit;
+    color: #ffffff;
   }
 
   #FloatBenefits-{{ section.id }} .float-benefits__tab-icon img,
@@ -113,6 +113,10 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+  }
+
+  #FloatBenefits-{{ section.id }} .float-benefits__tab-icon img {
+    filter: brightness(0) invert(1);
   }
 
   #FloatBenefits-{{ section.id }} .float-benefits__tab[aria-selected='true'] .float-benefits__tab-icon {
@@ -149,8 +153,8 @@
     width: 4.5rem;
     height: 4.5rem;
     border-radius: 999px;
-    background: rgba(13, 170, 239, 0.12);
-    color: var(--fb-accent);
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
     flex-shrink: 0;
   }
 
@@ -160,6 +164,17 @@
     width: 3.2rem;
     height: 3.2rem;
     object-fit: contain;
+    color: #ffffff;
+  }
+
+  #FloatBenefits-{{ section.id }} .float-benefits__item-icon svg,
+  #FloatBenefits-{{ section.id }} .float-benefits__item-icon svg * {
+    stroke: #ffffff !important;
+    color: #ffffff !important;
+  }
+
+  #FloatBenefits-{{ section.id }} .float-benefits__item-icon img {
+    filter: brightness(0) invert(1);
   }
 
   #FloatBenefits-{{ section.id }} .float-benefits__item-title {
@@ -298,7 +313,7 @@
 
 {%- capture icon_check -%}
   <svg viewBox="0 0 16 16" fill="none" aria-hidden="true">
-    <path d="M3.2 8.2l3 3 6.6-6.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3.2 8.2l3 3 6.6-6.8" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>
 {%- endcapture -%}
 
