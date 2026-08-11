@@ -370,6 +370,54 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_pX6kBM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_tqz4HH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who will you be with less pain, more energy, better sleep, and less stress?",
+            "heading_size": "h1"
+          }
+        },
+        "text_HBeFe6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You may have heard of floating (also called float therapy or <a href=\"https://floathub.co.uk/floating/sensory-deprivation-tank-guide/\">sensory deprivation</a>) already from a friend or co-worker due to the profound, holistic benefits you can receive. For many people, it’s the perfect solution to the stress, anxiety and noise of the modern world, allowing you to pause and reconnect to yourself.</p><p>Most people develop a practice of floating around 1 – 4 times per month. The benefits deepen and compound over time with a consistent practice, which is <strong>why we recommend starting with 3 floats to experience the full benefits.</strong></p><p>We have 5 of the biggest tanks in London.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_qVaFDW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_tqz4HH",
+        "text_HBeFe6",
+        "button_qVaFDW"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/float-hub--benefit.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -379,6 +427,7 @@
     "custom_section_featured_collection",
     "custom_section_float_benefits",
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "image_with_text_pX6kBM"
   ]
 }
