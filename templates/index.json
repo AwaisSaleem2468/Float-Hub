@@ -523,7 +523,7 @@
         "heading": "5 Of The Most Advanced Floatation Tanks",
         "heading_accent": "",
         "heading_size_desktop": 42,
-        "heading_size_mobile": 36,
+        "heading_size_mobile": 32,
         "subtitle_size": 12,
         "heading_alignment": "center",
         "header_spacing": 40,
@@ -548,11 +548,92 @@
         "muted_color": "#C8CED8",
         "accent_color": "#0daaef",
         "card_background": "#121A27",
-        "card_border_color": "#0F1827",
+        "card_border_color": "#243044",
         "hotspot_color": "#0daaef",
         "tooltip_background": "#121A27",
         "tooltip_text_color": "#C8CED8",
         "content_width": 1400,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "custom_section_testimonial_XpLhbw": {
+      "type": "custom-section-testimonial",
+      "blocks": {
+        "testimonial_AignVf": {
+          "type": "testimonial",
+          "settings": {
+            "review_title": "I felt my anxiety melt away",
+            "review_text": "during my first float. The silence and weightlessness gave me a sense of calm I hadn’t felt in years. Now I float twice a month and sleep better than ever.",
+            "name": "Sarah M.",
+            "designation": "Facebook"
+          }
+        },
+        "testimonial_9wFD6Y": {
+          "type": "testimonial",
+          "settings": {
+            "review_title": "I highly recommend it.",
+            "review_text": "As an athlete, floating has become a key part of my recovery. My muscles feel looser, my mind sharper, and my performance has improved.",
+            "name": "James T.",
+            "designation": "TripAdvisor"
+          }
+        },
+        "testimonial_WbX8E7": {
+          "type": "testimonial",
+          "settings": {
+            "review_title": "A true reset for body and mind.",
+            "review_text": "Float Hub is my go-to when I need to decompress. Every session leaves me clearer, calmer, and ready for the week ahead.",
+            "name": "Aisha R.",
+            "designation": "Google"
+          }
+        },
+        "testimonial_EqACNW": {
+          "type": "testimonial",
+          "settings": {
+            "review_title": "Best wellness decision I’ve made.",
+            "review_text": "I came in skeptical and left converted. The pods are spacious, the staff are lovely, and the afterglow lasts for days.",
+            "name": "Daniel K.",
+            "designation": "Facebook"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_AignVf",
+        "testimonial_9wFD6Y",
+        "testimonial_WbX8E7",
+        "testimonial_EqACNW"
+      ],
+      "name": "Custom Testimonial",
+      "settings": {
+        "subtitle": "",
+        "subtitle_size": 12,
+        "heading": "Members and Celebrities On Float Therapy",
+        "heading_size_desktop": 42,
+        "heading_size_mobile": 32,
+        "header_spacing": 40,
+        "slides_desktop": 2,
+        "slides_tablet": 2,
+        "slides_mobile": 1,
+        "enable_autoplay": true,
+        "autoplay_speed": 5,
+        "show_arrows": true,
+        "show_dots": true,
+        "card_gap": 24,
+        "card_radius": 12,
+        "avatar_size": 64,
+        "review_size": 16,
+        "name_size": 16,
+        "designation_size": 13,
+        "show_button": false,
+        "button_label": "Book Now",
+        "button_link": "",
+        "background_color": "#070D16",
+        "card_background": "#121A27",
+        "card_border_color": "#243044",
+        "text_color": "#FFFFFF",
+        "muted_color": "#A8B0BD",
+        "accent_color": "#0DAAEF",
+        "content_width": 1200,
         "padding_top": 80,
         "padding_bottom": 80
       }
@@ -567,6 +648,7 @@
     "custom_section_float_benefits",
     "image_banner",
     "featured_collection",
-    "custom_section_specification_88P8jL"
+    "custom_section_specification_88P8jL",
+    "custom_section_testimonial_XpLhbw"
   ]
 }
