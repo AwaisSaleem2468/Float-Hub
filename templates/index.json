@@ -806,6 +806,13 @@
     "custom_section_gallery_CpeGTR": {
       "type": "custom-section-gallery",
       "blocks": {
+        "image_MhdQQw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/photo0jpg.jpg",
+            "caption": ""
+          }
+        },
         "image_RC3APX": {
           "type": "image",
           "settings": {
@@ -817,6 +824,20 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Float-Hub-Float-Center-19-London.jpg",
+            "caption": ""
+          }
+        },
+        "image_PdmVRy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/a-selection-of-reading.jpg",
+            "caption": ""
+          }
+        },
+        "image_Dibbqz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/we-ve-worked-to-create.jpg",
             "caption": ""
           }
         },
@@ -847,15 +868,26 @@
             "image": "shopify://shop_images/Float-Hub-Float-Center-11-London_adf576f2-921c-4f3a-a86c-555b93d39e52.jpg",
             "caption": ""
           }
+        },
+        "image_tL3igX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/caption.jpg",
+            "caption": ""
+          }
         }
       },
       "block_order": [
+        "image_MhdQQw",
         "image_RC3APX",
         "image_nTCrc7",
+        "image_PdmVRy",
+        "image_Dibbqz",
         "image_gHwcfm",
         "image_VkcHMW",
         "image_h38bRM",
-        "image_htJdyd"
+        "image_htJdyd",
+        "image_tL3igX"
       ],
       "name": "Custom Gallery",
       "settings": {
