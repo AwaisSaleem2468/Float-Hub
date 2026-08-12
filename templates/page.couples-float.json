@@ -36,8 +36,8 @@
         "heading_size_desktop": 48,
         "heading_size_mobile": 36,
         "description": "<p>Floating offers an incredible journey of self-discovery and deep relaxation. While an individual session is profoundly beneficial, there can be huge positives to sharing the experience with a partner. A couples float offers a unique opportunity to find peace and connection together. It can be a memorable date night, a special anniversary gift, or simply a new way to de-stress as a pair. For anyone with fears of claustrophobia or anxiety, a float for two is also a great way to introduce them to the magic of float therapy in a shared, supportive environment. In this guide, we’ll walk you through the many benefits, what to expect, and how to get the most out of this shared wellness journey right here in Shoreditch, London.<br/><br/></p>",
-        "description_size_desktop": 18,
-        "description_size_mobile": 16,
+        "description_size_desktop": 16,
+        "description_size_mobile": 14,
         "button_label_1": "BOOK YOUR COUPLES FLOAT NOW",
         "button_link_1": "",
         "show_button_arrow": true,
@@ -49,7 +49,7 @@
         "content_position_horizontal": "left",
         "content_position_vertical": "middle",
         "text_alignment": "left",
-        "content_width": 1120
+        "content_width": 1400
       }
     }
   },
