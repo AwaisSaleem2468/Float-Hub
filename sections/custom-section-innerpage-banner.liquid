@@ -374,8 +374,8 @@
   </div>
 
   <div class="inner-banner__overlay"></div>
-
-  <div class="inner-banner__inner">
+  <div class="page-width">
+     <div class="inner-banner__inner">
     {%- if section.settings.show_badge and section.settings.badge_text != blank -%}
       <div class="inner-banner__badge">
         <span class="inner-banner__stars" aria-hidden="true">★★★★★</span>
@@ -439,6 +439,8 @@
       </div>
     {%- endif -%}
   </div>
+  </div>
+ 
 </section>
 
 {% schema %}
