@@ -164,8 +164,8 @@
         "video": "shopify://files/videos/Floathub Video.mp4",
         "overlay_color": "#061018",
         "overlay_opacity": 0,
-        "section_height": 85,
-        "section_height_mobile": 60,
+        "section_height": 80,
+        "section_height_mobile": 50,
         "show_badge": false,
         "badge_text": "200+ Five-Star Reviews | London's #1",
         "heading": "",
@@ -182,11 +182,11 @@
         "button_link_2": "",
         "show_discover": false,
         "discover_label": "Discover",
-        "text_color": "#FFFFFF",
-        "accent_color": "#2DE2C5",
-        "badge_color": "#D4AF37",
-        "button_primary_bg": "#2DE2C5",
-        "button_primary_text": "#0A1F1C"
+        "text_color": "#ffffff",
+        "accent_color": "#2de2c5",
+        "badge_color": "#d4af37",
+        "button_primary_bg": "#2de2c5",
+        "button_primary_text": "#0a1f1c"
       }
     }
   },
