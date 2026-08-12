@@ -33,13 +33,13 @@
         "button_size": 16,
         "input_radius": 10,
         "button_radius": 10,
-        "background_color": "#0F1827",
-        "text_color": "#FFFFFF",
-        "muted_color": "#C8CED8",
-        "accent_color": "#0DAAEF",
+        "background_color": "#0f1827",
+        "text_color": "#ffffff",
+        "muted_color": "#c8ced8",
+        "accent_color": "#0daaef",
         "input_background": "#243044",
         "input_border_color": "#243044",
-        "input_text_color": "#C8CED8",
+        "input_text_color": "#c8ced8",
         "content_width": 900,
         "padding_top": 80,
         "padding_bottom": 32
@@ -57,15 +57,15 @@
         "link_list_MNGAMD": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "Quick Links",
+            "menu": "awa-footer-quick-link"
           }
         },
         "link_list_LeR8qV": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "Support",
+            "menu": "awa-footer-support"
           }
         },
         "text_4PCCci": {
