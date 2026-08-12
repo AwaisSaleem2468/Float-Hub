@@ -314,6 +314,58 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "image_banner_Ugktcy": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_yWyCep": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_zDPgpA": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_EgiwLW": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yWyCep",
+        "text_zDPgpA",
+        "buttons_EgiwLW"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Float-Hub-Float-Center-11-London_adf576f2-921c-4f3a-a86c-555b93d39e52.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -322,6 +374,7 @@
     "custom_section_richtext_PLBrGJ",
     "custom_section_floating_experince_EyBTEB",
     "custom_section_video_banner_ECKCtV",
-    "custom_section_float_tip_pCLHRC"
+    "custom_section_float_tip_pCLHRC",
+    "image_banner_Ugktcy"
   ]
 }
