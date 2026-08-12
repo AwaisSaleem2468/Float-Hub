@@ -41,14 +41,6 @@
       {% else %}
         align-items: center;
     {% endcase %}
-    {% case section.settings.content_position_horizontal %}
-      {% when 'left' %}
-        justify-content: flex-start;
-      {% when 'right' %}
-        justify-content: flex-end;
-      {% else %}
-        justify-content: center;
-    {% endcase %}
     min-height: var(--ib-min-height);
     overflow: hidden;
     color: var(--ib-text);
@@ -99,20 +91,28 @@
       );
   }
 
-  #InnerBanner-{{ section.id }} .inner-banner__inner {
+  #InnerBanner-{{ section.id }} .inner-banner__container {
     position: relative;
     z-index: 2;
     width: 100%;
-    max-width: {{ section.settings.content_width }}px;
+    display: flex;
     {% case section.settings.content_position_horizontal %}
       {% when 'left' %}
-        margin: 0 auto 0 0;
+        justify-content: flex-start;
       {% when 'right' %}
-        margin: 0 0 0 auto;
+        justify-content: flex-end;
       {% else %}
-        margin: 0 auto;
+        justify-content: center;
     {% endcase %}
-    padding: 4rem 1.5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  #InnerBanner-{{ section.id }} .inner-banner__inner {
+    width: 100%;
+    max-width: min(100%, {{ section.settings.content_width }}px);
+    margin: 0;
+    padding: 0;
     text-align: {{ section.settings.text_alignment }};
   }
 
@@ -268,8 +268,13 @@
       display: block;
     }
 
+    #InnerBanner-{{ section.id }} .inner-banner__container {
+      padding-top: 3.2rem;
+      padding-bottom: 3.2rem;
+    }
+
     #InnerBanner-{{ section.id }} .inner-banner__inner {
-      padding: 3.2rem 1.25rem;
+      max-width: 100%;
     }
 
     #InnerBanner-{{ section.id }} .inner-banner__heading {
@@ -374,8 +379,8 @@
   </div>
 
   <div class="inner-banner__overlay"></div>
-  <div class="page-width">
-     <div class="inner-banner__inner">
+  <div class="page-width inner-banner__container">
+    <div class="inner-banner__inner">
     {%- if section.settings.show_badge and section.settings.badge_text != blank -%}
       <div class="inner-banner__badge">
         <span class="inner-banner__stars" aria-hidden="true">★★★★★</span>
@@ -683,7 +688,7 @@
         { "value": "right", "label": "Right" }
       ],
       "default": "center",
-      "info": "Where the content block sits in the banner."
+      "info": "Aligns content inside the page-width container."
     },
     {
       "type": "select",
@@ -712,11 +717,12 @@
       "type": "range",
       "id": "content_width",
       "min": 700,
-      "max": 1100,
+      "max": 1400,
       "step": 20,
       "unit": "px",
       "label": "Content max width",
-      "default": 900
+      "default": 1200,
+      "info": "Capped by the theme page-width container."
     }
   ],
   "presets": [
