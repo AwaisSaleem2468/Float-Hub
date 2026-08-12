@@ -373,36 +373,72 @@
         "collapsible_row_fTHJXq": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How long are the floats sessions?",
+            "icon": "none",
+            "row_content": "<p><strong>Each float session appointment includes 60 minutes for you to be inside of the pod floating,</strong> with an additional 25 minutes that allows you to change and shower both before and after the appointment. <em>Members have the opportunity to upgrade to 90 minute float sessions when available.</em></p><p>We ask that you try to keep your showering brief to ensure we have enough time to clean up the room and get it ready for the next appointment. You can freshen up and take your time getting ready in our Vanity Room where we have moisturizer, hair dryers and other amenities. Plus, feel free to keep relaxing for as long as you’d like in our Relaxation Room with tea and some reading materials.</p>",
             "page": ""
           }
         },
         "collapsible_row_gr4U83": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "When should I arrive for my appointment?",
+            "icon": "none",
+            "row_content": "<p>For your first float session, we recommend arriving no later than 15 minutes before your scheduled appointment time. This ensures we can give you a full walkthrough beforehand without taking away from your time floating.</p><p><em>Any float sessions past your first time, you can arrive 5 minutes before.</em></p>",
             "page": ""
           }
         },
         "collapsible_row_Cb3BLt": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "What is your cancellation policy?",
+            "icon": "none",
+            "row_content": "<p><strong>We have a 24 hour cancellation process.</strong> If you have booked an appointment with us and need to reschedule, please let us know at least 24 hours before your scheduled time to avoid losing your float credit.</p>",
             "page": ""
           }
         },
         "collapsible_row_dBthLy": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "What is your refund or return policy?",
+            "icon": "none",
+            "row_content": "<p><strong>We do offer full refund from 14 days of purchase and if not been used.</strong></p><p>If you buy a package and you use one session, we are sorry but we are unable to offer refund.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qnzyfe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can couples float together?",
+            "icon": "none",
+            "row_content": "<p>Yes, only if you purchase ” Float for Two” (Couple Float)</p><p>Not if you have single sessions.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9mCAKV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's the minimum age for floating?",
+            "icon": "none",
+            "row_content": "<p>Anyone 18 years old and up is able to float at our centre currently.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tEJfgP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are there any differences between the rooms?",
+            "icon": "none",
+            "row_content": "<p>No, each room is identical in the floatation tank, shower and amenities to provide you with the most premium float experience no matter which room you’re in!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_inpwMx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What happens if I get the saltwater in my eyes?",
+            "icon": "none",
+            "row_content": "<p>It may sting a bit due to the amount of epsom salt in the water, so we recommend you avoid touching your face or placing your hands over your head at any time. Our float tanks are non-drip and we provide a water bottle to help flush out your eyes if this happens.</p>",
             "page": ""
           }
         }
@@ -411,7 +447,11 @@
         "collapsible_row_fTHJXq",
         "collapsible_row_gr4U83",
         "collapsible_row_Cb3BLt",
-        "collapsible_row_dBthLy"
+        "collapsible_row_dBthLy",
+        "collapsible_row_qnzyfe",
+        "collapsible_row_9mCAKV",
+        "collapsible_row_tEJfgP",
+        "collapsible_row_inpwMx"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
