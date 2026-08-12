@@ -49,7 +49,7 @@
         "content_position_horizontal": "left",
         "content_position_vertical": "middle",
         "text_alignment": "left",
-        "content_width": 1100
+        "content_width": 700
       }
     },
     "custom_section_richtext_PLBrGJ": {
@@ -291,7 +291,7 @@
         "enable_autoplay": false,
         "autoplay_speed": 5,
         "header_gap": 40,
-        "card_bg": "#121A27",
+        "card_bg": "#121a27",
         "card_border": "#243044",
         "card_radius": 12,
         "card_padding": 16,
@@ -306,11 +306,11 @@
         "button_gap": 40,
         "button_size": 16,
         "button_radius": 8,
-        "bg_color": "#040B16",
-        "heading_color": "#FFFFFF",
-        "body_color": "#C8CED8",
-        "icon_color": "#C8CED8",
-        "accent_color": "#0DAAEF",
+        "bg_color": "#040b16",
+        "heading_color": "#ffffff",
+        "body_color": "#c8ced8",
+        "icon_color": "#c8ced8",
+        "accent_color": "#0daaef",
         "padding_top": 80,
         "padding_bottom": 80
       }
