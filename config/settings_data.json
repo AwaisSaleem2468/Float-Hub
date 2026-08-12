@@ -12,9 +12,9 @@
     "logo": "shopify://shop_images/Float-Hub-logo-web-darkST.png",
     "logo_width": 180,
     "favicon": "shopify://shop_images/Float-Hub-favicon_2331645c-60c3-44e9-8408-4b59ab08ef82.png",
-    "type_header_font": "big_shoulders_n6",
+    "type_header_font": "nunito_n5",
     "heading_scale": 100,
-    "type_body_font": "sans_serif_n4",
+    "type_body_font": "nunito_n4",
     "body_scale": 100,
     "page_width": 1400,
     "spacing_sections": 0,
@@ -181,7 +181,7 @@
       },
       "scheme-4": {
         "settings": {
-          "background": "#040B16",
+          "background": "#040b16",
           "background_gradient": "",
           "text": "#c8ced8",
           "button": "#0daaef",
