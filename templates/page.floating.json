@@ -11,13 +11,129 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "custom_section_innerpage_banner_yHjrxw": {
+      "type": "custom-section-innerpage-banner",
+      "name": "Custom Innerpage Banner",
+      "settings": {
+        "media_type": "image",
+        "image": "shopify://shop_images/PCH_3785-scaled.jpg",
+        "overlay_color": "#061018",
+        "overlay_opacity": 50,
+        "section_height": 60,
+        "section_height_mobile": 65,
+        "show_badge": false,
+        "badge_text": "200+ Five-Star Reviews | London's #1",
+        "eyebrow": "",
+        "eyebrow_size": 13,
+        "heading": "Find Out Who You",
+        "heading_accent": "Become With Floating",
+        "heading_size_desktop": 48,
+        "heading_size_mobile": 36,
+        "description": "<p>Here's a guide to your first float experience to help ensure you tap into the deep relaxation and many benefits that it can provide.</p>",
+        "description_size_desktop": 18,
+        "description_size_mobile": 16,
+        "button_label_1": "Book Now",
+        "button_link_1": "",
+        "show_button_arrow": true,
+        "button_label_2": "",
+        "button_link_2": "",
+        "text_color": "#FFFFFF",
+        "accent_color": "#0DAAEF",
+        "badge_color": "#D4AF37",
+        "content_position_horizontal": "left",
+        "content_position_vertical": "middle",
+        "text_alignment": "left",
+        "content_width": 1100
+      }
+    },
+    "custom_section_floating_experince_EyBTEB": {
+      "type": "custom-section-floating-experince",
+      "blocks": {
+        "step_BMejLb": {
+          "type": "step",
+          "settings": {
+            "number": "1",
+            "title": "Pre-Float",
+            "text": "<p>Our staff will give you a full walkthrough of the process to ensure that you're informed and feel at home in our center.</p>"
+          }
+        },
+        "step_fwcbQk": {
+          "type": "step",
+          "settings": {
+            "number": "2",
+            "title": "Preparing",
+            "text": "<p>You will enter your private float room and take a shower before starting your session to ensure any oils, dirt, and perfumes are removed.</p>"
+          }
+        },
+        "step_BJ9mb3": {
+          "type": "step",
+          "settings": {
+            "number": "3",
+            "title": "Letting Go",
+            "text": "<p>It will take some time to get used to the unique environment of the float tank so we encourage you to focus on your breath and try to let go.</p>"
+          }
+        },
+        "step_CfEcht": {
+          "type": "step",
+          "settings": {
+            "number": "4",
+            "title": "Post-Float Glow",
+            "text": "<p>You will be notified your session is over by music in the pod. After your session you will shower again to remove any salt and are welcome to enjoy your new state in our relaxation suite.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "step_BMejLb",
+        "step_fwcbQk",
+        "step_BJ9mb3",
+        "step_CfEcht"
+      ],
+      "name": "Floating Experience",
+      "settings": {
+        "image_alt": "Floating experience",
+        "image_height": 420,
+        "image_height_mobile": 280,
+        "image_radius": 0,
+        "content_align": "center",
+        "text_align": "center",
+        "column_gap": 48,
+        "step_gap": 24,
+        "row_gap": 24,
+        "timeline_color": "#3A4556",
+        "timeline_circle_bg": "#070D16",
+        "line_thickness": 1,
+        "circle_border_width": 1,
+        "number_size": 15,
+        "card_bg": "#121A27",
+        "card_border": "#243041",
+        "card_radius": 12,
+        "card_padding": 24,
+        "step_title_size": 22,
+        "step_title_size_mobile": 18,
+        "step_text_size": 14,
+        "step_text_size_mobile": 13,
+        "button_label": "Book Now",
+        "button_link": "",
+        "button_align": "center",
+        "button_size": 15,
+        "bg_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "body_color": "#A8B0BD",
+        "accent_color": "#0DAAEF",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_section_innerpage_banner_yHjrxw",
+    "custom_section_floating_experince_EyBTEB"
   ]
 }
