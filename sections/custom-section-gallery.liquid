@@ -46,8 +46,8 @@
 
   #Gallery-{{ section.id }} .gallery__grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-template-rows: auto auto auto;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-rows: auto auto auto auto;
     gap: var(--gl-gap);
     align-items: stretch;
   }
@@ -71,19 +71,19 @@
   }
 
   #Gallery-{{ section.id }} .gallery__item--1 {
-    grid-column: 1 / 3;
+    grid-column: 1 / 9;
     grid-row: 1 / 3;
     aspect-ratio: {{ section.settings.large_image_ratio }};
   }
 
   #Gallery-{{ section.id }} .gallery__item--2 {
-    grid-column: 3;
+    grid-column: 9 / 13;
     grid-row: 1;
     aspect-ratio: 1 / 1;
   }
 
   #Gallery-{{ section.id }} .gallery__item--3 {
-    grid-column: 3;
+    grid-column: 9 / 13;
     grid-row: 2;
     aspect-ratio: 1 / 1;
   }
@@ -95,18 +95,45 @@
   }
 
   #Gallery-{{ section.id }} .gallery__item--4 {
-    grid-column: 1;
+    grid-column: 1 / 5;
     grid-row: 3;
   }
 
   #Gallery-{{ section.id }} .gallery__item--5 {
-    grid-column: 2;
+    grid-column: 5 / 9;
     grid-row: 3;
   }
 
   #Gallery-{{ section.id }} .gallery__item--6 {
-    grid-column: 3;
+    grid-column: 9 / 13;
     grid-row: 3;
+  }
+
+  #Gallery-{{ section.id }} .gallery__item--7,
+  #Gallery-{{ section.id }} .gallery__item--8,
+  #Gallery-{{ section.id }} .gallery__item--9,
+  #Gallery-{{ section.id }} .gallery__item--10 {
+    aspect-ratio: 4 / 3;
+  }
+
+  #Gallery-{{ section.id }} .gallery__item--7 {
+    grid-column: 1 / 4;
+    grid-row: 4;
+  }
+
+  #Gallery-{{ section.id }} .gallery__item--8 {
+    grid-column: 4 / 7;
+    grid-row: 4;
+  }
+
+  #Gallery-{{ section.id }} .gallery__item--9 {
+    grid-column: 7 / 10;
+    grid-row: 4;
+  }
+
+  #Gallery-{{ section.id }} .gallery__item--10 {
+    grid-column: 10 / 13;
+    grid-row: 4;
   }
 
   #Gallery-{{ section.id }} .gallery__image,
@@ -302,33 +329,56 @@
 
   @media screen and (max-width: 749px) {
     #Gallery-{{ section.id }} .gallery__item--1 {
-      grid-column: 1 / 3;
+      grid-column: 1 / 9;
       grid-row: 1 / 3;
     }
 
     #Gallery-{{ section.id }} .gallery__item--2 {
-      grid-column: 3;
+      grid-column: 9 / 13;
       grid-row: 1;
     }
 
     #Gallery-{{ section.id }} .gallery__item--3 {
-      grid-column: 3;
+      grid-column: 9 / 13;
       grid-row: 2;
     }
 
     #Gallery-{{ section.id }} .gallery__item--4 {
-      grid-column: 1;
+      grid-column: 1 / 5;
       grid-row: 3;
     }
 
     #Gallery-{{ section.id }} .gallery__item--5 {
-      grid-column: 2;
+      grid-column: 5 / 9;
       grid-row: 3;
     }
 
     #Gallery-{{ section.id }} .gallery__item--6 {
-      grid-column: 3;
+      grid-column: 9 / 13;
       grid-row: 3;
+    }
+
+    #Gallery-{{ section.id }} .gallery__item--7,
+    #Gallery-{{ section.id }} .gallery__item--8,
+    #Gallery-{{ section.id }} .gallery__item--9,
+    #Gallery-{{ section.id }} .gallery__item--10 {
+      grid-row: 4;
+    }
+
+    #Gallery-{{ section.id }} .gallery__item--7 {
+      grid-column: 1 / 4;
+    }
+
+    #Gallery-{{ section.id }} .gallery__item--8 {
+      grid-column: 4 / 7;
+    }
+
+    #Gallery-{{ section.id }} .gallery__item--9 {
+      grid-column: 7 / 10;
+    }
+
+    #Gallery-{{ section.id }} .gallery__item--10 {
+      grid-column: 10 / 13;
     }
 
     #Gallery-{{ section.id }} .gallery__lightbox-main {
@@ -363,7 +413,7 @@
 
     {%- if gallery_blocks.size > 0 -%}
       <div class="gallery__grid">
-        {%- for block in gallery_blocks limit: 6 -%}
+        {%- for block in gallery_blocks limit: 10 -%}
           <button
             type="button"
             class="gallery__item gallery__item--{{ forloop.index }}"
@@ -414,7 +464,7 @@
           </button>
 
           <div class="gallery__stage" data-gallery-stage>
-            {%- for block in gallery_blocks limit: 6 -%}
+            {%- for block in gallery_blocks limit: 10 -%}
               <div class="gallery__stage-image" data-gallery-slide="{{ forloop.index0 }}">
                 {%- if block.settings.image != blank -%}
                   {%- assign stage_alt = block.settings.image.alt | default: block.settings.caption | default: section.settings.heading -%}
@@ -442,7 +492,7 @@
         </div>
 
         <div class="gallery__thumbs" data-gallery-thumbs>
-          {%- for block in gallery_blocks limit: 6 -%}
+          {%- for block in gallery_blocks limit: 10 -%}
             <button
               type="button"
               class="gallery__thumb"
@@ -576,7 +626,7 @@
   "name": "Custom Gallery",
   "tag": "section",
   "class": "section-custom-gallery",
-  "max_blocks": 6,
+  "max_blocks": 10,
   "settings": [
     {
       "type": "header",
@@ -772,6 +822,10 @@
       "name": "Custom Gallery",
       "category": "Custom Sections",
       "blocks": [
+        { "type": "image" },
+        { "type": "image" },
+        { "type": "image" },
+        { "type": "image" },
         { "type": "image" },
         { "type": "image" },
         { "type": "image" },
