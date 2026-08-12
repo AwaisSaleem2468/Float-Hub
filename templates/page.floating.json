@@ -25,8 +25,8 @@
         "image": "shopify://shop_images/PCH_3785-scaled.jpg",
         "overlay_color": "#061018",
         "overlay_opacity": 50,
-        "section_height": 65,
-        "section_height_mobile": 55,
+        "section_height": 60,
+        "section_height_mobile": 65,
         "show_badge": false,
         "badge_text": "200+ Five-Star Reviews | London's #1",
         "eyebrow": "",
@@ -188,6 +188,132 @@
         "button_primary_bg": "#2de2c5",
         "button_primary_text": "#0a1f1c"
       }
+    },
+    "custom_section_float_tip_pCLHRC": {
+      "type": "custom-section-float-tip",
+      "blocks": {
+        "tip_KUFg3z": {
+          "type": "tip",
+          "settings": {
+            "icon": "coffee",
+            "title": "No Stimulants",
+            "text": "<p>Avoid caffeine and other stimulants before your float to make it easier for your body and mind to relax.</p>"
+          }
+        },
+        "tip_4rfQQV": {
+          "type": "tip",
+          "settings": {
+            "icon": "water",
+            "title": "Be Hydrated",
+            "text": "<p>Try to ensure that you are well hydrated before your session, but don't drink too much right beforehand.</p>"
+          }
+        },
+        "tip_diYDEa": {
+          "type": "tip",
+          "settings": {
+            "icon": "apple",
+            "title": "Eat A Light Meal",
+            "text": "<p>It's best to have a light meal 60 to 90 mins. before your session, rather than floating with a full or empty stomach.</p>"
+          }
+        },
+        "tip_Kpj3HC": {
+          "type": "tip",
+          "settings": {
+            "icon": "face",
+            "title": "No Shaving Before",
+            "text": "<p>Please don't shave anywhere on your face or body before your float session as the epsom salt may sting for some time in the beginning making it more difficult to relax and enjoy your float.</p>"
+          }
+        },
+        "tip_mktXrT": {
+          "type": "tip",
+          "settings": {
+            "icon": "swim",
+            "title": "Float Nude",
+            "text": "<p>We recommend floating in the nude to ensure there are no external pressures or restrictions on your body. Our tanks are extremely filtered to ensure cleanliness and the water is kept at skin temperature.</p>"
+          }
+        },
+        "tip_CKpbDf": {
+          "type": "tip",
+          "settings": {
+            "icon": "clock",
+            "title": "Don't Stress Over Time",
+            "text": "<p>It's fairly common to obsess or stress over time while floating, try to return your focus to your breath and know that our staff and the music in the pod will let you know when your session is over.</p>"
+          }
+        },
+        "tip_EUQDNg": {
+          "type": "tip",
+          "settings": {
+            "icon": "breath",
+            "title": "Focus On Your Breath",
+            "text": "<p>If your mind is busy, you have difficulty relaxing, or any challenge with the unique environment, it's helpful to focus on your breathing. Take deep breathes and keep your attention on that process.</p>"
+          }
+        },
+        "tip_gt8KkM": {
+          "type": "tip",
+          "settings": {
+            "icon": "arm",
+            "title": "Try Different Positions",
+            "text": "<p>Everyone has different preferences: arms above head, pointed up at your side, or down by your body and if you find yourself getting uncomfortable, it can help to switch your arm position.</p>"
+          }
+        },
+        "tip_Ybzjkp": {
+          "type": "tip",
+          "settings": {
+            "icon": "heart",
+            "title": "No Expectations",
+            "text": "<p>There is no 'right' way to float, each and every session is different and it's important to not get caught up thinking you're doing it wrong. Breathe, let go and relax to go deeper.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tip_KUFg3z",
+        "tip_4rfQQV",
+        "tip_diYDEa",
+        "tip_Kpj3HC",
+        "tip_mktXrT",
+        "tip_CKpbDf",
+        "tip_EUQDNg",
+        "tip_gt8KkM",
+        "tip_Ybzjkp"
+      ],
+      "name": "Float Tips",
+      "settings": {
+        "heading": "Tips To Improve Your",
+        "heading_accent": "Float Experience",
+        "title_align": "center",
+        "heading_size_desktop": 42,
+        "heading_size_tablet": 36,
+        "heading_size_mobile": 32,
+        "columns_desktop": 3,
+        "column_gap": 16,
+        "slide_gap": 12,
+        "card_min_height": 180,
+        "enable_autoplay": false,
+        "autoplay_speed": 5,
+        "header_gap": 40,
+        "card_bg": "#121A27",
+        "card_border": "#243044",
+        "card_radius": 12,
+        "card_padding": 16,
+        "icon_size": 40,
+        "tip_title_size": 20,
+        "tip_title_size_mobile": 16,
+        "tip_text_size": 14,
+        "tip_text_size_mobile": 14,
+        "button_label": "Book Now",
+        "button_link": "",
+        "button_alignment": "center",
+        "button_gap": 40,
+        "button_size": 16,
+        "button_radius": 8,
+        "bg_color": "#040B16",
+        "heading_color": "#FFFFFF",
+        "body_color": "#C8CED8",
+        "icon_color": "#C8CED8",
+        "accent_color": "#0DAAEF",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -195,6 +321,7 @@
     "custom_section_innerpage_banner_yHjrxw",
     "custom_section_richtext_PLBrGJ",
     "custom_section_floating_experince_EyBTEB",
-    "custom_section_video_banner_ECKCtV"
+    "custom_section_video_banner_ECKCtV",
+    "custom_section_float_tip_pCLHRC"
   ]
 }
