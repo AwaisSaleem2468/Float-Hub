@@ -366,6 +366,68 @@
         "mobile_content_alignment": "center",
         "show_text_below": true
       }
+    },
+    "collapsible_content_8Pq4CU": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_fTHJXq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_gr4U83": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_Cb3BLt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_dBthLy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_fTHJXq",
+        "collapsible_row_gr4U83",
+        "collapsible_row_Cb3BLt",
+        "collapsible_row_dBthLy"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -375,6 +437,7 @@
     "custom_section_floating_experince_EyBTEB",
     "custom_section_video_banner_ECKCtV",
     "custom_section_float_tip_pCLHRC",
-    "image_banner_Ugktcy"
+    "image_banner_Ugktcy",
+    "collapsible_content_8Pq4CU"
   ]
 }
