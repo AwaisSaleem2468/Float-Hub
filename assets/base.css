@@ -3644,3 +3644,6 @@ details-disclosure > details {
 .rte ul li , .rte ol li{
   margin-bottom: 8px;
 }
+.rte table td {
+    border: 1px solid #fff;
+}
