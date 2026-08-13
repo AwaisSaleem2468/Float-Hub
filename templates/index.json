@@ -896,8 +896,8 @@
       ],
       "name": "Custom Gallery",
       "settings": {
-        "subtitle": "INSIDE FLOAT HUB",
-        "heading": "Explore the space",
+        "subtitle": "",
+        "heading": "Our float center is meticulously engineered for your rest.",
         "heading_size_desktop": 42,
         "heading_size_mobile": 32,
         "subtitle_size": 14,
