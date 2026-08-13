@@ -103,8 +103,8 @@
         "heading_size_mobile": 28,
         "caption_size": 14,
         "caption_size_mobile": 13,
-        "text_size": 16,
-        "text_size_mobile": 15,
+        "text_size": 18,
+        "text_size_mobile": 16,
         "button_size": 15,
         "button_radius": 40,
         "background_color": "#070d16",
@@ -118,11 +118,49 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "custom_section_img_with_text_8e3bzH": {
+      "type": "custom-section-img-with-text",
+      "name": "Custom Img with text",
+      "settings": {
+        "image": "shopify://shop_images/FloatHub-Floatation-Tank-Centre-London-Owner-Tom-Euinton-IMG_3475-web.jpg",
+        "layout": "left",
+        "image_width": "small",
+        "image_height": "fixed",
+        "image_fixed_height": 600,
+        "image_radius": 12,
+        "mobile_image_first": true,
+        "subtitle": "Founder",
+        "subtitle_size": 12,
+        "heading": "Tom Euinton, founder of",
+        "heading_accent": "Float Hub",
+        "heading_size_desktop": 36,
+        "heading_size_mobile": 30,
+        "description": "<p>After struggling with sleep apnea and insomnia for a long time, I received profound rest from floating that helped provide the deep recovery I wasn’t getting from sleep.</p>",
+        "description_size": 20,
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "button_label_1": "",
+        "button_link_1": "",
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_size": 16,
+        "button_radius": 10,
+        "background_color": "#121A27",
+        "text_color": "#ffffff",
+        "muted_color": "#C8CED8",
+        "accent_color": "#23A3DF",
+        "content_width": 1200,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
     "main",
     "custom_section_innerpage_banner_6tmC4g",
-    "rich_text_Y83DQw"
+    "rich_text_Y83DQw",
+    "custom_section_img_with_text_8e3bzH"
   ]
 }
