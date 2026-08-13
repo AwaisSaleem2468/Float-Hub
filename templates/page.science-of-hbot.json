@@ -25,16 +25,79 @@
         "text_line_height": "1.6",
         "background_color": "#070d16",
         "title_color": "#ffffff",
-        "text_color": "#C8CED8",
+        "text_color": "#c8ced8",
         "muted_color": "#8b93a1",
-        "link_color": "#23A3DF",
-        "link_hover_color": "#C8CED8",
+        "link_color": "#23a3df",
+        "link_hover_color": "#c8ced8",
         "padding_top": 80,
         "padding_bottom": 80
+      }
+    },
+    "rich_text_mkwiXb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HmCCYf": {
+          "type": "heading",
+          "settings": {
+            "heading": "What is HBOT? The Science of 1.5 ATA Oxygen Therapy"
+          }
+        },
+        "text_jAaznF": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>\\TL;DR: The Science of 1.5 ATA</strong> Hyperbaric Oxygen Therapy (HBOT) is a non-invasive recovery protocol involving breathing high-purity oxygen in a pressurized environment. At Float Hub Shoreditch, our London Oxygen Suite utilizes a <strong>reinforced high-pressure suite</strong> operated at <strong>1.5 ATA (Atmospheres Absolute)</strong>. This is the precise pressure threshold required to dissolve oxygen directly into your blood plasma, driving the physical and cognitive reset that standard air cannot achieve. <a href=\"https://floathub.co.uk/london-oxygen-suite/\" target=\"_blank\">Explore our HBOT Launch Packs here</a>.</p>"
+          }
+        },
+        "button_HDx36K": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HmCCYf",
+        "text_jAaznF",
+        "button_HDx36K"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "content_max_width": 800,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 18,
+        "text_size_mobile": 16,
+        "button_size": 16,
+        "button_radius": 12,
+        "background_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "caption_color": "#0DAAEF",
+        "text_color": "#A8B0BD",
+        "link_color": "#0DAAEF",
+        "button_text_color": "#FFFFFF",
+        "button_secondary_text_color": "#FFFFFF",
+        "button_secondary_border_color": "#FFFFFF",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_mkwiXb"
   ]
 }
