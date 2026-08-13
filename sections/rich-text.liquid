@@ -37,6 +37,11 @@
     background: transparent;
   }
 
+  #RichText-{{ section.id }} .rich-text__blocks {
+    width: 100%;
+    max-width: {{ section.settings.content_max_width | default: 800 }}px;
+  }
+
   #RichText-{{ section.id }} .rich-text__heading {
     color: var(--rt-heading);
     font-size: var(--rt-heading-size-mobile);
@@ -286,6 +291,17 @@
       "id": "full_width",
       "default": true,
       "label": "t:sections.rich-text.settings.full_width.label"
+    },
+    {
+      "type": "range",
+      "id": "content_max_width",
+      "min": 400,
+      "max": 1400,
+      "step": 20,
+      "unit": "px",
+      "label": "Content max width",
+      "default": 800,
+      "info": "Controls the inner width of heading, text, and buttons."
     },
     {
       "type": "header",
