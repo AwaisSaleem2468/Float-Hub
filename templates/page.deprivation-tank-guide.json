@@ -67,11 +67,23 @@
           "settings": {
             "text": "<p>What is a Sensory Deprivation Tank? This specialized, lightproof, and soundproof environment is filled with 1,200 litres of pristine water and over 500kg of premium Epsom salts. This creates a hyper-buoyant space where you float effortlessly, regardless of your body type. However, not all sensory deprivation tanks in London are created equal.</p><p><a href=\"https://floathub.co.uk/book-now/\" target=\"_blank\">Book your session today</a> to experience the ultimate London reset.</p><p>At Float Hub Shoreditch, we use world-class pods featuring:</p><ul><li><strong>Zero-Gravity Buoyancy:</strong> Achieving total spinal decompression and joint relief.</li><li><strong>Oversize: </strong>All of our pods are large enough for two, and the only pods in London you step (rather than crouch & clamber) into.</li><li><strong>Environmental Control:</strong> You have full control over the internal pod lighting. While we manage the high-fidelity audio system for you, we can select from a range of curated acoustic journeys – from meditative soundscapes to total silence – to suit your session goals.</li><li><strong>1.5 ATA Compatibility:</strong> We are the only Shoreditch centre offering synergistic recovery with our new <a href=\"https://floathub.co.uk/hbot-london/\" target=\"_blank\">London Oxygen Suite</a>.</li></ul>"
           }
+        },
+        "button_CWCY4h": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Your Session",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "heading_yeFU9f",
-        "text_pRccyE"
+        "text_pRccyE",
+        "button_CWCY4h"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
