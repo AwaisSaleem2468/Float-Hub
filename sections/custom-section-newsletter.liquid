@@ -15,9 +15,7 @@
 
   #Newsletter-{{ section.id }} .newsletter-custom__inner {
     width: 100%;
-    max-width: {{ section.settings.content_width }}px;
     margin: 0 auto;
-    padding: 0 1.5rem;
     box-sizing: border-box;
     text-align: center;
   }
@@ -148,11 +146,6 @@
       padding-top: {{ section.settings.padding_top | times: 0.8 | round: 0 }}px;
       padding-bottom: {{ section.settings.padding_bottom | times: 0.8 | round: 0 }}px;
     }
-
-    #Newsletter-{{ section.id }} .newsletter-custom__inner {
-      padding: 0 1.25rem;
-    }
-
     #Newsletter-{{ section.id }} .newsletter-custom__heading {
       font-size: {{ section.settings.heading_size_mobile }}px;
     }
@@ -168,7 +161,7 @@
 {% endstyle %}
 
 <section id="Newsletter-{{ section.id }}" class="newsletter-custom">
-  <div class="newsletter-custom__inner">
+  <div class="page-width newsletter-custom__inner">
     {%- if section.settings.eyebrow != blank -%}
       <p class="newsletter-custom__eyebrow">{{ section.settings.eyebrow | escape }}</p>
     {%- endif -%}
