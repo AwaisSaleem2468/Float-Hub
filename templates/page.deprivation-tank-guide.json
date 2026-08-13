@@ -15,9 +15,45 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "custom_section_innerpage_banner_iEyrUn": {
+      "type": "custom-section-innerpage-banner",
+      "name": "Custom Innerpage Banner",
+      "settings": {
+        "media_type": "image",
+        "image": "shopify://shop_images/624344820_18092284364506610_1147918721492103347_n_1.jpg",
+        "overlay_color": "#061018",
+        "overlay_opacity": 0,
+        "section_height": 65,
+        "section_height_mobile": 70,
+        "show_badge": false,
+        "badge_text": "200+ Five-Star Reviews | London's #1",
+        "eyebrow": "Shoreditch",
+        "eyebrow_size": 13,
+        "heading": "Couples Float Session",
+        "heading_accent": "",
+        "heading_size_desktop": 48,
+        "heading_size_mobile": 36,
+        "description": "<p>Floating offers an incredible journey of self-discovery and deep relaxation. While an individual session is profoundly beneficial, there can be huge positives to sharing the experience with a partner. A couples float offers a unique opportunity to find peace and connection together. It can be a memorable date night, a special anniversary gift, or simply a new way to de-stress as a pair. For anyone with fears of claustrophobia or anxiety, a float for two is also a great way to introduce them to the magic of float therapy in a shared, supportive environment. In this guide, we’ll walk you through the many benefits, what to expect, and how to get the most out of this shared wellness journey right here in Shoreditch, London.</p>",
+        "description_size_desktop": 16,
+        "description_size_mobile": 14,
+        "button_label_1": "BOOK YOUR COUPLES FLOAT NOW",
+        "button_link_1": "",
+        "show_button_arrow": true,
+        "button_label_2": "",
+        "button_link_2": "",
+        "text_color": "#ffffff",
+        "accent_color": "#0daaef",
+        "badge_color": "#d4af37",
+        "content_position_horizontal": "left",
+        "content_position_vertical": "middle",
+        "text_alignment": "left",
+        "content_width": 1400
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_section_innerpage_banner_iEyrUn"
   ]
 }
