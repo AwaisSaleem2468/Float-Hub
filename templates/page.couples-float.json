@@ -181,12 +181,44 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "rich_text_qiEjFW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n86Xd3": {
+          "type": "heading",
+          "settings": {
+            "heading": "What is a Couples Float? A Unique Shared Experience",
+            "heading_size": "h1"
+          }
+        },
+        "text_e6UnzQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A couples float involves stepping into a spacious float tank or pod with your partner. Our tanks are meticulously maintained, filled with skin-temperature water and 550-575KG of Epsom salt. This creates a naturally buoyant, weightless environment that allows you to effortlessly float on the surface. Unlike a standard spa treatment, a float for two is about sensory deprivation, not distraction. It’s an hour dedicated to quiet, calm, and a shared space for internal exploration. It’s the perfect way for couples to hit the reset button, especially for those with busy lives, demanding jobs, or young children at home. Imagine 60 minutes of uninterrupted peace and quiet, shared with the person you love.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_n86Xd3",
+        "text_e6UnzQ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
     "main",
     "custom_section_innerpage_banner_GXGNag",
     "rich_text_jApPWK",
-    "custom_section_float_tip_nKfVq3"
+    "custom_section_float_tip_nKfVq3",
+    "rich_text_qiEjFW"
   ]
 }
