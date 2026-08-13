@@ -82,11 +82,111 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "custom_section_float_tip_nKfVq3": {
+      "type": "custom-section-float-tip",
+      "blocks": {
+        "tip_KWhAcG": {
+          "type": "tip",
+          "settings": {
+            "icon": "coffee",
+            "title": "Significantly Reduce Stress: ",
+            "text": "<p>Scientific studies have shown that floating can lower cortisol levels—the body’s primary stress hormone. By lowering cortisol, you and your partner can experience a deep sense of calm, improving your relationship and overall well-being.</p>"
+          }
+        },
+        "tip_diK7d7": {
+          "type": "tip",
+          "settings": {
+            "icon": "water",
+            "title": "Enhance Connection and Communication",
+            "text": "<p>In a world full of noise, a float session creates a rare opportunity for silent, shared introspection. This peaceful environment can encourage openness and understanding, helping you feel more connected to your partner.</p>"
+          }
+        },
+        "tip_P4GGdn": {
+          "type": "tip",
+          "settings": {
+            "icon": "apple",
+            "title": "Improve Sleep Quality",
+            "text": "<p>Our tanks are packed with magnesium-rich Epsom salt. As you float, your body absorbs this key mineral, often called the “relaxation mineral,” which is known to aid sleep and calm the nervous system.</p>"
+          }
+        },
+        "tip_eEiiGa": {
+          "type": "tip",
+          "settings": {
+            "icon": "face",
+            "title": "Support Physical Health:",
+            "text": "<p>The zero-gravity environment of the float tank takes pressure off your joints and muscles, improving blood flow and reducing chronic pain. It’s a fantastic way to recover after a long day or intense workout.</p>"
+          }
+        },
+        "tip_pJPNTz": {
+          "type": "tip",
+          "settings": {
+            "icon": "swim",
+            "title": "Boost Creativity and Mental Clarity:",
+            "text": "<p>By removing external sensory input, floating allows your brain to enter a restorative “Theta state.” This is the same brainwave state associated with deep meditation, creativity, and new problem-solving.</p>"
+          }
+        },
+        "tip_CyF6cD": {
+          "type": "tip",
+          "settings": {
+            "icon": "clock",
+            "title": "Strengthen Your Bond:",
+            "text": "<p>Doing something new and profound together—especially something that requires you to be present and surrender to the experience—can be incredibly bonding.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tip_KWhAcG",
+        "tip_diK7d7",
+        "tip_P4GGdn",
+        "tip_eEiiGa",
+        "tip_pJPNTz",
+        "tip_CyF6cD"
+      ],
+      "name": "Float Tips",
+      "settings": {
+        "heading": "The Benefits of",
+        "heading_accent": "Floating Together",
+        "title_align": "center",
+        "heading_size_desktop": 36,
+        "heading_size_tablet": 30,
+        "heading_size_mobile": 28,
+        "columns_desktop": 3,
+        "column_gap": 16,
+        "slide_gap": 12,
+        "card_min_height": 180,
+        "enable_autoplay": false,
+        "autoplay_speed": 5,
+        "header_gap": 40,
+        "card_bg": "#121a27",
+        "card_border": "#243044",
+        "card_radius": 12,
+        "card_padding": 16,
+        "icon_size": 40,
+        "tip_title_size": 20,
+        "tip_title_size_mobile": 16,
+        "tip_text_size": 14,
+        "tip_text_size_mobile": 14,
+        "button_label": "",
+        "button_link": "",
+        "button_alignment": "center",
+        "button_gap": 40,
+        "button_size": 16,
+        "button_radius": 8,
+        "bg_color": "#040b16",
+        "heading_color": "#ffffff",
+        "body_color": "#c8ced8",
+        "icon_color": "#c8ced8",
+        "accent_color": "#0daaef",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
     "main",
     "custom_section_innerpage_banner_GXGNag",
-    "rich_text_jApPWK"
+    "rich_text_jApPWK",
+    "custom_section_float_tip_nKfVq3"
   ]
 }
