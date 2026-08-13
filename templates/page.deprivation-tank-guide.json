@@ -13,6 +13,23 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "content_width": "page",
+        "text_alignment": "left",
+        "show_title": true,
+        "title_size": 48,
+        "title_size_mobile": 32,
+        "title_spacing": 32,
+        "rte_heading_size": 28,
+        "rte_heading_size_mobile": 22,
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "text_line_height": "1.7",
+        "background_color": "#070d16",
+        "title_color": "#ffffff",
+        "text_color": "#a8b0bd",
+        "muted_color": "#8b93a1",
+        "link_color": "#0daaef",
+        "link_hover_color": "#22d3ee",
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -58,8 +75,7 @@
         "heading_yeFU9f": {
           "type": "heading",
           "settings": {
-            "heading": "What is a Sensory Deprivation Tank?",
-            "heading_size": "h1"
+            "heading": "What is a Sensory Deprivation Tank?"
           }
         },
         "text_pRccyE": {
@@ -89,8 +105,88 @@
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
-        "color_scheme": "scheme-3",
         "full_width": true,
+        "show_border_top": false,
+        "show_border_bottom": true,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 40,
+        "heading_size_mobile": 28,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "button_size": 15,
+        "button_radius": 40,
+        "background_color": "#070d16",
+        "heading_color": "#ffffff",
+        "caption_color": "#0daaef",
+        "text_color": "#a8b0bd",
+        "link_color": "#0daaef",
+        "button_text_color": "#ffffff",
+        "button_secondary_text_color": "#ffffff",
+        "button_secondary_border_color": "#ffffff",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "rich_text_DiY63V": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TfKazJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "What is a Sensory Deprivation Tank?"
+          }
+        },
+        "text_Unqhjy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>What is a Sensory Deprivation Tank? This specialized, lightproof, and soundproof environment is filled with 1,200 litres of pristine water and over 500kg of premium Epsom salts. This creates a hyper-buoyant space where you float effortlessly, regardless of your body type. However, not all sensory deprivation tanks in London are created equal.</p><p><a href=\"https://floathub.co.uk/book-now/\" target=\"_blank\">Book your session today</a> to experience the ultimate London reset.</p><p>At Float Hub Shoreditch, we use world-class pods featuring:</p><ul><li><strong>Zero-Gravity Buoyancy:</strong> Achieving total spinal decompression and joint relief.</li><li><strong>Oversize: </strong>All of our pods are large enough for two, and the only pods in London you step (rather than crouch & clamber) into.</li><li><strong>Environmental Control:</strong> You have full control over the internal pod lighting. While we manage the high-fidelity audio system for you, we can select from a range of curated acoustic journeys – from meditative soundscapes to total silence – to suit your session goals.</li><li><strong>1.5 ATA Compatibility:</strong> We are the only Shoreditch centre offering synergistic recovery with our new <a href=\"https://floathub.co.uk/hbot-london/\" target=\"_blank\">London Oxygen Suite</a>.</li></ul>"
+          }
+        },
+        "button_WrnGTT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Your Session",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TfKazJ",
+        "text_Unqhjy",
+        "button_WrnGTT"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "full_width": true,
+        "show_border_top": false,
+        "show_border_bottom": true,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 40,
+        "heading_size_mobile": 28,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "button_size": 15,
+        "button_radius": 40,
+        "background_color": "#070d16",
+        "heading_color": "#ffffff",
+        "caption_color": "#0daaef",
+        "text_color": "#a8b0bd",
+        "link_color": "#0daaef",
+        "button_text_color": "#ffffff",
+        "button_secondary_text_color": "#ffffff",
+        "button_secondary_border_color": "#ffffff",
         "padding_top": 80,
         "padding_bottom": 80
       }
@@ -99,6 +195,7 @@
   "order": [
     "main",
     "custom_section_innerpage_banner_iEyrUn",
-    "rich_text_b89MYR"
+    "rich_text_b89MYR",
+    "rich_text_DiY63V"
   ]
 }
