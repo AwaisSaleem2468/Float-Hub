@@ -26,7 +26,7 @@
         "overlay_color": "#061018",
         "overlay_opacity": 0,
         "section_height": 65,
-        "section_height_mobile": 65,
+        "section_height_mobile": 70,
         "show_badge": false,
         "badge_text": "200+ Five-Star Reviews | London's #1",
         "eyebrow": "Shoreditch",
@@ -148,7 +148,7 @@
       "settings": {
         "heading": "The Benefits of Floating Together",
         "heading_accent": "",
-        "description": "<p>A few simple tips to help you get the most from every float session.</p>",
+        "description": "<p>Floating is a powerful tool for individual well-being, and those benefits are amplified when shared. A couples float session can:</p>",
         "description_size": 16,
         "title_align": "center",
         "heading_size_desktop": 36,
