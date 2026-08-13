@@ -89,7 +89,7 @@
         "tip_KWhAcG": {
           "type": "tip",
           "settings": {
-            "icon": "coffee",
+            "icon": "lightning_bolt",
             "title": "Significantly Reduce Stress: ",
             "text": "<p>Scientific studies have shown that floating can lower cortisol levels—the body’s primary stress hormone. By lowering cortisol, you and your partner can experience a deep sense of calm, improving your relationship and overall well-being.</p>"
           }
@@ -97,7 +97,7 @@
         "tip_diK7d7": {
           "type": "tip",
           "settings": {
-            "icon": "water",
+            "icon": "heart",
             "title": "Enhance Connection and Communication",
             "text": "<p>In a world full of noise, a float session creates a rare opportunity for silent, shared introspection. This peaceful environment can encourage openness and understanding, helping you feel more connected to your partner.</p>"
           }
@@ -105,7 +105,7 @@
         "tip_P4GGdn": {
           "type": "tip",
           "settings": {
-            "icon": "apple",
+            "icon": "snowflake",
             "title": "Improve Sleep Quality",
             "text": "<p>Our tanks are packed with magnesium-rich Epsom salt. As you float, your body absorbs this key mineral, often called the “relaxation mineral,” which is known to aid sleep and calm the nervous system.</p>"
           }
@@ -122,6 +122,7 @@
           "type": "tip",
           "settings": {
             "icon": "swim",
+            "custom_icon": "shopify://shop_images/benefits-icon-_7.png",
             "title": "Boost Creativity and Mental Clarity:",
             "text": "<p>By removing external sensory input, floating allows your brain to enter a restorative “Theta state.” This is the same brainwave state associated with deep meditation, creativity, and new problem-solving.</p>"
           }
@@ -129,7 +130,7 @@
         "tip_CyF6cD": {
           "type": "tip",
           "settings": {
-            "icon": "clock",
+            "icon": "heart",
             "title": "Strengthen Your Bond:",
             "text": "<p>Doing something new and profound together—especially something that requires you to be present and surrender to the experience—can be incredibly bonding.</p>"
           }
@@ -147,6 +148,8 @@
       "settings": {
         "heading": "The Benefits of Floating Together",
         "heading_accent": "",
+        "description": "<p>A few simple tips to help you get the most from every float session.</p>",
+        "description_size": 16,
         "title_align": "center",
         "heading_size_desktop": 36,
         "heading_size_tablet": 30,
