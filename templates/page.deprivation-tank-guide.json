@@ -1,0 +1,104 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_section_innerpage_banner_iEyrUn": {
+      "type": "custom-section-innerpage-banner",
+      "name": "Custom Innerpage Banner",
+      "settings": {
+        "media_type": "image",
+        "image": "shopify://shop_images/Float-Hub-Float-Center-12-London.jpg",
+        "overlay_color": "#061018",
+        "overlay_opacity": 30,
+        "section_height": 50,
+        "section_height_mobile": 60,
+        "show_badge": false,
+        "badge_text": "",
+        "eyebrow": "2026 Updated Edition",
+        "eyebrow_size": 13,
+        "heading": "The Ultimate Guide to",
+        "heading_accent": "Sensory Deprivation Tanks",
+        "heading_size_desktop": 48,
+        "heading_size_mobile": 36,
+        "description": "",
+        "description_size_desktop": 16,
+        "description_size_mobile": 14,
+        "button_label_1": "",
+        "button_link_1": "",
+        "show_button_arrow": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "text_color": "#ffffff",
+        "accent_color": "#0daaef",
+        "badge_color": "#d4af37",
+        "content_position_horizontal": "center",
+        "content_position_vertical": "middle",
+        "text_alignment": "center",
+        "content_width": 1400
+      }
+    },
+    "rich_text_b89MYR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yeFU9f": {
+          "type": "heading",
+          "settings": {
+            "heading": "What is a Sensory Deprivation Tank?",
+            "heading_size": "h1"
+          }
+        },
+        "text_pRccyE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>What is a Sensory Deprivation Tank? This specialized, lightproof, and soundproof environment is filled with 1,200 litres of pristine water and over 500kg of premium Epsom salts. This creates a hyper-buoyant space where you float effortlessly, regardless of your body type. However, not all sensory deprivation tanks in London are created equal.</p><p><a href=\"https://floathub.co.uk/book-now/\" target=\"_blank\">Book your session today</a> to experience the ultimate London reset.</p><p>At Float Hub Shoreditch, we use world-class pods featuring:</p><ul><li><strong>Zero-Gravity Buoyancy:</strong> Achieving total spinal decompression and joint relief.</li><li><strong>Oversize: </strong>All of our pods are large enough for two, and the only pods in London you step (rather than crouch & clamber) into.</li><li><strong>Environmental Control:</strong> You have full control over the internal pod lighting. While we manage the high-fidelity audio system for you, we can select from a range of curated acoustic journeys – from meditative soundscapes to total silence – to suit your session goals.</li><li><strong>1.5 ATA Compatibility:</strong> We are the only Shoreditch centre offering synergistic recovery with our new <a href=\"https://floathub.co.uk/hbot-london/\" target=\"_blank\">London Oxygen Suite</a>.</li></ul>"
+          }
+        },
+        "button_CWCY4h": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Your Session",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yeFU9f",
+        "text_pRccyE",
+        "button_CWCY4h"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_section_innerpage_banner_iEyrUn",
+    "rich_text_b89MYR"
+  ]
+}

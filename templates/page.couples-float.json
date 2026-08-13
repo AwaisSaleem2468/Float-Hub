@@ -58,7 +58,7 @@
         "heading_VG9WQG": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>What to Expect</strong>",
+            "heading": "What to Expect",
             "heading_size": "h1"
           }
         },
@@ -165,6 +165,7 @@
         "card_border": "#243044",
         "card_radius": 12,
         "card_padding": 16,
+        "show_icons": true,
         "icon_size": 40,
         "tip_title_size": 20,
         "tip_title_size_mobile": 16,
@@ -198,7 +199,7 @@
         "text_e6UnzQ": {
           "type": "text",
           "settings": {
-            "text": "<p>A couples float involves stepping into a spacious float tank or pod with your partner. Our tanks are meticulously maintained, filled with skin-temperature water and 550-575KG of Epsom salt. This creates a naturally buoyant, weightless environment that allows you to effortlessly float on the surface. Unlike a standard spa treatment, a float for two is about sensory deprivation, not distraction. It’s an hour dedicated to quiet, calm, and a shared space for internal exploration. It’s the perfect way for couples to hit the reset button, especially for those with busy lives, demanding jobs, or young children at home. Imagine 60 minutes of uninterrupted peace and quiet, shared with the person you love.</p>"
+            "text": "<p><strong>Your next date night in Shoreditch is waiting.</strong>Don’t just go to dinner—create a lasting memory. A couples float at<strong>Float Hub</strong>is a unique, powerful experience that brings you closer together. Our spots book up fast, especially on weekends and holidays.</p>"
           }
         }
       },
@@ -280,7 +281,7 @@
       "settings": {
         "heading": "How to Prepare for Your Float Hub Couples Float",
         "heading_accent": "",
-        "description": "<p>o ensure you have the best possible experience, here are a few simple tips to follow before your visit:<br/><br/></p>",
+        "description": "<p>To ensure you have the best possible experience, here are a few simple tips to follow before your visit:</p>",
         "description_size": 16,
         "title_align": "center",
         "heading_size_desktop": 36,
@@ -297,6 +298,7 @@
         "card_border": "#243044",
         "card_radius": 12,
         "card_padding": 16,
+        "show_icons": true,
         "icon_size": 40,
         "tip_title_size": 20,
         "tip_title_size_mobile": 16,
@@ -316,6 +318,188 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "custom_section_float_tip_ALpAby": {
+      "type": "custom-section-float-tip",
+      "blocks": {
+        "tip_fjxnfE": {
+          "type": "tip",
+          "settings": {
+            "icon": "bottle",
+            "title": "Shoreditch Street Art Tour: ",
+            "text": "<p>The creativity and mental clarity gained from a float session are the perfect complement to exploring the ever-changing, vibrant street art of Shoreditch.</p>"
+          }
+        },
+        "tip_4zhQ6H": {
+          "type": "tip",
+          "settings": {
+            "icon": "apple",
+            "title": "Mindful Walk in Shoreditch Park: ",
+            "text": "<p>Extend your post-float calm with a peaceful stroll through a nearby green space like Shoreditch Park or Hoxton Square Gardens.</p>"
+          }
+        },
+        "tip_6zBjzn": {
+          "type": "tip",
+          "settings": {
+            "icon": "return",
+            "title": "Couples Massage: ",
+            "text": "<p>Unwind and release physical tension before or after your float session with a couples massage.</p>"
+          }
+        },
+        "tip_eUgqKX": {
+          "type": "tip",
+          "settings": {
+            "icon": "shirt",
+            "title": "Browse Local Markets: ",
+            "text": "<p>Explore nearby markets like <strong>Old Spitalfields Market</strong> or <strong>Columbia Road Flower Market</strong> (on Sundays) for unique artisan goods, food, and a relaxed, creative atmosphere.</p>"
+          }
+        },
+        "tip_zx4U3Y": {
+          "type": "tip",
+          "settings": {
+            "icon": "perfume",
+            "title": "Enjoy a Post-Float Meal: ",
+            "text": "<p>While avoiding alcohol is key for maximizing sleep benefits, a float session pairs perfectly with a relaxed meal at one of Shoreditch’s incredible restaurants like <strong>Padella</strong> for pasta, <strong>Smokestak</strong> for a barbecue fix, or <strong>Dishoom</strong> for a memorable Indian feast.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tip_fjxnfE",
+        "tip_4zhQ6H",
+        "tip_6zBjzn",
+        "tip_eUgqKX",
+        "tip_zx4U3Y"
+      ],
+      "name": "Float Tips",
+      "settings": {
+        "heading": "The Perfect Combination: Floating with Local Shoreditch Activities",
+        "heading_accent": "",
+        "description": "<p>A couples float is the perfect starting point for a day of shared wellness. Many of our clients love to pair their float with:</p>",
+        "description_size": 16,
+        "title_align": "center",
+        "heading_size_desktop": 36,
+        "heading_size_tablet": 30,
+        "heading_size_mobile": 28,
+        "columns_desktop": 3,
+        "column_gap": 16,
+        "slide_gap": 12,
+        "card_min_height": 120,
+        "enable_autoplay": false,
+        "autoplay_speed": 5,
+        "header_gap": 40,
+        "card_bg": "#030915",
+        "card_border": "#243044",
+        "card_radius": 12,
+        "card_padding": 16,
+        "show_icons": false,
+        "icon_size": 40,
+        "tip_title_size": 20,
+        "tip_title_size_mobile": 16,
+        "tip_text_size": 14,
+        "tip_text_size_mobile": 14,
+        "button_label": "",
+        "button_link": "",
+        "button_alignment": "center",
+        "button_gap": 40,
+        "button_size": 16,
+        "button_radius": 8,
+        "bg_color": "#121a27",
+        "heading_color": "#ffffff",
+        "body_color": "#c8ced8",
+        "icon_color": "#c8ced8",
+        "accent_color": "#0daaef",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "rich_text_VCY8Lf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AdLn9i": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to Reconnect? Book Your Couples Float Today.",
+            "heading_size": "h1"
+          }
+        },
+        "text_xJUmH8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A couples float involves stepping into a spacious float tank or pod with your partner. Our tanks are meticulously maintained, filled with skin-temperature water and 550-575KG of Epsom salt. This creates a naturally buoyant, weightless environment that allows you to effortlessly float on the surface. Unlike a standard spa treatment, a float for two is about sensory deprivation, not distraction. It’s an hour dedicated to quiet, calm, and a shared space for internal exploration. It’s the perfect way for couples to hit the reset button, especially for those with busy lives, demanding jobs, or young children at home. Imagine 60 minutes of uninterrupted peace and quiet, shared with the person you love.</p>"
+          }
+        },
+        "button_yUnRaR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Your Couple Float Now",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AdLn9i",
+        "text_xJUmH8",
+        "button_yUnRaR"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "custom_section_small_banner_RDdBAQ": {
+      "type": "custom-section-small-banner",
+      "name": "Custom Small Banner",
+      "settings": {
+        "media_type": "video",
+        "image": "shopify://shop_images/float-hub--benefit.png",
+        "image_mobile": "shopify://shop_images/float-hub--benefit.png",
+        "image_fit": "cover",
+        "image_position": "top center",
+        "video": "shopify://files/videos/AQM9irMDVPSnxFB-hqE62AG8i68vwFaCI08_XqqjW_d_zqvu4myh-1uW5OnguAwtRFPZCwTeykMOj8-iwfrBABFC89R2OuMFtudiO-x_LzgxfA.mp4",
+        "video_mobile": "shopify://files/videos/(20+) Facebook.mp4",
+        "fallback_background": "#0daaef",
+        "section_height": 65,
+        "section_height_mobile": 70,
+        "enable_overlay": true,
+        "overlay_style": "dark",
+        "overlay_color": "#061018",
+        "overlay_opacity": 65,
+        "gradient_start": "#14b8a6",
+        "gradient_end": "#38bdf8",
+        "gradient_opacity": 60,
+        "eyebrow": "Now Open",
+        "eyebrow_size": 13,
+        "heading": "SHOREDITCH, LONDON",
+        "heading_size_desktop": 36,
+        "heading_size_mobile": 30,
+        "heading_weight": "700",
+        "address": "346 Old Street, Lower Ground Floor, London, EC1V 9NQ",
+        "phone": "+44 20 1234 5678",
+        "email": "team@floathub.co.uk",
+        "contact_size": 18,
+        "content_spacing": 24,
+        "button_label_1": "Contact Us",
+        "button_link_1": "",
+        "button_label_2": "Get Directions",
+        "secondary_opens_map": true,
+        "button_link_2": "",
+        "map_title": "SHOREDITCH, LONDON",
+        "map_address": "346 Old Street, Lower Ground Floor, London, EC1V 9NQ",
+        "button_size": 16,
+        "button_radius": 8,
+        "text_color": "#ffffff",
+        "accent_color": "#0daaef",
+        "content_width": 820
+      }
     }
   },
   "order": [
@@ -324,6 +508,9 @@
     "rich_text_jApPWK",
     "custom_section_float_tip_nKfVq3",
     "rich_text_qiEjFW",
-    "custom_section_float_tip_tVCcbV"
+    "custom_section_float_tip_tVCcbV",
+    "custom_section_float_tip_ALpAby",
+    "rich_text_VCY8Lf",
+    "custom_section_small_banner_RDdBAQ"
   ]
 }
