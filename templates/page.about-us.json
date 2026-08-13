@@ -155,12 +155,121 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "custom_section_gallery_hGTJgP": {
+      "type": "custom-section-gallery",
+      "blocks": {
+        "image_y9GMwp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/photo0jpg.jpg",
+            "caption": ""
+          }
+        },
+        "image_3ENyAY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Float-Hub-Float-Center-18-London.jpg",
+            "caption": ""
+          }
+        },
+        "image_iUjW7H": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Float-Hub-Float-Center-19-London.jpg",
+            "caption": ""
+          }
+        },
+        "image_CiQWAG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/a-selection-of-reading.jpg",
+            "caption": ""
+          }
+        },
+        "image_63J6Ka": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/we-ve-worked-to-create.jpg",
+            "caption": ""
+          }
+        },
+        "image_bQXqFq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Float-Hub-Float-Center-17-London.jpg",
+            "caption": ""
+          }
+        },
+        "image_YPxyt6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Float-Hub-Float-Center-15-London.jpg",
+            "caption": ""
+          }
+        },
+        "image_jJJCU6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Float-Hub-Float-Center-10-London.jpg",
+            "caption": ""
+          }
+        },
+        "image_fFMHnk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Float-Hub-Float-Center-11-London_adf576f2-921c-4f3a-a86c-555b93d39e52.jpg",
+            "caption": ""
+          }
+        },
+        "image_gYdEEh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/caption.jpg",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_y9GMwp",
+        "image_3ENyAY",
+        "image_iUjW7H",
+        "image_CiQWAG",
+        "image_63J6Ka",
+        "image_bQXqFq",
+        "image_YPxyt6",
+        "image_jJJCU6",
+        "image_fFMHnk",
+        "image_gYdEEh"
+      ],
+      "name": "Custom Gallery",
+      "settings": {
+        "subtitle": "",
+        "heading": "Our float center is meticulously engineered for your rest.",
+        "heading_size_desktop": 42,
+        "heading_size_mobile": 32,
+        "subtitle_size": 14,
+        "header_spacing": 40,
+        "grid_gap": 16,
+        "image_radius": 12,
+        "large_image_ratio": "1 / 1",
+        "side_padding": 0,
+        "background_color": "#121a27",
+        "text_color": "#ffffff",
+        "accent_color": "#0daaef",
+        "lightbox_background": "#121a27",
+        "control_color": "#c8ced8",
+        "content_width": 1000,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
     "main",
     "custom_section_innerpage_banner_6tmC4g",
     "rich_text_Y83DQw",
-    "custom_section_img_with_text_8e3bzH"
+    "custom_section_img_with_text_8e3bzH",
+    "custom_section_gallery_hGTJgP"
   ]
 }
