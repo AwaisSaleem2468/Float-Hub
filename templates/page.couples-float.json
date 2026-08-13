@@ -165,6 +165,7 @@
         "card_border": "#243044",
         "card_radius": 12,
         "card_padding": 16,
+        "show_icons": true,
         "icon_size": 40,
         "tip_title_size": 20,
         "tip_title_size_mobile": 16,
@@ -297,6 +298,7 @@
         "card_border": "#243044",
         "card_radius": 12,
         "card_padding": 16,
+        "show_icons": true,
         "icon_size": 40,
         "tip_title_size": 20,
         "tip_title_size_mobile": 16,
@@ -324,48 +326,40 @@
           "type": "tip",
           "settings": {
             "icon": "bottle",
-            "title": "Stay Hydrated",
-            "text": "<p>Drink plenty of water throughout the day leading up to your float.</p>"
+            "title": "Shoreditch Street Art Tour: ",
+            "text": "<p>The creativity and mental clarity gained from a float session are the perfect complement to exploring the ever-changing, vibrant street art of Shoreditch.</p>"
           }
         },
         "tip_4zhQ6H": {
           "type": "tip",
           "settings": {
             "icon": "apple",
-            "title": "Lightly Eat",
-            "text": "<p>Avoid a heavy meal right before your session, but don’t arrive on a completely empty stomach.</p>"
+            "title": "Mindful Walk in Shoreditch Park: ",
+            "text": "<p>Extend your post-float calm with a peaceful stroll through a nearby green space like Shoreditch Park or Hoxton Square Gardens.</p>"
           }
         },
         "tip_6zBjzn": {
           "type": "tip",
           "settings": {
             "icon": "return",
-            "title": "Avoid Caffeine and Alcohol",
-            "text": "<p>These substances can interfere with your ability to fully relax and let go.</p>"
+            "title": "Couples Massage: ",
+            "text": "<p>Unwind and release physical tension before or after your float session with a couples massage.</p>"
           }
         },
         "tip_eUgqKX": {
           "type": "tip",
           "settings": {
             "icon": "shirt",
-            "title": "Wear Comfortable Clothing: ",
-            "text": "<p>Come in loose, comfortable clothes for your pre- and post-float relaxation.</p>"
+            "title": "Browse Local Markets: ",
+            "text": "<p>Explore nearby markets like <strong>Old Spitalfields Market</strong> or <strong>Columbia Road Flower Market</strong> (on Sundays) for unique artisan goods, food, and a relaxed, creative atmosphere.</p>"
           }
         },
         "tip_zx4U3Y": {
           "type": "tip",
           "settings": {
             "icon": "perfume",
-            "title": "Leave Fragrances Behind: ",
-            "text": "<p>Avoid using lotions, perfumes, or heavy makeup as these can impact the water quality.</p>"
-          }
-        },
-        "tip_jmgwzx": {
-          "type": "tip",
-          "settings": {
-            "icon": "heart",
-            "title": "Embrace the Unknown: ",
-            "text": "<p>Your first float may feel a little strange, but approaching it with an open mind will allow you to surrender to the experience and its incredible benefits.</p>"
+            "title": "Enjoy a Post-Float Meal: ",
+            "text": "<p>While avoiding alcohol is key for maximizing sleep benefits, a float session pairs perfectly with a relaxed meal at one of Shoreditch’s incredible restaurants like <strong>Padella</strong> for pasta, <strong>Smokestak</strong> for a barbecue fix, or <strong>Dishoom</strong> for a memorable Indian feast.</p>"
           }
         }
       },
@@ -374,8 +368,7 @@
         "tip_4zhQ6H",
         "tip_6zBjzn",
         "tip_eUgqKX",
-        "tip_zx4U3Y",
-        "tip_jmgwzx"
+        "tip_zx4U3Y"
       ],
       "name": "Float Tips",
       "settings": {
@@ -398,6 +391,7 @@
         "card_border": "#243044",
         "card_radius": 12,
         "card_padding": 16,
+        "show_icons": false,
         "icon_size": 40,
         "tip_title_size": 20,
         "tip_title_size_mobile": 16,
@@ -409,7 +403,7 @@
         "button_gap": 40,
         "button_size": 16,
         "button_radius": 8,
-        "bg_color": "#121A27",
+        "bg_color": "#121a27",
         "heading_color": "#ffffff",
         "body_color": "#c8ced8",
         "icon_color": "#c8ced8",
