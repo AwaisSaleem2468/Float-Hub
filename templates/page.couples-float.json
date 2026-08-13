@@ -222,7 +222,7 @@
         "tip_VyhgJW": {
           "type": "tip",
           "settings": {
-            "icon": "lightning_bolt",
+            "icon": "bottle",
             "title": "Stay Hydrated",
             "text": "<p>Drink plenty of water throughout the day leading up to your float.</p>"
           }
@@ -230,7 +230,7 @@
         "tip_3eHCM9": {
           "type": "tip",
           "settings": {
-            "icon": "heart",
+            "icon": "apple",
             "title": "Lightly Eat",
             "text": "<p>Avoid a heavy meal right before your session, but don’t arrive on a completely empty stomach.</p>"
           }
@@ -238,7 +238,7 @@
         "tip_WCAdVb": {
           "type": "tip",
           "settings": {
-            "icon": "snowflake",
+            "icon": "return",
             "title": "Avoid Caffeine and Alcohol",
             "text": "<p>These substances can interfere with your ability to fully relax and let go.</p>"
           }
@@ -246,7 +246,7 @@
         "tip_9ek4HP": {
           "type": "tip",
           "settings": {
-            "icon": "face",
+            "icon": "shirt",
             "title": "Wear Comfortable Clothing: ",
             "text": "<p>Come in loose, comfortable clothes for your pre- and post-float relaxation.</p>"
           }
@@ -254,8 +254,7 @@
         "tip_g4ifiG": {
           "type": "tip",
           "settings": {
-            "icon": "swim",
-            "custom_icon": "shopify://shop_images/benefits-icon-_7.png",
+            "icon": "perfume",
             "title": "Leave Fragrances Behind: ",
             "text": "<p>Avoid using lotions, perfumes, or heavy makeup as these can impact the water quality.</p>"
           }
