@@ -215,6 +215,108 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "custom_section_float_tip_tVCcbV": {
+      "type": "custom-section-float-tip",
+      "blocks": {
+        "tip_VyhgJW": {
+          "type": "tip",
+          "settings": {
+            "icon": "lightning_bolt",
+            "title": "Stay Hydrated",
+            "text": "<p>Drink plenty of water throughout the day leading up to your float.</p>"
+          }
+        },
+        "tip_3eHCM9": {
+          "type": "tip",
+          "settings": {
+            "icon": "heart",
+            "title": "Lightly Eat",
+            "text": "<p>Avoid a heavy meal right before your session, but don’t arrive on a completely empty stomach.</p>"
+          }
+        },
+        "tip_WCAdVb": {
+          "type": "tip",
+          "settings": {
+            "icon": "snowflake",
+            "title": "Avoid Caffeine and Alcohol",
+            "text": "<p>These substances can interfere with your ability to fully relax and let go.</p>"
+          }
+        },
+        "tip_9ek4HP": {
+          "type": "tip",
+          "settings": {
+            "icon": "face",
+            "title": "Wear Comfortable Clothing: ",
+            "text": "<p>Come in loose, comfortable clothes for your pre- and post-float relaxation.</p>"
+          }
+        },
+        "tip_g4ifiG": {
+          "type": "tip",
+          "settings": {
+            "icon": "swim",
+            "custom_icon": "shopify://shop_images/benefits-icon-_7.png",
+            "title": "Leave Fragrances Behind: ",
+            "text": "<p>Avoid using lotions, perfumes, or heavy makeup as these can impact the water quality.</p>"
+          }
+        },
+        "tip_ckLQaY": {
+          "type": "tip",
+          "settings": {
+            "icon": "heart",
+            "title": "Embrace the Unknown: ",
+            "text": "<p>Your first float may feel a little strange, but approaching it with an open mind will allow you to surrender to the experience and its incredible benefits.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tip_VyhgJW",
+        "tip_3eHCM9",
+        "tip_WCAdVb",
+        "tip_9ek4HP",
+        "tip_g4ifiG",
+        "tip_ckLQaY"
+      ],
+      "name": "Float Tips",
+      "settings": {
+        "heading": "How to Prepare for Your Float Hub Couples Float",
+        "heading_accent": "",
+        "description": "<p>o ensure you have the best possible experience, here are a few simple tips to follow before your visit:<br/><br/></p>",
+        "description_size": 16,
+        "title_align": "center",
+        "heading_size_desktop": 36,
+        "heading_size_tablet": 30,
+        "heading_size_mobile": 28,
+        "columns_desktop": 3,
+        "column_gap": 16,
+        "slide_gap": 12,
+        "card_min_height": 180,
+        "enable_autoplay": false,
+        "autoplay_speed": 5,
+        "header_gap": 40,
+        "card_bg": "#121a27",
+        "card_border": "#243044",
+        "card_radius": 12,
+        "card_padding": 16,
+        "icon_size": 40,
+        "tip_title_size": 20,
+        "tip_title_size_mobile": 16,
+        "tip_text_size": 14,
+        "tip_text_size_mobile": 14,
+        "button_label": "",
+        "button_link": "",
+        "button_alignment": "center",
+        "button_gap": 40,
+        "button_size": 16,
+        "button_radius": 8,
+        "bg_color": "#040b16",
+        "heading_color": "#ffffff",
+        "body_color": "#c8ced8",
+        "icon_color": "#c8ced8",
+        "accent_color": "#0daaef",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -222,6 +324,7 @@
     "custom_section_innerpage_banner_GXGNag",
     "rich_text_jApPWK",
     "custom_section_float_tip_nKfVq3",
-    "rich_text_qiEjFW"
+    "rich_text_qiEjFW",
+    "custom_section_float_tip_tVCcbV"
   ]
 }
