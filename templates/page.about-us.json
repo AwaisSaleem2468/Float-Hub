@@ -324,6 +324,43 @@
         "padding_bottom": 80
       }
     },
+    "custom_section_img_with_text_VMa8rf": {
+      "type": "custom-section-img-with-text",
+      "name": "Custom Img with text",
+      "settings": {
+        "image": "shopify://shop_images/622435122_17995071761880493_1454273044264578395_n_1.jpg",
+        "layout": "right",
+        "image_width": "medium",
+        "image_height": "adapt",
+        "image_fixed_height": 600,
+        "image_radius": 12,
+        "mobile_image_first": true,
+        "subtitle": "",
+        "subtitle_size": 12,
+        "heading": "Feel Good.",
+        "heading_accent": "Do Good.",
+        "heading_size_desktop": 42,
+        "heading_size_mobile": 32,
+        "description": "<p>The Blue Light Card discount gives you a 30% discount on single float sessions, 30% discount on single red light sessions, and 20% discount on float-for-two sessions</p><p>We acknowledge that emergency service workers work extremely hard to keep us safe & well. This is our way of saying thank you!</p><p>Please note that discounted sessions are for the cardholder only. Any sessions purchased for anyone other than the card holder will be charged at full price.</p><p>For more information, please visit our <a href=\"https://floathub.co.uk/faq/\">FAQ</a> page</p><p>Please feel free to get in touch via manager@floathub.co.uk</p>",
+        "description_size": 16,
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "button_label_1": "",
+        "button_link_1": "",
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_size": 16,
+        "button_radius": 10,
+        "background_color": "#121a27",
+        "text_color": "#ffffff",
+        "muted_color": "#c8ced8",
+        "accent_color": "#23a3df",
+        "content_width": 1200,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "custom_section_small_banner_Rpc8EA": {
       "type": "custom-section-small-banner",
       "name": "Custom Small Banner",
@@ -377,6 +414,7 @@
     "rich_text_Y83DQw",
     "custom_section_img_with_text_8e3bzH",
     "custom_section_gallery_hGTJgP",
+    "custom_section_img_with_text_VMa8rf",
     "custom_section_small_banner_Rpc8EA"
   ]
 }
