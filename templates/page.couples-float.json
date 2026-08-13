@@ -13,6 +13,23 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "content_width": "page",
+        "text_alignment": "left",
+        "show_title": true,
+        "title_size": 48,
+        "title_size_mobile": 32,
+        "title_spacing": 32,
+        "rte_heading_size": 28,
+        "rte_heading_size_mobile": 22,
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "text_line_height": "1.7",
+        "background_color": "#070d16",
+        "title_color": "#ffffff",
+        "text_color": "#a8b0bd",
+        "muted_color": "#8b93a1",
+        "link_color": "#0daaef",
+        "link_hover_color": "#22d3ee",
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -58,8 +75,7 @@
         "heading_VG9WQG": {
           "type": "heading",
           "settings": {
-            "heading": "What to Expect",
-            "heading_size": "h1"
+            "heading": "What to Expect"
           }
         },
         "text_7kMGFH": {
@@ -77,8 +93,28 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-3",
         "full_width": true,
+        "content_max_width": 1400,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 40,
+        "heading_size_mobile": 28,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "button_size": 15,
+        "button_radius": 40,
+        "background_color": "#070d16",
+        "heading_color": "#ffffff",
+        "caption_color": "#0daaef",
+        "text_color": "#a8b0bd",
+        "link_color": "#0daaef",
+        "button_text_color": "#ffffff",
+        "button_secondary_text_color": "#ffffff",
+        "button_secondary_border_color": "#ffffff",
         "padding_top": 80,
         "padding_bottom": 80
       }
@@ -192,8 +228,7 @@
         "heading_n86Xd3": {
           "type": "heading",
           "settings": {
-            "heading": "What is a Couples Float? A Unique Shared Experience",
-            "heading_size": "h1"
+            "heading": "What is a Couples Float? A Unique Shared Experience"
           }
         },
         "text_e6UnzQ": {
@@ -211,8 +246,28 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-3",
         "full_width": true,
+        "content_max_width": 800,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 40,
+        "heading_size_mobile": 28,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "button_size": 15,
+        "button_radius": 40,
+        "background_color": "#070d16",
+        "heading_color": "#ffffff",
+        "caption_color": "#0daaef",
+        "text_color": "#a8b0bd",
+        "link_color": "#0daaef",
+        "button_text_color": "#ffffff",
+        "button_secondary_text_color": "#ffffff",
+        "button_secondary_border_color": "#ffffff",
         "padding_top": 80,
         "padding_bottom": 80
       }
@@ -418,8 +473,7 @@
         "heading_AdLn9i": {
           "type": "heading",
           "settings": {
-            "heading": "Ready to Reconnect? Book Your Couples Float Today.",
-            "heading_size": "h1"
+            "heading": "Ready to Reconnect? Book Your Couples Float Today."
           }
         },
         "text_xJUmH8": {
@@ -449,8 +503,28 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-4",
         "full_width": true,
+        "content_max_width": 900,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 40,
+        "heading_size_mobile": 28,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "button_size": 15,
+        "button_radius": 40,
+        "background_color": "#070d16",
+        "heading_color": "#ffffff",
+        "caption_color": "#0daaef",
+        "text_color": "#a8b0bd",
+        "link_color": "#0daaef",
+        "button_text_color": "#ffffff",
+        "button_secondary_text_color": "#ffffff",
+        "button_secondary_border_color": "#ffffff",
         "padding_top": 80,
         "padding_bottom": 80
       }
