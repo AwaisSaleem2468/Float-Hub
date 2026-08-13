@@ -289,7 +289,7 @@
         "columns_desktop": 3,
         "column_gap": 16,
         "slide_gap": 12,
-        "card_min_height": 180,
+        "card_min_height": 120,
         "enable_autoplay": false,
         "autoplay_speed": 5,
         "header_gap": 40,
