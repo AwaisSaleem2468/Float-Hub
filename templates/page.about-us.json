@@ -41,7 +41,7 @@
         "media_type": "image",
         "image": "shopify://shop_images/FloatHub-London-Shoreditch-Orbit-Float-Pod-Float-Therapy.jpg",
         "overlay_color": "#061018",
-        "overlay_opacity": 30,
+        "overlay_opacity": 50,
         "section_height": 60,
         "section_height_mobile": 65,
         "show_badge": false,
