@@ -118,11 +118,11 @@
         "text_size_mobile": 15,
         "button_size": 16,
         "button_radius": 8,
-        "background_color": "#121A27",
+        "background_color": "#121a27",
         "heading_color": "#ffffff",
-        "caption_color": "#23A3DF",
-        "text_color": "#C8CED8",
-        "link_color": "#23A3DF",
+        "caption_color": "#23a3df",
+        "text_color": "#c8ced8",
+        "link_color": "#23a3df",
         "button_text_color": "#ffffff",
         "button_secondary_text_color": "#ffffff",
         "button_secondary_border_color": "#ffffff",
@@ -181,9 +181,70 @@
         "button_radius": 40,
         "background_color": "#030915",
         "heading_color": "#ffffff",
-        "caption_color": "#23A3DF",
-        "text_color": "#C8CED8",
-        "link_color": "#23A3DF",
+        "caption_color": "#23a3df",
+        "text_color": "#c8ced8",
+        "link_color": "#23a3df",
+        "button_text_color": "#ffffff",
+        "button_secondary_text_color": "#ffffff",
+        "button_secondary_border_color": "#ffffff",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "rich_text_EeCNyk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_y7yF7G": {
+          "type": "heading",
+          "settings": {
+            "heading": "What is a Sensory Deprivation Tank?"
+          }
+        },
+        "text_wHt8yz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Recent 2025-2026 studies continue to validate what our clients feel every day. Floating isn’t just “relaxing”—it’s biological optimization.</p><h4><strong>1. Anxiety & Stress Management</strong></h4><p>Clinical research shows that Floatation-REST significantly reduces <strong>cortisol</strong> (the stress hormone). For those seeking deeper mental health support, we often recommend combining floats with <a href=\"https://floathub.co.uk/how-full-body-red-light-therapy-can-help-with-anxiety/\" target=\"_blank\">Red Light Therapy for Anxiety</a> to reset the autonomic nervous system and lower “state anxiety.”</p><p>The absolute silence of the tank cuts out external stimuli, giving an overstimulated nervous system a much-needed chance to reset. This sensory reset has proven highly effective for neurodivergent minds; explore how the tank can assist with sensory processing in our article on <a href=\"https://floathub.co.uk/adhd-and-float-therapy-london/\" target=\"_blank\">ADHD and float therapy</a>.</p><h4><strong>2. Athletic Recovery & Physical Repair</strong></h4><p>Lactic acid clearing happens twice as fast inside the tank due to improved blood circulation and complete muscle decompression. For athletes looking to dramatically cut down down-time between heavy training blocks, you can read our clinical breakdown on accelerating <a href=\"https://floathub.co.uk/doms-recovery-london/\" target=\"_blank\">DOMS recovery in London</a>.</p><p>The high magnesium content in the water is absorbed through the skin, aiding in muscle protein synthesis and reducing inflammation. To explore the deep physiological data behind these shifts, read more on the <a href=\"https://floathub.co.uk/what-are-the-benefits-of-floating/\" target=\"_blank\">proven science of float therapy</a>.</p><h4><strong>3. Enhanced Sleep Quality & Circadian Reset</strong></h4><p>Slowing down your brain waves into a deep Theta state prepares the mind for deep REM cycles long after you leave the center. If you are struggling with disrupted sleep patterns or sleepless nights, learn about the long-term benefits in our guide to <a href=\"https://floathub.co.uk/float-therapy-and-sleep/\" target=\"_blank\">float therapy and sleep</a>.</p><p>One hour in a pod can feel as restorative as 4-6 hours of deep sleep. By dampening the “noise” of the modern world, your brain can reset its internal clock, helping with insomnia and jet lag. Many professionals use our suites specifically for <a href=\"https://floathub.co.uk/float-therapy-london-burnout/\">recovery from burnout</a> caused by the intensity of London commuting.</p><h4>4. Pain Relief</h4><p>The high concentration of Epsom salts not only keeps you buoyant but is absorbed transdermally to alleviate painful, inflamed joints. Many individuals dealing with persistent discomfort find lasting relief here; read more about managing long-term symptoms in our detailed review of <a href=\"https://floathub.co.uk/float-therapy-for-chronic-pain-relief-londoners-find-solace-in-the-tank/\" target=\"_blank\">float therapy for chronic pain relief</a>.</p><p>By removing the constant strain of gravity, floating allows the muscles surrounding your spine to fully relax. For a deeper look at how weightlessness relieves lumbar pressure, see our clinical guide on how <a href=\"https://floathub.co.uk/does-float-therapy-reduce-back-pain/\" target=\"_blank\">float therapy reduces back pain.</a></p><h4>5. Nervous System Support</h4><p>Floating triggers a shift from the sympathetic ‘fight-or-flight’ state into the parasympathetic nervous system, lowering your heart rate and blood pressure. This process is deeply connected to resetting your body’s stress response; find out more about the biological mechanisms in our post on <a href=\"https://floathub.co.uk/vagus-nerve-stimulation-london/\" target=\"_blank\">vagus nerve stimulation</a>.</p>"
+          }
+        },
+        "button_b7GMQg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Your Session",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_y7yF7G",
+        "text_wHt8yz",
+        "button_b7GMQg"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "full_width": true,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "button_size": 16,
+        "button_radius": 8,
+        "background_color": "#121a27",
+        "heading_color": "#ffffff",
+        "caption_color": "#23a3df",
+        "text_color": "#c8ced8",
+        "link_color": "#23a3df",
         "button_text_color": "#ffffff",
         "button_secondary_text_color": "#ffffff",
         "button_secondary_border_color": "#ffffff",
@@ -196,6 +257,7 @@
     "main",
     "custom_section_innerpage_banner_iEyrUn",
     "rich_text_b89MYR",
-    "rich_text_DiY63V"
+    "rich_text_DiY63V",
+    "rich_text_EeCNyk"
   ]
 }
