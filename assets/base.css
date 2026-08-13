@@ -3639,5 +3639,5 @@ details-disclosure > details {
 
 /*---- custom Css ----*/
 .rte ul, .rte ol {
-    margin: 0;
+    padding: 0 ;
 }
