@@ -9,6 +9,41 @@
  */
 {
   "sections": {
+    "custom_section_innerpage_banner_iHR9VB": {
+      "type": "custom-section-innerpage-banner",
+      "name": "Custom Innerpage Banner",
+      "settings": {
+        "media_type": "image",
+        "image": "shopify://shop_images/FloatHub-Float-Therapy-Floatation-Tank-London-Woman-Floating-Shoreditch-VD.jpg",
+        "overlay_color": "#061018",
+        "overlay_opacity": 50,
+        "section_height": 50,
+        "section_height_mobile": 60,
+        "show_badge": false,
+        "badge_text": "",
+        "eyebrow": "",
+        "eyebrow_size": 13,
+        "heading": "Why Choose Float Hub?",
+        "heading_accent": "",
+        "heading_size_desktop": 48,
+        "heading_size_mobile": 36,
+        "description": "",
+        "description_size_desktop": 16,
+        "description_size_mobile": 14,
+        "button_label_1": "",
+        "button_link_1": "",
+        "show_button_arrow": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "text_color": "#ffffff",
+        "accent_color": "#0daaef",
+        "badge_color": "#d4af37",
+        "content_position_horizontal": "center",
+        "content_position_vertical": "middle",
+        "text_alignment": "center",
+        "content_width": 1400
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -23,18 +58,19 @@
         "text_size": 16,
         "text_size_mobile": 15,
         "text_line_height": "1.7",
-        "background_color": "#070D16",
-        "title_color": "#FFFFFF",
-        "text_color": "#A8B0BD",
-        "muted_color": "#8B93A1",
-        "link_color": "#0DAAEF",
+        "background_color": "#070d16",
+        "title_color": "#ffffff",
+        "text_color": "#a8b0bd",
+        "muted_color": "#8b93a1",
+        "link_color": "#0daaef",
         "link_hover_color": "#22d3ee",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     }
   },
   "order": [
+    "custom_section_innerpage_banner_iHR9VB",
     "main"
   ]
 }
