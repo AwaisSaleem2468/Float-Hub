@@ -22,10 +22,10 @@
       "name": "Custom Innerpage Banner",
       "settings": {
         "media_type": "image",
-        "image": "shopify://shop_images/PCH_3785-scaled.jpg",
+        "image": "shopify://shop_images/624344820_18092284364506610_1147918721492103347_n_1.jpg",
         "overlay_color": "#061018",
-        "overlay_opacity": 50,
-        "section_height": 60,
+        "overlay_opacity": 0,
+        "section_height": 65,
         "section_height_mobile": 65,
         "show_badge": false,
         "badge_text": "200+ Five-Star Reviews | London's #1",
