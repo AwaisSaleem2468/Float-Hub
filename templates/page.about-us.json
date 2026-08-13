@@ -68,10 +68,97 @@
         "text_alignment": "center",
         "content_width": 1400
       }
+    },
+    "custom_section_richtext_6adtkr": {
+      "type": "custom-section-richtext",
+      "name": "Custom Rich Text",
+      "settings": {
+        "show_badge": true,
+        "show_stars": true,
+        "badge_text": "21K+ Happy Customers",
+        "badge_size_desktop": 16,
+        "badge_size_mobile": 14,
+        "badge_spacing": 28,
+        "content": "<p>With more than 575kg of high-quality epsom salt, you will float <em>effortlessly </em>in the waters of our spacious float pods for 60 minutes with no light, sound, or external pressures to refresh your mind and restore your health to new levels.</p>",
+        "text_size_desktop": 18,
+        "text_size_mobile": 16,
+        "content_width": 760,
+        "background_color": "#0f1827",
+        "text_color": "#c8ced8",
+        "strong_color": "#ffffff",
+        "badge_background": "#243044",
+        "badge_text_color": "#c8ced8",
+        "star_color": "#f5c518",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "rich_text_Y83DQw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CcPkk6": {
+          "type": "heading",
+          "settings": {
+            "heading": "More than 50% of people in Britain struggle with sleep and getting proper rest."
+          }
+        },
+        "text_xYqgGA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>This is the data from one of the</em><a href=\"https://www.theguardian.com/uk/2011/nov/13/insomnia-health-warning-sleep-survey\" target=\"_blank\"><em>largest survey’s done</em></a><em>on sleep in the UK and our mission is to help facilitate deep rest and restorative sleep once again.</em></p>"
+          }
+        },
+        "button_EnnDGG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_CcPkk6",
+        "text_xYqgGA",
+        "button_EnnDGG"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 40,
+        "heading_size_mobile": 28,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "button_size": 15,
+        "button_radius": 40,
+        "background_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "caption_color": "#0DAAEF",
+        "text_color": "#A8B0BD",
+        "link_color": "#0DAAEF",
+        "button_text_color": "#FFFFFF",
+        "button_secondary_text_color": "#FFFFFF",
+        "button_secondary_border_color": "#FFFFFF",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "custom_section_innerpage_banner_6tmC4g"
+    "custom_section_innerpage_banner_6tmC4g",
+    "custom_section_richtext_6adtkr",
+    "rich_text_Y83DQw"
   ]
 }
