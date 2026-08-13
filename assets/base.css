@@ -3641,3 +3641,6 @@ details-disclosure > details {
 .rte ul, .rte ol {
     padding: 0 ;
 }
+.rte ul li , .rte ol li{
+  margin-bottom: 8px;
+}
