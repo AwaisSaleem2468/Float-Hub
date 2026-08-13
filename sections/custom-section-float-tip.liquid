@@ -1,75 +1,3 @@
-{%- comment -%} Float tips slideshow {%- endcomment -%}
-
-{%- capture icon_coffee -%}
-  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-    <path d="M7 9h8a3 3 0 0 1 3 3v1a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4v-1a3 3 0 0 1 3-3Z" stroke="currentColor" stroke-width="1.5"/>
-    <path d="M18 10.5h1.2A2.8 2.8 0 0 1 22 13.3v0A2.8 2.8 0 0 1 19.2 16H18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-    <path d="M9 4.5c.4.8.4 1.6 0 2.4M12 4c.5.9.5 1.9 0 2.8M15 4.5c.4.8.4 1.6 0 2.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-    <path d="M6 20h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-  </svg>
-{%- endcapture -%}
-
-{%- capture icon_water -%}
-  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-    <path d="M8 4h8l1 16H7L8 4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-    <path d="M8.5 10h7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-    <path d="M10 14.5c.8 1.2 1.6 1.2 2.4 0s1.6-1.2 2.4 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-  </svg>
-{%- endcapture -%}
-
-{%- capture icon_apple -%}
-  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-    <path d="M12 7c1.2-2 2.8-3 4.5-3-0.2 2-1.4 3.4-3.2 4.2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-    <path d="M12 8c-2.8 0-6 2.4-6 6.4C6 18.4 8.5 21 12 21s6-2.6 6-6.6C18 10.4 14.8 8 12 8Z" stroke="currentColor" stroke-width="1.5"/>
-  </svg>
-{%- endcapture -%}
-
-{%- capture icon_face -%}
-  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-    <path d="M8 10c0-2.8 2-5 4.5-5S17 7.2 17 10c0 4-1.5 7.5-5 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-    <path d="M10.5 11.2h.01M14 11.2h.01" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-    <path d="M9.5 15.2c.8.9 1.8 1.3 3 1.3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-    <path d="M8.2 17.8c1.1 1.1 2.4 1.7 4.1 1.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-  </svg>
-{%- endcapture -%}
-
-{%- capture icon_swim -%}
-  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-    <path d="M7 9.5h10l1 3.5H6L7 9.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-    <path d="M8 13v4.5c0 .8.7 1.5 1.5 1.5h1.2c.6 0 1.1-.3 1.3-.9L13 13M16 13v4.5c0 .8-.7 1.5-1.5 1.5h-.8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-    <path d="M10 9.5V8.2c0-.7.5-1.2 1.2-1.2h1.6c.7 0 1.2.5 1.2 1.2v1.3" stroke="currentColor" stroke-width="1.5"/>
-  </svg>
-{%- endcapture -%}
-
-{%- capture icon_clock -%}
-  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-    <circle cx="12" cy="13" r="7.5" stroke="currentColor" stroke-width="1.5"/>
-    <path d="M12 9.5v4l2.5 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M10 4h4M12 4v1.5M9 20.5l-1.2 1M15 20.5l1.2 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-  </svg>
-{%- endcapture -%}
-
-{%- capture icon_breath -%}
-  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-    <path d="M8.5 7.5A5.5 5.5 0 1 1 7.5 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-    <path d="M15.5 16.5A5.5 5.5 0 1 1 16.5 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-    <path d="M8.2 15.2 6 17.5M15.8 8.8 18 6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-  </svg>
-{%- endcapture -%}
-
-{%- capture icon_arm -%}
-  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-    <path d="M8.5 14.5c-1.4-1-2-2.4-2-4.1C6.5 7.6 8.4 5.5 11 5.5c1.8 0 3.1.9 3.8 2.2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-    <path d="M10 14.8c.4 2.2 1.7 3.7 3.8 4.7 1.5.7 3.2.5 4.2-.6.7-.8.6-1.9-.2-2.5-.5-.4-1.2-.3-1.7.1l-1.4 1.1c-.3-.9-.3-1.9.1-2.9.5-1.3.3-2.5-.6-3.3-1.2-1-3.1-.7-4.2.8L10 14.8Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-  </svg>
-{%- endcapture -%}
-
-{%- capture icon_heart -%}
-  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-    <path d="M12 19s-6.5-4.1-8.3-7.3C2.2 9.2 3.1 6.5 5.6 5.6c1.7-.6 3.5.1 4.5 1.5C11.1 5.7 12.9 5 14.6 5.6c2.5.9 3.4 3.6 1.9 6.1C14.7 14.9 12 19 12 19Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-  </svg>
-{%- endcapture -%}
-
 {% style %}
   #FloatTips-{{ section.id }} {
     --ft-bg: {{ section.settings.bg_color }};
@@ -117,6 +45,22 @@
     color: var(--ft-accent);
   }
 
+  #FloatTips-{{ section.id }} .float-tips__description {
+    margin: 1rem 0 0;
+    color: var(--ft-muted);
+    font-family: var(--font-body-family);
+    font-size: {{ section.settings.description_size }}px;
+    line-height: 1.6;
+  }
+
+  #FloatTips-{{ section.id }} .float-tips__description p {
+    margin: 0;
+  }
+
+  #FloatTips-{{ section.id }} .float-tips__description p + p {
+    margin-top: 0.65rem;
+  }
+
   #FloatTips-{{ section.id }} .float-tips__slider {
     position: relative;
     width: 100%;
@@ -159,6 +103,10 @@
     transition: border-color 0.2s ease, transform 0.2s ease;
   }
 
+  #FloatTips-{{ section.id }} .float-tips__item--no-icon {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   #FloatTips-{{ section.id }} .float-tips__item:hover {
     border-color: color-mix(in srgb, var(--ft-accent) 45%, var(--ft-card-border));
     transform: translateY(-2px);
@@ -174,7 +122,14 @@
     margin-top: 0.15rem;
   }
 
-  #FloatTips-{{ section.id }} .float-tips__icon svg,
+  #FloatTips-{{ section.id }} .float-tips__icon .svg-wrapper {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    color: inherit;
+  }
+
+  #FloatTips-{{ section.id }} .float-tips__icon .svg-wrapper svg,
   #FloatTips-{{ section.id }} .float-tips__icon img {
     display: block;
     width: 100%;
@@ -182,9 +137,9 @@
     object-fit: contain;
   }
 
-  #FloatTips-{{ section.id }} .float-tips__icon svg,
-  #FloatTips-{{ section.id }} .float-tips__icon svg * {
-    stroke: currentColor;
+  #FloatTips-{{ section.id }} .float-tips__icon .svg-wrapper svg,
+  #FloatTips-{{ section.id }} .float-tips__icon .svg-wrapper svg path {
+    fill: currentColor;
   }
 
   #FloatTips-{{ section.id }} .float-tips__content {
@@ -328,17 +283,25 @@
   data-autoplay-speed="{{ section.settings.autoplay_speed }}"
 >
   <div class="page-width">
-    {%- if section.settings.heading != blank or section.settings.heading_accent != blank -%}
+    {%- if section.settings.heading != blank or section.settings.heading_accent != blank or section.settings.description != blank -%}
       <div class="float-tips__header">
-        <h2 class="float-tips__heading">
-          {%- if section.settings.heading != blank -%}
-            <span>{{ section.settings.heading | escape }}</span>
-          {%- endif -%}
-          {%- if section.settings.heading_accent != blank -%}
-            {%- if section.settings.heading != blank %} {% endif -%}
-            <span class="float-tips__heading-accent">{{ section.settings.heading_accent | escape }}</span>
-          {%- endif -%}
-        </h2>
+        {%- if section.settings.heading != blank or section.settings.heading_accent != blank -%}
+          <h2 class="float-tips__heading">
+            {%- if section.settings.heading != blank -%}
+              <span>{{ section.settings.heading | escape }}</span>
+            {%- endif -%}
+            {%- if section.settings.heading_accent != blank -%}
+              {%- if section.settings.heading != blank %} {% endif -%}
+              <span class="float-tips__heading-accent">{{ section.settings.heading_accent | escape }}</span>
+            {%- endif -%}
+          </h2>
+        {%- endif -%}
+
+        {%- if section.settings.description != blank -%}
+          <div class="float-tips__description rte">
+            {{ section.settings.description }}
+          </div>
+        {%- endif -%}
       </div>
     {%- endif -%}
 
@@ -348,28 +311,46 @@
           <ul class="float-tips__track" data-float-tips-track role="list">
             {%- for block in section.blocks -%}
               <li class="float-tips__slide" {{ block.shopify_attributes }}>
-                <div class="float-tips__item">
-                  <div class="float-tips__icon">
-                    {%- if block.settings.custom_icon != blank -%}
-                      {{
-                        block.settings.custom_icon
-                        | image_url: width: 120
-                        | image_tag: loading: 'lazy', widths: '40, 60, 80, 120', sizes: '40px', alt: ''
-                      }}
-                    {%- else -%}
-                      {%- case block.settings.icon -%}
-                        {%- when 'water' -%}{{ icon_water }}
-                        {%- when 'apple' -%}{{ icon_apple }}
-                        {%- when 'face' -%}{{ icon_face }}
-                        {%- when 'swim' -%}{{ icon_swim }}
-                        {%- when 'clock' -%}{{ icon_clock }}
-                        {%- when 'breath' -%}{{ icon_breath }}
-                        {%- when 'arm' -%}{{ icon_arm }}
-                        {%- when 'heart' -%}{{ icon_heart }}
-                        {%- else -%}{{ icon_coffee }}
-                      {%- endcase -%}
-                    {%- endif -%}
-                  </div>
+                {%- liquid
+                  assign tip_icon = block.settings.icon
+                  case tip_icon
+                    when 'coffee'
+                      assign tip_icon = 'lightning_bolt'
+                    when 'water'
+                      assign tip_icon = 'snowflake'
+                    when 'face'
+                      assign tip_icon = 'silhouette'
+                    when 'swim'
+                      assign tip_icon = 'pants'
+                    when 'clock'
+                      assign tip_icon = 'stopwatch'
+                    when 'breath'
+                      assign tip_icon = 'return'
+                    when 'arm'
+                      assign tip_icon = 'shirt'
+                  endcase
+
+                  assign tip_has_icon = false
+                  if block.settings.custom_icon != blank
+                    assign tip_has_icon = true
+                  elsif tip_icon != blank and tip_icon != 'none'
+                    assign tip_has_icon = true
+                  endif
+                -%}
+                <div class="float-tips__item{% unless tip_has_icon %} float-tips__item--no-icon{% endunless %}">
+                  {%- if tip_has_icon -%}
+                    <div class="float-tips__icon">
+                      {%- if block.settings.custom_icon != blank -%}
+                        {{
+                          block.settings.custom_icon
+                          | image_url: width: 120
+                          | image_tag: loading: 'lazy', widths: '40, 60, 80, 120', sizes: '40px', alt: ''
+                        }}
+                      {%- else -%}
+                        {% render 'icon-accordion', icon: tip_icon %}
+                      {%- endif -%}
+                    </div>
+                  {%- endif -%}
 
                   <div class="float-tips__content">
                     {%- if block.settings.title != blank -%}
@@ -509,6 +490,22 @@
       "label": "Accent text",
       "default": "float experience",
       "info": "Shown in accent blue."
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>A few simple tips to help you get the most from every float session.</p>"
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "min": 13,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Description size",
+      "default": 16
     },
     {
       "type": "select",
@@ -833,25 +830,192 @@
         {
           "type": "select",
           "id": "icon",
-          "label": "Icon",
           "options": [
-            { "value": "coffee", "label": "Coffee / stimulants" },
-            { "value": "water", "label": "Water / hydrate" },
-            { "value": "apple", "label": "Apple / meal" },
-            { "value": "face", "label": "Face / shaving" },
-            { "value": "swim", "label": "Swimwear" },
-            { "value": "clock", "label": "Clock / time" },
-            { "value": "breath", "label": "Breath / focus" },
-            { "value": "arm", "label": "Arm / position" },
-            { "value": "heart", "label": "Heart / expectations" }
+            {
+              "value": "none",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__1.label"
+            },
+            {
+              "value": "apple",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__2.label"
+            },
+            {
+              "value": "banana",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__3.label"
+            },
+            {
+              "value": "bottle",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__4.label"
+            },
+            {
+              "value": "box",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__5.label"
+            },
+            {
+              "value": "carrot",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__6.label"
+            },
+            {
+              "value": "chat_bubble",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__7.label"
+            },
+            {
+              "value": "check_mark",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__8.label"
+            },
+            {
+              "value": "clipboard",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__9.label"
+            },
+            {
+              "value": "dairy",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__10.label"
+            },
+            {
+              "value": "dairy_free",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__11.label"
+            },
+            {
+              "value": "dryer",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__12.label"
+            },
+            {
+              "value": "eye",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__13.label"
+            },
+            {
+              "value": "fire",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__14.label"
+            },
+            {
+              "value": "gluten_free",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__15.label"
+            },
+            {
+              "value": "heart",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__16.label"
+            },
+            {
+              "value": "iron",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__17.label"
+            },
+            {
+              "value": "leaf",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__18.label"
+            },
+            {
+              "value": "leather",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__19.label"
+            },
+            {
+              "value": "lightning_bolt",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__20.label"
+            },
+            {
+              "value": "lipstick",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__21.label"
+            },
+            {
+              "value": "lock",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__22.label"
+            },
+            {
+              "value": "map_pin",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__23.label"
+            },
+            {
+              "value": "nut_free",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__24.label"
+            },
+            {
+              "value": "pants",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__25.label"
+            },
+            {
+              "value": "paw_print",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__26.label"
+            },
+            {
+              "value": "pepper",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__27.label"
+            },
+            {
+              "value": "perfume",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__28.label"
+            },
+            {
+              "value": "plane",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__29.label"
+            },
+            {
+              "value": "plant",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__30.label"
+            },
+            {
+              "value": "price_tag",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__31.label"
+            },
+            {
+              "value": "question_mark",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__32.label"
+            },
+            {
+              "value": "recycle",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__33.label"
+            },
+            {
+              "value": "return",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__34.label"
+            },
+            {
+              "value": "ruler",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__35.label"
+            },
+            {
+              "value": "serving_dish",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__36.label"
+            },
+            {
+              "value": "shirt",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__37.label"
+            },
+            {
+              "value": "shoe",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__38.label"
+            },
+            {
+              "value": "silhouette",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__39.label"
+            },
+            {
+              "value": "snowflake",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__40.label"
+            },
+            {
+              "value": "star",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__41.label"
+            },
+            {
+              "value": "stopwatch",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__42.label"
+            },
+            {
+              "value": "truck",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__43.label"
+            },
+            {
+              "value": "washing",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__44.label"
+            }
           ],
-          "default": "coffee"
+          "default": "check_mark",
+          "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.label"
         },
         {
           "type": "image_picker",
           "id": "custom_icon",
           "label": "Custom icon image",
-          "info": "Optional. Overrides the built-in icon."
+          "info": "Optional. Overrides the selected Dawn icon."
         },
         {
           "type": "text",
@@ -876,7 +1040,7 @@
         {
           "type": "tip",
           "settings": {
-            "icon": "coffee",
+            "icon": "lightning_bolt",
             "title": "No Stimulants",
             "text": "<p>Avoid caffeine and other stimulants before your float to make it easier for your body and mind to relax.</p>"
           }
@@ -884,7 +1048,7 @@
         {
           "type": "tip",
           "settings": {
-            "icon": "water",
+            "icon": "snowflake",
             "title": "Be Hydrated",
             "text": "<p>Try to ensure that you are well hydrated before your session, but don't drink too much right beforehand.</p>"
           }
@@ -892,7 +1056,7 @@
         {
           "type": "tip",
           "settings": {
-            "icon": "apple",
+            "icon": "serving_dish",
             "title": "Eat A Light Meal",
             "text": "<p>It's best to have a light meal 60 to 90 mins. before your session, rather than floating with a full or empty stomach.</p>"
           }
@@ -900,7 +1064,7 @@
         {
           "type": "tip",
           "settings": {
-            "icon": "face",
+            "icon": "silhouette",
             "title": "No Shaving Before",
             "text": "<p>Please don't shave anywhere on your face or body before your float session as the epsom salt may sting for some time in the beginning making it more difficult to relax and enjoy your float.</p>"
           }
@@ -908,7 +1072,7 @@
         {
           "type": "tip",
           "settings": {
-            "icon": "swim",
+            "icon": "pants",
             "title": "Float Nude",
             "text": "<p>We recommend floating in the nude to ensure there are no external pressures or restrictions on your body. Our tanks are extremely filtered to ensure cleanliness and the water is kept at skin temperature.</p>"
           }
@@ -916,7 +1080,7 @@
         {
           "type": "tip",
           "settings": {
-            "icon": "clock",
+            "icon": "stopwatch",
             "title": "Don't Stress Over Time",
             "text": "<p>It's fairly common to obsess or stress over time while floating, try to return your focus to your breath and know that our staff and the music in the pod will let you know when your session is over.</p>"
           }
@@ -924,7 +1088,7 @@
         {
           "type": "tip",
           "settings": {
-            "icon": "breath",
+            "icon": "return",
             "title": "Focus On Your Breath",
             "text": "<p>If your mind is busy, you have difficulty relaxing, or any challenge with the unique environment, it's helpful to focus on your breathing. Take deep breathes and keep your attention on that process.</p>"
           }
@@ -932,7 +1096,7 @@
         {
           "type": "tip",
           "settings": {
-            "icon": "arm",
+            "icon": "shirt",
             "title": "Try Different Positions",
             "text": "<p>Everyone has different preferences: arms above head, pointed up at your side, or down by your body and if you find yourself getting uncomfortable, it can help to switch your arm position.</p>"
           }
