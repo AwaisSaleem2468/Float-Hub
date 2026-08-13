@@ -228,25 +228,25 @@
         "padding_bottom": 80
       }
     },
-    "rich_text_gd49ny": {
+    "rich_text_nTbELB": {
       "type": "rich-text",
       "blocks": {
-        "heading_RMqtX7": {
+        "heading_tjhk3t": {
           "type": "heading",
           "settings": {
-            "heading": "How to Prepare for Your First Float"
+            "heading": "The “Theta State”: Why Your Brain Needs a “Dark Mode”"
           }
         },
-        "text_U3LRXe": {
+        "text_zQiLtx": {
           "type": "text",
           "settings": {
-            "text": "<p>To get the most out of your session, follow these 2026 “best practice” protocols:</p><ul><li><strong>Skip the Coffee:</strong> Avoid caffeine 3–4 hours before. You want your heart rate low to enter the Theta state quickly.</li><li><strong>Don’t Shave:</strong> Epsom salt is a natural mineral; it will sting fresh cuts or newly shaved skin!</li><li><strong>Eat Lightly:</strong> A heavy meal can make you hyper-aware of your digestion. A light snack 90 minutes before is ideal.</li><li><strong>Arrive Early:</strong> For your first visit, arrive 15 minutes early for a full tech walkthrough. For a more detailed breakdown of our costs and membership options, check our <a href=\"https://floathub.co.uk/pricing/\" target=\"_blank\">Pricing Page</a>.</li></ul>"
+            "text": "<p>During a typical 60-minute session, your brain waves transition from active Beta waves to relaxed Alpha waves, eventually settling into the <strong>Theta state</strong>. This is the elusive “twilight” zone usually only accessible during deep REM sleep or years of meditative practice.</p><p>In the Theta state, the two hemispheres of your brain communicate more effectively. This leads to:</p><ul><li><strong>Enhanced Problem Solving:</strong> Many London professionals use the tank to “work through” complex business challenges.</li><li><strong>Emotional Regulation:</strong> A profound sense of detachment that allows you to process stress without the typical physical “fight or flight” response.</li><li><strong>The “Afterglow”:</strong> The mental clarity and calm you feel doesn’t end when you leave the tank; the “Post-Float Afterglow” typically lasts for 24–48 hours.</li></ul>"
           }
         }
       },
       "block_order": [
-        "heading_RMqtX7",
-        "text_U3LRXe"
+        "heading_tjhk3t",
+        "text_zQiLtx"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -326,25 +326,25 @@
         "padding_bottom": 80
       }
     },
-    "rich_text_nTbELB": {
+    "rich_text_gd49ny": {
       "type": "rich-text",
       "blocks": {
-        "heading_tjhk3t": {
+        "heading_RMqtX7": {
           "type": "heading",
           "settings": {
-            "heading": "The “Theta State”: Why Your Brain Needs a “Dark Mode”"
+            "heading": "How to Prepare for Your First Float"
           }
         },
-        "text_zQiLtx": {
+        "text_U3LRXe": {
           "type": "text",
           "settings": {
-            "text": "<p>During a typical 60-minute session, your brain waves transition from active Beta waves to relaxed Alpha waves, eventually settling into the <strong>Theta state</strong>. This is the elusive “twilight” zone usually only accessible during deep REM sleep or years of meditative practice.</p><p>In the Theta state, the two hemispheres of your brain communicate more effectively. This leads to:</p><ul><li><strong>Enhanced Problem Solving:</strong> Many London professionals use the tank to “work through” complex business challenges.</li><li><strong>Emotional Regulation:</strong> A profound sense of detachment that allows you to process stress without the typical physical “fight or flight” response.</li><li><strong>The “Afterglow”:</strong> The mental clarity and calm you feel doesn’t end when you leave the tank; the “Post-Float Afterglow” typically lasts for 24–48 hours.</li></ul>"
+            "text": "<p>To get the most out of your session, follow these 2026 “best practice” protocols:</p><ul><li><strong>Skip the Coffee:</strong> Avoid caffeine 3–4 hours before. You want your heart rate low to enter the Theta state quickly.</li><li><strong>Don’t Shave:</strong> Epsom salt is a natural mineral; it will sting fresh cuts or newly shaved skin!</li><li><strong>Eat Lightly:</strong> A heavy meal can make you hyper-aware of your digestion. A light snack 90 minutes before is ideal.</li><li><strong>Arrive Early:</strong> For your first visit, arrive 15 minutes early for a full tech walkthrough. For a more detailed breakdown of our costs and membership options, check our <a href=\"https://floathub.co.uk/pricing/\" target=\"_blank\">Pricing Page</a>.</li></ul>"
           }
         }
       },
       "block_order": [
-        "heading_tjhk3t",
-        "text_zQiLtx"
+        "heading_RMqtX7",
+        "text_U3LRXe"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -374,6 +374,68 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "collapsible_content_LjfMf6": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_Hwmef8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": " Is it claustrophobic?",
+            "icon": "none",
+            "row_content": "<p>Not at all. Our pods are the most spacious in London, and you are in total control. You can leave the lid open or the lights on until you feel comfortable. Most guests find that once they settle in, the “boundaries” of the tank seem to disappear entirely.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NDWKUJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the water clean?",
+            "icon": "none",
+            "row_content": "<p>Our water is more sterile than a swimming pool. As the only London centre with a 100% filtration guarantee, we ensure three full cycles of UV and micron filtration between every guest.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6bDWer": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I float with a partner?",
+            "icon": "none",
+            "row_content": "<p>Yes! We offer a dedicated<a href=\"https://floathub.co.uk/floating/couples-float-london/\" target=\"_blank\">Couples Float London</a>experience where you can share the journey in a private, specially designed suite</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bHVxk7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What do I need to bring?",
+            "icon": "none",
+            "row_content": "<p>We provide everything: premium towels, earplugs, and organic hair and body care products. Most people prefer to float nude to remove all sensory input, so a swimsuit is optional.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_Hwmef8",
+        "collapsible_row_NDWKUJ",
+        "collapsible_row_6bDWer",
+        "collapsible_row_bHVxk7"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Question",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "container_color_scheme": "scheme-3",
+        "color_scheme": "scheme-4",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -384,6 +446,7 @@
     "rich_text_EeCNyk",
     "rich_text_nTbELB",
     "rich_text_jtrkYk",
-    "rich_text_gd49ny"
+    "rich_text_gd49ny",
+    "collapsible_content_LjfMf6"
   ]
 }
