@@ -10,17 +10,18 @@
     padding-bottom: {{ section.settings.padding_bottom }}px;
   }
 
-  #Gallery-{{ section.id }} .gallery__inner {
+  #Gallery-{{ section.id }} .gallery__container {
     width: 100%;
-    max-width: {{ section.settings.content_width }}px;
+    max-width: {{ section.settings.content_width | default: 1400 }}px;
     margin: 0 auto;
-    padding: 0 {{ section.settings.side_padding }}px;
+    padding: 0 {{ section.settings.side_padding | default: 0 }}px;
     box-sizing: border-box;
   }
 
   #Gallery-{{ section.id }} .gallery__header {
     text-align: center;
-    max-width: 48rem;
+    width: 100%;
+    max-width: {{ section.settings.title_max_width | default: 800 }}px;
     margin: 0 auto {{ section.settings.header_spacing }}px;
   }
 
@@ -46,7 +47,7 @@
 
   #Gallery-{{ section.id }} .gallery__features {
     width: 100%;
-    margin: 0 0 {{ section.settings.features_spacing }}px;
+    margin: 0 0 {{ section.settings.features_spacing | default: 32 }}px;
     overflow: hidden;
   }
 
@@ -65,23 +66,34 @@
     display: flex;
     flex-wrap: nowrap;
     align-items: stretch;
-    gap: {{ section.settings.feature_gap }}px;
-    padding-right: {{ section.settings.feature_gap }}px;
+    gap: {{ section.settings.feature_gap | default: 40 }}px;
+    padding-right: {{ section.settings.feature_gap | default: 40 }}px;
     flex-shrink: 0;
   }
 
   #Gallery-{{ section.id }} .gallery__feature-card {
     flex: 0 0 auto;
-    min-width: {{ section.settings.feature_card_width }}px;
-    max-width: {{ section.settings.feature_card_width }}px;
-    text-align: {{ section.settings.feature_text_align }};
+    box-sizing: border-box;
+    min-width: {{ section.settings.feature_card_width | default: 200 }}px;
+    max-width: {{ section.settings.feature_card_width | default: 200 }}px;
+    padding: {{ section.settings.feature_card_padding | default: 20 }}px;
+    border-radius: {{ section.settings.feature_card_radius | default: 12 }}px;
+    background: {{ section.settings.feature_card_bg | default: '#121A27' }};
+    border: 1px solid {{ section.settings.feature_card_border | default: '#243041' }};
+    text-align: {{ section.settings.feature_text_align | default: 'left' }};
+    transition: border-color 0.2s ease, transform 0.2s ease;
+  }
+
+  #Gallery-{{ section.id }} .gallery__feature-card:hover {
+    border-color: color-mix(in srgb, {{ section.settings.accent_color }} 45%, {{ section.settings.feature_card_border | default: '#243041' }});
+    transform: translateY(-2px);
   }
 
   #Gallery-{{ section.id }} .gallery__feature-label {
     margin: 0 0 0.45rem;
-    color: {{ section.settings.feature_label_color }};
+    color: {{ section.settings.feature_label_color | default: '#8B93A1' }};
     font-family: var(--font-body-family);
-    font-size: {{ section.settings.feature_label_size }}px;
+    font-size: {{ section.settings.feature_label_size | default: 12 }}px;
     font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -90,9 +102,9 @@
 
   #Gallery-{{ section.id }} .gallery__feature-text {
     margin: 0;
-    color: {{ section.settings.feature_text_color }};
+    color: {{ section.settings.feature_text_color | default: '#FFFFFF' }};
     font-family: var(--font-body-family);
-    font-size: {{ section.settings.feature_text_size }}px;
+    font-size: {{ section.settings.feature_text_size | default: 15 }}px;
     line-height: 1.45;
   }
 
@@ -461,8 +473,12 @@
     }
 
     #Gallery-{{ section.id }} .gallery__feature-card {
-      min-width: {{ section.settings.feature_card_width_mobile }}px;
-      max-width: {{ section.settings.feature_card_width_mobile }}px;
+      min-width: {{ section.settings.feature_card_width_mobile | default: 200 }}px;
+      max-width: {{ section.settings.feature_card_width_mobile | default: 200 }}px;
+    }
+
+    #Gallery-{{ section.id }} .gallery__feature-card:hover {
+      transform: none;
     }
 
     {% if section.settings.enable_features_marquee == false %}
@@ -491,7 +507,7 @@
   class="gallery"
   data-gallery
 >
-  <div class="page-width">
+  <div class="page-width gallery__container">
     {%- if section.settings.subtitle != blank or section.settings.heading != blank -%}
       <div class="gallery__header">
         {%- if section.settings.subtitle != blank -%}
@@ -807,6 +823,17 @@
       "default": 28
     },
     {
+      "type": "range",
+      "id": "title_max_width",
+      "min": 400,
+      "max": 1200,
+      "step": 20,
+      "unit": "px",
+      "label": "Title max width",
+      "default": 800,
+      "info": "Controls the width of the section title area."
+    },
+    {
       "type": "header",
       "content": "Feature cards"
     },
@@ -851,32 +878,64 @@
     {
       "type": "range",
       "id": "feature_gap",
-      "min": 16,
-      "max": 64,
-      "step": 4,
+      "min": 12,
+      "max": 48,
+      "step": 2,
       "unit": "px",
       "label": "Gap between feature cards",
-      "default": 40
+      "default": 16
     },
     {
       "type": "range",
       "id": "feature_card_width",
-      "min": 140,
-      "max": 320,
+      "min": 160,
+      "max": 360,
       "step": 10,
       "unit": "px",
       "label": "Feature card width",
-      "default": 200
+      "default": 220
     },
     {
       "type": "range",
       "id": "feature_card_width_mobile",
-      "min": 140,
-      "max": 280,
+      "min": 160,
+      "max": 300,
       "step": 10,
       "unit": "px",
       "label": "Feature card width (mobile)",
-      "default": 180
+      "default": 200
+    },
+    {
+      "type": "color",
+      "id": "feature_card_bg",
+      "label": "Feature card background",
+      "default": "#121A27"
+    },
+    {
+      "type": "color",
+      "id": "feature_card_border",
+      "label": "Feature card border",
+      "default": "#243041"
+    },
+    {
+      "type": "range",
+      "id": "feature_card_radius",
+      "min": 0,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "label": "Feature card radius",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "feature_card_padding",
+      "min": 12,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Feature card padding",
+      "default": 20
     },
     {
       "type": "select",
@@ -1028,12 +1087,13 @@
     {
       "type": "range",
       "id": "content_width",
-      "min": 1000,
+      "min": 900,
       "max": 1600,
       "step": 20,
       "unit": "px",
-      "label": "Content max width",
-      "default": 1400
+      "label": "Section content width",
+      "default": 1400,
+      "info": "Overall gallery content width inside page-width."
     },
     {
       "type": "range",
