@@ -331,11 +331,13 @@
                   endcase
 
                   assign tip_has_icon = false
-                  if block.settings.custom_icon != blank
-                    assign tip_has_icon = true
-                  elsif tip_icon != blank and tip_icon != 'none'
-                    assign tip_has_icon = true
-                  endif
+                  unless section.settings.show_icons == false
+                    if block.settings.custom_icon != blank
+                      assign tip_has_icon = true
+                    elsif tip_icon != blank and tip_icon != 'none'
+                      assign tip_has_icon = true
+                    endif
+                  endunless
                 -%}
                 <div class="float-tips__item{% unless tip_has_icon %} float-tips__item--no-icon{% endunless %}">
                   {%- if tip_has_icon -%}
@@ -656,6 +658,12 @@
     {
       "type": "header",
       "content": "Tips"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_icons",
+      "label": "Show icons",
+      "default": true
     },
     {
       "type": "range",
