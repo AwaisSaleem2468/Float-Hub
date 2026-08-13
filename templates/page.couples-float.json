@@ -58,7 +58,7 @@
         "heading_VG9WQG": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>What to Expect</strong>",
+            "heading": "What to Expect",
             "heading_size": "h1"
           }
         },
@@ -199,7 +199,7 @@
         "text_e6UnzQ": {
           "type": "text",
           "settings": {
-            "text": "<p>A couples float involves stepping into a spacious float tank or pod with your partner. Our tanks are meticulously maintained, filled with skin-temperature water and 550-575KG of Epsom salt. This creates a naturally buoyant, weightless environment that allows you to effortlessly float on the surface. Unlike a standard spa treatment, a float for two is about sensory deprivation, not distraction. It’s an hour dedicated to quiet, calm, and a shared space for internal exploration. It’s the perfect way for couples to hit the reset button, especially for those with busy lives, demanding jobs, or young children at home. Imagine 60 minutes of uninterrupted peace and quiet, shared with the person you love.</p>"
+            "text": "<p><strong>Your next date night in Shoreditch is waiting.</strong>Don’t just go to dinner—create a lasting memory. A couples float at<strong>Float Hub</strong>is a unique, powerful experience that brings you closer together. Our spots book up fast, especially on weekends and holidays.</p>"
           }
         }
       },
@@ -411,6 +411,49 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "rich_text_VCY8Lf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AdLn9i": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to Reconnect? Book Your Couples Float Today.",
+            "heading_size": "h1"
+          }
+        },
+        "text_xJUmH8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A couples float involves stepping into a spacious float tank or pod with your partner. Our tanks are meticulously maintained, filled with skin-temperature water and 550-575KG of Epsom salt. This creates a naturally buoyant, weightless environment that allows you to effortlessly float on the surface. Unlike a standard spa treatment, a float for two is about sensory deprivation, not distraction. It’s an hour dedicated to quiet, calm, and a shared space for internal exploration. It’s the perfect way for couples to hit the reset button, especially for those with busy lives, demanding jobs, or young children at home. Imagine 60 minutes of uninterrupted peace and quiet, shared with the person you love.</p>"
+          }
+        },
+        "button_yUnRaR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Your Couple Float Now",
+            "button_link": "#",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AdLn9i",
+        "text_xJUmH8",
+        "button_yUnRaR"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -420,6 +463,7 @@
     "custom_section_float_tip_nKfVq3",
     "rich_text_qiEjFW",
     "custom_section_float_tip_tVCcbV",
-    "custom_section_float_tip_ALpAby"
+    "custom_section_float_tip_ALpAby",
+    "rich_text_VCY8Lf"
   ]
 }
