@@ -44,6 +44,103 @@
     line-height: 1.2;
   }
 
+  #Gallery-{{ section.id }} .gallery__features {
+    width: 100%;
+    margin: 0 0 {{ section.settings.features_spacing }}px;
+    overflow: hidden;
+  }
+
+  #Gallery-{{ section.id }} .gallery__features-viewport {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #Gallery-{{ section.id }} .gallery__features-track {
+    display: flex;
+    width: max-content;
+    gap: 0;
+  }
+
+  #Gallery-{{ section.id }} .gallery__features-group {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: {{ section.settings.feature_gap }}px;
+    padding-right: {{ section.settings.feature_gap }}px;
+    flex-shrink: 0;
+  }
+
+  #Gallery-{{ section.id }} .gallery__feature-card {
+    flex: 0 0 auto;
+    min-width: {{ section.settings.feature_card_width }}px;
+    max-width: {{ section.settings.feature_card_width }}px;
+    text-align: {{ section.settings.feature_text_align }};
+  }
+
+  #Gallery-{{ section.id }} .gallery__feature-label {
+    margin: 0 0 0.45rem;
+    color: {{ section.settings.feature_label_color }};
+    font-family: var(--font-body-family);
+    font-size: {{ section.settings.feature_label_size }}px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    line-height: 1.3;
+  }
+
+  #Gallery-{{ section.id }} .gallery__feature-text {
+    margin: 0;
+    color: {{ section.settings.feature_text_color }};
+    font-family: var(--font-body-family);
+    font-size: {{ section.settings.feature_text_size }}px;
+    line-height: 1.45;
+  }
+
+  {% unless section.settings.enable_features_marquee == false %}
+    #Gallery-{{ section.id }} .gallery__features-track {
+      animation: gallery-features-marquee-{{ section.id }} {{ section.settings.features_marquee_speed | default: 28 }}s linear infinite;
+    }
+
+    {% unless section.settings.features_pause_on_hover == false %}
+      #Gallery-{{ section.id }} .gallery__features-viewport:hover .gallery__features-track,
+      #Gallery-{{ section.id }} .gallery__features-viewport:focus-within .gallery__features-track {
+        animation-play-state: paused;
+      }
+    {% endunless %}
+
+    @keyframes gallery-features-marquee-{{ section.id }} {
+      from { transform: translate3d(0, 0, 0); }
+      to { transform: translate3d(-50%, 0, 0); }
+    }
+  {% else %}
+    #Gallery-{{ section.id }} .gallery__features-viewport {
+      overflow-x: auto;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    #Gallery-{{ section.id }} .gallery__features-viewport::-webkit-scrollbar {
+      display: none;
+    }
+
+    #Gallery-{{ section.id }} .gallery__features-track {
+      width: 100%;
+    }
+
+    #Gallery-{{ section.id }} .gallery__features-group {
+      width: 100%;
+      justify-content: space-between;
+      padding-right: 0;
+      flex-wrap: wrap;
+    }
+
+    #Gallery-{{ section.id }} .gallery__feature-card {
+      flex: 1 1 0;
+      min-width: 140px;
+      max-width: none;
+    }
+  {% endunless %}
+
   #Gallery-{{ section.id }} .gallery__grid {
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -325,6 +422,11 @@
     #Gallery-{{ section.id }} .gallery__heading {
       font-size: {{ section.settings.heading_size_mobile }}px;
     }
+
+    #Gallery-{{ section.id }} .gallery__feature-card {
+      min-width: {{ section.settings.feature_card_width | times: 0.85 | round: 0 }}px;
+      max-width: {{ section.settings.feature_card_width | times: 0.85 | round: 0 }}px;
+    }
   }
 
   @media screen and (max-width: 749px) {
@@ -350,6 +452,26 @@
       aspect-ratio: 1 / 1;
     }
 
+    #Gallery-{{ section.id }} .gallery__feature-label {
+      font-size: {{ section.settings.feature_label_size_mobile }}px;
+    }
+
+    #Gallery-{{ section.id }} .gallery__feature-text {
+      font-size: {{ section.settings.feature_text_size_mobile }}px;
+    }
+
+    #Gallery-{{ section.id }} .gallery__feature-card {
+      min-width: {{ section.settings.feature_card_width_mobile }}px;
+      max-width: {{ section.settings.feature_card_width_mobile }}px;
+    }
+
+    {% if section.settings.enable_features_marquee == false %}
+      #Gallery-{{ section.id }} .gallery__features-group {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+      }
+    {% endif %}
+
     #Gallery-{{ section.id }} .gallery__lightbox-main {
       padding: 0 3.25rem 0.75rem;
     }
@@ -362,6 +484,7 @@
 {% endstyle %}
 
 {%- assign gallery_blocks = section.blocks | where: 'type', 'image' -%}
+{%- assign feature_blocks = section.blocks | where: 'type', 'feature' -%}
 
 <section
   id="Gallery-{{ section.id }}"
@@ -378,6 +501,36 @@
           <h2 class="gallery__heading">{{ section.settings.heading | escape }}</h2>
         {%- endif -%}
       </div>
+    {%- endif -%}
+
+    {%- if feature_blocks.size > 0 -%}
+      {%- unless section.settings.show_features == false -%}
+      <div class="gallery__features" aria-label="Gallery features">
+        <div class="gallery__features-viewport">
+          <div class="gallery__features-track">
+            {%- for i in (1..2) -%}
+              <div class="gallery__features-group"{% if i == 2 %} aria-hidden="true"{% endif %}>
+                {%- for block in feature_blocks -%}
+                  <div class="gallery__feature-card"{% if i == 1 %} {{ block.shopify_attributes }}{% endif %}>
+                    {%- if block.settings.label != blank -%}
+                      <p class="gallery__feature-label">{{ block.settings.label | escape }}</p>
+                    {%- endif -%}
+                    {%- if block.settings.text != blank -%}
+                      <p class="gallery__feature-text">{{ block.settings.text | escape }}</p>
+                    {%- endif -%}
+                  </div>
+                {%- endfor -%}
+              </div>
+              {%- unless section.settings.enable_features_marquee == false -%}
+                {%- comment -%} Keep duplicate group for seamless marquee {%- endcomment -%}
+              {%- else -%}
+                {%- break -%}
+              {%- endunless -%}
+            {%- endfor -%}
+          </div>
+        </div>
+      </div>
+      {%- endunless -%}
     {%- endif -%}
 
     {%- if gallery_blocks.size > 0 -%}
@@ -595,7 +748,7 @@
   "name": "Custom Gallery",
   "tag": "section",
   "class": "section-custom-gallery",
-  "max_blocks": 10,
+  "max_blocks": 20,
   "settings": [
     {
       "type": "header",
@@ -652,6 +805,141 @@
       "unit": "px",
       "label": "Space below heading",
       "default": 28
+    },
+    {
+      "type": "header",
+      "content": "Feature cards"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_features",
+      "label": "Show feature cards",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_features_marquee",
+      "label": "Enable auto-scroll",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "features_pause_on_hover",
+      "label": "Pause auto-scroll on hover",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "features_marquee_speed",
+      "min": 10,
+      "max": 60,
+      "step": 2,
+      "unit": "s",
+      "label": "Auto-scroll speed",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "features_spacing",
+      "min": 16,
+      "max": 64,
+      "step": 4,
+      "unit": "px",
+      "label": "Space below features",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "feature_gap",
+      "min": 16,
+      "max": 64,
+      "step": 4,
+      "unit": "px",
+      "label": "Gap between feature cards",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "feature_card_width",
+      "min": 140,
+      "max": 320,
+      "step": 10,
+      "unit": "px",
+      "label": "Feature card width",
+      "default": 200
+    },
+    {
+      "type": "range",
+      "id": "feature_card_width_mobile",
+      "min": 140,
+      "max": 280,
+      "step": 10,
+      "unit": "px",
+      "label": "Feature card width (mobile)",
+      "default": 180
+    },
+    {
+      "type": "select",
+      "id": "feature_text_align",
+      "label": "Feature text alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "range",
+      "id": "feature_label_size",
+      "min": 10,
+      "max": 16,
+      "step": 1,
+      "unit": "px",
+      "label": "Feature label size",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "feature_label_size_mobile",
+      "min": 10,
+      "max": 14,
+      "step": 1,
+      "unit": "px",
+      "label": "Feature label size (mobile)",
+      "default": 11
+    },
+    {
+      "type": "range",
+      "id": "feature_text_size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Feature text size",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "feature_text_size_mobile",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "label": "Feature text size (mobile)",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "feature_label_color",
+      "label": "Feature label color",
+      "default": "#8B93A1"
+    },
+    {
+      "type": "color",
+      "id": "feature_text_color",
+      "label": "Feature text color",
+      "default": "#FFFFFF"
     },
     {
       "type": "header",
@@ -770,6 +1058,24 @@
   ],
   "blocks": [
     {
+      "type": "feature",
+      "name": "Feature card",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label",
+          "default": "PRIVATE ROOMS"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Control your experience"
+        }
+      ]
+    },
+    {
       "type": "image",
       "name": "Image",
       "settings": [
@@ -791,6 +1097,41 @@
       "name": "Custom Gallery",
       "category": "Custom Sections",
       "blocks": [
+        {
+          "type": "feature",
+          "settings": {
+            "label": "PRIVATE ROOMS",
+            "text": "Control your experience"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "label": "RELAXATION SUITE",
+            "text": "Enjoy the post-float glow"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "label": "PREMIUM PODS",
+            "text": "6 Orbit Float Tanks"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "label": "VANITY ROOM",
+            "text": "Everything you need"
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "label": "CENTRAL LOCATION",
+            "text": "Shoreditch, London"
+          }
+        },
         { "type": "image" },
         { "type": "image" },
         { "type": "image" },
