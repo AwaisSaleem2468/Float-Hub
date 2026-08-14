@@ -85,7 +85,7 @@
           "settings": {
             "icon": "silhouette",
             "title": "PHONE",
-            "text": "<p>+44  020 3871 3363</p>"
+            "text": "<p><a href=\"tel:+4402038713363\" title=\"tel:+4402038713363\">+44  020 3871 3363</a></p>"
           }
         },
         "item_zdMmAJ": {
@@ -113,7 +113,7 @@
       ],
       "name": "Custom Icon with Text",
       "settings": {
-        "heading": "Get in touch",
+        "heading": "",
         "heading_accent": "",
         "description": "",
         "heading_alignment": "center",
@@ -124,20 +124,20 @@
         "description_size": 15,
         "header_gap": 36,
         "columns_desktop": 4,
-        "grid_gap": 20,
-        "slide_gap": 14,
-        "enable_autoplay": true,
+        "grid_gap": 16,
+        "slide_gap": 12,
+        "enable_autoplay": false,
         "autoplay_speed": 5,
         "card_alignment": "center",
         "card_text_align": "center",
-        "icon_size": 40,
+        "icon_size": 32,
         "icon_spacing": 16,
-        "card_title_size": 14,
-        "card_title_size_mobile": 13,
-        "card_text_size": 14,
-        "card_text_size_mobile": 13,
+        "card_title_size": 18,
+        "card_title_size_mobile": 16,
+        "card_text_size": 16,
+        "card_text_size_mobile": 14,
         "card_radius": 12,
-        "card_padding": 28,
+        "card_padding": 16,
         "bg_color": "#070D16",
         "heading_color": "#FFFFFF",
         "body_color": "#A8B0BD",
