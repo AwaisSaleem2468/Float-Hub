@@ -192,7 +192,7 @@
         "product_card_2": {
           "type": "product_card",
           "settings": {
-            "product": "float-for-two",
+            "product": "float-for-two-couples",
             "featured": true,
             "badge_text": "Most Popular",
             "price_note": "/ 2 floats",
