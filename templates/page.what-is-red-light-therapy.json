@@ -9,6 +9,41 @@
  */
 {
   "sections": {
+    "custom_section_innerpage_banner_7znEUK": {
+      "type": "custom-section-innerpage-banner",
+      "name": "Custom Innerpage Banner",
+      "settings": {
+        "media_type": "image",
+        "image": "shopify://shop_images/3C38CEAC-9224-4DA3-8BF9-783FA1E21A96-478-00000071656752E4-scaled.jpg",
+        "overlay_color": "#061018",
+        "overlay_opacity": 40,
+        "section_height": 70,
+        "section_height_mobile": 65,
+        "show_badge": false,
+        "badge_text": "",
+        "eyebrow": "",
+        "eyebrow_size": 13,
+        "heading": "Revolutionizing Wellness in London",
+        "heading_accent": "The Float Hub Difference in Red Light Therapy",
+        "heading_size_desktop": 48,
+        "heading_size_mobile": 36,
+        "description": "",
+        "description_size_desktop": 16,
+        "description_size_mobile": 14,
+        "button_label_1": "",
+        "button_link_1": "",
+        "show_button_arrow": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "text_color": "#ffffff",
+        "accent_color": "#0daaef",
+        "badge_color": "#d4af37",
+        "content_position_horizontal": "center",
+        "content_position_vertical": "middle",
+        "text_alignment": "center",
+        "content_width": 1400
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -30,11 +65,12 @@
         "link_color": "#0daaef",
         "link_hover_color": "#22d3ee",
         "padding_top": 80,
-        "padding_bottom": 36
+        "padding_bottom": 80
       }
     }
   },
   "order": [
+    "custom_section_innerpage_banner_7znEUK",
     "main"
   ]
 }
