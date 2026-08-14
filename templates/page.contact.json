@@ -69,6 +69,86 @@
         "content_width": 700
       }
     },
+    "custom_section_icon_with_text_UqQt8c": {
+      "type": "custom-section-icon-with-text",
+      "blocks": {
+        "item_CtLqwM": {
+          "type": "item",
+          "settings": {
+            "icon": "chat_bubble",
+            "title": "EMAIL",
+            "text": "<p><a href=\"mailto:info@floathub.co.uk\">team@floathub.co.uk<br/></a><a href=\"mailto:manager@floathub.co.uk\">manager@floathub.co.uk</a></p>"
+          }
+        },
+        "item_pCr3DF": {
+          "type": "item",
+          "settings": {
+            "icon": "silhouette",
+            "title": "PHONE",
+            "text": "<p>+44  020 3871 3363</p>"
+          }
+        },
+        "item_zdMmAJ": {
+          "type": "item",
+          "settings": {
+            "icon": "map_pin",
+            "title": "LOCATION",
+            "text": "<p><strong>Shoreditch, London<br/></strong>346 Old Street, Lower Ground Floor, London , EC1V 9NQ</p>"
+          }
+        },
+        "item_YLJxmn": {
+          "type": "item",
+          "settings": {
+            "icon": "stopwatch",
+            "title": "HOURS",
+            "text": "<p>Monday to Thursday 12 noon – 10 pm</p><p>Friday 10 am – 8.30 pm</p><p>Saturday & Sunday 9 am – 8.30 pm</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_CtLqwM",
+        "item_pCr3DF",
+        "item_zdMmAJ",
+        "item_YLJxmn"
+      ],
+      "name": "Custom Icon with Text",
+      "settings": {
+        "heading": "Get in touch",
+        "heading_accent": "",
+        "description": "",
+        "heading_alignment": "center",
+        "title_max_width": 700,
+        "heading_size_desktop": 36,
+        "heading_size_tablet": 30,
+        "heading_size_mobile": 26,
+        "description_size": 15,
+        "header_gap": 36,
+        "columns_desktop": 4,
+        "grid_gap": 20,
+        "slide_gap": 14,
+        "enable_autoplay": true,
+        "autoplay_speed": 5,
+        "card_alignment": "center",
+        "card_text_align": "center",
+        "icon_size": 40,
+        "icon_spacing": 16,
+        "card_title_size": 14,
+        "card_title_size_mobile": 13,
+        "card_text_size": 14,
+        "card_text_size_mobile": 13,
+        "card_radius": 12,
+        "card_padding": 28,
+        "bg_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "body_color": "#A8B0BD",
+        "icon_color": "#FFFFFF",
+        "accent_color": "#0DAAEF",
+        "card_bg": "#121A27",
+        "card_border": "#243041",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -87,12 +167,12 @@
         "button_spacing": 36,
         "background_color": "#030915",
         "heading_color": "#ffffff",
-        "label_color": "#C8CED8",
+        "label_color": "#c8ced8",
         "input_text_color": "#ffffff",
-        "placeholder_color": "#C8CED8",
-        "field_background": "#121A27",
+        "placeholder_color": "#c8ced8",
+        "field_background": "#121a27",
         "field_border_color": "#243041",
-        "field_focus_color": "#23A3DF",
+        "field_focus_color": "#23a3df",
         "button_text_color": "#ffffff",
         "padding_top": 80,
         "padding_bottom": 80
@@ -102,6 +182,7 @@
   "order": [
     "main",
     "custom_section_innerpage_banner_TqwybA",
+    "custom_section_icon_with_text_UqQt8c",
     "form"
   ]
 }
