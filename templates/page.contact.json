@@ -152,8 +152,8 @@
     "form": {
       "type": "contact-form",
       "settings": {
-        "heading": "",
-        "heading_alignment": "left",
+        "heading": "Content  Us",
+        "heading_alignment": "center",
         "heading_font_size": 42,
         "heading_font_size_mobile": 32,
         "heading_spacing": 28,
