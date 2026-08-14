@@ -126,7 +126,7 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 0,
+        "padding_top": 80,
         "padding_bottom": 80
       }
     },
@@ -164,10 +164,10 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "full_width": true,
-        "content_max_width": 1400,
+        "content_max_width": 980,
         "show_border_top": false,
         "show_border_bottom": false,
         "border_color": "#243041",
