@@ -75,6 +75,16 @@
     margin-top: 0.85rem;
   }
 
+  #CustomImgText-{{ section.id }} .custom-img-text__description a {
+    color: var(--cit-accent);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
+
+  #CustomImgText-{{ section.id }} .custom-img-text__description a:hover {
+    filter: brightness(1.1);
+  }
+
   #CustomImgText-{{ section.id }} .custom-img-text__actions {
     display: flex;
     flex-wrap: wrap;
