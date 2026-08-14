@@ -11,10 +11,11 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "content_width": "page",
         "text_alignment": "left",
-        "show_title": true,
+        "show_title": false,
         "title_size": 48,
         "title_size_mobile": 32,
         "title_spacing": 32,
@@ -23,18 +24,147 @@
         "text_size": 16,
         "text_size_mobile": 15,
         "text_line_height": "1.7",
-        "background_color": "#070D16",
-        "title_color": "#FFFFFF",
-        "text_color": "#A8B0BD",
-        "muted_color": "#8B93A1",
-        "link_color": "#0DAAEF",
+        "background_color": "#070d16",
+        "title_color": "#ffffff",
+        "text_color": "#a8b0bd",
+        "muted_color": "#8b93a1",
+        "link_color": "#0daaef",
         "link_hover_color": "#22d3ee",
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_section_innerpage_banner_3MfNkG": {
+      "type": "custom-section-innerpage-banner",
+      "name": "Custom Innerpage Banner",
+      "settings": {
+        "media_type": "image",
+        "image": "shopify://shop_images/635023591_18573033625022215_124986833144175593_n.jpg",
+        "overlay_color": "#061018",
+        "overlay_opacity": 60,
+        "section_height": 60,
+        "section_height_mobile": 65,
+        "show_badge": false,
+        "badge_text": "",
+        "eyebrow": "Need more info?",
+        "eyebrow_size": 13,
+        "heading": "Check Out Our Most ",
+        "heading_accent": "Frequently Asked Questions.",
+        "heading_size_desktop": 48,
+        "heading_size_mobile": 36,
+        "description": "",
+        "description_size_desktop": 16,
+        "description_size_mobile": 14,
+        "button_label_1": "",
+        "button_link_1": "",
+        "show_button_arrow": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "text_color": "#ffffff",
+        "accent_color": "#0daaef",
+        "badge_color": "#d4af37",
+        "content_position_horizontal": "center",
+        "content_position_vertical": "middle",
+        "text_alignment": "center",
+        "content_width": 1400
+      }
+    },
+    "collapsible_content_j6nPij": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_hCYDyr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What services do you offer?",
+            "icon": "none",
+            "row_content": "<p>We offer four premium recovery modalities in our Shoreditch Centre:</p><ul><li><strong>Float Therapy:</strong> Available as Single or Duo sessions in our world-class pods.</li><li><strong>Hyperbaric Oxygen Therapy (HBOT):</strong> Launching early April 2026 in our professional <strong>London Oxygen Suite</strong>.</li><li><strong>Red Light Therapy (RLT):</strong> Targeted cellular energy and skin health.</li><li><strong>Duo/Couple Options:</strong> Both our Float and HBOT services can be booked for either one or two people to experience together in the same private suite (single and duo/couple options are booked & charged as distinct services, make sure you choose the ‘For Two’ option if you wish to float or dive with a friend or partner).</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7CC3Qi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hyperbaric Oxygen Therapy",
+            "icon": "none",
+            "row_content": "<p><strong>What is HBOT and how does it work?</strong> HBOT involves breathing ~96% pure oxygen in a pressurized chamber. Our suite utilizes a clinical-grade <strong>1.5 ATA pressure</strong>. At this specific level, oxygen dissolves directly into your blood plasma, reaching tissues and brain cells that standard breathing cannot—accelerating repair and sharpening cognitive focus.</p><p><strong>Can two people use the HBOT chamber together?</strong> Yes. Our suite is a spacious environment designed for both individual “deep-dives” or shared duo sessions. Note that solo and duo sessions are booked and charged as distinct services.</p><p><strong>How long are the sessions and what can I do inside?</strong></p><ul><li><strong>Duration:</strong> Each session includes <strong>60 minutes</strong> of total “dive time” under pressure.</li><li><strong>Activity:</strong> You are welcome to meditate, sleep, read, or watch content.</li><li><strong>Electronics:</strong> iPhones and iPads are permitted, but <strong>headphones must be used</strong> as we do not allow external speakers.</li></ul><p><strong>Is this medical treatment?</strong> No. We provide a strictly therapeutic HBOT environment for wellness and recovery. We are not a medical clinic and do not provide medical advice, diagnosis, or treatments. If you have a specific condition, please consult your GP before booking.</p><p><strong>Can I adjust the pressure myself?</strong> The suite has internal controls for comfort, but users are strictly prohibited from exceeding 1.5 ATA. Higher pressures are medical protocols that we do not offer.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yLA7Fg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I prepare for my first session?",
+            "icon": "none",
+            "row_content": "<p><strong>When should I arrive for my first appointment?</strong></p><ul><li><strong>First Timers:</strong> For your first session of any service (Float, HBOT, or RLT), please arrive <strong>15 minutes early</strong>. This allows us to give you a full walkthrough of the technology and ensure you are comfortable before your session begins.</li><li><strong>Returning Guests:</strong> For all subsequent visits, arriving <strong>5 minutes early</strong> is sufficient.</li></ul><p><strong>Do I need to bring anything with me?</strong></p><ul><li><strong>We provide everything:</strong> You don’t need to bring a thing. We provide fresh towels, organic body wash, shampoo, conditioner, earplugs, and high-end hair dryers.</li><li><strong>Footwear:</strong> We suggest bringing your own <strong>slippers</strong> if you prefer not to walk barefoot in the center.</li></ul><p><strong>What should I wear for my session?</strong></p><ul><li><strong>Floating:</strong> We recommend floating in your “birthday suit” for the best sensory experience, though you may wear a swimsuit if you prefer.</li><li><strong>Red Light Therapy (RLT):</strong> For the light to be effective, it must have direct contact with your skin. You will undress in your private, lockable room to the point where the areas you want to treat are exposed to the light—underwear is the most common approach.</li><li><strong>HBOT:</strong> Please wear <strong>comfortable, loose-fitting clothes</strong>. It is essential that you do <strong>not</strong> wear anything sharp (such as jewelry, belts with sharp buckles, or studded denim) as these can damage the specialized materials of the oxygen suite.</li></ul><p><strong>Can I use my phone during the session?</strong></p><ul><li><strong>HBOT & RLT:</strong> Yes, you can take your phone or tablet into these sessions. However, you <strong>must use headphones</strong> for any audio; external speakers are not permitted to ensure the center remains a quiet sanctuary.</li><li><strong>Floating:</strong> We strictly prohibit electronics inside the float pods to protect the equipment from the salt and to ensure you achieve a true sensory-deprived state.</li></ul><p><strong>Is there anything I should avoid doing before I arrive?</strong></p><ul><li><strong>Caffeine & Heavy Meals:</strong> Avoid caffeine for 3–4 hours before a float to help your mind settle. A light meal 90 minutes beforehand is ideal.</li><li><strong>Shaving:</strong> Avoid shaving or waxing on the day of a float, as the Epsom salt can cause a stinging sensation on fresh skin.</li><li><strong>Hair Dye/Tanning:</strong> Ensure you have not dyed your hair or had a spray tan within <strong>14 days</strong> of your float session, as this can damage our pods.</li></ul><p><strong>What if I feel uncomfortable or want to stop?</strong></p><ul><li><strong>Total Control:</strong> You are in complete control of your environment. Whether you are in a float pod, the RLT suite, or the oxygen suite, you can exit the equipment or the room at any time during your session.</li><li><strong>Step-In Design:</strong> All of our facilities are designed for simple entry and exit, ensuring you feel secure and at ease throughout your recovery.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4wQqbX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Float for two - (Couple Float) for 2 people floating together in the same tank.",
+            "icon": "none",
+            "row_content": "<p>Float for Two (Couple Float) is for two people wishing to float together in the same tank and in the same room.</p><p>You can book Float for two sessions in rooms  3 and 5.</p><p>Our Orbit pods are one of the largest pods available. They comfortably offer enough space for two. This could be perfect for parents who wish to float with their children, for anyone who is anxious about floating alone, or for friends and couples who wish to float together.</p><p>The pods are all the same size for single and couple floats. Our pods are 8″5 x 5″5 , making them the largest type of float pod in the UK. They are designed to fit athletes up to 7″3. We have several members who are around 6″7 and enjoy the larger tanks.</p><p>If you have purchased a Single Float or 2 x Single Floats and wish to transfer to a Float for Two, please send your request to manager@floathub.co.uk</p><p>Please note: If you purchase a Float for Two and come to float alone, you are very welcome to float but you are not entitled to a refund for the person missing.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LhRjDe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How big are your tanks?",
+            "icon": "none",
+            "row_content": "<p>Our pods are 8″5 x 5″5 , making them the largest type of float pod in the UK. They are designed to fit athletes up to 7″3. We have several members who are around 6″7 and enjoy the larger tanks.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YW7pa3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I am claustrophobic?",
+            "icon": "none",
+            "row_content": "<p>Claustrophobia is one of the most common initial concerns. However, due to the size of our pods, people who have claustrophobia rarely find this an issue. You have the option to float with the light on and the pod door open.  The pod door is never locked and you can open the pod door at any point during your float… <em>you’re in control of your float.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yFT6h7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I drown if I fall asleep?",
+            "icon": "none",
+            "row_content": "<p>No. It’s common to fall asleep for parts or sometimes all of your float and the water is so buoyant that you always stay afloat.</p><p><em>The worst that can happen is being woken by a little salt water in your eyes, though our non-drip tanks make this unlikely.</em></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_hCYDyr",
+        "collapsible_row_7CC3Qi",
+        "collapsible_row_yLA7Fg",
+        "collapsible_row_4wQqbX",
+        "collapsible_row_LhRjDe",
+        "collapsible_row_YW7pa3",
+        "collapsible_row_yFT6h7"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "container_color_scheme": "scheme-3",
+        "color_scheme": "scheme-4",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_section_innerpage_banner_3MfNkG",
+    "collapsible_content_j6nPij"
   ]
 }
