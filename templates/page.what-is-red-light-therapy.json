@@ -74,36 +74,36 @@
         "collapsible_row_aCBC7N": {
           "type": "collapsible_row",
           "settings": {
-            "heading": " Is it claustrophobic?",
+            "heading": "Is red light therapy safe?",
             "icon": "none",
-            "row_content": "<p>Not at all. Our pods are the most spacious in London, and you are in total control. You can leave the lid open or the lights on until you feel comfortable. Most guests find that once they settle in, the “boundaries” of the tank seem to disappear entirely.</p>",
+            "row_content": "<p>Yes, it is a non-toxic, non-invasive treatment.We provide protective goggles on request and have staff on hand to ensure you’re comfortable and safe.</p>",
             "page": ""
           }
         },
         "collapsible_row_npTKnL": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is the water clean?",
+            "heading": "What should I expect during a session?",
             "icon": "none",
-            "row_content": "<p>Our water is more sterile than a swimming pool. As the only London centre with a 100% filtration guarantee, we ensure three full cycles of UV and micron filtration between every guest.</p>",
+            "row_content": "<p>ou’ll lie comfortably in our bed while the LEDs bathe your body in a gentle, warm light.The sessions are relaxing and take just 15-20 minutes.</p>",
             "page": ""
           }
         },
         "collapsible_row_9YDhy3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I float with a partner?",
+            "heading": "How many sessions do I need?",
             "icon": "none",
-            "row_content": "<p>Yes! We offer a dedicated<a href=\"https://floathub.co.uk/floating/couples-float-london/\" target=\"_blank\">Couples Float London</a>experience where you can share the journey in a private, specially designed suite</p>",
+            "row_content": "<p>We recommend a consistent routine for optimal results, and our staff can help you find a plan that works for you. Often 3-5 within the first week, followed by reduced frequency for maintenance, though many customers report benefits felt from one session, the benefits are cumulative with red light therapy.</p>",
             "page": ""
           }
         },
         "collapsible_row_Ej7ctF": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What do I need to bring?",
+            "heading": "Who should avoid RLT?",
             "icon": "none",
-            "row_content": "<p>We provide everything: premium towels, earplugs, and organic hair and body care products. Most people prefer to float nude to remove all sensory input, so a swimsuit is optional.</p>",
+            "row_content": "<p>Individuals with active cancer, photosensitive conditions, or seizure disorders should avoid this therapy. We will go over any contraindications in our waiver before your first session.</p>",
             "page": ""
           }
         }
