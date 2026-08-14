@@ -138,15 +138,15 @@
         "card_text_size_mobile": 14,
         "card_radius": 12,
         "card_padding": 16,
-        "bg_color": "#070D16",
+        "bg_color": "#030915",
         "heading_color": "#FFFFFF",
-        "body_color": "#A8B0BD",
+        "body_color": "#C8CED8",
         "icon_color": "#FFFFFF",
-        "accent_color": "#0DAAEF",
+        "accent_color": "#23A3DF",
         "card_bg": "#121A27",
         "card_border": "#243041",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "form": {
