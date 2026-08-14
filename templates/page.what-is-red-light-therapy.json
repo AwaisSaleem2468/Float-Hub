@@ -67,10 +67,73 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "collapsible_content_rEF8Xh": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_aCBC7N": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": " Is it claustrophobic?",
+            "icon": "none",
+            "row_content": "<p>Not at all. Our pods are the most spacious in London, and you are in total control. You can leave the lid open or the lights on until you feel comfortable. Most guests find that once they settle in, the “boundaries” of the tank seem to disappear entirely.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_npTKnL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the water clean?",
+            "icon": "none",
+            "row_content": "<p>Our water is more sterile than a swimming pool. As the only London centre with a 100% filtration guarantee, we ensure three full cycles of UV and micron filtration between every guest.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9YDhy3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I float with a partner?",
+            "icon": "none",
+            "row_content": "<p>Yes! We offer a dedicated<a href=\"https://floathub.co.uk/floating/couples-float-london/\" target=\"_blank\">Couples Float London</a>experience where you can share the journey in a private, specially designed suite</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Ej7ctF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What do I need to bring?",
+            "icon": "none",
+            "row_content": "<p>We provide everything: premium towels, earplugs, and organic hair and body care products. Most people prefer to float nude to remove all sensory input, so a swimsuit is optional.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_aCBC7N",
+        "collapsible_row_npTKnL",
+        "collapsible_row_9YDhy3",
+        "collapsible_row_Ej7ctF"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Question",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "container_color_scheme": "scheme-3",
+        "color_scheme": "scheme-4",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
     "custom_section_innerpage_banner_7znEUK",
-    "main"
+    "main",
+    "collapsible_content_rEF8Xh"
   ]
 }
