@@ -39,20 +39,20 @@
       "name": "Custom Innerpage Banner",
       "settings": {
         "media_type": "image",
-        "image": "shopify://shop_images/635023591_18573033625022215_124986833144175593_n.jpg",
+        "image": "shopify://shop_images/624292321_18089226653472903_2926321886989038639_n.jpg",
         "overlay_color": "#061018",
-        "overlay_opacity": 60,
+        "overlay_opacity": 40,
         "section_height": 60,
-        "section_height_mobile": 65,
+        "section_height_mobile": 60,
         "show_badge": false,
         "badge_text": "",
-        "eyebrow": "Need more info?",
+        "eyebrow": "",
         "eyebrow_size": 13,
-        "heading": "Questions or need to get in touch?",
-        "heading_accent": "team@floathub.co.uk",
+        "heading": "Get in Touch",
+        "heading_accent": "",
         "heading_size_desktop": 48,
         "heading_size_mobile": 36,
-        "description": "",
+        "description": "<p>We'd love to hear from you. Whether it's about your order, a question about a product, or just a hello, our team responds within 24 hours, Monday to Friday. For those questions, please consult a qualified and professional team</p>",
         "description_size_desktop": 16,
         "description_size_mobile": 14,
         "button_label_1": "",
@@ -66,7 +66,7 @@
         "content_position_horizontal": "center",
         "content_position_vertical": "middle",
         "text_alignment": "center",
-        "content_width": 1400
+        "content_width": 700
       }
     },
     "form": {
