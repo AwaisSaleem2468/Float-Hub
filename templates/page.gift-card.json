@@ -83,7 +83,7 @@
         "text_size_desktop": 18,
         "text_size_mobile": 16,
         "content_width": 760,
-        "background_color": "#0f1827",
+        "background_color": "#070D16",
         "text_color": "#c8ced8",
         "strong_color": "#ffffff",
         "badge_background": "#243044",
@@ -92,11 +92,146 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "rich_text_gqHEwF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rtk3fE": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Unique Gift to Show That You Care"
+          }
+        },
+        "text_tXrGeP": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Grab one of our gift cards to give an unforgettable experience and the perfect well-being boost after lockdown. </em></p>"
+          }
+        },
+        "button_wF7pXe": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify://pages/pricing",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "shopify://pages/pricing",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rtk3fE",
+        "text_tXrGeP",
+        "button_wF7pXe"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "content_max_width": 900,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "button_size": 16,
+        "button_radius": 8,
+        "background_color": "#121A27",
+        "heading_color": "#FFFFFF",
+        "caption_color": "#0DAAEF",
+        "text_color": "#A8B0BD",
+        "link_color": "#0DAAEF",
+        "button_text_color": "#FFFFFF",
+        "button_secondary_text_color": "#FFFFFF",
+        "button_secondary_border_color": "#FFFFFF",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "custom_section_icon_with_text_R6TGxH": {
+      "type": "custom-section-icon-with-text",
+      "blocks": {
+        "item_9CGR3C": {
+          "type": "item",
+          "settings": {
+            "icon": "star",
+            "title": "Unique 5-Star Experience",
+            "text": "<p>Chances are they have not tried floating before or if they have, they'd love to do it again. Give them an experience they won't forget along with a set of enticing benefits for the mind and body!</p>"
+          }
+        },
+        "item_7HqdfX": {
+          "type": "item",
+          "settings": {
+            "icon": "heart",
+            "title": "Deepest Rest Possible",
+            "text": "<p>We're all bombarded with too much noise, stress, and anxiety almost every moment. The lack of sensory input and pressures on your mind and body allow them to go into deep states of rest and healing.</p>"
+          }
+        },
+        "item_LgMJRn": {
+          "type": "item",
+          "settings": {
+            "icon": "silhouette",
+            "title": "Benefits Tailored to Them",
+            "text": "<h5></h5><p>With a wide range of benefits for the mind and body, each person is bound to get what they need from floating whether it's profound reduction in stress, pain relief or peaceful time for themselves.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_9CGR3C",
+        "item_7HqdfX",
+        "item_LgMJRn"
+      ],
+      "name": "Custom Icon with Text",
+      "settings": {
+        "heading": "Why Floating Makes The Best Gift",
+        "heading_accent": "",
+        "description": "",
+        "heading_alignment": "center",
+        "title_max_width": 700,
+        "heading_size_desktop": 36,
+        "heading_size_tablet": 30,
+        "heading_size_mobile": 28,
+        "description_size": 16,
+        "header_gap": 40,
+        "columns_desktop": 3,
+        "grid_gap": 16,
+        "slide_gap": 16,
+        "enable_autoplay": false,
+        "autoplay_speed": 5,
+        "card_alignment": "center",
+        "card_text_align": "center",
+        "icon_size": 40,
+        "icon_spacing": 16,
+        "card_title_size": 18,
+        "card_title_size_mobile": 16,
+        "card_text_size": 16,
+        "card_text_size_mobile": 14,
+        "card_radius": 12,
+        "card_padding": 16,
+        "bg_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "body_color": "#A8B0BD",
+        "icon_color": "#FFFFFF",
+        "accent_color": "#0DAAEF",
+        "card_bg": "#121A27",
+        "card_border": "#243041",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
     "main",
     "custom_section_innerpage_banner_pNm8iL",
-    "custom_section_richtext_brq7KT"
+    "custom_section_richtext_brq7KT",
+    "rich_text_gqHEwF",
+    "custom_section_icon_with_text_R6TGxH"
   ]
 }
