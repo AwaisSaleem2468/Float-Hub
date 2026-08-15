@@ -290,12 +290,36 @@
             "button_label": "Get Intro Pack",
             "button_link": ""
           }
+        },
+        "product_card_r8fTgw": {
+          "type": "product_card",
+          "settings": {
+            "product": "20-session-deep-repair",
+            "featured": false,
+            "badge_text": "Most Popular",
+            "price_note": "",
+            "button_label": "Book Now",
+            "button_link": ""
+          }
+        },
+        "product_card_jiHPRb": {
+          "type": "product_card",
+          "settings": {
+            "product": "40-hour-longevity",
+            "featured": false,
+            "badge_text": "Most Popular",
+            "price_note": "",
+            "button_label": "Book Now",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "product_card_FyTyWE",
         "product_card_YGtyJ7",
-        "product_card_4cpbfU"
+        "product_card_4cpbfU",
+        "product_card_r8fTgw",
+        "product_card_jiHPRb"
       ],
       "name": "Custom Feat collection",
       "settings": {
@@ -331,6 +355,72 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "custom_section_packages_wAGBgM": {
+      "type": "custom-section-packages",
+      "blocks": {
+        "package_3L63W3": {
+          "type": "package",
+          "settings": {
+            "product": "hbot-session-60-min",
+            "caption_override": "",
+            "button_label": "Book Now",
+            "button_link": ""
+          }
+        },
+        "package_YzbHXR": {
+          "type": "package",
+          "settings": {
+            "product": "hbot-for-two-session-60-min",
+            "caption_override": "",
+            "button_label": "Book Due Session",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "package_3L63W3",
+        "package_YzbHXR"
+      ],
+      "name": "Custom Packages",
+      "settings": {
+        "heading": "",
+        "heading_accent": "",
+        "description": "",
+        "heading_alignment": "left",
+        "heading_max_width": 700,
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "description_size": 15,
+        "header_gap": 28,
+        "content_width": 1100,
+        "card_radius": 12,
+        "row_padding_y": 28,
+        "row_padding_x": 32,
+        "column_gap": 28,
+        "title_size": 22,
+        "title_size_mobile": 18,
+        "caption_size": 14,
+        "price_size": 28,
+        "price_size_mobile": 22,
+        "button_label": "BUY COURSE",
+        "button_size": 12,
+        "button_height": 44,
+        "button_min_width": 140,
+        "button_radius": 6,
+        "background_color": "#121A27",
+        "card_background": "#070D16",
+        "card_border": "#243041",
+        "divider_color": "#243041",
+        "title_color": "#ffffff",
+        "caption_color": "#c8ced8",
+        "price_color": "#ffffff",
+        "accent_color": "#23a3df",
+        "button_color": "#23a3df",
+        "button_hover_color": "#22d3ee",
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -339,6 +429,7 @@
     "custom_section_richtext_awCARH",
     "custom_section_featured_collection_GUUAE9",
     "custom_section_packages_6F8Eei",
-    "custom_section_featured_collection_3T7nJK"
+    "custom_section_featured_collection_3T7nJK",
+    "custom_section_packages_wAGBgM"
   ]
 }
