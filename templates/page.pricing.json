@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "content_width": "page",
         "text_alignment": "left",
@@ -23,18 +24,89 @@
         "text_size": 16,
         "text_size_mobile": 15,
         "text_line_height": "1.7",
-        "background_color": "#070D16",
-        "title_color": "#FFFFFF",
-        "text_color": "#A8B0BD",
-        "muted_color": "#8B93A1",
-        "link_color": "#0DAAEF",
+        "background_color": "#070d16",
+        "title_color": "#ffffff",
+        "text_color": "#a8b0bd",
+        "muted_color": "#8b93a1",
+        "link_color": "#0daaef",
         "link_hover_color": "#22d3ee",
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_section_innerpage_banner_TUg4YT": {
+      "type": "custom-section-innerpage-banner",
+      "name": "Custom Innerpage Banner",
+      "settings": {
+        "media_type": "image",
+        "image": "shopify://shop_images/622435122_17995071761880493_1454273044264578395_n_1.jpg",
+        "overlay_color": "#061018",
+        "overlay_opacity": 30,
+        "section_height": 70,
+        "section_height_mobile": 70,
+        "show_badge": false,
+        "badge_text": "",
+        "eyebrow": "2026 Updated Edition",
+        "eyebrow_size": 13,
+        "heading": "The Ultimate Guide to",
+        "heading_accent": "Sensory Deprivation Tanks",
+        "heading_size_desktop": 48,
+        "heading_size_mobile": 36,
+        "description": "<p>to explore full pricing options for London’s best Float Therapy, clinical HBOT, and full-body Red Light Therapy. Explore our exclusive introductory offers, no-commitment memberships, and multi-session packages to lock in the best value.<br/><br/></p>",
+        "description_size_desktop": 16,
+        "description_size_mobile": 14,
+        "button_label_1": "",
+        "button_link_1": "",
+        "show_button_arrow": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "text_color": "#ffffff",
+        "accent_color": "#0daaef",
+        "badge_color": "#d4af37",
+        "content_position_horizontal": "center",
+        "content_position_vertical": "middle",
+        "text_alignment": "center",
+        "content_width": 1400
+      }
+    },
+    "custom_section_video_banner_KqNJmD": {
+      "type": "custom-section-video-banner",
+      "name": "Custom Video Banner",
+      "settings": {
+        "media_type": "image",
+        "image": "shopify://shop_images/FloatHub-London-Shoreditch-Orbit-Float-Pod-Float-Therapy.jpg",
+        "video": "shopify://files/videos/Floathub Video.mp4",
+        "overlay_color": "#061018",
+        "overlay_opacity": 50,
+        "section_height": 65,
+        "section_height_mobile": 60,
+        "show_badge": false,
+        "badge_text": "200+ Five-Star Reviews | London's #1",
+        "heading": "",
+        "heading_accent": "",
+        "heading_size_desktop": 64,
+        "heading_size_mobile": 36,
+        "description": "<p>Explore full pricing options for London’s best Float Therapy, clinical HBOT, and full-body Red Light Therapy. <br/></p><p>Explore our exclusive introductory offers, no-commitment memberships, and multi-session packages to lock in the best value.</p>",
+        "description_size_desktop": 24,
+        "description_size_mobile": 18,
+        "button_label_1": "",
+        "button_link_1": "",
+        "show_button_arrow": true,
+        "button_label_2": "",
+        "button_link_2": "",
+        "show_discover": true,
+        "discover_label": "Scroll Down",
+        "text_color": "#ffffff",
+        "accent_color": "#0daaef",
+        "badge_color": "#d4af37",
+        "button_primary_bg": "#0daaef",
+        "button_primary_text": "#ffffff"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_section_innerpage_banner_TUg4YT",
+    "custom_section_video_banner_KqNJmD"
   ]
 }
