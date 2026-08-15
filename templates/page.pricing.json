@@ -583,7 +583,7 @@
             "featured": true,
             "badge_text": "Welcome Bonus",
             "price_note": "",
-            "button_label": "Join Now",
+            "button_label": "Join Membership",
             "button_link": ""
           }
         },
@@ -594,7 +594,7 @@
             "featured": true,
             "badge_text": "Most Popular",
             "price_note": "",
-            "button_label": "Join Now",
+            "button_label": "Join Membership",
             "button_link": ""
           }
         },
@@ -605,7 +605,7 @@
             "featured": false,
             "badge_text": "Most Popular",
             "price_note": "",
-            "button_label": "Join Now",
+            "button_label": "Join Membership",
             "button_link": ""
           }
         }
@@ -697,13 +697,44 @@
         "text_size_desktop": 22,
         "text_size_mobile": 18,
         "content_width": 1000,
-        "background_color": "#0b1220",
+        "background_color": "#070D16",
         "text_color": "#e8edf5",
         "strong_color": "#ffffff",
         "badge_background": "#1a2436",
         "badge_text_color": "#d5dce8",
         "star_color": "#f5c518",
         "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "custom_section_icon_with_text_horizontal_gGtMdr": {
+      "type": "custom-section-icon-with-text-horizontal",
+      "name": "Icon Text Horizontal",
+      "settings": {
+        "text": "<p><strong>Want to treat a friend or loved one?</strong> <a href=\"/products/gift-card\" title=\"Gift cards\">Grab one of our gift cards</a> and</p><p>give them deep relaxation, recovery and an unforgettable experience!</p>",
+        "accessibility_label": "Gift cards",
+        "icon": "heart",
+        "icon_style": "gradient",
+        "icon_color": "#FF6B4A",
+        "icon_gradient_from": "#FF7A45",
+        "icon_gradient_to": "#D62828",
+        "icon_size": 64,
+        "icon_size_mobile": 48,
+        "content_width": 700,
+        "text_max_width": 720,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "content_gap": 20,
+        "content_gap_mobile": 14,
+        "stack_on_mobile": false,
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "background_color": "#070D16",
+        "text_color": "#C8CED8",
+        "strong_color": "#FFFFFF",
+        "link_color": "#23A3DF",
+        "link_hover_color": "#FFFFFF",
+        "padding_top": 0,
         "padding_bottom": 80
       }
     }
@@ -720,6 +751,7 @@
     "custom_section_packages_pLCUyq",
     "custom_section_featured_collection_YzTPLt",
     "custom_section_become_a_member_j48k7w",
-    "custom_section_richtext_8mj6iw"
+    "custom_section_richtext_8mj6iw",
+    "custom_section_icon_with_text_horizontal_gGtMdr"
   ]
 }
