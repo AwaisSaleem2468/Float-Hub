@@ -67,10 +67,35 @@
         "button_primary_bg": "#0daaef",
         "button_primary_text": "#ffffff"
       }
+    },
+    "custom_section_richtext_awCARH": {
+      "type": "custom-section-richtext",
+      "name": "Custom Rich Text",
+      "settings": {
+        "show_badge": true,
+        "show_stars": true,
+        "badge_text": "London's best Float Therapy",
+        "badge_size_desktop": 16,
+        "badge_size_mobile": 14,
+        "badge_spacing": 28,
+        "content": "<p>Our premium recovery centre offers a luxurious, multi-modality wellness experience. Discover London's best Float Therapy featuring 100% water filtration twice between sessions, our extra spacious 1.5ATA double HBOT chamber, and our 26K German-engineered LED full body red light bed. Book your session today to experience reduced anxiety, deeper sleep, and peak physical recovery.</p>",
+        "text_size_desktop": 18,
+        "text_size_mobile": 16,
+        "content_width": 900,
+        "background_color": "#0f1827",
+        "text_color": "#c8ced8",
+        "strong_color": "#ffffff",
+        "badge_background": "#243044",
+        "badge_text_color": "#c8ced8",
+        "star_color": "#f5c518",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
     "main",
-    "custom_section_video_banner_KqNJmD"
+    "custom_section_video_banner_KqNJmD",
+    "custom_section_richtext_awCARH"
   ]
 }
