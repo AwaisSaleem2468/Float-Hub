@@ -694,7 +694,7 @@
         "badge_size_mobile": 11,
         "badge_spacing": 28,
         "content": "<p>Memberships – Our members get the best prices on floats, free 90 minute float, and discounted float for friends and family. Pay monthly, no minimum term.</p><p></p><p>Memberships are a great option even if you just want to try out floating – only stay with us if you want to.</p><p></p><p>Since floating is a practice that has a learning curve and an accumulative effect, the more often you float, the better and more effective they get.</p><p>If you are interested in adding a float practice to your routine, you’ll get the best value by becoming a member.</p>",
-        "text_size_desktop": 22,
+        "text_size_desktop": 20,
         "text_size_mobile": 18,
         "content_width": 1000,
         "background_color": "#070D16",
@@ -720,15 +720,15 @@
         "icon_gradient_to": "#D62828",
         "icon_size": 64,
         "icon_size_mobile": 48,
-        "content_width": 700,
-        "text_max_width": 720,
+        "content_width": 800,
+        "text_max_width": 680,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
         "content_gap": 20,
-        "content_gap_mobile": 14,
+        "content_gap_mobile": 16,
         "stack_on_mobile": false,
-        "text_size": 16,
-        "text_size_mobile": 15,
+        "text_size": 20,
+        "text_size_mobile": 18,
         "background_color": "#070D16",
         "text_color": "#C8CED8",
         "strong_color": "#FFFFFF",
@@ -736,6 +736,56 @@
         "link_hover_color": "#FFFFFF",
         "padding_top": 0,
         "padding_bottom": 80
+      }
+    },
+    "rich_text_a8NMDt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YfrfcC": {
+          "type": "heading",
+          "settings": {
+            "heading": "How often should I float?"
+          }
+        },
+        "text_dMVDyt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Everyone floats for different reasons. We <em>highly recommend </em>you try at least 3 floats within a period of around 45 – 60 days to experience the full benefits. Most people develop a practice of 1 – 4 floats per month.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YfrfcC",
+        "text_dMVDyt"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "content_max_width": 700,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "button_size": 15,
+        "button_radius": 40,
+        "background_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "caption_color": "#0DAAEF",
+        "text_color": "#A8B0BD",
+        "link_color": "#0DAAEF",
+        "button_text_color": "#FFFFFF",
+        "button_secondary_text_color": "#FFFFFF",
+        "button_secondary_border_color": "#FFFFFF",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -752,6 +802,7 @@
     "custom_section_featured_collection_YzTPLt",
     "custom_section_become_a_member_j48k7w",
     "custom_section_richtext_8mj6iw",
-    "custom_section_icon_with_text_horizontal_gGtMdr"
+    "custom_section_icon_with_text_horizontal_gGtMdr",
+    "rich_text_a8NMDt"
   ]
 }
