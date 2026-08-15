@@ -241,7 +241,7 @@
         "button_height": 44,
         "button_min_width": 140,
         "button_radius": 6,
-        "background_color": "#070D16",
+        "background_color": "#070d16",
         "card_background": "#121a27",
         "card_border": "#243041",
         "divider_color": "#243041",
@@ -261,7 +261,7 @@
         "product_card_FyTyWE": {
           "type": "product_card",
           "settings": {
-            "product": "single-float-60-min",
+            "product": "intro-3-pack",
             "featured": false,
             "badge_text": "Most Popular",
             "price_note": "/ month",
@@ -269,33 +269,33 @@
             "button_link": ""
           }
         },
-        "product_card_4cpbfU": {
-          "type": "product_card",
-          "settings": {
-            "product": "float-for-two-couples",
-            "featured": true,
-            "badge_text": "Most Popular",
-            "price_note": "/ 2 floats",
-            "button_label": "Get Intro Pack",
-            "button_link": ""
-          }
-        },
         "product_card_YGtyJ7": {
           "type": "product_card",
           "settings": {
-            "product": "2-float-intr",
+            "product": "5-session-starter",
             "featured": false,
             "badge_text": "Most Popular",
             "price_note": "",
             "button_label": "Book Now",
             "button_link": ""
           }
+        },
+        "product_card_4cpbfU": {
+          "type": "product_card",
+          "settings": {
+            "product": "10-session-performance",
+            "featured": true,
+            "badge_text": "Most Popular",
+            "price_note": "/ 2 floats",
+            "button_label": "Get Intro Pack",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "product_card_FyTyWE",
-        "product_card_4cpbfU",
-        "product_card_YGtyJ7"
+        "product_card_YGtyJ7",
+        "product_card_4cpbfU"
       ],
       "name": "Custom Feat collection",
       "settings": {
@@ -315,8 +315,8 @@
         "button_size": 16,
         "content_width": 1120,
         "header_spacing": 48,
-        "background_color": "#121A27",
-        "card_background": "#070D16",
+        "background_color": "#121a27",
+        "card_background": "#070d16",
         "text_color": "#ffffff",
         "muted_color": "#c8ced8",
         "accent_color": "#23a3df",
