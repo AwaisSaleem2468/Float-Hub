@@ -120,7 +120,7 @@
         "product_card_KDrfdL": {
           "type": "product_card",
           "settings": {
-            "product": "2-float-intro-course",
+            "product": "2-float-intr",
             "featured": false,
             "badge_text": "Most Popular",
             "price_note": "",
