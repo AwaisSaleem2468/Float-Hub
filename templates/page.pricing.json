@@ -101,8 +101,8 @@
             "product": "single-float-60-min",
             "featured": false,
             "badge_text": "Most Popular",
-            "price_note": "/ month",
-            "button_label": "Join Now",
+            "price_note": "",
+            "button_label": "Book Now",
             "button_link": ""
           }
         },
@@ -112,8 +112,8 @@
             "product": "float-for-two-couples",
             "featured": true,
             "badge_text": "Most Popular",
-            "price_note": "/ 2 floats",
-            "button_label": "Get Intro Pack",
+            "price_note": "",
+            "button_label": "Book Now",
             "button_link": ""
           }
         },
@@ -186,7 +186,7 @@
           "settings": {
             "product": "4-float-sharer-course",
             "caption_override": "",
-            "button_label": "",
+            "button_label": "Buy Pack",
             "button_link": ""
           }
         },
@@ -195,7 +195,7 @@
           "settings": {
             "product": "annual-course-package-12-floats",
             "caption_override": "",
-            "button_label": "",
+            "button_label": "Buy Pack",
             "button_link": ""
           }
         },
@@ -204,7 +204,7 @@
           "settings": {
             "product": "corporate-group-pack-12-floats",
             "caption_override": "",
-            "button_label": "",
+            "button_label": "Buy Pack",
             "button_link": ""
           }
         }
