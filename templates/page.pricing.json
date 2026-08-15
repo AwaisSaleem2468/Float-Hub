@@ -142,7 +142,7 @@
         "heading_size_desktop": 42,
         "heading_size_mobile": 32,
         "label_size": 14,
-        "description": "<p>While a single session is highly effective at reducing anxiety and improving sleep patterns for around 36 hours, the core biological benefits of floating compound over several sessions. Committing to regular practice fundamentally resets your baseline stress level, unlocking sustained improvements in focus, deep sleep, and emotional well-being that can endure for weeks or months at a time.<br/><br/></p>",
+        "description": "<p>While a single session is highly effective at reducing anxiety and improving sleep patterns for around 36 hours, the core biological benefits of floating compound over several sessions. Committing to regular practice fundamentally resets your baseline stress level, unlocking sustained improvements in focus, deep sleep, and emotional well-being that can endure for weeks or months at a time.</p>",
         "description_size_desktop": 16,
         "description_size_mobile": 15,
         "caption_size": 16,
@@ -254,6 +254,83 @@
         "padding_top": 0,
         "padding_bottom": 80
       }
+    },
+    "custom_section_featured_collection_3T7nJK": {
+      "type": "custom-section-featured-collection",
+      "blocks": {
+        "product_card_FyTyWE": {
+          "type": "product_card",
+          "settings": {
+            "product": "single-float-60-min",
+            "featured": false,
+            "badge_text": "Most Popular",
+            "price_note": "/ month",
+            "button_label": "Join Now",
+            "button_link": ""
+          }
+        },
+        "product_card_4cpbfU": {
+          "type": "product_card",
+          "settings": {
+            "product": "float-for-two-couples",
+            "featured": true,
+            "badge_text": "Most Popular",
+            "price_note": "/ 2 floats",
+            "button_label": "Get Intro Pack",
+            "button_link": ""
+          }
+        },
+        "product_card_YGtyJ7": {
+          "type": "product_card",
+          "settings": {
+            "product": "2-float-intr",
+            "featured": false,
+            "badge_text": "Most Popular",
+            "price_note": "",
+            "button_label": "Book Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_card_FyTyWE",
+        "product_card_4cpbfU",
+        "product_card_YGtyJ7"
+      ],
+      "name": "Custom Feat collection",
+      "settings": {
+        "label": "",
+        "heading": "Hyperbaric Oxygen (HBOT)",
+        "heading_accent": "",
+        "heading_size_desktop": 42,
+        "heading_size_mobile": 32,
+        "label_size": 14,
+        "description": "<p>Step into London's premier Oxygen Suite. Bypassing the red blood cell bottleneck via plasma saturation to reverse neural oxygen debts and clear systemic inflammation.</p>",
+        "description_size_desktop": 16,
+        "description_size_mobile": 15,
+        "caption_size": 16,
+        "title_size": 20,
+        "price_size": 36,
+        "feature_size": 16,
+        "button_size": 16,
+        "content_width": 1120,
+        "header_spacing": 48,
+        "background_color": "#070d16",
+        "card_background": "#121a27",
+        "text_color": "#ffffff",
+        "muted_color": "#c8ced8",
+        "accent_color": "#23a3df",
+        "accent_text_color": "#061018",
+        "gold_color": "#23a3df",
+        "gold_text_color": "#1a1208",
+        "show_view_all": false,
+        "view_all_label": "View all",
+        "view_all_link": "",
+        "view_all_style": "ghost",
+        "view_all_spacing": 32,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -261,6 +338,7 @@
     "custom_section_video_banner_KqNJmD",
     "custom_section_richtext_awCARH",
     "custom_section_featured_collection_GUUAE9",
-    "custom_section_packages_6F8Eei"
+    "custom_section_packages_6F8Eei",
+    "custom_section_featured_collection_3T7nJK"
   ]
 }
