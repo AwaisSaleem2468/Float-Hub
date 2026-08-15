@@ -91,11 +91,89 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "custom_section_featured_collection_GUUAE9": {
+      "type": "custom-section-featured-collection",
+      "blocks": {
+        "product_card_KDrfdL": {
+          "type": "product_card",
+          "settings": {
+            "product": "",
+            "featured": false,
+            "badge_text": "Most Popular",
+            "price_note": "",
+            "button_label": "Book Now",
+            "button_link": ""
+          }
+        },
+        "product_card_zqyc3e": {
+          "type": "product_card",
+          "settings": {
+            "product": "",
+            "featured": true,
+            "badge_text": "Most Popular",
+            "price_note": "/ 2 floats",
+            "button_label": "Get Intro Pack",
+            "button_link": ""
+          }
+        },
+        "product_card_3LtQ9e": {
+          "type": "product_card",
+          "settings": {
+            "product": "",
+            "featured": false,
+            "badge_text": "Most Popular",
+            "price_note": "/ month",
+            "button_label": "Join Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_card_KDrfdL",
+        "product_card_zqyc3e",
+        "product_card_3LtQ9e"
+      ],
+      "name": "Custom Feat collection",
+      "settings": {
+        "label": "Transparent Pricing",
+        "heading": "No hidden costs.",
+        "heading_accent": "No contracts.",
+        "heading_size_desktop": 52,
+        "heading_size_mobile": 34,
+        "label_size": 12,
+        "description": "<p>Start with a single session or save with our intro pack. Cancel your membership any time.</p>",
+        "description_size_desktop": 16,
+        "description_size_mobile": 15,
+        "caption_size": 14,
+        "title_size": 22,
+        "price_size": 48,
+        "feature_size": 15,
+        "button_size": 15,
+        "content_width": 1120,
+        "header_spacing": 48,
+        "background_color": "#070D16",
+        "card_background": "#121A27",
+        "text_color": "#FFFFFF",
+        "muted_color": "#A8B0BD",
+        "accent_color": "#0DAAEF",
+        "accent_text_color": "#061018",
+        "gold_color": "#C9A46A",
+        "gold_text_color": "#1A1208",
+        "show_view_all": true,
+        "view_all_label": "View all",
+        "view_all_link": "",
+        "view_all_style": "ghost",
+        "view_all_spacing": 32,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
     "main",
     "custom_section_video_banner_KqNJmD",
-    "custom_section_richtext_awCARH"
+    "custom_section_richtext_awCARH",
+    "custom_section_featured_collection_GUUAE9"
   ]
 }
