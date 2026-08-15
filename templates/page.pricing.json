@@ -102,18 +102,7 @@
             "featured": false,
             "badge_text": "Most Popular",
             "price_note": "",
-            "button_label": "Book Now",
-            "button_link": ""
-          }
-        },
-        "product_card_zqyc3e": {
-          "type": "product_card",
-          "settings": {
-            "product": "float-for-two-couples",
-            "featured": true,
-            "badge_text": "Most Popular",
-            "price_note": "",
-            "button_label": "Book Now",
+            "button_label": "Book Session",
             "button_link": ""
           }
         },
@@ -124,15 +113,26 @@
             "featured": false,
             "badge_text": "Most Popular",
             "price_note": "",
-            "button_label": "Book Now",
+            "button_label": "Buy Into Pack",
+            "button_link": ""
+          }
+        },
+        "product_card_zqyc3e": {
+          "type": "product_card",
+          "settings": {
+            "product": "float-for-two-couples",
+            "featured": true,
+            "badge_text": "Most Popular",
+            "price_note": "",
+            "button_label": "Book Couples  POD",
             "button_link": ""
           }
         }
       },
       "block_order": [
         "product_card_3LtQ9e",
-        "product_card_zqyc3e",
-        "product_card_KDrfdL"
+        "product_card_KDrfdL",
+        "product_card_zqyc3e"
       ],
       "name": "Custom Feat collection",
       "settings": {
@@ -263,9 +263,9 @@
           "settings": {
             "product": "intro-3-pack",
             "featured": false,
-            "badge_text": "Most Popular",
-            "price_note": "/ month",
-            "button_label": "Join Now",
+            "badge_text": "",
+            "price_note": "",
+            "button_label": "Buy Intro Pack",
             "button_link": ""
           }
         },
@@ -276,7 +276,7 @@
             "featured": false,
             "badge_text": "Most Popular",
             "price_note": "",
-            "button_label": "Book Now",
+            "button_label": "Buy Statter Pack",
             "button_link": ""
           }
         },
@@ -286,8 +286,8 @@
             "product": "10-session-performance",
             "featured": true,
             "badge_text": "Most Popular",
-            "price_note": "/ 2 floats",
-            "button_label": "Get Intro Pack",
+            "price_note": "",
+            "button_label": "Buy 10 Session Pack",
             "button_link": ""
           }
         },
@@ -296,9 +296,9 @@
           "settings": {
             "product": "20-session-deep-repair",
             "featured": false,
-            "badge_text": "Most Popular",
+            "badge_text": "",
             "price_note": "",
-            "button_label": "Book Now",
+            "button_label": "Buy 20 Session Pack",
             "button_link": ""
           }
         },
@@ -306,10 +306,10 @@
           "type": "product_card",
           "settings": {
             "product": "40-hour-longevity",
-            "featured": false,
+            "featured": true,
             "badge_text": "Most Popular",
             "price_note": "",
-            "button_label": "Book Now",
+            "button_label": "Buy 40 Hours Pack",
             "button_link": ""
           }
         }
@@ -408,8 +408,8 @@
         "button_height": 44,
         "button_min_width": 140,
         "button_radius": 6,
-        "background_color": "#121A27",
-        "card_background": "#070D16",
+        "background_color": "#121a27",
+        "card_background": "#070d16",
         "card_border": "#243041",
         "divider_color": "#243041",
         "title_color": "#ffffff",
@@ -429,10 +429,10 @@
           "type": "product_card",
           "settings": {
             "product": "red-light-therapy",
-            "featured": true,
-            "badge_text": "Most Popular",
-            "price_note": "/ 2 floats",
-            "button_label": "Get Intro Pack",
+            "featured": false,
+            "badge_text": "",
+            "price_note": "",
+            "button_label": "Book Session",
             "button_link": ""
           }
         },
@@ -443,7 +443,7 @@
             "featured": false,
             "badge_text": "Most Popular",
             "price_note": "/ month",
-            "button_label": "Join Now",
+            "button_label": "Buy Discovery pack",
             "button_link": ""
           }
         }
@@ -495,7 +495,7 @@
           "settings": {
             "product": "starter-pack",
             "caption_override": "",
-            "button_label": "Buy Pack",
+            "button_label": "Buy Starter Pack",
             "button_link": ""
           }
         },
@@ -504,7 +504,7 @@
           "settings": {
             "product": "gold-pack",
             "caption_override": "",
-            "button_label": "",
+            "button_label": "Buy Gold Pack",
             "button_link": ""
           }
         },
@@ -513,7 +513,7 @@
           "settings": {
             "product": "platinum-pack",
             "caption_override": "",
-            "button_label": "",
+            "button_label": "Buy Platinum Pack",
             "button_link": ""
           }
         },
@@ -522,7 +522,7 @@
           "settings": {
             "product": "intensive-pack",
             "caption_override": "",
-            "button_label": "",
+            "button_label": "Buy Intensive Pack",
             "button_link": ""
           }
         }
@@ -650,6 +650,39 @@
         "padding_bottom": 80
       }
     },
+    "custom_section_become_a_member_j48k7w": {
+      "type": "custom-section-become-a-member",
+      "name": "Custom Become a Member",
+      "settings": {
+        "heading": "Become a member",
+        "text": "<p>Memberships offer the best price, no minimum term, free 90-min upgrades (subject to availability), and amazing partner benefits.</p>",
+        "button_label": "CLICK FOR MEMBERSHIPS",
+        "button_link": "#",
+        "content_width": 880,
+        "text_max_width": 560,
+        "content_gap": 40,
+        "content_gap_mobile": 24,
+        "padding_horizontal": 40,
+        "mobile_alignment": "left",
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "text_size": 15,
+        "text_size_mobile": 14,
+        "text_spacing": 12,
+        "button_size": 13,
+        "button_height": 52,
+        "button_padding_x": 28,
+        "button_radius": 6,
+        "background_color": "#23A3DF",
+        "heading_color": "#FFFFFF",
+        "text_color": "#FFFFFF",
+        "button_background": "#FFFFFF",
+        "button_hover_background": "#C8CED8",
+        "button_text_color": "#070D16",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "custom_section_richtext_8mj6iw": {
       "type": "custom-section-richtext",
       "name": "Custom Rich Text",
@@ -664,12 +697,12 @@
         "text_size_desktop": 22,
         "text_size_mobile": 18,
         "content_width": 1000,
-        "background_color": "#0B1220",
-        "text_color": "#E8EDF5",
-        "strong_color": "#FFFFFF",
-        "badge_background": "#1A2436",
-        "badge_text_color": "#D5DCE8",
-        "star_color": "#F5C518",
+        "background_color": "#0b1220",
+        "text_color": "#e8edf5",
+        "strong_color": "#ffffff",
+        "badge_background": "#1a2436",
+        "badge_text_color": "#d5dce8",
+        "star_color": "#f5c518",
         "padding_top": 80,
         "padding_bottom": 80
       }
@@ -686,6 +719,7 @@
     "custom_section_featured_collection_bk8fiW",
     "custom_section_packages_pLCUyq",
     "custom_section_featured_collection_YzTPLt",
+    "custom_section_become_a_member_j48k7w",
     "custom_section_richtext_8mj6iw"
   ]
 }
