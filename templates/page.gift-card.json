@@ -283,58 +283,6 @@
         "button_border_color": "#ffffff"
       }
     },
-    "collapsible_content_cKxmFk": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_napRwH": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I send an electronic gift card?",
-            "icon": "none",
-            "row_content": "<p>Yes,  when you go to purchase one from our online store, you will have the option of sending it via email on a scheduled date that you choose (ex. birthday or anniversary).</p><p>Simply click on Gift Card page and follow the instructions.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_tMYept": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Am I able to get a physical gift card to give to someone?",
-            "icon": "none",
-            "row_content": "<p>We can only offer digital gift cards, with a code to use upon check out.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_ymGBc4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I book with a gift card I received?",
-            "icon": "none",
-            "row_content": "<p>If you received an electronic gift card, you can easily book your session online.</p><p>Go to our booking system and login or create an account.</p><p>www.floathub.co.uk and click Book Now</p><p>You’ll need to choose the services that correspond with your gift card and enter your card number upon checkout.</p><p>Email us at info@floathub.co.uk</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_napRwH",
-        "collapsible_row_tMYept",
-        "collapsible_row_ymGBc4"
-      ],
-      "name": "t:sections.collapsible_content.presets.name",
-      "settings": {
-        "caption": "",
-        "heading": "Frequently Asked Questions",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "row",
-        "container_color_scheme": "scheme-3",
-        "color_scheme": "scheme-4",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
-    },
     "custom_section_testimonial_78FTcw": {
       "type": "custom-section-testimonial",
       "blocks": {
@@ -503,6 +451,58 @@
         "muted_color": "#a8b0bd",
         "accent_color": "#0daaef",
         "content_width": 1200,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "collapsible_content_cKxmFk": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_napRwH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I send an electronic gift card?",
+            "icon": "none",
+            "row_content": "<p>Yes,  when you go to purchase one from our online store, you will have the option of sending it via email on a scheduled date that you choose (ex. birthday or anniversary).</p><p>Simply click on Gift Card page and follow the instructions.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tMYept": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Am I able to get a physical gift card to give to someone?",
+            "icon": "none",
+            "row_content": "<p>We can only offer digital gift cards, with a code to use upon check out.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ymGBc4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I book with a gift card I received?",
+            "icon": "none",
+            "row_content": "<p>If you received an electronic gift card, you can easily book your session online.</p><p>Go to our booking system and login or create an account.</p><p>www.floathub.co.uk and click Book Now</p><p>You’ll need to choose the services that correspond with your gift card and enter your card number upon checkout.</p><p>Email us at info@floathub.co.uk</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_napRwH",
+        "collapsible_row_tMYept",
+        "collapsible_row_ymGBc4"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "container_color_scheme": "scheme-3",
+        "color_scheme": "scheme-4",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
         "padding_top": 0,
         "padding_bottom": 80
       }
@@ -515,7 +515,7 @@
     "rich_text_gqHEwF",
     "custom_section_icon_with_text_R6TGxH",
     "custom_section_stacked_image_text_overly_DnjMpJ",
-    "collapsible_content_cKxmFk",
-    "custom_section_testimonial_78FTcw"
+    "custom_section_testimonial_78FTcw",
+    "collapsible_content_cKxmFk"
   ]
 }
