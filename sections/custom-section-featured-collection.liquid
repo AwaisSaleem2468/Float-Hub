@@ -192,36 +192,19 @@
     width: 100%;
     min-height: 3.1rem;
     padding: 0.85rem 1.25rem;
+    border: 1px solid transparent;
     border-radius: 0.7rem;
+    background: linear-gradient(to right, #3b82f6, #22d3ee);
+    color: #ffffff;
     font-family: var(--font-body-family);
     font-size: var(--fp-btn-size);
     font-weight: 600;
     text-decoration: none;
-    transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, filter 0.2s ease;
+    transition: transform 0.2s ease, filter 0.2s ease;
   }
 
   #FeaturedPricing-{{ section.id }} .featured-pricing__btn:hover {
     transform: translateY(-1px);
-  }
-
-  #FeaturedPricing-{{ section.id }} .featured-pricing__btn--ghost {
-    background: transparent;
-    color: var(--fp-text);
-    border: 1px solid rgba(255, 255, 255, 0.28);
-  }
-
-  #FeaturedPricing-{{ section.id }} .featured-pricing__btn--ghost:hover {
-    border-color: rgba(255, 255, 255, 0.55);
-    background: rgba(255, 255, 255, 0.04);
-  }
-
-  #FeaturedPricing-{{ section.id }} .featured-pricing__btn--solid {
-    background: linear-gradient(to right, #3b82f6, #22d3ee);
-    color: #ffffff;
-    border: 1px solid transparent;
-  }
-
-  #FeaturedPricing-{{ section.id }} .featured-pricing__btn--solid:hover {
     filter: brightness(1.05);
   }
 
@@ -426,10 +409,7 @@
               {%- endif -%}
 
               {%- if button_label != blank -%}
-                <a
-                  class="featured-pricing__btn {% if is_featured %}featured-pricing__btn--solid{% else %}featured-pricing__btn--ghost{% endif %}"
-                  href="{{ button_link }}"
-                >
+                <a class="featured-pricing__btn" href="{{ button_link }}">
                   {{ button_label | escape }}
                 </a>
               {%- endif -%}
