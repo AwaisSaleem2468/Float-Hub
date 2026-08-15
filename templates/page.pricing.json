@@ -776,16 +776,73 @@
         "text_size_mobile": 15,
         "button_size": 15,
         "button_radius": 40,
-        "background_color": "#070D16",
+        "background_color": "#121A27",
         "heading_color": "#FFFFFF",
-        "caption_color": "#0DAAEF",
-        "text_color": "#A8B0BD",
-        "link_color": "#0DAAEF",
+        "caption_color": "#23A3DF",
+        "text_color": "#C8CED8",
+        "link_color": "#23A3DF",
         "button_text_color": "#FFFFFF",
         "button_secondary_text_color": "#FFFFFF",
         "button_secondary_border_color": "#FFFFFF",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "custom_section_stacked_image_text_overly_TgjGw7": {
+      "type": "custom-section-stacked-image-text-overly",
+      "blocks": {
+        "panel_U7FBBf": {
+          "type": "panel",
+          "settings": {
+            "image": "shopify://shop_images/624292321_18089226653472903_2926321886989038639_n.jpg",
+            "eyebrow": "GIFT CARDS",
+            "heading": "Give The Gift Of Deep Relaxation",
+            "button_label": "Choose An Amount",
+            "button_link": "#"
+          }
+        },
+        "panel_PwcyWt": {
+          "type": "panel",
+          "settings": {
+            "image": "shopify://shop_images/481112418_2741467312704498_3456577850477813194_n.jpg",
+            "eyebrow": "WELLNESS PROGRAMS",
+            "heading": "Reward Your Employees, See Greater ROI",
+            "button_label": "Request More Info",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "panel_U7FBBf",
+        "panel_PwcyWt"
+      ],
+      "name": "Stacked Image Overlay",
+      "settings": {
+        "accessibility_label": "Featured promotions",
+        "columns_desktop": 2,
+        "panel_height": 680,
+        "panel_height_mobile": 360,
+        "content_max_width": 520,
+        "content_padding_y": 32,
+        "content_padding_x": 16,
+        "eyebrow_size": 14,
+        "eyebrow_size_mobile": 11,
+        "heading_size": 24,
+        "heading_size_mobile": 20,
+        "eyebrow_spacing": 12,
+        "heading_spacing": 16,
+        "button_style": "gradient",
+        "button_size": 16,
+        "button_height": 48,
+        "button_padding_x": 28,
+        "button_radius": 8,
+        "fallback_background": "#121A27",
+        "overlay_color": "#070D16",
+        "overlay_opacity": 80,
+        "eyebrow_color": "#FFFFFF",
+        "text_color": "#FFFFFF",
+        "button_text_color": "#FFFFFF",
+        "button_border_color": "#FFFFFF"
       }
     }
   },
@@ -803,6 +860,7 @@
     "custom_section_become_a_member_j48k7w",
     "custom_section_richtext_8mj6iw",
     "custom_section_icon_with_text_horizontal_gGtMdr",
-    "rich_text_a8NMDt"
+    "rich_text_a8NMDt",
+    "custom_section_stacked_image_text_overly_TgjGw7"
   ]
 }
