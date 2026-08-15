@@ -673,12 +673,12 @@
         "button_height": 52,
         "button_padding_x": 28,
         "button_radius": 6,
-        "background_color": "#23A3DF",
-        "heading_color": "#FFFFFF",
-        "text_color": "#FFFFFF",
-        "button_background": "#FFFFFF",
-        "button_hover_background": "#C8CED8",
-        "button_text_color": "#070D16",
+        "background_color": "#23a3df",
+        "heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_hover_background": "#c8ced8",
+        "button_text_color": "#070d16",
         "padding_top": 80,
         "padding_bottom": 80
       }
@@ -697,7 +697,7 @@
         "text_size_desktop": 20,
         "text_size_mobile": 18,
         "content_width": 1000,
-        "background_color": "#070D16",
+        "background_color": "#070d16",
         "text_color": "#e8edf5",
         "strong_color": "#ffffff",
         "badge_background": "#1a2436",
@@ -715,9 +715,9 @@
         "accessibility_label": "Gift cards",
         "icon": "heart",
         "icon_style": "gradient",
-        "icon_color": "#FF6B4A",
-        "icon_gradient_from": "#FF7A45",
-        "icon_gradient_to": "#D62828",
+        "icon_color": "#ff6b4a",
+        "icon_gradient_from": "#ff7a45",
+        "icon_gradient_to": "#d62828",
         "icon_size": 64,
         "icon_size_mobile": 48,
         "content_width": 800,
@@ -729,11 +729,11 @@
         "stack_on_mobile": false,
         "text_size": 20,
         "text_size_mobile": 18,
-        "background_color": "#070D16",
-        "text_color": "#C8CED8",
-        "strong_color": "#FFFFFF",
-        "link_color": "#23A3DF",
-        "link_hover_color": "#FFFFFF",
+        "background_color": "#070d16",
+        "text_color": "#c8ced8",
+        "strong_color": "#ffffff",
+        "link_color": "#23a3df",
+        "link_hover_color": "#ffffff",
         "padding_top": 0,
         "padding_bottom": 80
       }
@@ -776,14 +776,14 @@
         "text_size_mobile": 15,
         "button_size": 15,
         "button_radius": 40,
-        "background_color": "#121A27",
-        "heading_color": "#FFFFFF",
-        "caption_color": "#23A3DF",
-        "text_color": "#C8CED8",
-        "link_color": "#23A3DF",
-        "button_text_color": "#FFFFFF",
-        "button_secondary_text_color": "#FFFFFF",
-        "button_secondary_border_color": "#FFFFFF",
+        "background_color": "#121a27",
+        "heading_color": "#ffffff",
+        "caption_color": "#23a3df",
+        "text_color": "#c8ced8",
+        "link_color": "#23a3df",
+        "button_text_color": "#ffffff",
+        "button_secondary_text_color": "#ffffff",
+        "button_secondary_border_color": "#ffffff",
         "padding_top": 80,
         "padding_bottom": 80
       }
@@ -820,7 +820,7 @@
       "settings": {
         "accessibility_label": "Featured promotions",
         "columns_desktop": 2,
-        "panel_height": 600,
+        "panel_height": 720,
         "panel_height_mobile": 360,
         "content_max_width": 520,
         "content_padding_y": 32,
@@ -836,13 +836,137 @@
         "button_height": 48,
         "button_padding_x": 28,
         "button_radius": 8,
-        "fallback_background": "#121A27",
-        "overlay_color": "#070D16",
+        "fallback_background": "#121a27",
+        "overlay_color": "#070d16",
         "overlay_opacity": 80,
-        "eyebrow_color": "#FFFFFF",
-        "text_color": "#FFFFFF",
-        "button_text_color": "#FFFFFF",
-        "button_border_color": "#FFFFFF"
+        "eyebrow_color": "#ffffff",
+        "text_color": "#ffffff",
+        "button_text_color": "#ffffff",
+        "button_border_color": "#ffffff"
+      }
+    },
+    "collapsible_content_7y8TFD": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_GkJa8q": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I share my floats or membership?",
+            "icon": "none",
+            "row_content": "<p>Our memberships are individual, however you earn free floats by referring new members, previous unused floats can be gifted, members can buy discounted guest passes, and also get 20% off any packs we might offer from time to time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pNAhXE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do float credits ever expire?",
+            "icon": "none",
+            "row_content": "<p>No, floats on your account rollover and never expire for single float purchases or active members.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_GNmjGm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I want to float more than once a month?",
+            "icon": "none",
+            "row_content": "<p>The best option is to sign up for our membership <strong>(every 4th float within a calendar month is free!),</strong> which gives you the best price on floats, additional floats at the same price, and many additional perks.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Q8qmTF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I have to buy a float before booking an appointment?",
+            "icon": "none",
+            "row_content": "<p>Yes, if you are not currently a member, you will need to first purchase a float session that you can put towards your appointment that you will be booking. Active members are able to pre-book appointments and can set up recurring times to help build your floating practice.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_QNyGti": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is there any commitment, sign up, or cancellation fee for membership?",
+            "icon": "none",
+            "row_content": "<p>No, our memberships are flexible and month-to-month. There is no sign up or cancellation fee to become a member. There is no minimum term and if you wish to cancel we require a written request to team@floathub.co.uk 10 days before the payment is due.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dqzEdk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's your refund policy?",
+            "icon": "none",
+            "row_content": "<p><strong>We do offer full refund within 14 days from the purchase.</strong></p><p>Refunds are available within 14 days of purchase, if the sessions have not been used. If you need a refund for any reason, please get in touch and we can help you with this.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_GkJa8q",
+        "collapsible_row_pNAhXE",
+        "collapsible_row_GNmjGm",
+        "collapsible_row_Q8qmTF",
+        "collapsible_row_QNyGti",
+        "collapsible_row_dqzEdk"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "container_color_scheme": "scheme-3",
+        "color_scheme": "scheme-4",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "collapsible_content_UXFXUY": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_ftWWqL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I send an electronic gift card?",
+            "icon": "none",
+            "row_content": "<p>Yes, you have the option of a digital gift card. When you go to purchase one from our online store, you will have the option of sending it via email on a scheduled date that you choose (ex. birthday or anniversary).  You can also write a personalised message for the recipient. Simply choose Gift Cards on the Menu.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UxKkEw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I redeem a gift card I received?",
+            "icon": "none",
+            "row_content": "<p>If you received an electronic gift card, you can easily book your session online. Go to our booking system and login or create an account. You’ll need to choose the services that correspond with your gift card and enter your card number upon checkout.</p><p>Give us a call at +020 3666 0895 or email us at info@floathub.co.uk if you received a physical gift card or if you have any questions or issues!</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_ftWWqL",
+        "collapsible_row_UxKkEw"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Gift Cards",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "container_color_scheme": "scheme-3",
+        "color_scheme": "scheme-4",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 80
       }
     }
   },
@@ -861,6 +985,8 @@
     "custom_section_richtext_8mj6iw",
     "custom_section_icon_with_text_horizontal_gGtMdr",
     "rich_text_a8NMDt",
-    "custom_section_stacked_image_text_overly_TgjGw7"
+    "custom_section_stacked_image_text_overly_TgjGw7",
+    "collapsible_content_7y8TFD",
+    "collapsible_content_UXFXUY"
   ]
 }
