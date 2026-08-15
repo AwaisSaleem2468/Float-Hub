@@ -421,6 +421,71 @@
         "padding_top": 0,
         "padding_bottom": 80
       }
+    },
+    "custom_section_featured_collection_bk8fiW": {
+      "type": "custom-section-featured-collection",
+      "blocks": {
+        "product_card_t3rAwH": {
+          "type": "product_card",
+          "settings": {
+            "product": "red-light-therapy",
+            "featured": true,
+            "badge_text": "Most Popular",
+            "price_note": "/ 2 floats",
+            "button_label": "Get Intro Pack",
+            "button_link": ""
+          }
+        },
+        "product_card_xDNAPt": {
+          "type": "product_card",
+          "settings": {
+            "product": "3x-red-light-discovery-pack",
+            "featured": false,
+            "badge_text": "Most Popular",
+            "price_note": "/ month",
+            "button_label": "Join Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_card_t3rAwH",
+        "product_card_xDNAPt"
+      ],
+      "name": "Custom Feat collection",
+      "settings": {
+        "label": "",
+        "heading": "Red Light Therapy",
+        "heading_accent": "",
+        "heading_size_desktop": 42,
+        "heading_size_mobile": 32,
+        "label_size": 14,
+        "description": "<p>Experience London's premier professional-grade FloatLightPBM bed. Engineered with over 26,000 high-density LEDs and 3000w of pure power to deliver a uniform, systemic biological upgrade from head to toe.</p>",
+        "description_size_desktop": 16,
+        "description_size_mobile": 15,
+        "caption_size": 16,
+        "title_size": 20,
+        "price_size": 36,
+        "feature_size": 16,
+        "button_size": 16,
+        "content_width": 1120,
+        "header_spacing": 48,
+        "background_color": "#070d16",
+        "card_background": "#121a27",
+        "text_color": "#ffffff",
+        "muted_color": "#c8ced8",
+        "accent_color": "#23a3df",
+        "accent_text_color": "#061018",
+        "gold_color": "#23a3df",
+        "gold_text_color": "#1a1208",
+        "show_view_all": false,
+        "view_all_label": "View all",
+        "view_all_link": "",
+        "view_all_style": "ghost",
+        "view_all_spacing": 32,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -430,6 +495,7 @@
     "custom_section_featured_collection_GUUAE9",
     "custom_section_packages_6F8Eei",
     "custom_section_featured_collection_3T7nJK",
-    "custom_section_packages_wAGBgM"
+    "custom_section_packages_wAGBgM",
+    "custom_section_featured_collection_bk8fiW"
   ]
 }
