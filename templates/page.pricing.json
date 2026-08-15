@@ -820,7 +820,7 @@
       "settings": {
         "accessibility_label": "Featured promotions",
         "columns_desktop": 2,
-        "panel_height": 680,
+        "panel_height": 600,
         "panel_height_mobile": 360,
         "content_max_width": 520,
         "content_padding_y": 32,
