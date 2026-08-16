@@ -289,7 +289,104 @@
         "button_secondary_text_color": "#FFFFFF",
         "button_secondary_border_color": "#FFFFFF",
         "padding_top": 0,
-        "padding_bottom": 52
+        "padding_bottom": 80
+      }
+    },
+    "custom_section_innerpage_banner_CWBLhz": {
+      "type": "custom-section-innerpage-banner",
+      "name": "Custom Innerpage Banner",
+      "settings": {
+        "media_type": "image",
+        "image": "shopify://shop_images/IMG_2957.jpg",
+        "overlay_color": "#061018",
+        "overlay_opacity": 30,
+        "section_height": 80,
+        "section_height_mobile": 70,
+        "show_badge": false,
+        "badge_text": "",
+        "eyebrow": "",
+        "eyebrow_size": 14,
+        "heading": "Red light therapy is a treatment option that can be used to address a range of health conditions.",
+        "heading_accent": "",
+        "heading_size_desktop": 42,
+        "heading_size_mobile": 32,
+        "description": "",
+        "description_size_desktop": 16,
+        "description_size_mobile": 15,
+        "button_label_1": "",
+        "button_link_1": "",
+        "show_button_arrow": false,
+        "button_label_2": "",
+        "button_link_2": "",
+        "text_color": "#ffffff",
+        "accent_color": "#DD3333",
+        "badge_color": "#d4af37",
+        "content_position_horizontal": "center",
+        "content_position_vertical": "middle",
+        "text_alignment": "center",
+        "content_width": 980
+      }
+    },
+    "rich_text_pK9JPw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gFhaMT": {
+          "type": "heading",
+          "settings": {
+            "heading": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/?term=+PHOTOBIOMODULATION+AND&size=200\">Scientific Evidence</a>"
+          }
+        },
+        "text_KrhiAA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>There have been numerous research studies conducted on red light therapy, and the overall conclusion of the research is that it can be an effective treatment option for a variety of conditions.</p><h4><a href=\"https://www.healthline.com/health/red-light-therapy-psoriasis\">Psoriasis</a></h4><h4><a href=\"https://pubmed.ncbi.nlm.nih.gov/29067616/\">Psoriasis – A Clinical Review</a></h4><h4><a href=\"https://pubmed.ncbi.nlm.nih.gov/?term=acne+vulgaris+AND+PHOTOBIOMODULATION&size=200\">Acne Vulgaris</a></h4><h4><a href=\"https://pubmed.ncbi.nlm.nih.gov/31345324/\">Skin Rejuvenation</a></h4><h4><a href=\"https://pubmed.ncbi.nlm.nih.gov/21275531/\">Cellulite</a></h4><h4><a href=\"https://pubmed.ncbi.nlm.nih.gov/32911717/\">Arthritis</a></h4><h4><a href=\"https://pubmed.ncbi.nlm.nih.gov/33919443/\">Nerve Pain and Nerve Regeneration</a></h4><h4><a href=\"https://pubmed.ncbi.nlm.nih.gov/?term=ANXIETY+OR+DEPRESSION+OR+PTSD+AND+PHOTOBIOMODULATION&size=200\">Anxiety and Depression</a></h4><h4><a href=\"https://pubmed.ncbi.nlm.nih.gov/?term=%28%28FIBROMYALGIA%5BTitle%5D%29%29+AND+%28PHOTOBIOMODULATION%29&sort=relevance\">Fibromyalgia</a></h4><h4><a href=\"https://pubmed.ncbi.nlm.nih.gov/31345324/\">Improved skin appearance and elasticity</a></h4><h4><a href=\"https://pubmed.ncbi.nlm.nih.gov/27874264/\">Improved Muscle Performance and Recovery</a></h4><h4><a href=\"https://pubmed.ncbi.nlm.nih.gov/35639100/\">Tendinopathies</a></h4>"
+          }
+        },
+        "button_jcQL4e": {
+          "type": "button",
+          "settings": {
+            "button_label": "TRY ONE SESSION - £60",
+            "button_link": "shopify://products/red-light-therapy",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_gFhaMT",
+        "text_KrhiAA",
+        "button_jcQL4e"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "full_width": true,
+        "content_max_width": 1400,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 18,
+        "text_size_mobile": 16,
+        "button_size": 16,
+        "button_radius": 8,
+        "background_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "caption_color": "#0DAAEF",
+        "text_color": "#A8B0BD",
+        "link_color": "#0DAAEF",
+        "button_text_color": "#FFFFFF",
+        "button_secondary_text_color": "#FFFFFF",
+        "button_secondary_border_color": "#FFFFFF",
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     }
   },
@@ -298,6 +395,8 @@
     "custom_section_innerpage_banner_MhmbJQ",
     "custom_section_featured_collection_GVN7xR",
     "custom_section_packages_pJtRQM",
-    "rich_text_WgwFFp"
+    "rich_text_WgwFFp",
+    "custom_section_innerpage_banner_CWBLhz",
+    "rich_text_pK9JPw"
   ]
 }
