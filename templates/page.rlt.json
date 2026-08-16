@@ -373,6 +373,48 @@
         "padding_top": 0,
         "padding_bottom": 80
       }
+    },
+    "collapsible_content_3dA4Ga": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_AqiRTA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will I see immediate results with one session?",
+            "icon": "none",
+            "row_content": "<p>When it comes to results, keep in mind that they’re more cumulative than immediate. There may be some immediate, superficial and temporary improvements after each treatment, but ultimately, light therapies are a cumulative effect.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mcji8t": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will I see immediate results with one session?",
+            "icon": "none",
+            "row_content": "<p>When it comes to results, keep in mind that they’re more cumulative than immediate. There may be some immediate, superficial and temporary improvements after each treatment, but ultimately, light therapies are a cumulative effect.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_AqiRTA",
+        "collapsible_row_mcji8t"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "container_color_scheme": "scheme-3",
+        "color_scheme": "scheme-4",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -382,6 +424,7 @@
     "rich_text_WgwFFp",
     "custom_section_innerpage_banner_CWBLhz",
     "main",
-    "rich_text_XbEcrj"
+    "rich_text_XbEcrj",
+    "collapsible_content_3dA4Ga"
   ]
 }
