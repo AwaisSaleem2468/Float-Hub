@@ -369,12 +369,125 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "collapsible_content_8TVzKk": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_8z9phk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the terms and conditions of membership?",
+            "icon": "none",
+            "row_content": "<ol><li>Our membership begins on the date of your first payment or a later date of your choosing, and payment will be taken each month on the same date as the start of your membership.</li><li>My Float Hub membership recurs monthly or annually and includes 1 or 2 floats/month.</li><li>As a member, I am able to purchase additional float sessions for £45 each.</li><li>For every new member I refer to Float Hub, I will receive free float credit (currently £25) on my account as well as offer an exclusive referral discount to each new customer I refer.</li><li>Any unused floats on my account rollover and are valid for 12 months.</li><li>If my membership falls out of good standing for non-payment, or I choose to terminate my membership, all float credits will expire within 30 days</li><li>My membership fees are not refundable</li><li><strong>Memberships have no minimum initial term are month-to-month. </strong></li><li>You can cancel this contract with 10 days written cancellation notice (<a href=\"mailto:info@floathub.co.uk\" target=\"_blank\">info@floathub.co.uk</a>)</li><li>You can Pause for up to 3 months per calendar year.</li><li><strong>Share floats</strong> with friends and family.</li><li>We have now introduced a new 12 Float Annual Membership £500/Year (~£42/Float) and 24 Float Annual Membership £950/Year (~£40/Float).</li></ol>",
+            "page": ""
+          }
+        },
+        "collapsible_row_m8P7wW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does the membership work?",
+            "icon": "none",
+            "row_content": "<p>You receive our best possible price on floats and lock it in for as long as your membership stays active. There is no contractual commitment to your membership, but we hope you will love the benefits to your wellbeing that regular float therapy offers, and want to stay forever.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_DwNixf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I share my floats with others?",
+            "icon": "none",
+            "row_content": "<p>Absolutely! With the exception of the free float on signup, member floats can be gifted or shared to friends or loved ones with no extra charge. You can also also earn credit against membership fees by making use of our referral scheme.  Check the ‘me’ page when logged in for full details.</p><p><strong>Share floats</strong> with friends and family.<br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_GApbaa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long are float sessions?",
+            "icon": "none",
+            "row_content": "<p>All floats are 60 minutes long, which is a standard length, especially for those getting started with the practice. <strong>By becoming a member at Float Hub, you unlock the ability to extend your floats to 90 minutes when available.</strong> <em>Please contact us for more information or to extend an upcoming appointment.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9xqxgr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is there any commitment, sign up, or cancellation fee for membership?",
+            "icon": "none",
+            "row_content": "<p>No, our memberships are flexible and month-to-month. There is no sign up or cancellation fee to become a member. There is no minimum term we only ask for 10 days written cancellation notice before the payment is due.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WgtxnK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I change the date of the payment for the monthly fee?",
+            "icon": "none",
+            "row_content": "<p>Yes of course, simply call us in store or email us to team@floathub.co.uk and we will change the autopay date for you in few minutes.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aTJDPT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I book a 90-minute session?",
+            "icon": "none",
+            "row_content": "<p>The 90 min upgrade is free for members subject to availability, meaning that when you arrive in store you can ask for the upgrade and if the room after your session is free and nobody has booked it, the host will extend your session to 90 minutes.</p><p>If you would like to be sure 100% to have the 90 minute upgrade you can simply book  one of the first four sessions of the day, and let us know you’ll arrive early.</p><p>OR evening:</p><p>booking  at 7.30 or 8:00 pm and you can float for 90 min guaranteed.</p><p>For more information or help please email to team@floathub.co.uk</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_b4qEhn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do update the credit card on my account?",
+            "icon": "none",
+            "row_content": "<p>Simply log into your account with your email and password and click ‘ ME ” , scroll down and you will find an option to update the credit card.</p><p>Or simply call in store and we will update for you.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4m94Ue": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's your refund policy?",
+            "icon": "none",
+            "row_content": "<p><strong>We offer full refund for any reason within 14 days from the purchase.</strong></p><p>Refunds are available within 14 days of purchase, if the sessions have not been used. If you need a refund for any reason, please get in touch and we can help you with this.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_8z9phk",
+        "collapsible_row_m8P7wW",
+        "collapsible_row_DwNixf",
+        "collapsible_row_GApbaa",
+        "collapsible_row_9xqxgr",
+        "collapsible_row_WgtxnK",
+        "collapsible_row_aTJDPT",
+        "collapsible_row_b4qEhn",
+        "collapsible_row_4m94Ue"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Frequent Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "container_color_scheme": "scheme-3",
+        "color_scheme": "scheme-4",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
     "main",
     "custom_section_featured_collection_CtUF4d",
     "custom_section_icon_with_text_qgeGJR",
-    "custom_section_membership_XDMQyJ"
+    "custom_section_membership_XDMQyJ",
+    "collapsible_content_8TVzKk"
   ]
 }
