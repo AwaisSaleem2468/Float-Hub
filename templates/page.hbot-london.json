@@ -453,6 +453,155 @@
         "padding_bottom": 80
       }
     },
+    "custom_section_specification_QGQwWD": {
+      "type": "custom-section-specification",
+      "blocks": {
+        "hotspot_FqHtA4": {
+          "type": "hotspot",
+          "settings": {
+            "label": "Grab handles",
+            "x": 25,
+            "y": 10,
+            "tooltip_position": "right",
+            "popup_text": "<p>The programmable lights inspired by nature help ease you into your float.</p>"
+          }
+        },
+        "hotspot_TyU3Ak": {
+          "type": "hotspot",
+          "settings": {
+            "label": "Filtration",
+            "x": 10,
+            "y": 50,
+            "tooltip_position": "right",
+            "popup_text": "<p>The ultra-wide power-assisted door makes opening and closing effortless.</p>"
+          }
+        },
+        "hotspot_qQXVmh": {
+          "type": "hotspot",
+          "settings": {
+            "label": "Lighting",
+            "x": 55,
+            "y": 40,
+            "tooltip_position": "bottom",
+            "popup_text": "<p>Better accessibility, the moulded grab handles allow the customer to step over the low threshold and in with ease.</p>"
+          }
+        },
+        "hotspot_wXGrxj": {
+          "type": "hotspot",
+          "settings": {
+            "label": "Door",
+            "x": 90,
+            "y": 65,
+            "tooltip_position": "left",
+            "popup_text": "<p>Our tanks are designed to comfortably accommodate persons up to 7 foot 4 inches within its internal space. Plus, it feels expansive inside while floating with no light or sound.</p>"
+          }
+        },
+        "hotspot_KUemLr": {
+          "type": "hotspot",
+          "settings": {
+            "label": "Interior",
+            "x": 45,
+            "y": 90,
+            "tooltip_position": "top",
+            "popup_text": "<p>Auto empties 100% of water between floats. Every customer is safe in the knowledge that their solution has been completely cleaned, filtered then filled just for them.</p>"
+          }
+        },
+        "feature_card_3mdAKc": {
+          "type": "feature_card",
+          "settings": {
+            "title": "Scientific Standard Recovery",
+            "items": "Professional 1.5 ATA Pressure: The optimal therapeutic depth for systemic cellular repair.\n~96% Pure Oxygen Delivery: Medical-grade oxygen purity for maximum plasma saturation.\nAdvanced Suite Environment: Spacious & non-claustrophobic.\nDual-Action Recovery: Designed for either Solo or Duo sessions.",
+            "content": "",
+            "accent_style": false,
+            "link_items": false,
+            "item_link": ""
+          }
+        },
+        "feature_card_hmqwCn": {
+          "type": "feature_card",
+          "settings": {
+            "title": "SAFE & COMFORTABLE",
+            "items": "Private, Soundproofed Suites\nComplete Environmental Control\nSpacious, Non-Claustrophobic Design\nCustom Ambient Lighting & Audio\nSafe for Deep-Rest Protocols",
+            "content": "",
+            "accent_style": false,
+            "link_items": false,
+            "item_link": ""
+          }
+        },
+        "feature_card_GzaKkE": {
+          "type": "feature_card",
+          "settings": {
+            "title": "Backed by Continued Studies",
+            "items": "High Anxiety\nGeneralized Anxiety Disorder\nHigh Stress and Burnout\nDepression\nElite Athletes\nStress-related Pain",
+            "content": "",
+            "accent_style": false,
+            "link_items": false,
+            "item_link": ""
+          }
+        },
+        "feature_card_czi3id": {
+          "type": "feature_card",
+          "settings": {
+            "title": "Recommended By",
+            "items": "Artists\nAthletes\nEntrepreneurs\nStudents\nParents\nPhysiotherapists \nYogis",
+            "content": "",
+            "accent_style": false,
+            "link_items": false,
+            "item_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_FqHtA4",
+        "hotspot_TyU3Ak",
+        "hotspot_qQXVmh",
+        "hotspot_wXGrxj",
+        "hotspot_KUemLr",
+        "feature_card_3mdAKc",
+        "feature_card_hmqwCn",
+        "feature_card_GzaKkE",
+        "feature_card_czi3id"
+      ],
+      "name": "Custom Specification",
+      "settings": {
+        "subtitle": "",
+        "heading": "5 Of The Most Advanced Floatation Tanks",
+        "heading_accent": "",
+        "heading_size_desktop": 42,
+        "heading_size_mobile": 32,
+        "subtitle_size": 13,
+        "heading_alignment": "center",
+        "header_spacing": 40,
+        "image": "shopify://shop_images/Front-on-oxy-chamber_1.png",
+        "media_spacing": 52,
+        "hotspot_size": 30,
+        "tooltip_size": 13,
+        "cards_per_row": 4,
+        "card_gap": 12,
+        "card_padding": 16,
+        "card_radius": 12,
+        "card_title_size": 16,
+        "card_text_size": 14,
+        "button_label": "Book Your Float Now",
+        "button_link": "",
+        "button_alignment": "center",
+        "button_spacing": 40,
+        "button_size": 16,
+        "button_radius": 14,
+        "background_color": "#070d16",
+        "text_color": "#ffffff",
+        "muted_color": "#c8ced8",
+        "accent_color": "#0daaef",
+        "card_background": "#121a27",
+        "card_border_color": "#243044",
+        "hotspot_color": "#0daaef",
+        "tooltip_background": "#121a27",
+        "tooltip_text_color": "#c8ced8",
+        "content_width": 1400,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "custom_section_membership_zzmCbi": {
       "type": "custom-section-membership",
       "blocks": {
@@ -653,6 +802,7 @@
     "rich_text_r3yxWe",
     "custom_section_float_benefits_QqDhMw",
     "custom_section_img_with_text_zm8WBd",
+    "custom_section_specification_QGQwWD",
     "custom_section_membership_zzmCbi",
     "custom_section_small_banner_a3xAre"
   ]
