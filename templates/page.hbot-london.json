@@ -415,6 +415,43 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "custom_section_img_with_text_zm8WBd": {
+      "type": "custom-section-img-with-text",
+      "name": "Custom Img with text",
+      "settings": {
+        "image": "shopify://shop_images/475998870_2720333324817897_6378258045834309765_n.jpg",
+        "layout": "left",
+        "image_width": "medium",
+        "image_height": "adapt",
+        "image_fixed_height": 520,
+        "image_radius": 20,
+        "mobile_image_first": true,
+        "subtitle": "",
+        "subtitle_size": 12,
+        "heading": "Who will you be with accelerated recovery, sharper focus, and optimized long-term vitality",
+        "heading_accent": "",
+        "heading_size_desktop": 40,
+        "heading_size_mobile": 30,
+        "description": "<p>Hyperbaric Oxygen Therapy (HBOT) offers powerful systemic repair. At The London Oxygen Suite, you inhale ~96%<strong> pure oxygen</strong> pressurized to <strong>1.3-1.5 ATA</strong>. This process forces oxygen to dissolve directly into your blood plasma, delivering fuel to cells that normal breathing simply can’t reach.</p><p>While a single session offers an immediate boost, profound benefits like deep tissue repair compound over time. For lasting biological change, secure our <strong>40-Session Longevity Protocol.</strong></p><p>Forget cramped tubes. We host Shoreditch’s premier, <strong>non-claustrophobic suite for HBOT in London</strong>. Our expansive chamber is designed for ultimate comfort—spacious enough for a solo deep-dive or a shared Duo Session.</p>",
+        "description_size": 16,
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "button_label_1": "Get 40% Off Pre-Sale Packs",
+        "button_link_1": "",
+        "button_label_2": "",
+        "button_link_2": "",
+        "button_size": 16,
+        "button_radius": 10,
+        "background_color": "#070D16",
+        "text_color": "#FFFFFF",
+        "muted_color": "#C8CED8",
+        "accent_color": "#0DAAEF",
+        "content_width": 1200,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -424,6 +461,7 @@
     "custom_section_packages_atWQFH",
     "custom_section_icon_with_text_horizontal_U6iTNT",
     "rich_text_r3yxWe",
-    "custom_section_float_benefits_QqDhMw"
+    "custom_section_float_benefits_QqDhMw",
+    "custom_section_img_with_text_zm8WBd"
   ]
 }
