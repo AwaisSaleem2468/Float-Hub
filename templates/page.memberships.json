@@ -544,6 +544,63 @@
         "padding_bottom": 80
       }
     },
+    "custom_section_stacked_image_text_overly_w4Q6Wn": {
+      "type": "custom-section-stacked-image-text-overly",
+      "blocks": {
+        "panel_zdqgBh": {
+          "type": "panel",
+          "settings": {
+            "image": "shopify://shop_images/624292321_18089226653472903_2926321886989038639_n.jpg",
+            "eyebrow": "3 Months",
+            "heading": "Find Your Flow",
+            "button_label": "",
+            "button_link": "#"
+          }
+        },
+        "panel_mQGpYK": {
+          "type": "panel",
+          "settings": {
+            "image": "shopify://shop_images/481112418_2741467312704498_3456577850477813194_n.jpg",
+            "eyebrow": "WELLNESS PROGRAMS",
+            "heading": "Reward Your Employees, See Greater ROI",
+            "button_label": "Request More Info",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "panel_zdqgBh",
+        "panel_mQGpYK"
+      ],
+      "name": "Stacked Image Overlay",
+      "settings": {
+        "accessibility_label": "Featured promotions",
+        "columns_desktop": 3,
+        "panel_height": 720,
+        "panel_height_mobile": 360,
+        "content_max_width": 520,
+        "content_padding_y": 32,
+        "content_padding_x": 16,
+        "eyebrow_size": 14,
+        "eyebrow_size_mobile": 11,
+        "heading_size": 24,
+        "heading_size_mobile": 20,
+        "eyebrow_spacing": 12,
+        "heading_spacing": 16,
+        "button_style": "gradient",
+        "button_size": 16,
+        "button_height": 48,
+        "button_padding_x": 28,
+        "button_radius": 8,
+        "fallback_background": "#121a27",
+        "overlay_color": "#070d16",
+        "overlay_opacity": 80,
+        "eyebrow_color": "#ffffff",
+        "text_color": "#ffffff",
+        "button_text_color": "#ffffff",
+        "button_border_color": "#ffffff"
+      }
+    },
     "custom_section_small_banner_BnkBNT": {
       "type": "custom-section-small-banner",
       "name": "Custom Small Banner",
@@ -596,6 +653,7 @@
     "custom_section_featured_collection_CtUF4d",
     "custom_section_icon_with_text_qgeGJR",
     "custom_section_membership_XDMQyJ",
+    "custom_section_stacked_image_text_overly_w4Q6Wn",
     "collapsible_content_8TVzKk",
     "collapsible_content_caQGjh",
     "custom_section_small_banner_BnkBNT"
