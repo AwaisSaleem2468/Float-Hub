@@ -8,6 +8,7 @@
   #StackedOverlay-{{ section.id }} {
     --so-text: {{ section.settings.text_color }};
     --so-eyebrow: {{ section.settings.eyebrow_color }};
+    --so-desc: {{ section.settings.description_color }};
     --so-btn-text: {{ section.settings.button_text_color }};
     --so-btn-border: {{ section.settings.button_border_color }};
     --so-height: {{ section.settings.panel_height }}px;
@@ -89,7 +90,7 @@
   }
 
   #StackedOverlay-{{ section.id }} .stacked-overlay__heading {
-    margin: 0 0 {{ section.settings.heading_spacing }}px;
+    margin: 0;
     color: var(--so-text);
     font-family: var(--font-heading-family);
     font-style: var(--font-heading-style);
@@ -97,6 +98,34 @@
     font-size: {{ section.settings.heading_size }}px;
     line-height: 1.2;
     letter-spacing: -0.01em;
+  }
+
+  #StackedOverlay-{{ section.id }} .stacked-overlay__heading + .stacked-overlay__descriptions,
+  #StackedOverlay-{{ section.id }} .stacked-overlay__heading + .stacked-overlay__btn {
+    margin-top: {{ section.settings.heading_spacing }}px;
+  }
+
+  #StackedOverlay-{{ section.id }} .stacked-overlay__descriptions {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    color: var(--so-desc);
+    font-family: var(--font-body-family);
+    font-size: {{ section.settings.description_size }}px;
+    line-height: {{ section.settings.description_line_height | times: 0.1 }};
+  }
+
+  #StackedOverlay-{{ section.id }} .stacked-overlay__descriptions li {
+    margin: 0;
+  }
+
+  #StackedOverlay-{{ section.id }} .stacked-overlay__descriptions li + li {
+    margin-top: {{ section.settings.description_item_spacing }}px;
+  }
+
+  #StackedOverlay-{{ section.id }} .stacked-overlay__descriptions + .stacked-overlay__btn {
+    margin-top: {{ section.settings.description_spacing }}px;
   }
 
   #StackedOverlay-{{ section.id }} .stacked-overlay__btn {
@@ -161,6 +190,10 @@
       font-size: {{ section.settings.eyebrow_size_mobile }}px;
     }
 
+    #StackedOverlay-{{ section.id }} .stacked-overlay__descriptions {
+      font-size: {{ section.settings.description_size_mobile }}px;
+    }
+
     #StackedOverlay-{{ section.id }} .stacked-overlay__content {
       padding: 2rem 1.25rem;
     }
@@ -184,7 +217,7 @@
                 | image_tag:
                   loading: 'lazy',
                   widths: '600, 900, 1200, 1600, 2000',
-                  sizes: '(min-width: 750px) 50vw, 100vw',
+                  sizes: '(min-width: 750px) 33vw, 100vw',
                   alt: ''
               }}
             {%- else -%}
@@ -203,9 +236,25 @@
               <h2 class="stacked-overlay__heading">{{ block.settings.heading | escape }}</h2>
             {%- endif -%}
 
+            {%- if block.settings.description != blank -%}
+              {%- assign description_raw = block.settings.description | newline_to_br -%}
+              {%- assign description_lines = description_raw | split: '<br />' -%}
+              {%- if description_lines.size == 1 -%}
+                {%- assign description_lines = description_raw | split: '<br/>' -%}
+              {%- endif -%}
+              <ul class="stacked-overlay__descriptions">
+                {%- for line in description_lines -%}
+                  {%- assign line_text = line | strip_html | strip -%}
+                  {%- if line_text != blank -%}
+                    <li>{{ line_text | escape }}</li>
+                  {%- endif -%}
+                {%- endfor -%}
+              </ul>
+            {%- endif -%}
+
             {%- if block.settings.button_label != blank -%}
               <a
-                class="stacked-overlay__btn stacked-overlay__btn--{{ section.settings.button_style }}"
+                class="stacked-overlay__btn stacked-overlay__btn--{{ block.settings.button_style | default: section.settings.button_style }}"
                 {% if block.settings.button_link != blank %}
                   href="{{ block.settings.button_link }}"
                 {% else %}
@@ -247,17 +296,17 @@
       "max": 3,
       "step": 1,
       "label": "Columns (desktop)",
-      "default": 2
+      "default": 3
     },
     {
       "type": "range",
       "id": "panel_height",
       "min": 320,
-      "max": 800,
+      "max": 900,
       "step": 20,
       "unit": "px",
       "label": "Panel height",
-      "default": 480
+      "default": 560
     },
     {
       "type": "range",
@@ -364,13 +413,63 @@
       "default": 24
     },
     {
+      "type": "range",
+      "id": "description_size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Description size",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "description_size_mobile",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "label": "Description size (mobile)",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "description_line_height",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "label": "Description line height",
+      "default": 15,
+      "info": "Divided by 10 (e.g. 15 = 1.5)"
+    },
+    {
+      "type": "range",
+      "id": "description_item_spacing",
+      "min": 4,
+      "max": 28,
+      "step": 2,
+      "unit": "px",
+      "label": "Space between description lines",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "description_spacing",
+      "min": 12,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "label": "Space below description",
+      "default": 28
+    },
+    {
       "type": "header",
       "content": "Button"
     },
     {
       "type": "select",
       "id": "button_style",
-      "label": "Button style",
+      "label": "Default button style",
       "options": [
         { "value": "outline", "label": "Outline" },
         { "value": "gradient", "label": "Blue gradient" }
@@ -457,6 +556,12 @@
     },
     {
       "type": "color",
+      "id": "description_color",
+      "label": "Description",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
       "id": "button_text_color",
       "label": "Outline button text",
       "default": "#FFFFFF"
@@ -482,24 +587,41 @@
           "type": "text",
           "id": "eyebrow",
           "label": "Eyebrow",
-          "default": "GIFT CARDS"
+          "default": "3 MONTHS"
         },
         {
           "type": "text",
           "id": "heading",
           "label": "Heading",
-          "default": "Give The Gift Of Deep Relaxation"
+          "default": "Find Your Flow"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Short description",
+          "default": "Feel the initial benefits\nGet comfortable floating\nExperience different floats\nUncover a new state of calm",
+          "info": "One short line per row."
         },
         {
           "type": "text",
           "id": "button_label",
           "label": "Button label",
-          "default": "Choose An Amount"
+          "info": "Leave blank to hide the button."
         },
         {
           "type": "url",
           "id": "button_link",
           "label": "Button link"
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Button style",
+          "options": [
+            { "value": "outline", "label": "Outline" },
+            { "value": "gradient", "label": "Blue gradient" }
+          ],
+          "default": "outline"
         }
       ]
     }
@@ -512,17 +634,27 @@
         {
           "type": "panel",
           "settings": {
-            "eyebrow": "GIFT CARDS",
-            "heading": "Give The Gift Of Deep Relaxation",
-            "button_label": "Choose An Amount"
+            "eyebrow": "3 MONTHS",
+            "heading": "Find Your Flow",
+            "description": "Feel the initial benefits\nGet comfortable floating\nExperience different floats\nUncover a new state of calm"
           }
         },
         {
           "type": "panel",
           "settings": {
-            "eyebrow": "WELLNESS PROGRAMS",
-            "heading": "Reward Your Employees, See Greater ROI",
-            "button_label": "Request More Info"
+            "eyebrow": "6 MONTHS",
+            "heading": "Feel Deep Changes",
+            "description": "Find a new baseline\nExperience greater energy\nMore consistent calm\nStable, brighter mood"
+          }
+        },
+        {
+          "type": "panel",
+          "settings": {
+            "eyebrow": "12 MONTHS",
+            "heading": "Meet The New You",
+            "description": "Significant health shifts\nLess pain in past injuries\nDeep state of calm\nDramatic life improvements",
+            "button_label": "Book Now",
+            "button_style": "gradient"
           }
         }
       ]
