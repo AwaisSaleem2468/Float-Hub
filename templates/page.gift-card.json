@@ -506,6 +506,52 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "custom_section_small_banner_KHt7yT": {
+      "type": "custom-section-small-banner",
+      "name": "Custom Small Banner",
+      "settings": {
+        "media_type": "video",
+        "image": "shopify://shop_images/float-hub--benefit.png",
+        "image_mobile": "shopify://shop_images/float-hub--benefit.png",
+        "image_fit": "cover",
+        "image_position": "top center",
+        "video": "shopify://files/videos/AQM9irMDVPSnxFB-hqE62AG8i68vwFaCI08_XqqjW_d_zqvu4myh-1uW5OnguAwtRFPZCwTeykMOj8-iwfrBABFC89R2OuMFtudiO-x_LzgxfA.mp4",
+        "video_mobile": "shopify://files/videos/(20+) Facebook.mp4",
+        "fallback_background": "#0daaef",
+        "section_height": 65,
+        "section_height_mobile": 70,
+        "enable_overlay": true,
+        "overlay_style": "dark",
+        "overlay_color": "#061018",
+        "overlay_opacity": 65,
+        "gradient_start": "#14b8a6",
+        "gradient_end": "#38bdf8",
+        "gradient_opacity": 60,
+        "eyebrow": "Now Open",
+        "eyebrow_size": 13,
+        "heading": "SHOREDITCH, LONDON",
+        "heading_size_desktop": 36,
+        "heading_size_mobile": 30,
+        "heading_weight": "700",
+        "address": "346 Old Street, Lower Ground Floor, London, EC1V 9NQ",
+        "phone": "+44 20 1234 5678",
+        "email": "team@floathub.co.uk",
+        "contact_size": 18,
+        "content_spacing": 24,
+        "button_label_1": "Contact Us",
+        "button_link_1": "",
+        "button_label_2": "Get Directions",
+        "secondary_opens_map": true,
+        "button_link_2": "",
+        "map_title": "SHOREDITCH, LONDON",
+        "map_address": "346 Old Street, Lower Ground Floor, London, EC1V 9NQ",
+        "button_size": 16,
+        "button_radius": 8,
+        "text_color": "#ffffff",
+        "accent_color": "#0daaef",
+        "content_width": 820
+      }
     }
   },
   "order": [
@@ -516,6 +562,7 @@
     "custom_section_icon_with_text_R6TGxH",
     "custom_section_testimonial_78FTcw",
     "custom_section_stacked_image_text_overly_DnjMpJ",
-    "collapsible_content_cKxmFk"
+    "collapsible_content_cKxmFk",
+    "custom_section_small_banner_KHt7yT"
   ]
 }
