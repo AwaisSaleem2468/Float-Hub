@@ -116,74 +116,74 @@
         "item_CNremM": {
           "type": "item",
           "settings": {
-            "icon": "chat_bubble",
-            "title": "EMAIL",
-            "text": "<p><a href=\"mailto:hello@floathub.com\">hello@floathub.com</a></p>"
+            "icon": "snowflake",
+            "title": "Improved Sleep",
+            "text": "<p>Floating brings your sympathetic and parasympathetic nervous systems back into sync for deeper, more restorative sleep.</p>"
           }
         },
         "item_yLnwqT": {
           "type": "item",
           "settings": {
-            "icon": "silhouette",
-            "title": "PHONE",
-            "text": "<p><a href=\"tel:+442012345678\">+44 20 1234 5678</a></p>"
-          }
-        },
-        "item_db83rx": {
-          "type": "item",
-          "settings": {
-            "icon": "stopwatch",
-            "title": "HOURS",
-            "text": "<p>Mon–Fri: 10am – 8pm</p><p>Sat–Sun: 11am – 6pm</p>"
-          }
-        },
-        "item_6XKV44": {
-          "type": "item",
-          "settings": {
-            "icon": "map_pin",
-            "title": "LOCATION",
-            "text": "<p>Shoreditch, London</p>"
+            "icon": "heart",
+            "title": "Stress Relief",
+            "text": "<p>The lack of sensory input and pressures on your mind and body allow them to go into deep states of rest and healing processes.</p>"
           }
         },
         "item_7LkXF6": {
           "type": "item",
           "settings": {
-            "icon": "heart",
-            "title": "SUPPORT",
-            "text": "<p>We’re here to help before and after your float.</p>"
+            "icon": "silhouette",
+            "title": "Mental Health",
+            "text": "<p>Studies are starting to show the benefits of floating for people who struggle with anxiety, depression and PTSD.</p>"
+          }
+        },
+        "item_db83rx": {
+          "type": "item",
+          "settings": {
+            "icon": "star",
+            "title": "Pain Relief",
+            "text": "<p>Floating's weightlessness relieves all pressure on your body so it can release endorphins that help with chronic pain, fibromyalgia and other conditions.</p>"
+          }
+        },
+        "item_6XKV44": {
+          "type": "item",
+          "settings": {
+            "icon": "lightning_bolt",
+            "title": "Faster Recovery",
+            "text": "<p>Many of the world's top performing athletes rely on floating thanks to its role in speeding up recovery times, aiding visualization techniques and supporting injury healing.</p>"
           }
         },
         "item_tmyBLU": {
           "type": "item",
           "settings": {
-            "icon": "chat_bubble",
-            "title": "EMAIL",
-            "text": "<p><a href=\"mailto:hello@example.com\">hello@example.com</a></p>"
+            "icon": "silhouette",
+            "title": "Pregnancy Support",
+            "text": "<p>Women who are pregnant have found profound relief from floating to alleviate the weight and pressures on their body, while allowing a deeper connection to their child.</p>"
           }
         },
         "item_fPRX48": {
           "type": "item",
           "settings": {
-            "icon": "chat_bubble",
-            "title": "EMAIL",
-            "text": "<p><a href=\"mailto:hello@example.com\">hello@example.com</a></p>"
+            "icon": "lightning_bolt",
+            "title": "Faster Learning",
+            "text": "<p>The Navy Seals reduced learning languages from 6 months to 6 weeks, thanks to the improved focus, creativity and state of \"super-learning\" from floating.</p>"
           }
         },
         "item_K74mpL": {
           "type": "item",
           "settings": {
-            "icon": "chat_bubble",
-            "title": "EMAIL",
-            "text": "<p><a href=\"mailto:hello@example.com\">hello@example.com</a></p>"
+            "icon": "snowflake",
+            "title": "Effortless Mindfulness",
+            "text": "<p>The environment and practice of floating allows anyone new to mindfulness to achieve the same deep meditation and Theta brainwaves as expert meditators and yogis.</p>"
           }
         }
       },
       "block_order": [
         "item_CNremM",
         "item_yLnwqT",
+        "item_7LkXF6",
         "item_db83rx",
         "item_6XKV44",
-        "item_7LkXF6",
         "item_tmyBLU",
         "item_fPRX48",
         "item_K74mpL"
