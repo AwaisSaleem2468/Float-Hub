@@ -1,7 +1,12 @@
 {%- liquid
-  assign overlay_opacity = section.settings.overlay_opacity | default: 35
-  assign overlay_alpha = overlay_opacity | times: 1.0 | divided_by: 100.0
   assign columns_desktop = section.settings.columns_desktop | default: 2
+  assign overlay_color = section.settings.overlay_color | default: '#061018'
+  assign overlay_opacity = section.settings.overlay_opacity | default: 60
+  assign overlay_alpha = overlay_opacity | times: 1.0 | divided_by: 100.0
+  assign overlay_fill = overlay_color | color_modify: 'alpha', overlay_alpha
+  assign overlay_edge = overlay_color | color_modify: 'alpha', 0.85
+  assign overlay_mid = overlay_color | color_modify: 'alpha', 0.2
+  assign overlay_top = overlay_color | color_modify: 'alpha', 0.55
 -%}
 
 {% style %}
@@ -13,7 +18,6 @@
     --so-btn-border: {{ section.settings.button_border_color }};
     --so-height: {{ section.settings.panel_height }}px;
     --so-height-mobile: {{ section.settings.panel_height_mobile }}px;
-    --so-overlay: {{ section.settings.overlay_color }};
     width: 100%;
     background: {{ section.settings.fallback_background }};
   }
@@ -57,11 +61,29 @@
 
   #StackedOverlay-{{ section.id }} .stacked-overlay__shade {
     position: absolute;
-    inset: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     z-index: 1;
-    background: var(--so-overlay);
-    opacity: {{ overlay_alpha }};
     pointer-events: none;
+    display: block;
+    background-color: {{ overlay_fill }};
+    background-image:
+      radial-gradient(
+        ellipse 70% 55% at 50% 42%,
+        rgba(0, 0, 0, 0) 0%,
+        {{ overlay_mid }} 50%,
+        {{ overlay_edge }} 100%
+      ),
+      linear-gradient(
+        180deg,
+        {{ overlay_top }} 0%,
+        rgba(0, 0, 0, 0.12) 42%,
+        {{ overlay_edge }} 100%
+      );
   }
 
   #StackedOverlay-{{ section.id }} .stacked-overlay__content {
@@ -530,17 +552,17 @@
       "type": "color",
       "id": "overlay_color",
       "label": "Overlay color",
-      "default": "#070D16"
+      "default": "#061018"
     },
     {
       "type": "range",
       "id": "overlay_opacity",
       "min": 0,
-      "max": 80,
+      "max": 90,
       "step": 5,
       "unit": "%",
       "label": "Overlay darkness",
-      "default": 35
+      "default": 60
     },
     {
       "type": "color",
