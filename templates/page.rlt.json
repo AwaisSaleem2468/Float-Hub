@@ -655,6 +655,88 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "collapsible_content_ckrwTV": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_aFem4h": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I manage my account?",
+            "icon": "none",
+            "row_content": "<p>Click book now and you can choose the availability for your float.</p><p>You will also see Account option so you can log in with your username and password.</p><p>Once into your account click ” ME” to manage your account and to see all your history.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TkRtXx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's your refund policy?",
+            "icon": "none",
+            "row_content": "<p>We offer full refund within 14 days from the date of purchase, if the package is unused.</p><p>Please Note: If you have used a single session or more we do not offer any refund.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_neXhkJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I am not able to come to your Centre can I transfer the remaining session to another person?",
+            "icon": "none",
+            "row_content": "<p>Yes you can transfer the unused sessions and we can transform them into gift vouchers for your friends and family.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NPk4BR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are the package shareable?",
+            "icon": "none",
+            "row_content": "<p>To have the best results they are individual but if there are particular circumstances and you are unable to come to the centre to complete your package please email to <strong>tony@floathub.co.uk</strong> and we will transfer for you to another person.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3DeggN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's the expiration on red light?",
+            "icon": "none",
+            "row_content": "<p>1 single session of £60 is valid for 6 months from the date of purchase.</p><p>All packs are valid for 12 months from the date of purchase.</p><p><strong>The expiration is very clearly indicated at the purchase price for everything in the online shop, as well as on the receipts.</strong></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jib4hA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need to sign a Waiver or Consent Form?",
+            "icon": "none",
+            "row_content": "<p>Yes, at the time of booking you will receive a waiver form to read and sign via email and sms.</p><p>Please make sure you sign your waiver before coming in shop to save time so you can use your red light as soon as possible.</p><p>Having to sign the waiver in the centre may delay your sessions and other after you, plus the internet connection is not very good because we are in a basement.</p><p>Thank you for your cooperation.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_aFem4h",
+        "collapsible_row_TkRtXx",
+        "collapsible_row_neXhkJ",
+        "collapsible_row_NPk4BR",
+        "collapsible_row_3DeggN",
+        "collapsible_row_jib4hA"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Managing Your Account",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "container_color_scheme": "scheme-3",
+        "color_scheme": "scheme-4",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -665,6 +747,7 @@
     "custom_section_innerpage_banner_CWBLhz",
     "main",
     "rich_text_XbEcrj",
-    "collapsible_content_3dA4Ga"
+    "collapsible_content_3dA4Ga",
+    "collapsible_content_ckrwTV"
   ]
 }
