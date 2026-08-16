@@ -225,11 +225,156 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "custom_section_membership_XDMQyJ": {
+      "type": "custom-section-membership",
+      "blocks": {
+        "pricing_row_gTRMEp": {
+          "type": "pricing_row",
+          "settings": {
+            "label": "Monthly float",
+            "value": "Included",
+            "value_style": "default"
+          }
+        },
+        "pricing_row_tQXxjF": {
+          "type": "pricing_row",
+          "settings": {
+            "label": "Extra floats",
+            "value": "£45 each",
+            "value_style": "default"
+          }
+        },
+        "pricing_row_HMMLnh": {
+          "type": "pricing_row",
+          "settings": {
+            "label": "Member guest rate",
+            "value": "-20% off",
+            "value_style": "accent"
+          }
+        },
+        "pricing_row_AGiFia": {
+          "type": "pricing_row",
+          "settings": {
+            "label": "Priority booking",
+            "value": "Free",
+            "value_style": "accent"
+          }
+        },
+        "pricing_row_pGG9cU": {
+          "type": "pricing_row",
+          "settings": {
+            "label": "Referral reward",
+            "value": "£10 credit",
+            "value_style": "gold"
+          }
+        },
+        "benefit_yiTKn4": {
+          "type": "benefit",
+          "settings": {
+            "text": "1 float included monthly"
+          }
+        },
+        "benefit_w48H6R": {
+          "type": "benefit",
+          "settings": {
+            "text": "Member guest rate"
+          }
+        },
+        "benefit_bxq3HX": {
+          "type": "benefit",
+          "settings": {
+            "text": "Retail discount"
+          }
+        },
+        "benefit_RB9ePp": {
+          "type": "benefit",
+          "settings": {
+            "text": "Priority booking"
+          }
+        },
+        "benefit_pU7q6y": {
+          "type": "benefit",
+          "settings": {
+            "text": "Referral rewards"
+          }
+        },
+        "benefit_PrqVXY": {
+          "type": "benefit",
+          "settings": {
+            "text": "Cancel anytime"
+          }
+        }
+      },
+      "block_order": [
+        "pricing_row_gTRMEp",
+        "pricing_row_tQXxjF",
+        "pricing_row_HMMLnh",
+        "pricing_row_AGiFia",
+        "pricing_row_pGG9cU",
+        "benefit_yiTKn4",
+        "benefit_w48H6R",
+        "benefit_bxq3HX",
+        "benefit_RB9ePp",
+        "benefit_pU7q6y",
+        "benefit_PrqVXY"
+      ],
+      "name": "Custom Membership",
+      "settings": {
+        "label": "FLOAT HUB Referral Program",
+        "heading": "Share, Refer, Earn Credit!",
+        "heading_accent": "Transform deeply.",
+        "subheading": "REFER A FRIEND & BOTH RECEIVE £10 OFF YOUR NEXT PURCHASE",
+        "text": "<p>New customers can enter your code in the Promotional Code box on our online booking page and will automatically get £10.00 off their first purchase.</p><p>You’ll receive a free £10.00 account credit for every new customer who uses your code. We’ll send you an email every time someone uses your code.</p><p>Ask our hosts to enrol you in the Referral Scheme, and you will receive your promotional code.</p><p>If you have any questions, please email <strong>team@floathub.co.uk</strong></p>",
+        "label_size": 12,
+        "heading_size_desktop": 36,
+        "heading_size_mobile": 30,
+        "subheading_size": 18,
+        "text_size": 16,
+        "content_alignment": "left",
+        "card_title": "Exclusive Member Benefits",
+        "card_title_size": 12,
+        "row_text_size": 16,
+        "card_padding": 20,
+        "card_radius": 12,
+        "benefits_title": "MEMBER BENEFITS",
+        "benefits": "1 float included monthly\nMember guest rate\nRetail discount\nPriority booking\nReferral rewards\nCancel anytime",
+        "benefits_title_size": 14,
+        "benefit_text_size": 13,
+        "show_highlight": true,
+        "highlight_label": "Your monthly cost",
+        "highlight_price": "£45",
+        "highlight_compare": "vs £60 pay-as-you-go",
+        "highlight_save": "Save £15 per session · £180 per year",
+        "highlight_label_size": 14,
+        "highlight_price_size": 42,
+        "highlight_compare_size": 16,
+        "highlight_save_size": 16,
+        "highlight_radius": 12,
+        "button_label": "Join for £45 / month",
+        "button_link": "",
+        "button_note": "Cancel anytime · No minimum term",
+        "button_size": 16,
+        "button_note_size": 14,
+        "button_radius": 12,
+        "background_color": "#121a27",
+        "text_color": "#ffffff",
+        "muted_color": "#a8b0bd",
+        "accent_color": "#0daaef",
+        "gold_color": "#d4af37",
+        "card_background": "#0f1827",
+        "card_border_color": "#1e2a3c",
+        "highlight_background": "#0f2436",
+        "content_width": 1400,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
     "main",
     "custom_section_featured_collection_CtUF4d",
-    "custom_section_icon_with_text_qgeGJR"
+    "custom_section_icon_with_text_qgeGJR",
+    "custom_section_membership_XDMQyJ"
   ]
 }
