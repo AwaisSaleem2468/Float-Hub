@@ -169,11 +169,78 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "custom_section_packages_atWQFH": {
+      "type": "custom-section-packages",
+      "blocks": {
+        "package_pxLk36": {
+          "type": "package",
+          "settings": {
+            "product": "hbot-session-60-min",
+            "caption_override": "",
+            "button_label": "Book Now",
+            "button_link": ""
+          }
+        },
+        "package_hwjMK6": {
+          "type": "package",
+          "settings": {
+            "product": "hbot-for-two-session-60-min",
+            "caption_override": "",
+            "button_label": "Book Due Session",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "package_pxLk36",
+        "package_hwjMK6"
+      ],
+      "name": "Custom Packages",
+      "settings": {
+        "heading": "",
+        "heading_accent": "",
+        "description": "",
+        "heading_alignment": "left",
+        "heading_max_width": 700,
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "description_size": 15,
+        "header_gap": 28,
+        "content_width": 1100,
+        "card_radius": 12,
+        "row_padding_y": 28,
+        "row_padding_x": 32,
+        "column_gap": 28,
+        "title_size": 22,
+        "title_size_mobile": 18,
+        "caption_size": 14,
+        "price_size": 28,
+        "price_size_mobile": 22,
+        "button_label": "BUY COURSE",
+        "button_size": 12,
+        "button_height": 44,
+        "button_min_width": 140,
+        "button_radius": 6,
+        "background_color": "#070D16",
+        "card_background": "#121A27",
+        "card_border": "#243041",
+        "divider_color": "#243041",
+        "title_color": "#ffffff",
+        "caption_color": "#c8ced8",
+        "price_color": "#ffffff",
+        "accent_color": "#23a3df",
+        "button_color": "#23a3df",
+        "button_hover_color": "#22d3ee",
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
     "main",
     "custom_section_innerpage_banner_AHpikE",
-    "custom_section_featured_collection_LaVgdk"
+    "custom_section_featured_collection_LaVgdk",
+    "custom_section_packages_atWQFH"
   ]
 }
