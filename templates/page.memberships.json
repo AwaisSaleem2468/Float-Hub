@@ -109,10 +109,127 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "custom_section_icon_with_text_qgeGJR": {
+      "type": "custom-section-icon-with-text",
+      "blocks": {
+        "item_CNremM": {
+          "type": "item",
+          "settings": {
+            "icon": "chat_bubble",
+            "title": "EMAIL",
+            "text": "<p><a href=\"mailto:hello@floathub.com\">hello@floathub.com</a></p>"
+          }
+        },
+        "item_yLnwqT": {
+          "type": "item",
+          "settings": {
+            "icon": "silhouette",
+            "title": "PHONE",
+            "text": "<p><a href=\"tel:+442012345678\">+44 20 1234 5678</a></p>"
+          }
+        },
+        "item_db83rx": {
+          "type": "item",
+          "settings": {
+            "icon": "stopwatch",
+            "title": "HOURS",
+            "text": "<p>Mon–Fri: 10am – 8pm</p><p>Sat–Sun: 11am – 6pm</p>"
+          }
+        },
+        "item_6XKV44": {
+          "type": "item",
+          "settings": {
+            "icon": "map_pin",
+            "title": "LOCATION",
+            "text": "<p>Shoreditch, London</p>"
+          }
+        },
+        "item_7LkXF6": {
+          "type": "item",
+          "settings": {
+            "icon": "heart",
+            "title": "SUPPORT",
+            "text": "<p>We’re here to help before and after your float.</p>"
+          }
+        },
+        "item_tmyBLU": {
+          "type": "item",
+          "settings": {
+            "icon": "chat_bubble",
+            "title": "EMAIL",
+            "text": "<p><a href=\"mailto:hello@example.com\">hello@example.com</a></p>"
+          }
+        },
+        "item_fPRX48": {
+          "type": "item",
+          "settings": {
+            "icon": "chat_bubble",
+            "title": "EMAIL",
+            "text": "<p><a href=\"mailto:hello@example.com\">hello@example.com</a></p>"
+          }
+        },
+        "item_K74mpL": {
+          "type": "item",
+          "settings": {
+            "icon": "chat_bubble",
+            "title": "EMAIL",
+            "text": "<p><a href=\"mailto:hello@example.com\">hello@example.com</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_CNremM",
+        "item_yLnwqT",
+        "item_db83rx",
+        "item_6XKV44",
+        "item_7LkXF6",
+        "item_tmyBLU",
+        "item_fPRX48",
+        "item_K74mpL"
+      ],
+      "name": "Custom Icon with Text",
+      "settings": {
+        "heading": "",
+        "heading_accent": "",
+        "description": "",
+        "heading_alignment": "center",
+        "title_max_width": 700,
+        "heading_size_desktop": 36,
+        "heading_size_tablet": 32,
+        "heading_size_mobile": 28,
+        "description_size": 15,
+        "header_gap": 36,
+        "columns_desktop": 4,
+        "grid_gap": 16,
+        "slide_gap": 12,
+        "enable_autoplay": false,
+        "autoplay_speed": 3,
+        "card_alignment": "center",
+        "card_text_align": "center",
+        "icon_size": 40,
+        "icon_spacing": 16,
+        "card_title_size": 16,
+        "card_title_size_mobile": 16,
+        "card_text_size": 14,
+        "card_text_size_mobile": 14,
+        "card_radius": 12,
+        "card_padding": 16,
+        "bg_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "body_color": "#A8B0BD",
+        "icon_color": "#FFFFFF",
+        "accent_color": "#0DAAEF",
+        "card_bg": "#121A27",
+        "card_border": "#243041",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
     "main",
-    "custom_section_featured_collection_CtUF4d"
+    "custom_section_featured_collection_CtUF4d",
+    "custom_section_icon_with_text_qgeGJR"
   ]
 }
