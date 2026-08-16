@@ -371,6 +371,106 @@
         "border_thickness": 1,
         "heading_size": 36,
         "heading_size_mobile": 28,
+        "caption_size": 13,
+        "caption_size_mobile": 12,
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "button_size": 16,
+        "button_radius": 8,
+        "background_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "caption_color": "#23A3DF",
+        "text_color": "#C8CED8",
+        "link_color": "#23A3DF",
+        "button_text_color": "#FFFFFF",
+        "button_secondary_text_color": "#FFFFFF",
+        "button_secondary_border_color": "#FFFFFF",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "rich_text_rLLwbJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TpADUe": {
+          "type": "heading",
+          "settings": {
+            "heading": "16 Reasons to Try Red Light Therapy"
+          }
+        },
+        "text_G4fdVc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Red light therapy has numerous potential benefits, and incorporating it into your self-care routine could offer a range of positive effects.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TpADUe",
+        "text_G4fdVc"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "full_width": true,
+        "content_max_width": 1400,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 18,
+        "text_size_mobile": 16,
+        "button_size": 16,
+        "button_radius": 8,
+        "background_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "caption_color": "#23A3DF",
+        "text_color": "#C8CED8",
+        "link_color": "#23A3DF",
+        "button_text_color": "#FFFFFF",
+        "button_secondary_text_color": "#FFFFFF",
+        "button_secondary_border_color": "#FFFFFF",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_eEHb9G": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8ytdMY": {
+          "type": "heading",
+          "settings": {
+            "heading": "1. <a href=\"https://pubmed.ncbi.nlm.nih.gov/28748217/\">Help Reduce Inflammation</a>"
+          }
+        },
+        "text_mgPd6e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Inflammation is a significant concern in society due to its association with a variety of health issues, including illness, disease, and declines in mental health. Red light therapy is a treatment option that has been approved by the Food and Drug Administration (FDA) for its ability to reduce inflammation.</p><p>One of the benefits of red light therapy is that it can be administered over the entire body using a full-body red light therapy bed, which allows for the anti-inflammatory effects to be felt from head to toe without the need for medication.</p><p>At the cellular level, red light therapy helps damaged cells to repair more quickly and efficiently, while also promoting the elimination of toxins, which can contribute to inflammation.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8ytdMY",
+        "text_mgPd6e"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "full_width": true,
+        "content_max_width": 1400,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 36,
+        "heading_size_mobile": 28,
         "caption_size": 14,
         "caption_size_mobile": 13,
         "text_size": 18,
@@ -385,8 +485,8 @@
         "button_text_color": "#FFFFFF",
         "button_secondary_text_color": "#FFFFFF",
         "button_secondary_border_color": "#FFFFFF",
-        "padding_top": 80,
-        "padding_bottom": 80
+        "padding_top": 0,
+        "padding_bottom": 32
       }
     }
   },
@@ -397,6 +497,8 @@
     "custom_section_packages_pJtRQM",
     "rich_text_WgwFFp",
     "custom_section_innerpage_banner_CWBLhz",
-    "rich_text_pK9JPw"
+    "rich_text_pK9JPw",
+    "rich_text_rLLwbJ",
+    "rich_text_eEHb9G"
   ]
 }
