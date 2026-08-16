@@ -548,19 +548,19 @@
         "panel_zdqgBh": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/624292321_18089226653472903_2926321886989038639_n.jpg",
+            "image": "shopify://shop_images/FloatHub-float-therapy-center-shoreditch-london-membership-3months.jpg",
             "eyebrow": "3 Months",
             "heading": "Find Your Flow",
             "description": "Feel the initial benefits\nGet comfortable floating\nExperience different floats\nUncover a new state of calm",
             "button_label": "",
-            "button_link": "#",
+            "button_link": "",
             "button_style": "outline"
           }
         },
         "panel_mQGpYK": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/481112418_2741467312704498_3456577850477813194_n.jpg",
+            "image": "shopify://shop_images/FloatHub-float-therapy-center-shoreditch-london-membership-6months.jpg",
             "eyebrow": "6 Months",
             "heading": "Feel Deep Changes",
             "description": "ind a new baseline\nExperience greater energy\nMore consistent calm\nStable, brighter mood",
@@ -572,7 +572,7 @@
         "panel_Fq4bHa": {
           "type": "panel",
           "settings": {
-            "image": "shopify://shop_images/481112418_2741467312704498_3456577850477813194_n.jpg",
+            "image": "shopify://shop_images/FloatHub-float-therapy-center-shoreditch-london-12months-2.jpg",
             "eyebrow": "12 Months",
             "heading": "Meet The New You",
             "description": "Significant health shifts\nLess pain in past injuries\nDeep state of calm\nDramatic life improvements",
@@ -614,7 +614,7 @@
         "button_radius": 8,
         "fallback_background": "#121a27",
         "overlay_color": "#070d16",
-        "overlay_opacity": 55,
+        "overlay_opacity": 30,
         "eyebrow_color": "#ffffff",
         "text_color": "#ffffff",
         "description_color": "#ffffff",
