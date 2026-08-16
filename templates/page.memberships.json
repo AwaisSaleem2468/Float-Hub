@@ -13,7 +13,7 @@
       "type": "main-page",
       "settings": {
         "content_width": "page",
-        "text_alignment": "left",
+        "text_alignment": "center",
         "show_title": true,
         "title_size": 48,
         "title_size_mobile": 32,
@@ -23,18 +23,96 @@
         "text_size": 16,
         "text_size_mobile": 15,
         "text_line_height": "1.7",
-        "background_color": "#070D16",
-        "title_color": "#FFFFFF",
-        "text_color": "#A8B0BD",
-        "muted_color": "#8B93A1",
-        "link_color": "#0DAAEF",
+        "background_color": "#070d16",
+        "title_color": "#ffffff",
+        "text_color": "#a8b0bd",
+        "muted_color": "#8b93a1",
+        "link_color": "#0daaef",
         "link_hover_color": "#22d3ee",
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_section_featured_collection_CtUF4d": {
+      "type": "custom-section-featured-collection",
+      "blocks": {
+        "product_card_eYaBdJ": {
+          "type": "product_card",
+          "settings": {
+            "product": "flexi-float-plan",
+            "featured": true,
+            "badge_text": "Welcome Bonus",
+            "price_note": "",
+            "button_label": "Join Membership",
+            "button_link": ""
+          }
+        },
+        "product_card_QMFh3A": {
+          "type": "product_card",
+          "settings": {
+            "product": "2-float-monthly",
+            "featured": true,
+            "badge_text": "Most Popular",
+            "price_note": "",
+            "button_label": "Join Membership",
+            "button_link": ""
+          }
+        },
+        "product_card_hVYcwi": {
+          "type": "product_card",
+          "settings": {
+            "product": "float-for-two-couples-monthly",
+            "featured": false,
+            "badge_text": "Most Popular",
+            "price_note": "",
+            "button_label": "Join Membership",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_card_eYaBdJ",
+        "product_card_QMFh3A",
+        "product_card_hVYcwi"
+      ],
+      "name": "Custom Feat collection",
+      "settings": {
+        "label": "",
+        "heading": "",
+        "heading_accent": "",
+        "heading_size_desktop": 42,
+        "heading_size_mobile": 32,
+        "label_size": 14,
+        "description": "",
+        "description_size_desktop": 16,
+        "description_size_mobile": 15,
+        "caption_size": 16,
+        "title_size": 20,
+        "price_size": 36,
+        "feature_size": 16,
+        "button_size": 16,
+        "content_width": 1120,
+        "header_spacing": 48,
+        "background_color": "#121a27",
+        "card_background": "#070d16",
+        "text_color": "#ffffff",
+        "muted_color": "#c8ced8",
+        "accent_color": "#23a3df",
+        "accent_text_color": "#061018",
+        "gold_color": "#23a3df",
+        "gold_text_color": "#1a1208",
+        "show_view_all": false,
+        "view_all_label": "View all",
+        "view_all_link": "",
+        "view_all_style": "ghost",
+        "view_all_spacing": 32,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_section_featured_collection_CtUF4d"
   ]
 }
