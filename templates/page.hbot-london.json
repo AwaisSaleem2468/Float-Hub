@@ -68,10 +68,112 @@
         "text_alignment": "left",
         "content_width": 980
       }
+    },
+    "custom_section_featured_collection_LaVgdk": {
+      "type": "custom-section-featured-collection",
+      "blocks": {
+        "product_card_f3KpWX": {
+          "type": "product_card",
+          "settings": {
+            "product": "intro-3-pack",
+            "featured": false,
+            "badge_text": "",
+            "price_note": "",
+            "button_label": "Buy Intro Pack",
+            "button_link": ""
+          }
+        },
+        "product_card_aPUUMa": {
+          "type": "product_card",
+          "settings": {
+            "product": "5-session-starter",
+            "featured": false,
+            "badge_text": "Most Popular",
+            "price_note": "",
+            "button_label": "Buy Statter Pack",
+            "button_link": ""
+          }
+        },
+        "product_card_tdLRRF": {
+          "type": "product_card",
+          "settings": {
+            "product": "10-session-performance",
+            "featured": true,
+            "badge_text": "Most Popular",
+            "price_note": "",
+            "button_label": "Buy 10 Session Pack",
+            "button_link": ""
+          }
+        },
+        "product_card_DfJYMd": {
+          "type": "product_card",
+          "settings": {
+            "product": "20-session-deep-repair",
+            "featured": false,
+            "badge_text": "",
+            "price_note": "",
+            "button_label": "Buy 20 Session Pack",
+            "button_link": ""
+          }
+        },
+        "product_card_3FDnkV": {
+          "type": "product_card",
+          "settings": {
+            "product": "40-hour-longevity",
+            "featured": true,
+            "badge_text": "Most Popular",
+            "price_note": "",
+            "button_label": "Buy 40 Hours Pack",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_card_f3KpWX",
+        "product_card_aPUUMa",
+        "product_card_tdLRRF",
+        "product_card_DfJYMd",
+        "product_card_3FDnkV"
+      ],
+      "name": "Custom Feat collection",
+      "settings": {
+        "label": "",
+        "heading": "Our HBOT London Protocols",
+        "heading_accent": "",
+        "heading_size_desktop": 42,
+        "heading_size_mobile": 32,
+        "label_size": 14,
+        "description": "<p>Experience the power of advanced 1.5 ATA oxygen therapy. We recommend a consistent protocol to experience the full cumulative benefits of systemic cellular repair.<strong>New to Float Hub?</strong>Start with our exclusive Intro 3-Pack to feel the initial shift.<br/><br/></p>",
+        "description_size_desktop": 16,
+        "description_size_mobile": 15,
+        "caption_size": 16,
+        "title_size": 20,
+        "price_size": 36,
+        "feature_size": 16,
+        "button_size": 16,
+        "content_width": 1120,
+        "header_spacing": 48,
+        "background_color": "#070D16",
+        "card_background": "#121A27",
+        "text_color": "#ffffff",
+        "muted_color": "#c8ced8",
+        "accent_color": "#23a3df",
+        "accent_text_color": "#061018",
+        "gold_color": "#23a3df",
+        "gold_text_color": "#1a1208",
+        "show_view_all": false,
+        "view_all_label": "View all",
+        "view_all_link": "",
+        "view_all_style": "ghost",
+        "view_all_spacing": 32,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
     "main",
-    "custom_section_innerpage_banner_AHpikE"
+    "custom_section_innerpage_banner_AHpikE",
+    "custom_section_featured_collection_LaVgdk"
   ]
 }
