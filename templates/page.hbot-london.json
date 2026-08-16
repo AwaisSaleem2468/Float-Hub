@@ -316,7 +316,7 @@
         "text_size": 16,
         "text_size_mobile": 15,
         "button_size": 16,
-        "button_radius": 40,
+        "button_radius": 8,
         "background_color": "#070D16",
         "heading_color": "#FFFFFF",
         "caption_color": "#23A3DF",
