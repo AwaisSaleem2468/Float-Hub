@@ -39,20 +39,20 @@
       "name": "Custom Video Banner",
       "settings": {
         "media_type": "image",
-        "image": "shopify://shop_images/FloatHub-London-Shoreditch-Orbit-Float-Pod-Float-Therapy.jpg",
+        "image": "shopify://shop_images/PCH_3799_blue-scaled_7d33b42b-bfb9-43f9-9d8c-82647f401349.jpg",
         "video": "shopify://files/videos/Floathub Video.mp4",
         "overlay_color": "#061018",
         "overlay_opacity": 50,
         "section_height": 65,
         "section_height_mobile": 60,
         "show_badge": false,
-        "badge_text": "200+ Five-Star Reviews | London's #1",
-        "heading": "",
+        "badge_text": "",
+        "heading": "Begin Your Recovery Journey",
         "heading_accent": "",
-        "heading_size_desktop": 64,
+        "heading_size_desktop": 42,
         "heading_size_mobile": 36,
-        "description": "<p>Explore full pricing options for London’s best Float Therapy, clinical HBOT, and full-body Red Light Therapy. <br/></p><p>Explore our exclusive introductory offers, no-commitment memberships, and multi-session packages to lock in the best value.</p>",
-        "description_size_desktop": 24,
+        "description": "<p><strong>New to Float Hub?</strong> Start your journey with our <strong>2 Float Intro Course</strong> for just £99. Enjoy two premium float sessions, complete with complimentary 90-minute upgrades whenever our daily schedule allows.</p>",
+        "description_size_desktop": 16,
         "description_size_mobile": 18,
         "button_label_1": "",
         "button_link_1": "",
@@ -66,30 +66,6 @@
         "badge_color": "#d4af37",
         "button_primary_bg": "#0daaef",
         "button_primary_text": "#ffffff"
-      }
-    },
-    "custom_section_richtext_awCARH": {
-      "type": "custom-section-richtext",
-      "name": "Custom Rich Text",
-      "settings": {
-        "show_badge": true,
-        "show_stars": true,
-        "badge_text": "London's best Float Therapy",
-        "badge_size_desktop": 16,
-        "badge_size_mobile": 14,
-        "badge_spacing": 28,
-        "content": "<p>Our premium recovery centre offers a luxurious, multi-modality wellness experience. Discover London's best Float Therapy featuring 100% water filtration twice between sessions, our extra spacious 1.5ATA double HBOT chamber, and our 26K German-engineered LED full body red light bed. Book your session today to experience reduced anxiety, deeper sleep, and peak physical recovery.</p>",
-        "text_size_desktop": 18,
-        "text_size_mobile": 16,
-        "content_width": 900,
-        "background_color": "#0f1827",
-        "text_color": "#c8ced8",
-        "strong_color": "#ffffff",
-        "badge_background": "#243044",
-        "badge_text_color": "#c8ced8",
-        "star_color": "#f5c518",
-        "padding_top": 80,
-        "padding_bottom": 80
       }
     },
     "custom_section_featured_collection_GUUAE9": {
@@ -138,11 +114,11 @@
       "settings": {
         "label": "",
         "heading": "Float Therapy",
-        "heading_accent": "",
+        "heading_accent": "(Full Sensory Deprivation Experience)",
         "heading_size_desktop": 42,
         "heading_size_mobile": 32,
         "label_size": 14,
-        "description": "<p>While a single session is highly effective at reducing anxiety and improving sleep patterns for around 36 hours, the core biological benefits of floating compound over several sessions. Committing to regular practice fundamentally resets your baseline stress level, unlocking sustained improvements in focus, deep sleep, and emotional well-being that can endure for weeks or months at a time.</p>",
+        "description": "<p><em>Feel calmer, sleep better, and begin your float journey for lasting differences to your wellbeing.</em></p>",
         "description_size_desktop": 16,
         "description_size_mobile": 15,
         "caption_size": 16,
@@ -169,95 +145,20 @@
         "padding_bottom": 80
       }
     },
-    "custom_section_packages_6F8Eei": {
-      "type": "custom-section-packages",
-      "blocks": {
-        "package_iFjnrF": {
-          "type": "package",
-          "settings": {
-            "product": "2-single-use-floats-pack",
-            "caption_override": "",
-            "button_label": "Buy Pack",
-            "button_link": ""
-          }
-        },
-        "package_zPdEKr": {
-          "type": "package",
-          "settings": {
-            "product": "4-float-sharer-course",
-            "caption_override": "",
-            "button_label": "Buy Pack",
-            "button_link": ""
-          }
-        },
-        "package_7btLNL": {
-          "type": "package",
-          "settings": {
-            "product": "annual-course-package-12-floats",
-            "caption_override": "",
-            "button_label": "Buy Pack",
-            "button_link": ""
-          }
-        },
-        "package_C6wBjD": {
-          "type": "package",
-          "settings": {
-            "product": "corporate-group-pack-12-floats",
-            "caption_override": "",
-            "button_label": "Buy Pack",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "package_iFjnrF",
-        "package_zPdEKr",
-        "package_7btLNL",
-        "package_C6wBjD"
-      ],
-      "name": "Custom Packages",
-      "settings": {
-        "heading": "",
-        "heading_accent": "",
-        "description": "",
-        "heading_alignment": "left",
-        "heading_max_width": 700,
-        "heading_size": 36,
-        "heading_size_mobile": 28,
-        "description_size": 15,
-        "header_gap": 28,
-        "content_width": 1100,
-        "card_radius": 12,
-        "row_padding_y": 28,
-        "row_padding_x": 32,
-        "column_gap": 28,
-        "title_size": 22,
-        "title_size_mobile": 18,
-        "caption_size": 14,
-        "price_size": 28,
-        "price_size_mobile": 22,
-        "button_label": "BUY COURSE",
-        "button_size": 12,
-        "button_height": 44,
-        "button_min_width": 140,
-        "button_radius": 6,
-        "background_color": "#070d16",
-        "card_background": "#121a27",
-        "card_border": "#243041",
-        "divider_color": "#243041",
-        "title_color": "#ffffff",
-        "caption_color": "#c8ced8",
-        "price_color": "#ffffff",
-        "accent_color": "#23a3df",
-        "button_color": "#23a3df",
-        "button_hover_color": "#22d3ee",
-        "padding_top": 0,
-        "padding_bottom": 80
-      }
-    },
     "custom_section_featured_collection_3T7nJK": {
       "type": "custom-section-featured-collection",
       "blocks": {
+        "product_card_9L9NRW": {
+          "type": "product_card",
+          "settings": {
+            "product": "hbot-session-60-min",
+            "featured": false,
+            "badge_text": "Most Popular",
+            "price_note": "",
+            "button_label": "Book Now",
+            "button_link": ""
+          }
+        },
         "product_card_FyTyWE": {
           "type": "product_card",
           "settings": {
@@ -315,6 +216,7 @@
         }
       },
       "block_order": [
+        "product_card_9L9NRW",
         "product_card_FyTyWE",
         "product_card_YGtyJ7",
         "product_card_4cpbfU",
@@ -329,7 +231,7 @@
         "heading_size_desktop": 42,
         "heading_size_mobile": 32,
         "label_size": 14,
-        "description": "<p>Step into London's premier Oxygen Suite. Bypassing the red blood cell bottleneck via plasma saturation to reverse neural oxygen debts and clear systemic inflammation.</p>",
+        "description": "<p>Step into London's largest chamber at 1.5 ATA for deep cellular repair, improved sleep, and an incredible feeling after each session.</p>",
         "description_size_desktop": 16,
         "description_size_mobile": 15,
         "caption_size": 16,
@@ -356,76 +258,10 @@
         "padding_bottom": 80
       }
     },
-    "custom_section_packages_wAGBgM": {
-      "type": "custom-section-packages",
-      "blocks": {
-        "package_3L63W3": {
-          "type": "package",
-          "settings": {
-            "product": "hbot-session-60-min",
-            "caption_override": "",
-            "button_label": "Book Now",
-            "button_link": ""
-          }
-        },
-        "package_YzbHXR": {
-          "type": "package",
-          "settings": {
-            "product": "hbot-for-two-session-60-min",
-            "caption_override": "",
-            "button_label": "Book Due Session",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "package_3L63W3",
-        "package_YzbHXR"
-      ],
-      "name": "Custom Packages",
-      "settings": {
-        "heading": "",
-        "heading_accent": "",
-        "description": "",
-        "heading_alignment": "left",
-        "heading_max_width": 700,
-        "heading_size": 36,
-        "heading_size_mobile": 28,
-        "description_size": 15,
-        "header_gap": 28,
-        "content_width": 1100,
-        "card_radius": 12,
-        "row_padding_y": 28,
-        "row_padding_x": 32,
-        "column_gap": 28,
-        "title_size": 22,
-        "title_size_mobile": 18,
-        "caption_size": 14,
-        "price_size": 28,
-        "price_size_mobile": 22,
-        "button_label": "BUY COURSE",
-        "button_size": 12,
-        "button_height": 44,
-        "button_min_width": 140,
-        "button_radius": 6,
-        "background_color": "#121a27",
-        "card_background": "#070d16",
-        "card_border": "#243041",
-        "divider_color": "#243041",
-        "title_color": "#ffffff",
-        "caption_color": "#c8ced8",
-        "price_color": "#ffffff",
-        "accent_color": "#23a3df",
-        "button_color": "#23a3df",
-        "button_hover_color": "#22d3ee",
-        "padding_top": 0,
-        "padding_bottom": 80
-      }
-    },
-    "custom_section_featured_collection_bk8fiW": {
+    "custom_section_featured_collection_H9JnWe": {
       "type": "custom-section-featured-collection",
       "blocks": {
-        "product_card_t3rAwH": {
+        "product_card_4GicaH": {
           "type": "product_card",
           "settings": {
             "product": "red-light-therapy",
@@ -436,7 +272,7 @@
             "button_link": ""
           }
         },
-        "product_card_xDNAPt": {
+        "product_card_Knp36x": {
           "type": "product_card",
           "settings": {
             "product": "3x-red-light-discovery-pack",
@@ -449,8 +285,8 @@
         }
       },
       "block_order": [
-        "product_card_t3rAwH",
-        "product_card_xDNAPt"
+        "product_card_4GicaH",
+        "product_card_Knp36x"
       ],
       "name": "Custom Feat collection",
       "settings": {
@@ -487,92 +323,6 @@
         "padding_bottom": 80
       }
     },
-    "custom_section_packages_pLCUyq": {
-      "type": "custom-section-packages",
-      "blocks": {
-        "package_TVzNzr": {
-          "type": "package",
-          "settings": {
-            "product": "starter-pack",
-            "caption_override": "",
-            "button_label": "Buy Starter Pack",
-            "button_link": ""
-          }
-        },
-        "package_9Qpxqk": {
-          "type": "package",
-          "settings": {
-            "product": "gold-pack",
-            "caption_override": "",
-            "button_label": "Buy Gold Pack",
-            "button_link": ""
-          }
-        },
-        "package_k848eB": {
-          "type": "package",
-          "settings": {
-            "product": "platinum-pack",
-            "caption_override": "",
-            "button_label": "Buy Platinum Pack",
-            "button_link": ""
-          }
-        },
-        "package_p8fUw4": {
-          "type": "package",
-          "settings": {
-            "product": "intensive-pack",
-            "caption_override": "",
-            "button_label": "Buy Intensive Pack",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "package_TVzNzr",
-        "package_9Qpxqk",
-        "package_k848eB",
-        "package_p8fUw4"
-      ],
-      "name": "Custom Packages",
-      "settings": {
-        "heading": "",
-        "heading_accent": "",
-        "description": "",
-        "heading_alignment": "left",
-        "heading_max_width": 700,
-        "heading_size": 36,
-        "heading_size_mobile": 28,
-        "description_size": 15,
-        "header_gap": 28,
-        "content_width": 1100,
-        "card_radius": 12,
-        "row_padding_y": 28,
-        "row_padding_x": 32,
-        "column_gap": 28,
-        "title_size": 22,
-        "title_size_mobile": 18,
-        "caption_size": 14,
-        "price_size": 28,
-        "price_size_mobile": 22,
-        "button_label": "BUY COURSE",
-        "button_size": 12,
-        "button_height": 44,
-        "button_min_width": 140,
-        "button_radius": 6,
-        "background_color": "#070d16",
-        "card_background": "#121a27",
-        "card_border": "#243041",
-        "divider_color": "#243041",
-        "title_color": "#ffffff",
-        "caption_color": "#c8ced8",
-        "price_color": "#ffffff",
-        "accent_color": "#23a3df",
-        "button_color": "#23a3df",
-        "button_hover_color": "#22d3ee",
-        "padding_top": 0,
-        "padding_bottom": 80
-      }
-    },
     "custom_section_featured_collection_YzTPLt": {
       "type": "custom-section-featured-collection",
       "blocks": {
@@ -600,6 +350,7 @@
         },
         "product_card_c6iC9b": {
           "type": "product_card",
+          "disabled": true,
           "settings": {
             "product": "float-for-two-couples-monthly",
             "featured": false,
@@ -618,7 +369,7 @@
       "name": "Custom Feat collection",
       "settings": {
         "label": "",
-        "heading": "Flexi-Float Memberships",
+        "heading": "Float Memberships",
         "heading_accent": "",
         "heading_size_desktop": 42,
         "heading_size_mobile": 32,
@@ -654,10 +405,10 @@
       "type": "custom-section-become-a-member",
       "name": "Custom Become a Member",
       "settings": {
-        "heading": "Become a member",
-        "text": "<p>Memberships offer the best price, no minimum term, free 90-min upgrades (subject to availability), and amazing partner benefits.</p>",
-        "button_label": "CLICK FOR MEMBERSHIPS",
-        "button_link": "#",
+        "heading": "",
+        "text": "<p>Looking for our 10-packs, corporate accounts, or annual memberships?</p>",
+        "button_label": "Pricing & Packages Page",
+        "button_link": "shopify://pages/pricing",
         "content_width": 880,
         "text_max_width": 560,
         "content_gap": 40,
@@ -666,8 +417,8 @@
         "mobile_alignment": "left",
         "heading_size": 36,
         "heading_size_mobile": 28,
-        "text_size": 15,
-        "text_size_mobile": 14,
+        "text_size": 20,
+        "text_size_mobile": 16,
         "text_spacing": 12,
         "button_size": 13,
         "button_height": 52,
@@ -679,113 +430,79 @@
         "button_background": "#ffffff",
         "button_hover_background": "#c8ced8",
         "button_text_color": "#070d16",
-        "padding_top": 80,
-        "padding_bottom": 80
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
-    "custom_section_richtext_8mj6iw": {
-      "type": "custom-section-richtext",
-      "name": "Custom Rich Text",
-      "settings": {
-        "show_badge": false,
-        "show_stars": false,
-        "badge_text": "21K+ Happy Customers",
-        "badge_size_desktop": 12,
-        "badge_size_mobile": 11,
-        "badge_spacing": 28,
-        "content": "<p>Memberships – Our members get the best prices on floats, free 90 minute float, and discounted float for friends and family. Pay monthly, no minimum term.</p><p></p><p>Memberships are a great option even if you just want to try out floating – only stay with us if you want to.</p><p></p><p>Since floating is a practice that has a learning curve and an accumulative effect, the more often you float, the better and more effective they get.</p><p>If you are interested in adding a float practice to your routine, you’ll get the best value by becoming a member.</p>",
-        "text_size_desktop": 20,
-        "text_size_mobile": 18,
-        "content_width": 1000,
-        "background_color": "#070d16",
-        "text_color": "#e8edf5",
-        "strong_color": "#ffffff",
-        "badge_background": "#1a2436",
-        "badge_text_color": "#d5dce8",
-        "star_color": "#f5c518",
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
-    },
-    "custom_section_icon_with_text_horizontal_gGtMdr": {
-      "type": "custom-section-icon-with-text-horizontal",
-      "name": "Icon Text Horizontal",
-      "settings": {
-        "text": "<p><strong>Want to treat a friend or loved one?</strong> <a href=\"/products/gift-card\" title=\"Gift cards\">Grab one of our gift cards</a> and</p><p>give them deep relaxation, recovery and an unforgettable experience!</p>",
-        "accessibility_label": "Gift cards",
-        "icon": "heart",
-        "icon_style": "gradient",
-        "icon_color": "#ff6b4a",
-        "icon_gradient_from": "#ff7a45",
-        "icon_gradient_to": "#d62828",
-        "icon_size": 64,
-        "icon_size_mobile": 48,
-        "content_width": 800,
-        "text_max_width": 680,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "content_gap": 20,
-        "content_gap_mobile": 16,
-        "stack_on_mobile": false,
-        "text_size": 20,
-        "text_size_mobile": 18,
-        "background_color": "#070d16",
-        "text_color": "#c8ced8",
-        "strong_color": "#ffffff",
-        "link_color": "#23a3df",
-        "link_hover_color": "#ffffff",
-        "padding_top": 0,
-        "padding_bottom": 80
-      }
-    },
-    "rich_text_a8NMDt": {
-      "type": "rich-text",
+    "custom_section_icon_with_text_4may3A": {
+      "type": "custom-section-icon-with-text",
       "blocks": {
-        "heading_YfrfcC": {
-          "type": "heading",
+        "item_K664bA": {
+          "type": "item",
           "settings": {
-            "heading": "How often should I float?"
+            "icon": "lock",
+            "title": "",
+            "text": "<p>All data is stored at<strong>PCI Level I standard data security</strong>(highest standard available), so you can rest assured that it’s safe.</p>"
           }
         },
-        "text_dMVDyt": {
-          "type": "text",
+        "item_BdXzrV": {
+          "type": "item",
           "settings": {
-            "text": "<p>Everyone floats for different reasons. We <em>highly recommend </em>you try at least 3 floats within a period of around 45 – 60 days to experience the full benefits. Most people develop a practice of 1 – 4 floats per month.</p>"
+            "icon": "silhouette",
+            "title": "",
+            "text": "<p><strong>We’re ranked #1 on TripAdvisor</strong>, making us the #1 float centre and one of the top spas in London, plus 100+ 5-star reviews.</p>"
+          }
+        },
+        "item_fzdfcf": {
+          "type": "item",
+          "settings": {
+            "icon": "heart",
+            "title": "",
+            "text": "<p>Our 6 floatation tanks are the largest and most advanced available,<strong>filtering 100% of the water</strong>between each float session.</p>"
           }
         }
       },
       "block_order": [
-        "heading_YfrfcC",
-        "text_dMVDyt"
+        "item_K664bA",
+        "item_BdXzrV",
+        "item_fzdfcf"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "Custom Icon with Text",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "full_width": true,
-        "content_max_width": 700,
-        "show_border_top": false,
-        "show_border_bottom": false,
-        "border_color": "#243041",
-        "border_thickness": 1,
-        "heading_size": 36,
-        "heading_size_mobile": 28,
-        "caption_size": 14,
-        "caption_size_mobile": 13,
-        "text_size": 16,
-        "text_size_mobile": 15,
-        "button_size": 15,
-        "button_radius": 40,
-        "background_color": "#121a27",
-        "heading_color": "#ffffff",
-        "caption_color": "#23a3df",
-        "text_color": "#c8ced8",
-        "link_color": "#23a3df",
-        "button_text_color": "#ffffff",
-        "button_secondary_text_color": "#ffffff",
-        "button_secondary_border_color": "#ffffff",
-        "padding_top": 80,
-        "padding_bottom": 80
+        "heading": "",
+        "heading_accent": "",
+        "description": "",
+        "heading_alignment": "center",
+        "title_max_width": 700,
+        "heading_size_desktop": 36,
+        "heading_size_tablet": 30,
+        "heading_size_mobile": 26,
+        "description_size": 15,
+        "header_gap": 36,
+        "columns_desktop": 3,
+        "grid_gap": 16,
+        "slide_gap": 16,
+        "enable_autoplay": false,
+        "autoplay_speed": 5,
+        "card_alignment": "center",
+        "card_text_align": "center",
+        "icon_size": 48,
+        "icon_spacing": 24,
+        "card_title_size": 18,
+        "card_title_size_mobile": 16,
+        "card_text_size": 16,
+        "card_text_size_mobile": 14,
+        "card_radius": 12,
+        "card_padding": 16,
+        "bg_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "body_color": "#A8B0BD",
+        "icon_color": "#FFFFFF",
+        "accent_color": "#0DAAEF",
+        "card_bg": "#121A27",
+        "card_border": "#243041",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "custom_section_stacked_image_text_overly_TgjGw7": {
@@ -973,18 +690,12 @@
   "order": [
     "main",
     "custom_section_video_banner_KqNJmD",
-    "custom_section_richtext_awCARH",
     "custom_section_featured_collection_GUUAE9",
-    "custom_section_packages_6F8Eei",
     "custom_section_featured_collection_3T7nJK",
-    "custom_section_packages_wAGBgM",
-    "custom_section_featured_collection_bk8fiW",
-    "custom_section_packages_pLCUyq",
+    "custom_section_featured_collection_H9JnWe",
     "custom_section_featured_collection_YzTPLt",
     "custom_section_become_a_member_j48k7w",
-    "custom_section_richtext_8mj6iw",
-    "custom_section_icon_with_text_horizontal_gGtMdr",
-    "rich_text_a8NMDt",
+    "custom_section_icon_with_text_4may3A",
     "custom_section_stacked_image_text_overly_TgjGw7",
     "collapsible_content_7y8TFD",
     "collapsible_content_UXFXUY"
