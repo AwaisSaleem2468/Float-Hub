@@ -266,6 +266,68 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "rich_text_r3yxWe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KEjbkU": {
+          "type": "heading",
+          "settings": {
+            "heading": "What is Hyperbaric Oxygen Therapy (HBOT)?"
+          }
+        },
+        "text_64cjwy": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>The Fundamentals</strong></em> Hyperbaric Oxygen Therapy (HBOT) is a non-invasive treatment where you breathe highly concentrated oxygen (~96%) inside a purpose-built chamber pressurized to <strong>1.5 ATA (Atmospheres Absolute)</strong>—roughly equivalent to being 5 meters underwater.</p><p><em><strong>How It Works: The Physics of Pressure</strong></em> Under normal atmospheric conditions, the vast majority of oxygen in your body is carried by red blood cells. However, these cells have a limited capacity.</p><p>HBOT bypasses this limitation by utilizing pressure. Based on the scientific principle of <strong>Henry’s Law</strong>, the increased atmospheric pressure in the suite forces oxygen to dissolve directly into your blood plasma, lymph, and cerebrospinal fluid—much like carbon dioxide dissolving into sparkling water under pressure.</p><p><em><strong>The Result: Systemic Saturation</strong></em> This process super-saturates your circulatory system with up to <strong>10–15 times</strong> more available oxygen than normal breathing allows.</p><p>This oxygen-rich plasma can reach deep into tissues with compromised circulation—such as injured ligaments, inflamed joints, or the brain—providing the essential fuel your mitochondria need to accelerate repair, reduce systemic inflammation, and optimize cognitive performance.</p>"
+          }
+        },
+        "button_ABrhiU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Now",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KEjbkU",
+        "text_64cjwy",
+        "button_ABrhiU"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": false,
+        "content_max_width": 980,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "button_size": 16,
+        "button_radius": 40,
+        "background_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "caption_color": "#23A3DF",
+        "text_color": "#A8B0BD",
+        "link_color": "#23A3DF",
+        "button_text_color": "#FFFFFF",
+        "button_secondary_text_color": "#FFFFFF",
+        "button_secondary_border_color": "#FFFFFF",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -273,6 +335,7 @@
     "custom_section_innerpage_banner_AHpikE",
     "custom_section_featured_collection_LaVgdk",
     "custom_section_packages_atWQFH",
-    "custom_section_icon_with_text_horizontal_U6iTNT"
+    "custom_section_icon_with_text_horizontal_U6iTNT",
+    "rich_text_r3yxWe"
   ]
 }
