@@ -328,6 +328,93 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "custom_section_float_benefits_QqDhMw": {
+      "type": "custom-section-float-benefits",
+      "blocks": {
+        "tab_GULMBh": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Mind",
+            "tab_icon_style": "mind",
+            "tab_icon": "shopify://shop_images/benefits-icon-_7.png",
+            "benefit_1_icon": "shopify://shop_images/benefits-icon-_10.png",
+            "benefit_1_title": "SHARPER FOCUS & CLARITY",
+            "benefit_1_text": "By flooding the brain with oxygen, HBOT acts as a powerful nootropic. It combats brain fog, enhances concentration, and improves executive function for peak mental performance.",
+            "benefit_2_icon": "shopify://shop_images/benefits-icon-_9.png",
+            "benefit_2_title": "MOOD & ANXIETY SUPPORT",
+            "benefit_2_text": "Neuroinflammation is often linked to mood disorders. HBOT’s potent anti-inflammatory effects can help stabilize mood, reduce anxiety, and build mental resilience against stress.",
+            "benefit_3_icon": "shopify://shop_images/benefits-icon-_8.png",
+            "benefit_3_title": "NEUROPROTECTION",
+            "benefit_3_text": "Oxygen is vital for sustaining brain tissue. HBOT promotes the growth of new blood vessels (angiogenesis) in the brain, supporting long-term cognitive health and neuroplasticity."
+          }
+        },
+        "tab_7ULaf4": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Body",
+            "tab_icon_style": "body",
+            "tab_icon": "shopify://shop_images/benefits-icon-_12.png",
+            "benefit_1_icon": "shopify://shop_images/benefits-icon-_6.png",
+            "benefit_1_title": "ACCELERATED RECOVERY",
+            "benefit_1_text": "Whether from intense training or injury, HBOT speeds up healing by delivering oxygen directly to damaged tissues, significantly reducing systemic inflammation and downtime.",
+            "benefit_2_icon": "shopify://shop_images/benefits-icon-_5.png",
+            "benefit_2_title": "BOOSTED ENERGY LEVELS",
+            "benefit_2_text": "Oxygen is the primary fuel your mitochondria need to produce ATP energy. HBOT supercharges this process, combating chronic fatigue and revitalizing your entire system at a cellular level.",
+            "benefit_3_icon": "shopify://shop_images/benefits-icon-_4.png",
+            "benefit_3_title": "CELLULAR RENEWAL & SKIN HEALTH",
+            "benefit_3_text": "Increased oxygen levels stimulate collagen production and skin cell regeneration. This promotes a healthier, more vibrant complexion and supports anti-aging processes from within."
+          }
+        },
+        "tab_BXAKgn": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Performance",
+            "tab_icon_style": "performance",
+            "tab_icon": "shopify://shop_images/benefits-icon-_11.png",
+            "benefit_1_icon": "shopify://shop_images/benefits-icon-_3.png",
+            "benefit_1_title": "ATHLETIC PERFORMANCE",
+            "benefit_1_text": "Gain a competitive edge. Regular HBOT sessions enhance endurance, clear metabolic waste faster, and ensure you bounce back quicker after every workout or competition.",
+            "benefit_2_icon": "shopify://shop_images/benefits-icon-_2.png",
+            "benefit_2_title": "PROFESSIONAL EDGE",
+            "benefit_2_text": "In a demanding City environment, mental sharpness is your greatest asset. HBOT optimizes brain function to help you make better decisions and stay productive under pressure.",
+            "benefit_3_icon": "shopify://shop_images/benefits-icon-_1.png",
+            "benefit_3_title": "OPTIMIZED LONGEVITY",
+            "benefit_3_text": "Move beyond reactive health. A consistent HBOT protocol is a proactive investment in your \"healthspan,\" optimizing cellular function to keep you performing at your peak for longer."
+          }
+        }
+      },
+      "block_order": [
+        "tab_GULMBh",
+        "tab_7ULaf4",
+        "tab_BXAKgn"
+      ],
+      "name": "Float Benefits",
+      "settings": {
+        "label": "",
+        "label_size": 12,
+        "heading": "Your mind and body know what to do—",
+        "heading_accent": "when given space.",
+        "heading_size_desktop": 36,
+        "heading_size_mobile": 30,
+        "description": "<p>In an HBOT float pod, your nervous system drops into deep rest. Heart rate slows. Brainwaves shift. Cortisol falls. What happens next is entirely up to you.</p>",
+        "description_size": 16,
+        "benefit_title_size": 20,
+        "benefit_text_size": 16,
+        "image": "shopify://shop_images/623267808_18127179118534340_5102949996451176873_n.jpg",
+        "show_recommend": true,
+        "recommend_label": "Recommended for",
+        "recommend_text": "Athletes · Anxiety & stress · Chronic pain · Better sleep · Mental performance",
+        "background_color": "#121a27",
+        "card_background": "#121a27",
+        "text_color": "#ffffff",
+        "muted_color": "#c8ced8",
+        "accent_color": "#23a3df",
+        "accent_text_color": "#c8ced8",
+        "content_width": 1400,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
@@ -336,6 +423,7 @@
     "custom_section_featured_collection_LaVgdk",
     "custom_section_packages_atWQFH",
     "custom_section_icon_with_text_horizontal_U6iTNT",
-    "rich_text_r3yxWe"
+    "rich_text_r3yxWe",
+    "custom_section_float_benefits_QqDhMw"
   ]
 }
