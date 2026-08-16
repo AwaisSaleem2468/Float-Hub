@@ -488,6 +488,306 @@
         "padding_top": 0,
         "padding_bottom": 32
       }
+    },
+    "rich_text_Y6JU6Y": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LHKtyR": {
+          "type": "heading",
+          "settings": {
+            "heading": "2. <a href=\"https://pubmed.ncbi.nlm.nih.gov/22045511/\">Pain Relief</a>"
+          }
+        },
+        "text_yUUiie": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Near-infrared light has the ability to penetrate deep into the tissues of the body, stimulating the cells in muscles, nerves, and bones to release nitric oxide. This chemical process can provide relief from pain. In addition, red light therapy can promote the production of endorphins, which are natural pain-relieving substances in the body.</p><p>The combination of these effects, along with the anti-inflammatory and cellular repair benefits of red light therapy, can help the body to better heal and recover from conditions such as fibromyalgia, arthritis, traumatic brain injury, and neuropathy. Red light therapy has been shown to be effective in improving symptoms of these conditions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LHKtyR",
+        "text_yUUiie"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "full_width": true,
+        "content_max_width": 1400,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 24,
+        "heading_size_mobile": 20,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 16,
+        "text_size_mobile": 14,
+        "button_size": 15,
+        "button_radius": 8,
+        "background_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "caption_color": "#23A3DF",
+        "text_color": "#C8CED8",
+        "link_color": "#23A3DF",
+        "button_text_color": "#FFFFFF",
+        "button_secondary_text_color": "#FFFFFF",
+        "button_secondary_border_color": "#FFFFFF",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_VJka7r": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_x9hmWk": {
+          "type": "heading",
+          "settings": {
+            "heading": "3. Drug-Free, Without Side Effects"
+          }
+        },
+        "text_PdTPEd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Red light therapy involves the use of specific wavelengths of non-harmful red and near-infrared light. This treatment is comfortable and relaxing, and it does not produce excessive heat or cause burns.</p><p>Red light therapy sessions can promote overall health without causing negative side effects.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_x9hmWk",
+        "text_PdTPEd"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "full_width": true,
+        "content_max_width": 1400,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 24,
+        "heading_size_mobile": 20,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 16,
+        "text_size_mobile": 14,
+        "button_size": 15,
+        "button_radius": 8,
+        "background_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "caption_color": "#23A3DF",
+        "text_color": "#C8CED8",
+        "link_color": "#23A3DF",
+        "button_text_color": "#FFFFFF",
+        "button_secondary_text_color": "#FFFFFF",
+        "button_secondary_border_color": "#FFFFFF",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_pQjjkK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EJnqAH": {
+          "type": "heading",
+          "settings": {
+            "heading": "4. It Is Safe"
+          }
+        },
+        "text_UCfGD6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you are seeking an alternative to medications for managing pain and inflammation, consider trying red light therapy. This treatment is a natural and safe way to improve your health and well-being without causing negative side effects like liver damage, stomach irritation, constipation, and other common side-effects from drug-induced pain relief.</p><p>Red light therapy can provide whole-body healing without any of these risks, making it a potentially more effective and healthier option for managing pain and inflammation.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EJnqAH",
+        "text_UCfGD6"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "full_width": true,
+        "content_max_width": 1400,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 24,
+        "heading_size_mobile": 20,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 16,
+        "text_size_mobile": 14,
+        "button_size": 15,
+        "button_radius": 8,
+        "background_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "caption_color": "#23A3DF",
+        "text_color": "#C8CED8",
+        "link_color": "#23A3DF",
+        "button_text_color": "#FFFFFF",
+        "button_secondary_text_color": "#FFFFFF",
+        "button_secondary_border_color": "#FFFFFF",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_FPWJ8f": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KfG9cx": {
+          "type": "heading",
+          "settings": {
+            "heading": "5.<a href=\"https://pubmed.ncbi.nlm.nih.gov/34947870/\"> Boost Your Workouts</a>"
+          }
+        },
+        "text_WXJML9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Red light therapy has been shown to improve endurance and athletic performance, allowing athletes to train harder and longer. Many Olympic and top-level athletes use red light therapy to enhance their training, and some have even gone to great lengths to ensure that they have access to this treatment during competitions.</p><p>For example, a certain U.S. Olympic team had a red light therapy bed shipped to the Rio Olympics in 2016, and the Secretary of State had to become involved to ensure that the cargo was released from customs in time for the athletes to use it.</p><p>In addition to improving athletic performance during training, red light therapy can also facilitate post-exercise recovery, helping athletes to recover more quickly and efficiently after intense workouts.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KfG9cx",
+        "text_WXJML9"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "full_width": true,
+        "content_max_width": 1400,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 24,
+        "heading_size_mobile": 20,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 16,
+        "text_size_mobile": 14,
+        "button_size": 15,
+        "button_radius": 8,
+        "background_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "caption_color": "#23A3DF",
+        "text_color": "#C8CED8",
+        "link_color": "#23A3DF",
+        "button_text_color": "#FFFFFF",
+        "button_secondary_text_color": "#FFFFFF",
+        "button_secondary_border_color": "#FFFFFF",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_GGWAQN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iwMpP8": {
+          "type": "heading",
+          "settings": {
+            "heading": "6. <a href=\"https://pubmed.ncbi.nlm.nih.gov/34947870/\">Accelerate Recovery</a>"
+          }
+        },
+        "text_X3nXCn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Red light therapy can help athletes to run faster and recover more quickly after intense workouts. The improved circulation and reduced inflammation resulting from red light therapy treatment can accelerate recovery times, allowing athletes to train harder and more frequently.</p><p>A short session of red light therapy after a workout can help to reduce inflammation, alleviate sore muscles, and support the recovery process, enabling athletes to bounce back more quickly and be ready for their next training session.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iwMpP8",
+        "text_X3nXCn"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "full_width": true,
+        "content_max_width": 1400,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 24,
+        "heading_size_mobile": 20,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 16,
+        "text_size_mobile": 14,
+        "button_size": 15,
+        "button_radius": 8,
+        "background_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "caption_color": "#23A3DF",
+        "text_color": "#C8CED8",
+        "link_color": "#23A3DF",
+        "button_text_color": "#FFFFFF",
+        "button_secondary_text_color": "#FFFFFF",
+        "button_secondary_border_color": "#FFFFFF",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_Rqd9BR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nXqVcK": {
+          "type": "heading",
+          "settings": {
+            "heading": "7. <a href=\"https://pubmed.ncbi.nlm.nih.gov/33471046/\">Skin Repair & Anti-Aging Effects</a>"
+          }
+        },
+        "text_H8wPGD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Red light therapy offers a wide range of benefits for the skin. Many estheticians, who are among the early adopters of red light technology, now offer red light therapy treatments as part of their services. They recognize that adding red light therapy to skincare routines can enhance the results of these treatments.</p><p>Red light therapy can help to plump and repair the skin without the need for injections or medication. The red light spectrum penetrates about half an inch into the skin, increasing circulation and reducing inflammation, which can trigger healing at the cellular level.</p><p>Some of the other skin benefits associated with red light therapy include boosting collagen production, reversing sun damage, soothing eczema and acne, reducing the appearance of fine lines, fading scars, and even skin tone. Red light therapy can also be used to promote wound healing and soothe burns.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nXqVcK",
+        "text_H8wPGD"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "full_width": true,
+        "content_max_width": 1400,
+        "show_border_top": false,
+        "show_border_bottom": true,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 24,
+        "heading_size_mobile": 20,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 16,
+        "text_size_mobile": 14,
+        "button_size": 15,
+        "button_radius": 8,
+        "background_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "caption_color": "#23A3DF",
+        "text_color": "#C8CED8",
+        "link_color": "#23A3DF",
+        "button_text_color": "#FFFFFF",
+        "button_secondary_text_color": "#FFFFFF",
+        "button_secondary_border_color": "#FFFFFF",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
     }
   },
   "order": [
@@ -499,6 +799,12 @@
     "custom_section_innerpage_banner_CWBLhz",
     "rich_text_pK9JPw",
     "rich_text_rLLwbJ",
-    "rich_text_eEHb9G"
+    "rich_text_eEHb9G",
+    "rich_text_Y6JU6Y",
+    "rich_text_VJka7r",
+    "rich_text_pQjjkK",
+    "rich_text_FPWJ8f",
+    "rich_text_GGWAQN",
+    "rich_text_Rqd9BR"
   ]
 }
