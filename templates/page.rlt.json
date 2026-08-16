@@ -68,10 +68,236 @@
         "text_alignment": "left",
         "content_width": 980
       }
+    },
+    "custom_section_featured_collection_GVN7xR": {
+      "type": "custom-section-featured-collection",
+      "blocks": {
+        "product_card_3mjKfh": {
+          "type": "product_card",
+          "settings": {
+            "product": "red-light-therapy",
+            "featured": false,
+            "badge_text": "",
+            "price_note": "",
+            "button_label": "Book Session",
+            "button_link": ""
+          }
+        },
+        "product_card_zKqzVa": {
+          "type": "product_card",
+          "settings": {
+            "product": "3x-red-light-discovery-pack",
+            "featured": false,
+            "badge_text": "Most Popular",
+            "price_note": "/ month",
+            "button_label": "Buy Discovery pack",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_card_3mjKfh",
+        "product_card_zKqzVa"
+      ],
+      "name": "Custom Feat collection",
+      "settings": {
+        "label": "",
+        "heading": "Red Light Therapy",
+        "heading_accent": "",
+        "heading_size_desktop": 42,
+        "heading_size_mobile": 32,
+        "label_size": 14,
+        "description": "<p>Experience London's premier professional-grade FloatLightPBM bed. Engineered with over 26,000 high-density LEDs and 3000w of pure power to deliver a uniform, systemic biological upgrade from head to toe.</p>",
+        "description_size_desktop": 16,
+        "description_size_mobile": 15,
+        "caption_size": 16,
+        "title_size": 20,
+        "price_size": 36,
+        "feature_size": 16,
+        "button_size": 16,
+        "content_width": 1120,
+        "header_spacing": 48,
+        "background_color": "#070d16",
+        "card_background": "#121a27",
+        "text_color": "#ffffff",
+        "muted_color": "#c8ced8",
+        "accent_color": "#23a3df",
+        "accent_text_color": "#061018",
+        "gold_color": "#23a3df",
+        "gold_text_color": "#1a1208",
+        "show_view_all": false,
+        "view_all_label": "View all",
+        "view_all_link": "",
+        "view_all_style": "ghost",
+        "view_all_spacing": 32,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "custom_section_packages_pJtRQM": {
+      "type": "custom-section-packages",
+      "blocks": {
+        "package_PtkXPe": {
+          "type": "package",
+          "settings": {
+            "product": "starter-pack",
+            "caption_override": "",
+            "button_label": "Buy Starter Pack",
+            "button_link": ""
+          }
+        },
+        "package_tG6NHe": {
+          "type": "package",
+          "settings": {
+            "product": "gold-pack",
+            "caption_override": "",
+            "button_label": "Buy Gold Pack",
+            "button_link": ""
+          }
+        },
+        "package_i6T4bn": {
+          "type": "package",
+          "settings": {
+            "product": "platinum-pack",
+            "caption_override": "",
+            "button_label": "Buy Platinum Pack",
+            "button_link": ""
+          }
+        },
+        "package_ABT7hf": {
+          "type": "package",
+          "settings": {
+            "product": "intensive-pack",
+            "caption_override": "",
+            "button_label": "Buy Intensive Pack",
+            "button_link": ""
+          }
+        },
+        "package_z7Kj9A": {
+          "type": "package",
+          "settings": {
+            "product": "",
+            "caption_override": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "package_PtkXPe",
+        "package_tG6NHe",
+        "package_i6T4bn",
+        "package_ABT7hf",
+        "package_z7Kj9A"
+      ],
+      "name": "Custom Packages",
+      "settings": {
+        "heading": "",
+        "heading_accent": "",
+        "description": "",
+        "heading_alignment": "left",
+        "heading_max_width": 700,
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "description_size": 15,
+        "header_gap": 28,
+        "content_width": 1100,
+        "card_radius": 12,
+        "row_padding_y": 28,
+        "row_padding_x": 32,
+        "column_gap": 28,
+        "title_size": 22,
+        "title_size_mobile": 18,
+        "caption_size": 14,
+        "price_size": 28,
+        "price_size_mobile": 22,
+        "button_label": "BUY COURSE",
+        "button_size": 12,
+        "button_height": 44,
+        "button_min_width": 140,
+        "button_radius": 6,
+        "background_color": "#070d16",
+        "card_background": "#121a27",
+        "card_border": "#243041",
+        "divider_color": "#243041",
+        "title_color": "#ffffff",
+        "caption_color": "#c8ced8",
+        "price_color": "#ffffff",
+        "accent_color": "#23a3df",
+        "button_color": "#23a3df",
+        "button_hover_color": "#22d3ee",
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
+    },
+    "rich_text_WgwFFp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tyNaJR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Advanced Full-Body Red Light Therapy"
+          }
+        },
+        "text_n9FMnq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Photobiomodulation therapy (PBMT), also known as red light therapy, is a non-invasive and non-toxic treatment that involves the use of specific wavelengths of light to stimulate tissue repair and reduce pain in sick, injured, or degenerating tissues.</p><p>FloatLightPBM red light therapy beds are FDA-registered and made with the highest quality electronics and manufacturing processes.</p>"
+          }
+        },
+        "button_ygEL7K": {
+          "type": "button",
+          "settings": {
+            "button_label": "A CLINICAL REVIEW ON PSORIASIS",
+            "button_link": "https://pubmed.ncbi.nlm.nih.gov/29067616/",
+            "button_style_secondary": false,
+            "button_label_2": "RED LIGHT THERAPY AND PSORIASIS",
+            "button_link_2": "https://www.healthline.com/health/red-light-therapy-psoriasis",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_tyNaJR",
+        "text_n9FMnq",
+        "button_ygEL7K"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "content_max_width": 1400,
+        "show_border_top": false,
+        "show_border_bottom": false,
+        "border_color": "#243041",
+        "border_thickness": 1,
+        "heading_size": 36,
+        "heading_size_mobile": 28,
+        "caption_size": 14,
+        "caption_size_mobile": 13,
+        "text_size": 18,
+        "text_size_mobile": 16,
+        "button_size": 16,
+        "button_radius": 8,
+        "background_color": "#070D16",
+        "heading_color": "#FFFFFF",
+        "caption_color": "#0DAAEF",
+        "text_color": "#A8B0BD",
+        "link_color": "#0DAAEF",
+        "button_text_color": "#FFFFFF",
+        "button_secondary_text_color": "#FFFFFF",
+        "button_secondary_border_color": "#FFFFFF",
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "custom_section_innerpage_banner_MhmbJQ"
+    "custom_section_innerpage_banner_MhmbJQ",
+    "custom_section_featured_collection_GVN7xR",
+    "custom_section_packages_pJtRQM",
+    "rich_text_WgwFFp"
   ]
 }
