@@ -614,7 +614,7 @@
         "button_radius": 8,
         "fallback_background": "#121a27",
         "overlay_color": "#070d16",
-        "overlay_opacity": 80,
+        "overlay_opacity": 55,
         "eyebrow_color": "#ffffff",
         "text_color": "#ffffff",
         "description_color": "#ffffff",
