@@ -39,6 +39,11 @@
             "swatch_shape": "circle"
           }
         },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
         "sesami_booking_app_app_block_eTYTWe": {
           "type": "shopify://apps/sesami-booking-app/blocks/app-block/dc3b1344-0a53-477e-93d0-4b8a473ab587",
           "settings": {
@@ -57,11 +62,6 @@
             "cta_background_color": "#333",
             "cta_text_color": "#fff"
           }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -86,8 +86,8 @@
         "price",
         "description",
         "variant_picker",
-        "sesami_booking_app_app_block_eTYTWe",
         "quantity_selector",
+        "sesami_booking_app_app_block_eTYTWe",
         "buy_buttons",
         "share"
       ],
