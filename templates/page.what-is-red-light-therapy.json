@@ -149,7 +149,7 @@
           "type": "button",
           "settings": {
             "button_label": "Book Your Session",
-            "button_link": "#",
+            "button_link": "shopify://pages/pricing",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -225,7 +225,7 @@
         "contact_size": 18,
         "content_spacing": 24,
         "button_label_1": "Contact Us",
-        "button_link_1": "",
+        "button_link_1": "shopify://pages/contact",
         "button_label_2": "Get Directions",
         "secondary_opens_map": true,
         "button_link_2": "",
