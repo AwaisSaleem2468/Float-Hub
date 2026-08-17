@@ -325,7 +325,7 @@
         "heading": "Share, Refer, Earn Credit!",
         "heading_accent": "Transform deeply.",
         "subheading": "REFER A FRIEND & BOTH RECEIVE £10 OFF YOUR NEXT PURCHASE",
-        "text": "<p>New customers can enter your code in the Promotional Code box on our online booking page and will automatically get £10.00 off their first purchase.</p><p>You’ll receive a free £10.00 account credit for every new customer who uses your code. We’ll send you an email every time someone uses your code.</p><p>Ask our hosts to enrol you in the Referral Scheme, and you will receive your promotional code.</p><p>If you have any questions, please email <strong>team@floathub.co.uk</strong></p>",
+        "text": "<p>New customers can enter your code in the Promotional Code box on our online booking page and will automatically get £10.00 off their first purchase.</p><p>You’ll receive a free £10.00 account credit for every new customer who uses your code. We’ll send you an email every time someone uses your code.</p><p>Ask our hosts to enrol you in the Referral Scheme, and you will receive your promotional code.</p><p>If you have any questions, please email <a href=\"mailto:team@floathub.co.uk\" title=\"mailto:team@floathub.co.uk\"><strong>team@floathub.co.uk</strong></a></p>",
         "label_size": 12,
         "heading_size_desktop": 36,
         "heading_size_mobile": 30,
