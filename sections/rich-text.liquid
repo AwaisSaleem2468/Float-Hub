@@ -76,26 +76,28 @@
   #RichText-{{ section.id }} .rich-text__buttons {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: stretch;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     gap: 0.85rem;
-    width: 100%;
+    width: auto;
     max-width: 100%;
   }
 
   #RichText-{{ section.id }} .rich-text__buttons--multiple > * {
-    flex: 1 1 0;
-    flex-grow: 1;
+    flex: 0 0 auto;
+    flex-grow: 0;
     min-width: 0;
+    width: auto;
   }
 
   #RichText-{{ section.id }} .rich-text__btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    width: auto;
     min-height: 4.4rem;
-    padding: 1rem 1.5rem;
+    padding: 1rem 2rem;
     border-radius: var(--rt-button-radius);
     border: 1px solid transparent;
     font-family: var(--font-body-family);
@@ -155,15 +157,19 @@
   @media screen and (max-width: 749px) {
     #RichText-{{ section.id }} .rich-text__buttons {
       flex-direction: row;
-      flex-wrap: nowrap;
-      align-items: stretch;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
       max-width: 100%;
+    }
+
+    #RichText-{{ section.id }} .rich-text__buttons--multiple > * {
+      flex: 0 0 auto;
+      width: auto;
     }
 
     #RichText-{{ section.id }} .rich-text__btn {
       width: auto;
-      padding: 0.85rem 1rem;
-      font-size: calc(var(--rt-button-size) - 1px);
     }
   }
 {%- endstyle -%}

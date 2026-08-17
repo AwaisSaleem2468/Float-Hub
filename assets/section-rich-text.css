@@ -69,8 +69,9 @@
 }
 
 .rich-text__buttons--multiple > * {
-  flex-grow: 1;
-  min-width: 22rem;
+  flex-grow: 0;
+  min-width: 0;
+  width: auto;
 }
 
 .rich-text__buttons + .rich-text__buttons {
