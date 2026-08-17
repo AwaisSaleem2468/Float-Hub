@@ -332,6 +332,7 @@
             assign button_label = block.settings.button_label
             assign button_link = block.settings.button_link
             assign price_note = block.settings.price_note
+            assign price_override = block.settings.price_override
 
             if card_product != blank
               assign caption_metafield = card_product.metafields.custom.product_caption
@@ -367,7 +368,11 @@
 
               <div class="featured-pricing__price-row">
                 <span class="featured-pricing__price">
-                  {{ card_product.price | money }}
+                  {%- if price_override != blank -%}
+                    {{ price_override | escape }}
+                  {%- else -%}
+                    {{ card_product.price | money }}
+                  {%- endif -%}
                 </span>
                 {%- if price_note != blank -%}
                   <span class="featured-pricing__price-note">{{ price_note | escape }}</span>
@@ -750,6 +755,12 @@
           "id": "badge_text",
           "label": "Featured badge text",
           "default": "Most Popular"
+        },
+        {
+          "type": "text",
+          "id": "price_override",
+          "label": "Price override",
+          "info": "Optional. Leave blank to use the product price. Example: £99 or From £45"
         },
         {
           "type": "text",

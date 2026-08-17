@@ -47,7 +47,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "button_label": "Buy now",
+            "button_label": "Book Now",
             "redirect_to_checkout": true,
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
