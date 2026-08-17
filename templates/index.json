@@ -420,7 +420,7 @@
             "title": "Backed by Continued Studies",
             "items": "",
             "content": "<ul><li><a href=\"https://www.sciencedirect.com/science/article/pii/S2451902218300491\" target=\"_blank\">High Anxiety</a></li><li><a href=\"https://bmccomplementalternmed.biomedcentral.com/articles/10.1186/s12906-016-1089-x\" target=\"_blank\">Generalized Anxiety Disorder</a></li><li><a href=\"http://www.ijpsy.com/volumen11/num2/299.html\" target=\"_blank\">High Stress and Burnout</a></li><li><a href=\"http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0190292\" target=\"_blank\">Depression</a></li><li><a href=\"https://www.sciencedirect.com/science/article/pii/S2211266916300147\" target=\"_blank\">Elite Athletes</a></li><li><a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2734516/\" target=\"_blank\">Stress-related Pain</a></li></ul>",
-            "accent_style": false,
+            "accent_style": true,
             "link_items": false,
             "item_link": ""
           }
