@@ -56,7 +56,7 @@
         "description_size_desktop": 16,
         "description_size_mobile": 14,
         "button_label_1": "BOOK YOUR COUPLES FLOAT NOW",
-        "button_link_1": "",
+        "button_link_1": "shopify://pages/pricing",
         "show_button_arrow": true,
         "button_label_2": "",
         "button_link_2": "",
@@ -486,7 +486,7 @@
           "type": "button",
           "settings": {
             "button_label": "Book Your Couple Float Now",
-            "button_link": "#",
+            "button_link": "shopify://pages/booking",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -529,7 +529,7 @@
         "padding_bottom": 80
       }
     },
-    "custom_section_small_banner_RDdBAQ": {
+    "custom_section_small_banner_gh6LfB": {
       "type": "custom-section-small-banner",
       "name": "Custom Small Banner",
       "settings": {
@@ -562,10 +562,10 @@
         "contact_size": 18,
         "content_spacing": 24,
         "button_label_1": "Contact Us",
-        "button_link_1": "",
+        "button_link_1": "shopify://pages/contact",
         "button_label_2": "Get Directions",
         "secondary_opens_map": true,
-        "button_link_2": "",
+        "button_link_2": "shopify://pages/contact",
         "map_title": "SHOREDITCH, LONDON",
         "map_address": "346 Old Street, Lower Ground Floor, London, EC1V 9NQ",
         "button_size": 16,
@@ -585,6 +585,6 @@
     "custom_section_float_tip_tVCcbV",
     "custom_section_float_tip_ALpAby",
     "rich_text_VCY8Lf",
-    "custom_section_small_banner_RDdBAQ"
+    "custom_section_small_banner_gh6LfB"
   ]
 }
