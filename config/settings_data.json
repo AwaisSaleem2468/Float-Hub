@@ -145,6 +145,15 @@
       }
     },
     "content_for_index": [],
+    "blocks": {
+      "6455419830187867978": {
+        "type": "shopify://apps/sesami-booking-app/blocks/app-embed/dc3b1344-0a53-477e-93d0-4b8a473ab587",
+        "disabled": false,
+        "settings": {
+          "enable_cart_verification": true
+        }
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
