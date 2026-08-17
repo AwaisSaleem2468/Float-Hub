@@ -218,7 +218,10 @@
             "button_style_secondary": false,
             "button_label_2": "RED LIGHT THERAPY AND PSORIASIS",
             "button_link_2": "https://www.healthline.com/health/red-light-therapy-psoriasis",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": false,
+            "button_label_3": "RED LIGHT AND SKIN REJUVENATION",
+            "button_link_3": "https://pubmed.ncbi.nlm.nih.gov/31345324/",
+            "button_style_secondary_3": false
           }
         }
       },
@@ -327,7 +330,10 @@
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": false,
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_style_secondary_3": false
           }
         }
       },
