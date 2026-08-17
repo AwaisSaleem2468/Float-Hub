@@ -198,7 +198,8 @@
             "product": "single-float-60-min",
             "featured": false,
             "badge_text": "Most Popular",
-            "price_note": "/ month",
+            "price_override": "",
+            "price_note": "",
             "button_label": "Book Now",
             "button_link": ""
           }
@@ -209,7 +210,8 @@
             "product": "float-for-two-couples",
             "featured": true,
             "badge_text": "Most Popular",
-            "price_note": "/ 2 floats",
+            "price_override": "",
+            "price_note": "",
             "button_label": "Book Now",
             "button_link": ""
           }
@@ -220,6 +222,7 @@
             "product": "2-float-intr",
             "featured": false,
             "badge_text": "Most Popular",
+            "price_override": "",
             "price_note": "",
             "button_label": "Get Intro Course",
             "button_link": ""
