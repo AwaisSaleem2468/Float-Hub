@@ -607,7 +607,7 @@
             "featured": true,
             "badge_text": "Welcome Bonus",
             "price_override": "£45.00",
-            "price_note": "/month",
+            "price_note": "/ month",
             "button_label": "Join Membership",
             "button_link": ""
           }
@@ -619,7 +619,7 @@
             "featured": true,
             "badge_text": "Most Popular",
             "price_override": "£80.00",
-            "price_note": "/monht",
+            "price_note": "/ monht",
             "button_label": "Join Membership",
             "button_link": ""
           }
@@ -631,7 +631,7 @@
             "featured": false,
             "badge_text": "Most Popular",
             "price_override": "£80.00",
-            "price_note": "/month",
+            "price_note": "/ month",
             "button_label": "Join Membership",
             "button_link": ""
           }
