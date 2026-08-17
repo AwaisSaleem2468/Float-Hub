@@ -47,7 +47,7 @@
             "button_label": "Book Session",
             "alignment": "center",
             "color": "",
-            "color_background": "#FFF",
+            "color_background": "#ccc",
             "font_size": 16,
             "border_width": 0,
             "border_radius": 8,
