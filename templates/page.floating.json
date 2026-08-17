@@ -13,6 +13,23 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "content_width": "page",
+        "text_alignment": "left",
+        "show_title": true,
+        "title_size": 48,
+        "title_size_mobile": 32,
+        "title_spacing": 32,
+        "rte_heading_size": 28,
+        "rte_heading_size_mobile": 22,
+        "text_size": 16,
+        "text_size_mobile": 15,
+        "text_line_height": "1.7",
+        "background_color": "#070d16",
+        "title_color": "#ffffff",
+        "text_color": "#a8b0bd",
+        "muted_color": "#8b93a1",
+        "link_color": "#0daaef",
+        "link_hover_color": "#22d3ee",
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -39,7 +56,7 @@
         "description_size_desktop": 16,
         "description_size_mobile": 16,
         "button_label_1": "Book Your Float Now",
-        "button_link_1": "",
+        "button_link_1": "shopify://pages/booking",
         "show_button_arrow": true,
         "button_label_2": "",
         "button_link_2": "",
@@ -144,7 +161,7 @@
         "step_text_size": 14,
         "step_text_size_mobile": 14,
         "button_label": "Book Now",
-        "button_link": "",
+        "button_link": "shopify://pages/booking",
         "button_align": "center",
         "button_size": 15,
         "bg_color": "#070d16",
@@ -297,13 +314,14 @@
         "card_border": "#243044",
         "card_radius": 12,
         "card_padding": 16,
+        "show_icons": true,
         "icon_size": 40,
         "tip_title_size": 20,
         "tip_title_size_mobile": 16,
         "tip_text_size": 14,
         "tip_text_size_mobile": 14,
-        "button_label": "Book Now",
-        "button_link": "",
+        "button_label": "View All Pricing  & Packages",
+        "button_link": "shopify://pages/pricing",
         "button_alignment": "center",
         "button_gap": 40,
         "button_size": 16,
@@ -375,13 +393,157 @@
         "collapsible_row_fTHJXq": {
           "type": "collapsible_row",
           "settings": {
+            "heading": "What if I’m claustrophobic?",
+            "icon": "none",
+            "row_content": "<p>Claustrophobia is one of the most common initial concerns and people who struggle with it consistently report no problems with floating, as the lack of light in our spacious tanks (the largest available) gives more of an expansive feeling without any boundaries. <em>You also have the option to float with the lights on, lid open, or however you prefer — you’re in control of your float.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_gr4U83": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When Can I drown if I fall asleep?I arrive for my appointment?",
+            "icon": "none",
+            "row_content": "<p>No. It’s common to fall asleep for parts or sometimes all of your float and the water is so buoyant that you always stay afloat. <em>The worst that can happen is being woken by a little salt water in your eyes, though our non-drip tanks make this unlikely.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Cb3BLt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How is the water cleaned?",
+            "icon": "none",
+            "row_content": "<p>Our tanks are among the most hygienic systems available. The highly sterile salt water is 100% filtered between floats, as our tanks empty and refill for each float. A small amount of steriliser is added and the water is also sanitised with UV light.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dBthLy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How often do you replace the water?",
+            "icon": "none",
+            "row_content": "<p>Our tanks are among the most hygienic systems available. The highly sterile salt water has 525KG of medical grade Epsom salts and is 100% filtered between floats through a 1 micron filter & ozone filter, as our tanks empty and refill for each float. A small amount of steriliser is added and the water is also sanitised with UV light. The water is not wasted, but returns clean enough to drink each time (except it’s very salty)!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qnzyfe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need to bring anything?",
+            "icon": "none",
+            "row_content": "<p>No. We have some tips and recommendations above to consider the day of your appointment, however we provide everything you need for your session.</p><p>After covid we do not provide slippers anymore, so you can bring your own slippers if you do not wish to walk barefoot or with socks that can get wet.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_fTHJXq",
+        "collapsible_row_gr4U83",
+        "collapsible_row_Cb3BLt",
+        "collapsible_row_dBthLy",
+        "collapsible_row_qnzyfe"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Common Concerns",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "container_color_scheme": "scheme-3",
+        "color_scheme": "scheme-4",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "collapsible_content_bKiXQC": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_HtNeT3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Who is unable to float? When can I not float?",
+            "icon": "none",
+            "row_content": "<p><strong>You can’t float if:</strong></p><ul><li>You have open wounds</li><li>You had diarrhea in the past 14 days</li><li>You’re under the influence of drugs or alcohol</li><li>You have recently dyed your hair or applied tanning products</li><li>You have infectious diseases</li><li>You have got a recent tattoo</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Ce4nHJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I float if I recently dyed my hair or spray tanned?",
+            "icon": "none",
+            "row_content": "<p>No, the spray tan or hair dye can leak into the water and damage the float tanks. You want to make completely sure that no dye is coming out of your hair in the shower or on a towel after washing (usually within a few days to weeks depending on the treatment). Leave a minimum of 48 hours after a spray tan before floating.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cKkAXU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I float if I'm pregnant?",
+            "icon": "none",
+            "row_content": "<p>Yes! There are many unique benefits that helps relieve the pressure and tensions on the body during pregnancy, while also providing a deeper connection to your child. <em>We recommend confirming with your doctor first however</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UAVxR3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I float if I have a new tattoo?",
+            "icon": "none",
+            "row_content": "<p>You want to make sure it’s been at least 30 days (or your tattoo has fully healed) before floating as the salt water can cause painful burning.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_483fVt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "n I float if I'm menstruating?",
+            "icon": "none",
+            "row_content": "<p>Yes, we simply recommend you follow the same protocol you would for a swimming pool.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_HtNeT3",
+        "collapsible_row_Ce4nHJ",
+        "collapsible_row_cKkAXU",
+        "collapsible_row_UAVxR3",
+        "collapsible_row_483fVt"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Can I float?",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "container_color_scheme": "scheme-4",
+        "color_scheme": "scheme-3",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "collapsible_content_aRyEkj": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_PCXDnf": {
+          "type": "collapsible_row",
+          "settings": {
             "heading": "How long are the floats sessions?",
             "icon": "none",
             "row_content": "<p><strong>Each float session appointment includes 60 minutes for you to be inside of the pod floating,</strong> with an additional 25 minutes that allows you to change and shower both before and after the appointment. <em>Members have the opportunity to upgrade to 90 minute float sessions when available.</em></p><p>We ask that you try to keep your showering brief to ensure we have enough time to clean up the room and get it ready for the next appointment. You can freshen up and take your time getting ready in our Vanity Room where we have moisturizer, hair dryers and other amenities. Plus, feel free to keep relaxing for as long as you’d like in our Relaxation Room with tea and some reading materials.</p>",
             "page": ""
           }
         },
-        "collapsible_row_gr4U83": {
+        "collapsible_row_63g7Xz": {
           "type": "collapsible_row",
           "settings": {
             "heading": "When should I arrive for my appointment?",
@@ -390,7 +552,7 @@
             "page": ""
           }
         },
-        "collapsible_row_Cb3BLt": {
+        "collapsible_row_AdNTTr": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What is your cancellation policy?",
@@ -399,7 +561,7 @@
             "page": ""
           }
         },
-        "collapsible_row_dBthLy": {
+        "collapsible_row_LgwGLE": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What is your refund or return policy?",
@@ -408,7 +570,7 @@
             "page": ""
           }
         },
-        "collapsible_row_qnzyfe": {
+        "collapsible_row_6dNJFE": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Can couples float together?",
@@ -417,7 +579,7 @@
             "page": ""
           }
         },
-        "collapsible_row_9mCAKV": {
+        "collapsible_row_6iNJb4": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What's the minimum age for floating?",
@@ -426,7 +588,7 @@
             "page": ""
           }
         },
-        "collapsible_row_tEJfgP": {
+        "collapsible_row_QTA3TM": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Are there any differences between the rooms?",
@@ -435,7 +597,7 @@
             "page": ""
           }
         },
-        "collapsible_row_inpwMx": {
+        "collapsible_row_UeGQfC": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What happens if I get the saltwater in my eyes?",
@@ -446,14 +608,14 @@
         }
       },
       "block_order": [
-        "collapsible_row_fTHJXq",
-        "collapsible_row_gr4U83",
-        "collapsible_row_Cb3BLt",
-        "collapsible_row_dBthLy",
-        "collapsible_row_qnzyfe",
-        "collapsible_row_9mCAKV",
-        "collapsible_row_tEJfgP",
-        "collapsible_row_inpwMx"
+        "collapsible_row_PCXDnf",
+        "collapsible_row_63g7Xz",
+        "collapsible_row_AdNTTr",
+        "collapsible_row_LgwGLE",
+        "collapsible_row_6dNJFE",
+        "collapsible_row_6iNJb4",
+        "collapsible_row_QTA3TM",
+        "collapsible_row_UeGQfC"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
@@ -480,6 +642,8 @@
     "custom_section_video_banner_ECKCtV",
     "custom_section_float_tip_pCLHRC",
     "image_banner_Ugktcy",
-    "collapsible_content_8Pq4CU"
+    "collapsible_content_8Pq4CU",
+    "collapsible_content_bKiXQC",
+    "collapsible_content_aRyEkj"
   ]
 }
