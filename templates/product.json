@@ -47,6 +47,8 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "button_label": "Buy now",
+            "redirect_to_checkout": true,
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
@@ -71,6 +73,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "content_alignment": "left",
         "color_scheme": "scheme-4",
         "media_size": "large",
         "constrain_to_viewport": true,

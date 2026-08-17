@@ -10,6 +10,13 @@
   Usage:
   {% render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true %}
 {% endcomment %}
+{%- liquid
+  assign buy_button_label = block.settings.button_label | default: 'Buy now'
+  assign redirect_to_checkout = false
+  if block.settings.redirect_to_checkout
+    assign redirect_to_checkout = true
+  endif
+-%}
 <div {{ block.shopify_attributes }}>
   {%- if product != blank -%}
     {%- liquid
@@ -28,6 +35,9 @@
       class="product-form"
       data-hide-errors="{{ gift_card_recipient_feature_active }}"
       data-section-id="{{ section.id }}"
+      {% if redirect_to_checkout %}
+        data-redirect-to-checkout="true"
+      {% endif %}
     >
       <div class="product-form__error-message-wrapper" role="alert" hidden>
         <span class="svg-wrapper">
@@ -75,6 +85,7 @@
             type="submit"
             name="add"
             class="product-form__submit button button--full-width {% if show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
+            data-add-to-cart-text="{{ buy_button_label | escape }}"
             {% if product.selected_or_first_available_variant.available == false
               or quantity_rule_soldout
               or product.selected_or_first_available_variant == null
@@ -88,7 +99,7 @@
               {%- elsif product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
                 {{ 'products.product.sold_out' | t }}
               {%- else -%}
-                {{ 'products.product.add_to_cart' | t }}
+                {{ buy_button_label | escape }}
               {%- endif -%}
             </span>
             {%- render 'loading-spinner' -%}

@@ -67,6 +67,10 @@ if (!customElements.get('product-form')) {
               soldOutMessage.classList.remove('hidden');
               this.error = true;
               return;
+            } else if (this.dataset.redirectToCheckout === 'true') {
+              this.resolveCartLinesUpdate(linesUpdateDeferred);
+              window.location = '/checkout';
+              return;
             } else if (!this.cart) {
               this.resolveCartLinesUpdate(linesUpdateDeferred);
               window.location = window.routes.cart_url;
@@ -141,7 +145,8 @@ if (!customElements.get('product-form')) {
           if (text) this.submitButtonText.textContent = text;
         } else {
           this.submitButton.removeAttribute('disabled');
-          this.submitButtonText.textContent = window.variantStrings.addToCart;
+          this.submitButtonText.textContent =
+            this.submitButton.dataset.addToCartText || window.variantStrings.addToCart;
         }
       }
 
