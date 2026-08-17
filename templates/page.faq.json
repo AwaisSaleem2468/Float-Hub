@@ -320,7 +320,7 @@
           "settings": {
             "heading": "How do I redeem or use a gift card I received?",
             "icon": "none",
-            "row_content": "<p>If you received an electronic gift card, you can easily book your session online.</p><p>Go to our booking system and login or create an account. You’ll need to choose the services that correspond with your gift card and enter your card number upon checkout.</p><p>Email us at info@floathub.co.uk</p>",
+            "row_content": "<p>If you received an electronic gift card, you can easily book your session online.</p><p>Go to our booking system and login or create an account. You’ll need to choose the services that correspond with your gift card and enter your card number upon checkout.</p><p>Email us at <a href=\"mailto:info@floathub.co.uk\" title=\"mailto:info@floathub.co.uk\">info@floathub.co.uk</a></p>",
             "page": ""
           }
         },
