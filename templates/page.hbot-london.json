@@ -534,7 +534,7 @@
             "title": "Backed by Continued Studies",
             "items": "",
             "content": "<ul><li><a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7313360/\">Cognitive Focus</a></li><li><a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8461704/\">Physical Resilience</a></li><li><a href=\"https://www.aging-us.com/article/202188/text\">Cellular Vitality</a></li><li><a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5461884/\">Synergistic Health</a></li><li><a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4784886/\">Athletic Recovery</a></li></ul>",
-            "accent_style": false,
+            "accent_style": true,
             "link_items": false,
             "item_link": ""
           }
@@ -728,7 +728,7 @@
         "highlight_save_size": 16,
         "highlight_radius": 12,
         "button_label": "Join for £45 / month",
-        "button_link": "",
+        "button_link": "shopify://pages/float-hub-memberships",
         "button_note": "Cancel anytime · No minimum term",
         "button_size": 16,
         "button_note_size": 14,
