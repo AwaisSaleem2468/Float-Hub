@@ -972,7 +972,7 @@
         "button_link_1": "",
         "button_label_2": "Get Directions",
         "secondary_opens_map": true,
-        "button_link_2": "",
+        "button_link_2": "shopify://pages/contact",
         "map_title": "SHOREDITCH, LONDON",
         "map_address": "346 Old Street, Lower Ground Floor, London, EC1V 9NQ",
         "button_size": 16,
