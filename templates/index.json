@@ -23,12 +23,12 @@
         "section_height": 85,
         "section_height_mobile": 75,
         "show_badge": true,
-        "badge_text": "200+ Five-Star Reviews | London's #1",
-        "heading": "Float Beyond",
-        "heading_accent": "Every Limit.",
+        "badge_text": "300+ Five-Star Reviews | London's #1 Float & Recovery Centre",
+        "heading": "",
+        "heading_accent": "",
         "heading_size_desktop": 64,
         "heading_size_mobile": 36,
-        "description": "<p>Experience complete weightlessness in spacious float pods or float together in our exclusive double suites. Enhance your reset with our 1.5ATA HBOT chamber and premium German-engineered red light bed.</p>",
+        "description": "<p>Experience total weightlessness and profound calm in London’s most spacious sensory deprivation pods, or float together in our exclusive double-sized suites. Pair your session with our extra spacious 1.5ATA double HBOT chamber or our premium 26K German-engineered LED full body red light bed for the ultimate neural reset.</p><p>🔥 <strong>Intro Special:</strong> 2 Floats for £99, plus free 90-minute upgrades (subject to availability).</p><p>✨ <strong>HBOT Intro:</strong> Experience the initial shift with our exclusive new client 3-Pack for just £149.</p>",
         "description_size_desktop": 18,
         "description_size_mobile": 16,
         "button_label_1": "Book Your First Float",
@@ -67,7 +67,7 @@
         "feature_3": {
           "type": "feature",
           "settings": {
-            "text": "6 Tanks - Largest in London",
+            "text": "5 Oversize Float Pods - Largest in London",
             "show_icon": false,
             "link": ""
           }
@@ -219,7 +219,7 @@
       ],
       "name": "Custom Feat collection",
       "settings": {
-        "label": "London’s best Float Therapy,",
+        "label": "London’s Highest Rated Float Therapy,",
         "heading": "Float Therapy",
         "heading_accent": "",
         "heading_size_desktop": 42,
@@ -606,8 +606,8 @@
         "show_highlight": true,
         "highlight_label": "Your monthly cost",
         "highlight_price": "£45",
-        "highlight_compare": "vs £60 pay-as-you-go",
-        "highlight_save": "Save £15 per session · £180 per year",
+        "highlight_compare": "vs £65 pay-as-you-go",
+        "highlight_save": "Save £20 per session · £240 per year",
         "highlight_label_size": 14,
         "highlight_price_size": 42,
         "highlight_compare_size": 16,
