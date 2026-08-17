@@ -147,23 +147,13 @@
             "button_label": "Buy Intensive Pack",
             "button_link": ""
           }
-        },
-        "package_z7Kj9A": {
-          "type": "package",
-          "settings": {
-            "product": "",
-            "caption_override": "",
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "package_PtkXPe",
         "package_tG6NHe",
         "package_i6T4bn",
-        "package_ABT7hf",
-        "package_z7Kj9A"
+        "package_ABT7hf"
       ],
       "name": "Custom Packages",
       "settings": {
@@ -771,7 +761,7 @@
         "contact_size": 18,
         "content_spacing": 24,
         "button_label_1": "Contact Us",
-        "button_link_1": "",
+        "button_link_1": "shopify://pages/contact",
         "button_label_2": "Get Directions",
         "secondary_opens_map": true,
         "button_link_2": "",
