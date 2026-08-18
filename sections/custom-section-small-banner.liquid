@@ -499,10 +499,18 @@
     {%- if section.settings.button_label_1 != blank or section.settings.button_label_2 != blank -%}
       <div class="small-banner__actions">
         {%- if section.settings.button_label_1 != blank -%}
+          {%- capture button_href_1 -%}
+            {%- render 'product-cta-url',
+              link: section.settings.button_link_1,
+              product: section.settings.button_product_1,
+              redirect_to_checkout: section.settings.button_redirect_checkout_1
+            -%}
+          {%- endcapture -%}
+          {%- assign button_href_1 = button_href_1 | strip -%}
           <a
             class="small-banner__btn small-banner__btn--primary"
-            {% if section.settings.button_link_1 != blank %}
-              href="{{ section.settings.button_link_1 }}"
+            {% if button_href_1 != blank %}
+              href="{{ button_href_1 }}"
             {% else %}
               role="link"
               aria-disabled="true"
@@ -522,10 +530,18 @@
               {{ section.settings.button_label_2 | escape }}
             </button>
           {%- else -%}
+            {%- capture button_href_2 -%}
+              {%- render 'product-cta-url',
+                link: section.settings.button_link_2,
+                product: section.settings.button_product_2,
+                redirect_to_checkout: section.settings.button_redirect_checkout_2
+              -%}
+            {%- endcapture -%}
+            {%- assign button_href_2 = button_href_2 | strip -%}
             <a
               class="small-banner__btn small-banner__btn--secondary"
-              {% if section.settings.button_link_2 != blank %}
-                href="{{ section.settings.button_link_2 }}"
+              {% if button_href_2 != blank %}
+                href="{{ button_href_2 }}"
               {% else %}
                 role="link"
                 aria-disabled="true"
@@ -897,9 +913,23 @@
       "default": "Book A Float Now"
     },
     {
+      "type": "product",
+      "id": "button_product_1",
+      "label": "Primary button product",
+      "info": "Optional. Used when no custom link is set."
+    },
+    {
+      "type": "checkbox",
+      "id": "button_redirect_checkout_1",
+      "label": "Primary button redirect to checkout",
+      "default": false,
+      "info": "If a product is selected, skip the product page and go straight to checkout."
+    },
+    {
       "type": "url",
       "id": "button_link_1",
-      "label": "Primary button link"
+      "label": "Primary button link",
+      "info": "Optional override. Takes priority over product / checkout."
     },
     {
       "type": "text",
@@ -914,10 +944,23 @@
       "default": true
     },
     {
+      "type": "product",
+      "id": "button_product_2",
+      "label": "Secondary button product",
+      "info": "Optional. Used only if map popup is disabled and no custom link is set."
+    },
+    {
+      "type": "checkbox",
+      "id": "button_redirect_checkout_2",
+      "label": "Secondary button redirect to checkout",
+      "default": false,
+      "info": "Used only if map popup is disabled."
+    },
+    {
       "type": "url",
       "id": "button_link_2",
       "label": "Secondary button link",
-      "info": "Used only if map popup is disabled."
+      "info": "Used only if map popup is disabled. Takes priority over product / checkout."
     },
     {
       "type": "header",

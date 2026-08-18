@@ -419,10 +419,18 @@
       <div class="video-banner__actions">
         {%- if section.settings.button_label_1 != blank -%}
           {%- assign button_style_1 = section.settings.button_style_1 | default: 'primary' -%}
+          {%- capture button_href_1 -%}
+            {%- render 'product-cta-url',
+              link: section.settings.button_link_1,
+              product: section.settings.button_product_1,
+              redirect_to_checkout: section.settings.button_redirect_checkout_1
+            -%}
+          {%- endcapture -%}
+          {%- assign button_href_1 = button_href_1 | strip -%}
           <a
             class="video-banner__btn video-banner__btn--{{ button_style_1 }}"
-            {% if section.settings.button_link_1 != blank %}
-              href="{{ section.settings.button_link_1 }}"
+            {% if button_href_1 != blank %}
+              href="{{ button_href_1 }}"
             {% else %}
               role="link"
               aria-disabled="true"
@@ -437,10 +445,18 @@
 
         {%- if section.settings.button_label_2 != blank -%}
           {%- assign button_style_2 = section.settings.button_style_2 | default: 'secondary' -%}
+          {%- capture button_href_2 -%}
+            {%- render 'product-cta-url',
+              link: section.settings.button_link_2,
+              product: section.settings.button_product_2,
+              redirect_to_checkout: section.settings.button_redirect_checkout_2
+            -%}
+          {%- endcapture -%}
+          {%- assign button_href_2 = button_href_2 | strip -%}
           <a
             class="video-banner__btn video-banner__btn--{{ button_style_2 }}"
-            {% if section.settings.button_link_2 != blank %}
-              href="{{ section.settings.button_link_2 }}"
+            {% if button_href_2 != blank %}
+              href="{{ button_href_2 }}"
             {% else %}
               role="link"
               aria-disabled="true"
@@ -455,10 +471,18 @@
 
         {%- if section.settings.button_label_3 != blank -%}
           {%- assign button_style_3 = section.settings.button_style_3 | default: 'secondary' -%}
+          {%- capture button_href_3 -%}
+            {%- render 'product-cta-url',
+              link: section.settings.button_link_3,
+              product: section.settings.button_product_3,
+              redirect_to_checkout: section.settings.button_redirect_checkout_3
+            -%}
+          {%- endcapture -%}
+          {%- assign button_href_3 = button_href_3 | strip -%}
           <a
             class="video-banner__btn video-banner__btn--{{ button_style_3 }}"
-            {% if section.settings.button_link_3 != blank %}
-              href="{{ section.settings.button_link_3 }}"
+            {% if button_href_3 != blank %}
+              href="{{ button_href_3 }}"
             {% else %}
               role="link"
               aria-disabled="true"
@@ -684,9 +708,23 @@
       "default": "Book Your First Float"
     },
     {
+      "type": "product",
+      "id": "button_product_1",
+      "label": "Product",
+      "info": "Optional. Used when no custom link is set."
+    },
+    {
+      "type": "checkbox",
+      "id": "button_redirect_checkout_1",
+      "label": "Redirect to checkout",
+      "default": false,
+      "info": "If a product is selected, skip the product page and go straight to checkout."
+    },
+    {
       "type": "url",
       "id": "button_link_1",
-      "label": "Link"
+      "label": "Link",
+      "info": "Optional override. Takes priority over product / checkout."
     },
     {
       "type": "select",
@@ -715,9 +753,23 @@
       "default": "Explore Services"
     },
     {
+      "type": "product",
+      "id": "button_product_2",
+      "label": "Product",
+      "info": "Optional. Used when no custom link is set."
+    },
+    {
+      "type": "checkbox",
+      "id": "button_redirect_checkout_2",
+      "label": "Redirect to checkout",
+      "default": false,
+      "info": "If a product is selected, skip the product page and go straight to checkout."
+    },
+    {
       "type": "url",
       "id": "button_link_2",
-      "label": "Link"
+      "label": "Link",
+      "info": "Optional override. Takes priority over product / checkout."
     },
     {
       "type": "select",
@@ -746,9 +798,23 @@
       "info": "Leave blank to hide this button."
     },
     {
+      "type": "product",
+      "id": "button_product_3",
+      "label": "Product",
+      "info": "Optional. Used when no custom link is set."
+    },
+    {
+      "type": "checkbox",
+      "id": "button_redirect_checkout_3",
+      "label": "Redirect to checkout",
+      "default": false,
+      "info": "If a product is selected, skip the product page and go straight to checkout."
+    },
+    {
       "type": "url",
       "id": "button_link_3",
-      "label": "Link"
+      "label": "Link",
+      "info": "Optional override. Takes priority over product / checkout."
     },
     {
       "type": "select",

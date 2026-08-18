@@ -236,11 +236,19 @@
                   {% endif %}
                 >
                   {%- if block.settings.button_label != blank -%}
+                    {%- capture button_href_1 -%}
+                      {%- render 'product-cta-url',
+                        link: block.settings.button_link,
+                        product: block.settings.button_product,
+                        redirect_to_checkout: block.settings.button_redirect_checkout
+                      -%}
+                    {%- endcapture -%}
+                    {%- assign button_href_1 = button_href_1 | strip -%}
                     <a
-                      {% if block.settings.button_link == blank %}
+                      {% if button_href_1 == blank %}
                         role="link" aria-disabled="true"
                       {% else %}
-                        href="{{ block.settings.button_link }}"
+                        href="{{ button_href_1 }}"
                       {% endif %}
                       class="rich-text__btn{% if block.settings.button_style_secondary %} rich-text__btn--secondary{% else %} rich-text__btn--primary{% endif %}"
                     >
@@ -248,11 +256,19 @@
                     </a>
                   {%- endif -%}
                   {%- if block.settings.button_label_2 != blank -%}
+                    {%- capture button_href_2 -%}
+                      {%- render 'product-cta-url',
+                        link: block.settings.button_link_2,
+                        product: block.settings.button_product_2,
+                        redirect_to_checkout: block.settings.button_redirect_checkout_2
+                      -%}
+                    {%- endcapture -%}
+                    {%- assign button_href_2 = button_href_2 | strip -%}
                     <a
-                      {% if block.settings.button_link_2 == blank %}
+                      {% if button_href_2 == blank %}
                         role="link" aria-disabled="true"
                       {% else %}
-                        href="{{ block.settings.button_link_2 }}"
+                        href="{{ button_href_2 }}"
                       {% endif %}
                       class="rich-text__btn{% if block.settings.button_style_secondary_2 %} rich-text__btn--secondary{% else %} rich-text__btn--primary{% endif %}"
                     >
@@ -260,11 +276,19 @@
                     </a>
                   {%- endif -%}
                   {%- if block.settings.button_label_3 != blank -%}
+                    {%- capture button_href_3 -%}
+                      {%- render 'product-cta-url',
+                        link: block.settings.button_link_3,
+                        product: block.settings.button_product_3,
+                        redirect_to_checkout: block.settings.button_redirect_checkout_3
+                      -%}
+                    {%- endcapture -%}
+                    {%- assign button_href_3 = button_href_3 | strip -%}
                     <a
-                      {% if block.settings.button_link_3 == blank %}
+                      {% if button_href_3 == blank %}
                         role="link" aria-disabled="true"
                       {% else %}
-                        href="{{ block.settings.button_link_3 }}"
+                        href="{{ button_href_3 }}"
                       {% endif %}
                       class="rich-text__btn{% if block.settings.button_style_secondary_3 %} rich-text__btn--secondary{% else %} rich-text__btn--primary{% endif %}"
                     >
@@ -612,9 +636,23 @@
           "info": "t:sections.rich-text.blocks.buttons.settings.button_label_1.info"
         },
         {
+          "type": "product",
+          "id": "button_product",
+          "label": "Product",
+          "info": "Optional. Used when no custom link is set."
+        },
+        {
+          "type": "checkbox",
+          "id": "button_redirect_checkout",
+          "label": "Redirect to checkout",
+          "default": false,
+          "info": "If a product is selected, skip the product page and go straight to checkout."
+        },
+        {
           "type": "url",
           "id": "button_link",
-          "label": "t:sections.rich-text.blocks.buttons.settings.button_link_1.label"
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_link_1.label",
+          "info": "Optional override. Takes priority over product / checkout."
         },
         {
           "type": "checkbox",
@@ -633,9 +671,23 @@
           "info": "t:sections.rich-text.blocks.buttons.settings.button_label_2.info"
         },
         {
+          "type": "product",
+          "id": "button_product_2",
+          "label": "Product",
+          "info": "Optional. Used when no custom link is set."
+        },
+        {
+          "type": "checkbox",
+          "id": "button_redirect_checkout_2",
+          "label": "Redirect to checkout",
+          "default": false,
+          "info": "If a product is selected, skip the product page and go straight to checkout."
+        },
+        {
           "type": "url",
           "id": "button_link_2",
-          "label": "t:sections.rich-text.blocks.buttons.settings.button_link_2.label"
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_link_2.label",
+          "info": "Optional override. Takes priority over product / checkout."
         },
         {
           "type": "checkbox",
@@ -654,9 +706,23 @@
           "info": "Leave blank to hide this button."
         },
         {
+          "type": "product",
+          "id": "button_product_3",
+          "label": "Product",
+          "info": "Optional. Used when no custom link is set."
+        },
+        {
+          "type": "checkbox",
+          "id": "button_redirect_checkout_3",
+          "label": "Redirect to checkout",
+          "default": false,
+          "info": "If a product is selected, skip the product page and go straight to checkout."
+        },
+        {
           "type": "url",
           "id": "button_link_3",
-          "label": "Link"
+          "label": "Link",
+          "info": "Optional override. Takes priority over product / checkout."
         },
         {
           "type": "checkbox",

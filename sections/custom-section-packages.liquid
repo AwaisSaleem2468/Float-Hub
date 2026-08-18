@@ -263,7 +263,12 @@
                 endif
 
                 if button_link == blank
-                  assign button_link = package_product.url
+                  if block.settings.redirect_to_checkout and package_product.selected_or_first_available_variant != blank
+                    assign variant_id = package_product.selected_or_first_available_variant.id
+                    assign button_link = routes.cart_add_url | append: '?id=' | append: variant_id | append: '&quantity=1&return_to=/checkout'
+                  else
+                    assign button_link = package_product.url
+                  endif
                 endif
               endif
             -%}
@@ -673,10 +678,17 @@
           "info": "Leave blank to use the section default."
         },
         {
+          "type": "checkbox",
+          "id": "redirect_to_checkout",
+          "label": "Redirect to checkout",
+          "default": false,
+          "info": "Skip the product page and add this product straight to checkout. Ignored if a custom button link is set."
+        },
+        {
           "type": "url",
           "id": "button_link",
           "label": "Button link",
-          "info": "Defaults to the product page if left empty."
+          "info": "Optional. Leave blank to use the product page, or checkout if “Redirect to checkout” is enabled."
         }
       ]
     }
