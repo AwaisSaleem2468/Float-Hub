@@ -53,8 +53,10 @@
             "product": "red-light-therapy",
             "featured": false,
             "badge_text": "",
+            "price_override": "",
             "price_note": "",
             "button_label": "Book Session",
+            "redirect_to_checkout": false,
             "button_link": ""
           }
         },
@@ -64,8 +66,10 @@
             "product": "3x-red-light-discovery-pack",
             "featured": false,
             "badge_text": "Most Popular",
+            "price_override": "",
             "price_note": "/ month",
             "button_label": "Buy Discovery pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         }
@@ -118,6 +122,7 @@
             "product": "starter-pack",
             "caption_override": "",
             "button_label": "Buy Starter Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -127,6 +132,7 @@
             "product": "gold-pack",
             "caption_override": "",
             "button_label": "Buy Gold Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -136,6 +142,7 @@
             "product": "platinum-pack",
             "caption_override": "",
             "button_label": "Buy Platinum Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -145,6 +152,7 @@
             "product": "intensive-pack",
             "caption_override": "",
             "button_label": "Buy Intensive Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         }
@@ -214,12 +222,18 @@
           "type": "button",
           "settings": {
             "button_label": "A CLINICAL REVIEW ON PSORIASIS",
+            "button_product": "",
+            "button_redirect_checkout": false,
             "button_link": "https://pubmed.ncbi.nlm.nih.gov/29067616/",
             "button_style_secondary": false,
             "button_label_2": "RED LIGHT THERAPY AND PSORIASIS",
+            "button_product_2": "",
+            "button_redirect_checkout_2": false,
             "button_link_2": "https://www.healthline.com/health/red-light-therapy-psoriasis",
             "button_style_secondary_2": false,
             "button_label_3": "RED LIGHT AND SKIN REJUVENATION",
+            "button_product_3": "",
+            "button_redirect_checkout_3": false,
             "button_link_3": "https://pubmed.ncbi.nlm.nih.gov/31345324/",
             "button_style_secondary_3": false
           }
@@ -326,12 +340,18 @@
           "type": "button",
           "settings": {
             "button_label": "TRY ONE SESSION - £60",
+            "button_product": "",
+            "button_redirect_checkout": false,
             "button_link": "shopify://products/red-light-therapy",
             "button_style_secondary": false,
             "button_label_2": "",
+            "button_product_2": "",
+            "button_redirect_checkout_2": false,
             "button_link_2": "",
             "button_style_secondary_2": false,
             "button_label_3": "",
+            "button_product_3": "",
+            "button_redirect_checkout_3": false,
             "button_link_3": "",
             "button_style_secondary_3": false
           }
@@ -767,9 +787,13 @@
         "contact_size": 18,
         "content_spacing": 24,
         "button_label_1": "Contact Us",
+        "button_product_1": "",
+        "button_redirect_checkout_1": false,
         "button_link_1": "shopify://pages/contact",
         "button_label_2": "Get Directions",
         "secondary_opens_map": true,
+        "button_product_2": "",
+        "button_redirect_checkout_2": false,
         "button_link_2": "",
         "map_title": "SHOREDITCH, LONDON",
         "map_address": "346 Old Street, Lower Ground Floor, London, EC1V 9NQ",
