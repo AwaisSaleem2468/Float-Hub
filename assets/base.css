@@ -3660,6 +3660,6 @@ details-disclosure > details {
 .rte table td {
     border: 1px solid #243041;
 }
-.sesami-calendar {
+.shopify-app-block.sesami-block button {
   display: inherit !important;
 }
