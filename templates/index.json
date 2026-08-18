@@ -201,6 +201,7 @@
             "price_override": "",
             "price_note": "",
             "button_label": "Book Now",
+            "redirect_to_checkout": false,
             "button_link": "https://app.cowlendar.com/cal/6a84c723bae640a3b89dd4be/54664191410503"
           }
         },
@@ -213,6 +214,7 @@
             "price_override": "",
             "price_note": "",
             "button_label": "Book Now",
+            "redirect_to_checkout": false,
             "button_link": "https://app.cowlendar.com/cal/6a84853cbae640a3b89cae2f/54213836964167"
           }
         },
@@ -225,6 +227,7 @@
             "price_override": "",
             "price_note": "",
             "button_label": "Buy Intro Course",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         }
