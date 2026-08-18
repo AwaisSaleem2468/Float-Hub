@@ -52,8 +52,8 @@
             "skip_cart": true,
             "button_label": "Select Time",
             "alignment": "center",
-            "color": "#FFFFFF",
-            "color_background": "linear-gradient(90deg, rgba(59, 130, 246, 1), rgba(34, 211, 238, 1) 100%)",
+            "color": "#C8CED8",
+            "color_background": "linear-gradient(90deg, rgba(18, 26, 39, 1), rgba(34, 211, 238, 1) 100%)",
             "font_size": 16,
             "border_width": 0,
             "border_radius": 8,
@@ -61,7 +61,7 @@
             "width": "300px",
             "height": "45px",
             "cta_background_color": "#121A27",
-            "cta_text_color": "#C8CED8"
+            "cta_text_color": "#c8ced8"
           }
         },
         "buy_buttons": {
@@ -95,7 +95,7 @@
       "settings": {
         "enable_sticky_info": false,
         "content_alignment": "center",
-        "title_color": "#C8CED8",
+        "title_color": "#c8ced8",
         "text_color": "#c8ced8",
         "price_color": "#ffffff",
         "title_size_desktop": 42,
