@@ -49,7 +49,7 @@
           "settings": {
             "auto_add_to_cart": false,
             "skip_cart": true,
-            "button_label": "Book Session",
+            "button_label": "Select Time",
             "alignment": "center",
             "color": "",
             "color_background": "#ccc",
@@ -59,7 +59,7 @@
             "border_color": "#000",
             "width": "300px",
             "height": "45px",
-            "cta_background_color": "#333",
+            "cta_background_color": "#000",
             "cta_text_color": "#fff"
           }
         },
