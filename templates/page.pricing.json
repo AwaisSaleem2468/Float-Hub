@@ -55,14 +55,20 @@
         "description_size_desktop": 24,
         "description_size_mobile": 18,
         "button_label_1": "",
+        "button_product_1": "",
+        "button_redirect_checkout_1": false,
         "button_link_1": "",
         "button_style_1": "primary",
         "show_button_arrow_1": true,
         "button_label_2": "",
+        "button_product_2": "",
+        "button_redirect_checkout_2": false,
         "button_link_2": "",
         "button_style_2": "secondary",
         "show_button_arrow_2": false,
         "button_label_3": "",
+        "button_product_3": "",
+        "button_redirect_checkout_3": false,
         "button_link_3": "",
         "button_style_3": "secondary",
         "show_button_arrow_3": false,
@@ -198,6 +204,7 @@
             "product": "2-single-use-floats-pack",
             "caption_override": "",
             "button_label": "Buy Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -207,6 +214,7 @@
             "product": "4-float-sharer-course",
             "caption_override": "",
             "button_label": "Buy Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -216,6 +224,7 @@
             "product": "annual-course-package-12-floats",
             "caption_override": "",
             "button_label": "Buy Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -225,6 +234,7 @@
             "product": "corporate-group-pack-12-floats",
             "caption_override": "",
             "button_label": "Buy Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         }
@@ -395,6 +405,7 @@
             "product": "hbot-session-60-min",
             "caption_override": "",
             "button_label": "Book Now",
+            "redirect_to_checkout": false,
             "button_link": ""
           }
         },
@@ -404,6 +415,7 @@
             "product": "hbot-for-two-session-60-min",
             "caption_override": "",
             "button_label": "Book Due Session",
+            "redirect_to_checkout": false,
             "button_link": ""
           }
         }
@@ -530,6 +542,7 @@
             "product": "starter-pack",
             "caption_override": "",
             "button_label": "Buy Starter Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -539,6 +552,7 @@
             "product": "gold-pack",
             "caption_override": "",
             "button_label": "Buy Gold Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -548,6 +562,7 @@
             "product": "platinum-pack",
             "caption_override": "",
             "button_label": "Buy Platinum Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -557,6 +572,7 @@
             "product": "intensive-pack",
             "caption_override": "",
             "button_label": "Buy Intensive Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         }
@@ -1052,9 +1068,13 @@
         "contact_size": 18,
         "content_spacing": 24,
         "button_label_1": "Contact Us",
+        "button_product_1": "",
+        "button_redirect_checkout_1": false,
         "button_link_1": "shopify://pages/contact",
         "button_label_2": "Get Directions",
         "secondary_opens_map": true,
+        "button_product_2": "",
+        "button_redirect_checkout_2": false,
         "button_link_2": "shopify://pages/contact",
         "map_title": "SHOREDITCH, LONDON",
         "map_address": "346 Old Street, Lower Ground Floor, London, EC1V 9NQ",
