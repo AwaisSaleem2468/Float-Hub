@@ -56,7 +56,7 @@
         "description_size_desktop": 16,
         "description_size_mobile": 14,
         "button_label_1": "BOOK YOUR COUPLES FLOAT NOW",
-        "button_link_1": "shopify://pages/pricing",
+        "button_link_1": "https://app.cowlendar.com/cal/6a84853cbae640a3b89cae2f/54213836964167",
         "show_button_arrow": true,
         "button_label_2": "",
         "button_link_2": "",
@@ -67,6 +67,89 @@
         "content_position_vertical": "middle",
         "text_alignment": "left",
         "content_width": 1400
+      }
+    },
+    "custom_section_featured_collection_FVpLtJ": {
+      "type": "custom-section-featured-collection",
+      "blocks": {
+        "product_card_XLqDQ3": {
+          "type": "product_card",
+          "settings": {
+            "product": "single-float-60-min",
+            "featured": false,
+            "badge_text": "Most Popular",
+            "price_override": "",
+            "price_note": "",
+            "button_label": "Book Now",
+            "redirect_to_checkout": false,
+            "button_link": "https://app.cowlendar.com/cal/6a84c723bae640a3b89dd4be/54664191410503"
+          }
+        },
+        "product_card_AKPr9K": {
+          "type": "product_card",
+          "settings": {
+            "product": "float-for-two-couples",
+            "featured": true,
+            "badge_text": "Most Popular",
+            "price_override": "",
+            "price_note": "",
+            "button_label": "Book Now",
+            "redirect_to_checkout": false,
+            "button_link": "https://app.cowlendar.com/cal/6a84853cbae640a3b89cae2f/54213836964167"
+          }
+        },
+        "product_card_yNgBc3": {
+          "type": "product_card",
+          "settings": {
+            "product": "2-float-intr",
+            "featured": false,
+            "badge_text": "Most Popular",
+            "price_override": "",
+            "price_note": "",
+            "button_label": "Buy Intro Course",
+            "redirect_to_checkout": true,
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_card_XLqDQ3",
+        "product_card_AKPr9K",
+        "product_card_yNgBc3"
+      ],
+      "name": "Custom Feat collection",
+      "settings": {
+        "label": "London’s Highest Rated Float Therapy,",
+        "heading": "Float Therapy",
+        "heading_accent": "",
+        "heading_size_desktop": 42,
+        "heading_size_mobile": 32,
+        "label_size": 13,
+        "description": "<p>Our premium recovery centre offers a luxurious, multi-modality wellness experience. Featuring 100% water filtration twice between sessions</p>",
+        "description_size_desktop": 16,
+        "description_size_mobile": 16,
+        "caption_size": 16,
+        "title_size": 22,
+        "price_size": 36,
+        "feature_size": 16,
+        "button_size": 16,
+        "content_width": 1400,
+        "header_spacing": 40,
+        "background_color": "#070d16",
+        "card_background": "#121a27",
+        "text_color": "#ffffff",
+        "muted_color": "#c8ced8",
+        "accent_color": "#23a3df",
+        "accent_text_color": "#ffffff",
+        "gold_color": "#23a3df",
+        "gold_text_color": "#1a1208",
+        "show_view_all": true,
+        "view_all_label": "View all",
+        "view_all_link": "shopify://pages/pricing",
+        "view_all_style": "solid",
+        "view_all_spacing": 40,
+        "padding_top": 40,
+        "padding_bottom": 80
       }
     },
     "rich_text_jApPWK": {
@@ -490,7 +573,10 @@
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": false,
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_style_secondary_3": false
           }
         }
       },
@@ -579,6 +665,7 @@
   "order": [
     "main",
     "custom_section_innerpage_banner_GXGNag",
+    "custom_section_featured_collection_FVpLtJ",
     "rich_text_jApPWK",
     "custom_section_float_tip_nKfVq3",
     "rich_text_qiEjFW",
