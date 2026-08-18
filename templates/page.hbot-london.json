@@ -78,8 +78,10 @@
             "product": "intro-3-pack",
             "featured": false,
             "badge_text": "",
+            "price_override": "",
             "price_note": "",
             "button_label": "Buy Intro Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -89,8 +91,10 @@
             "product": "5-session-starter",
             "featured": false,
             "badge_text": "Most Popular",
+            "price_override": "",
             "price_note": "",
             "button_label": "Buy Statter Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -100,8 +104,10 @@
             "product": "10-session-performance",
             "featured": true,
             "badge_text": "Most Popular",
+            "price_override": "",
             "price_note": "",
             "button_label": "Buy 10 Session Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -111,8 +117,10 @@
             "product": "20-session-deep-repair",
             "featured": false,
             "badge_text": "",
+            "price_override": "",
             "price_note": "",
             "button_label": "Buy 20 Session Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -122,8 +130,10 @@
             "product": "40-hour-longevity",
             "featured": true,
             "badge_text": "Most Popular",
+            "price_override": "",
             "price_note": "",
             "button_label": "Buy 40 Hours Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         }
@@ -179,6 +189,7 @@
             "product": "hbot-session-60-min",
             "caption_override": "",
             "button_label": "Book Now",
+            "redirect_to_checkout": false,
             "button_link": ""
           }
         },
@@ -188,6 +199,7 @@
             "product": "hbot-for-two-session-60-min",
             "caption_override": "",
             "button_label": "Book Due Session",
+            "redirect_to_checkout": false,
             "button_link": ""
           }
         }
@@ -286,11 +298,20 @@
           "type": "button",
           "settings": {
             "button_label": "Book Now",
+            "button_product": "",
+            "button_redirect_checkout": false,
             "button_link": "shopify://pages/booking",
             "button_style_secondary": false,
             "button_label_2": "",
+            "button_product_2": "",
+            "button_redirect_checkout_2": false,
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": false,
+            "button_label_3": "",
+            "button_product_3": "",
+            "button_redirect_checkout_3": false,
+            "button_link_3": "",
+            "button_style_secondary_3": false
           }
         }
       },
@@ -439,8 +460,12 @@
         "content_alignment": "left",
         "mobile_content_alignment": "left",
         "button_label_1": "Get 40% Off Pre-Sale Packs",
+        "button_product_1": "",
+        "button_redirect_checkout_1": false,
         "button_link_1": "shopify://pages/pricing",
         "button_label_2": "",
+        "button_product_2": "",
+        "button_redirect_checkout_2": false,
         "button_link_2": "",
         "button_size": 16,
         "button_radius": 10,
@@ -779,9 +804,13 @@
         "contact_size": 18,
         "content_spacing": 24,
         "button_label_1": "Contact Us",
+        "button_product_1": "",
+        "button_redirect_checkout_1": false,
         "button_link_1": "shopify://pages/contact",
         "button_label_2": "Get Directions",
         "secondary_opens_map": true,
+        "button_product_2": "",
+        "button_redirect_checkout_2": false,
         "button_link_2": "",
         "map_title": "SHOREDITCH, LONDON",
         "map_address": "346 Old Street, Lower Ground Floor, London, EC1V 9NQ",
