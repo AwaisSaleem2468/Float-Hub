@@ -3660,6 +3660,6 @@ details-disclosure > details {
 .rte table td {
     border: 1px solid #243041;
 }
-.shopify-app-block.sesami-block button {
+.shopify-app-block.sesami-block sesami-experience {
   display: inherit !important;
 }
