@@ -3660,3 +3660,6 @@ details-disclosure > details {
 .rte table td {
     border: 1px solid #243041;
 }
+button.sesami-calendar {
+  display: inherit !important;
+}
