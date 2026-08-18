@@ -55,10 +55,30 @@
         "description_size_desktop": 16,
         "description_size_mobile": 18,
         "button_label_1": "",
+        "button_product_1": "",
+        "button_redirect_checkout_1": false,
         "button_link_1": "",
-        "show_button_arrow": true,
+        "button_style_1": "primary",
+        "show_button_arrow_1": true,
         "button_label_2": "",
+        "button_product_2": "",
+        "button_redirect_checkout_2": false,
         "button_link_2": "",
+        "button_style_2": "secondary",
+        "show_button_arrow_2": false,
+        "button_label_3": "",
+        "button_product_3": "",
+        "button_redirect_checkout_3": false,
+        "button_link_3": "",
+        "button_style_3": "secondary",
+        "show_button_arrow_3": false,
+        "inner_max_width": 1120,
+        "inner_padding_top": 112,
+        "inner_padding_bottom": 104,
+        "inner_padding_horizontal": 24,
+        "inner_padding_top_mobile": 88,
+        "inner_padding_bottom_mobile": 88,
+        "inner_padding_horizontal_mobile": 20,
         "show_discover": true,
         "discover_label": "Scroll Down",
         "text_color": "#ffffff",
@@ -77,8 +97,10 @@
             "product": "single-float-60-min",
             "featured": false,
             "badge_text": "Most Popular",
+            "price_override": "",
             "price_note": "",
             "button_label": "Book Session",
+            "redirect_to_checkout": false,
             "button_link": ""
           }
         },
@@ -88,8 +110,10 @@
             "product": "2-float-intr",
             "featured": false,
             "badge_text": "Most Popular",
+            "price_override": "",
             "price_note": "",
             "button_label": "Buy Into Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -99,8 +123,10 @@
             "product": "float-for-two-couples",
             "featured": true,
             "badge_text": "Most Popular",
+            "price_override": "",
             "price_note": "",
             "button_label": "Book Couples  POD",
+            "redirect_to_checkout": false,
             "button_link": ""
           }
         }
@@ -154,8 +180,10 @@
             "product": "hbot-session-60-min",
             "featured": false,
             "badge_text": "Most Popular",
+            "price_override": "",
             "price_note": "",
             "button_label": "Book Now",
+            "redirect_to_checkout": false,
             "button_link": ""
           }
         },
@@ -165,8 +193,10 @@
             "product": "intro-3-pack",
             "featured": false,
             "badge_text": "",
+            "price_override": "",
             "price_note": "",
             "button_label": "Buy Intro Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -176,8 +206,10 @@
             "product": "5-session-starter",
             "featured": false,
             "badge_text": "Most Popular",
+            "price_override": "",
             "price_note": "",
             "button_label": "Buy Statter Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -187,8 +219,10 @@
             "product": "10-session-performance",
             "featured": true,
             "badge_text": "Most Popular",
+            "price_override": "",
             "price_note": "",
             "button_label": "Buy 10 Session Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -198,8 +232,10 @@
             "product": "20-session-deep-repair",
             "featured": false,
             "badge_text": "",
+            "price_override": "",
             "price_note": "",
             "button_label": "Buy 20 Session Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         },
@@ -209,8 +245,10 @@
             "product": "40-hour-longevity",
             "featured": true,
             "badge_text": "Most Popular",
+            "price_override": "",
             "price_note": "",
             "button_label": "Buy 40 Hours Pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         }
@@ -267,8 +305,10 @@
             "product": "red-light-therapy",
             "featured": false,
             "badge_text": "",
+            "price_override": "",
             "price_note": "",
             "button_label": "Book Session",
+            "redirect_to_checkout": false,
             "button_link": ""
           }
         },
@@ -278,8 +318,10 @@
             "product": "3x-red-light-discovery-pack",
             "featured": false,
             "badge_text": "Most Popular",
+            "price_override": "",
             "price_note": "/ month",
             "button_label": "Buy Discovery pack",
+            "redirect_to_checkout": true,
             "button_link": ""
           }
         }
@@ -332,8 +374,10 @@
             "product": "flexi-float-plan",
             "featured": true,
             "badge_text": "Welcome Bonus",
+            "price_override": "",
             "price_note": "",
             "button_label": "Join Membership",
+            "redirect_to_checkout": false,
             "button_link": ""
           }
         },
@@ -343,8 +387,10 @@
             "product": "2-float-monthly",
             "featured": true,
             "badge_text": "Most Popular",
+            "price_override": "",
             "price_note": "",
             "button_label": "Join Membership",
+            "redirect_to_checkout": false,
             "button_link": ""
           }
         },
@@ -355,8 +401,10 @@
             "product": "float-for-two-couples-monthly",
             "featured": false,
             "badge_text": "Most Popular",
+            "price_override": "",
             "price_note": "",
             "button_label": "Join Membership",
+            "redirect_to_checkout": false,
             "button_link": ""
           }
         }
@@ -630,9 +678,13 @@
         "contact_size": 18,
         "content_spacing": 24,
         "button_label_1": "Contact Us",
+        "button_product_1": "",
+        "button_redirect_checkout_1": false,
         "button_link_1": "shopify://pages/contact",
         "button_label_2": "Get Directions",
         "secondary_opens_map": true,
+        "button_product_2": "",
+        "button_redirect_checkout_2": false,
         "button_link_2": "",
         "map_title": "SHOREDITCH, LONDON",
         "map_address": "346 Old Street, Lower Ground Floor, London, EC1V 9NQ",
