@@ -537,7 +537,7 @@
         "designation_size": 14,
         "show_button": true,
         "button_label": "View All Reviews",
-        "button_link": "",
+        "button_link": "shopify://pages/all-reviews",
         "background_color": "#070d16",
         "card_background": "#121a27",
         "card_border_color": "#243044",
