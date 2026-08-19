@@ -57,7 +57,7 @@
             "price_note": "",
             "button_label": "Book Session",
             "redirect_to_checkout": false,
-            "button_link": ""
+            "button_link": "https://app.cowlendar.com/cal/6a84dd1bbae640a3b89e2925/54213903548743"
           }
         },
         "product_card_zKqzVa": {
@@ -342,7 +342,7 @@
             "button_label": "TRY ONE SESSION - £60",
             "button_product": "",
             "button_redirect_checkout": false,
-            "button_link": "shopify://products/red-light-therapy",
+            "button_link": "https://app.cowlendar.com/cal/6a84dd1bbae640a3b89e2925/54213903548743",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_product_2": "",
