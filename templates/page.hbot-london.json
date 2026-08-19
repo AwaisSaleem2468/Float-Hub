@@ -56,10 +56,10 @@
         "description_size_desktop": 16,
         "description_size_mobile": 15,
         "button_label_1": "Solor Dive - £85",
-        "button_link_1": "shopify://products/hbot-session-60-min",
-        "show_button_arrow": true,
+        "button_link_1": "",
+        "show_button_arrow": false,
         "button_label_2": "Duo Dive (HBOT for Two) - £135",
-        "button_link_2": "shopify://products/hbot-for-two-session-60-min",
+        "button_link_2": "https://app.cowlendar.com/cal/6a84dcb2b21db33053c96473/54213863113031",
         "text_color": "#ffffff",
         "accent_color": "#0daaef",
         "badge_color": "#d4af37",
@@ -190,7 +190,7 @@
             "caption_override": "",
             "button_label": "Book Now",
             "redirect_to_checkout": false,
-            "button_link": ""
+            "button_link": "https://app.cowlendar.com/cal/6a84dc5db21db33053c9634e/54213881266503"
           }
         },
         "package_hwjMK6": {
@@ -200,7 +200,7 @@
             "caption_override": "",
             "button_label": "Book Due Session",
             "redirect_to_checkout": false,
-            "button_link": ""
+            "button_link": "https://app.cowlendar.com/cal/6a84dcb2b21db33053c96473/54213863113031"
           }
         }
       },

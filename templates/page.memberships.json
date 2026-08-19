@@ -41,9 +41,11 @@
           "settings": {
             "product": "flexi-float-plan",
             "featured": true,
-            "badge_text": "Welcome Bonus",
+            "badge_text": "",
+            "price_override": "",
             "price_note": "",
             "button_label": "Join Membership",
+            "redirect_to_checkout": false,
             "button_link": ""
           }
         },
@@ -53,20 +55,25 @@
             "product": "2-float-monthly",
             "featured": true,
             "badge_text": "Most Popular",
+            "price_override": "",
             "price_note": "",
-            "button_label": "Join Membership",
-            "button_link": ""
+            "button_label": "Book As Member",
+            "redirect_to_checkout": false,
+            "button_link": "https://app.cowlendar.com/cal/6a84ee0db21db33053c991a0/54626668904775"
           }
         },
         "product_card_hVYcwi": {
           "type": "product_card",
+          "disabled": true,
           "settings": {
             "product": "float-for-two-couples-monthly",
             "featured": false,
             "badge_text": "Most Popular",
+            "price_override": "",
             "price_note": "",
             "button_label": "Join Membership",
-            "button_link": ""
+            "redirect_to_checkout": false,
+            "button_link": "https://app.cowlendar.com/cal/6a84de83b21db33053c96a24/54626640593223"
           }
         }
       },
@@ -829,9 +836,13 @@
         "contact_size": 18,
         "content_spacing": 24,
         "button_label_1": "Contact Us",
+        "button_product_1": "",
+        "button_redirect_checkout_1": false,
         "button_link_1": "shopify://pages/contact",
         "button_label_2": "Get Directions",
         "secondary_opens_map": true,
+        "button_product_2": "",
+        "button_redirect_checkout_2": false,
         "button_link_2": "",
         "map_title": "SHOREDITCH, LONDON",
         "map_address": "346 Old Street, Lower Ground Floor, London, EC1V 9NQ",
