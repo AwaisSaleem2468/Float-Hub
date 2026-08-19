@@ -125,7 +125,20 @@
             "price_note": "",
             "button_label": "Book Session",
             "redirect_to_checkout": false,
-            "button_link": ""
+            "button_link": "https://app.cowlendar.com/cal/6a84c723bae640a3b89dd4be/54664191410503"
+          }
+        },
+        "product_card_zqyc3e": {
+          "type": "product_card",
+          "settings": {
+            "product": "float-for-two-couples",
+            "featured": true,
+            "badge_text": "Most Popular",
+            "price_override": "",
+            "price_note": "",
+            "button_label": "Book Couples  POD",
+            "redirect_to_checkout": false,
+            "button_link": "https://app.cowlendar.com/cal/6a84853cbae640a3b89cae2f/54213836964167"
           }
         },
         "product_card_KDrfdL": {
@@ -140,25 +153,12 @@
             "redirect_to_checkout": true,
             "button_link": ""
           }
-        },
-        "product_card_zqyc3e": {
-          "type": "product_card",
-          "settings": {
-            "product": "float-for-two-couples",
-            "featured": true,
-            "badge_text": "Most Popular",
-            "price_override": "",
-            "price_note": "",
-            "button_label": "Book Couples  POD",
-            "redirect_to_checkout": false,
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "product_card_3LtQ9e",
-        "product_card_KDrfdL",
-        "product_card_zqyc3e"
+        "product_card_zqyc3e",
+        "product_card_KDrfdL"
       ],
       "name": "Custom Feat collection",
       "settings": {
@@ -406,7 +406,7 @@
             "caption_override": "",
             "button_label": "Book Now",
             "redirect_to_checkout": false,
-            "button_link": ""
+            "button_link": "https://app.cowlendar.com/cal/6a84dc5db21db33053c9634e/54213881266503"
           }
         },
         "package_YzbHXR": {
@@ -416,7 +416,7 @@
             "caption_override": "",
             "button_label": "Book Due Session",
             "redirect_to_checkout": false,
-            "button_link": ""
+            "button_link": "https://app.cowlendar.com/cal/6a84dcb2b21db33053c96473/54213863113031"
           }
         }
       },
@@ -477,7 +477,7 @@
             "price_note": "",
             "button_label": "Book Session",
             "redirect_to_checkout": false,
-            "button_link": ""
+            "button_link": "https://app.cowlendar.com/cal/6a84dd1bbae640a3b89e2925/54213903548743"
           }
         },
         "product_card_xDNAPt": {
@@ -634,9 +634,9 @@
             "badge_text": "Welcome Bonus",
             "price_override": "£45.00",
             "price_note": "/ month",
-            "button_label": "Join Membership",
+            "button_label": "Book As Member",
             "redirect_to_checkout": false,
-            "button_link": ""
+            "button_link": "https://app.cowlendar.com/cal/6a84de83b21db33053c96a24/54626640593223"
           }
         },
         "product_card_aBttrG": {
@@ -646,14 +646,15 @@
             "featured": true,
             "badge_text": "Most Popular",
             "price_override": "£80.00",
-            "price_note": "/ monht",
-            "button_label": "Join Membership",
+            "price_note": "/ month",
+            "button_label": "Book As Member",
             "redirect_to_checkout": false,
-            "button_link": ""
+            "button_link": "https://app.cowlendar.com/cal/6a84ee0db21db33053c991a0/54626668904775"
           }
         },
         "product_card_c6iC9b": {
           "type": "product_card",
+          "disabled": true,
           "settings": {
             "product": "float-for-two-couples-monthly",
             "featured": false,
