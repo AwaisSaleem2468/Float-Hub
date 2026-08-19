@@ -44,7 +44,7 @@
             "badge_text": "",
             "price_override": "",
             "price_note": "",
-            "button_label": "Book As Membership",
+            "button_label": "Book As Member",
             "redirect_to_checkout": false,
             "button_link": "https://app.cowlendar.com/cal/6a84de83b21db33053c96a24/54626640593223"
           }
