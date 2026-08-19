@@ -387,12 +387,12 @@
           "settings": {
             "product": "flexi-float-plan",
             "featured": true,
-            "badge_text": "Welcome Bonus",
+            "badge_text": "",
             "price_override": "",
             "price_note": "",
-            "button_label": "Join Membership",
+            "button_label": "Book As Member",
             "redirect_to_checkout": false,
-            "button_link": ""
+            "button_link": "https://app.cowlendar.com/cal/6a84de83b21db33053c96a24/54626640593223"
           }
         },
         "product_card_aBttrG": {
@@ -403,9 +403,9 @@
             "badge_text": "Most Popular",
             "price_override": "",
             "price_note": "",
-            "button_label": "Join Membership",
+            "button_label": "Book As Member",
             "redirect_to_checkout": false,
-            "button_link": ""
+            "button_link": "https://app.cowlendar.com/cal/6a84ee0db21db33053c991a0/54626668904775"
           }
         },
         "product_card_c6iC9b": {
