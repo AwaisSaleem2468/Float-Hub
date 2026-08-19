@@ -101,7 +101,20 @@
             "price_note": "",
             "button_label": "Book Session",
             "redirect_to_checkout": false,
-            "button_link": ""
+            "button_link": "https://app.cowlendar.com/cal/6a84c723bae640a3b89dd4be/54664191410503"
+          }
+        },
+        "product_card_zqyc3e": {
+          "type": "product_card",
+          "settings": {
+            "product": "float-for-two-couples",
+            "featured": true,
+            "badge_text": "Most Popular",
+            "price_override": "",
+            "price_note": "",
+            "button_label": "Book Couples  POD",
+            "redirect_to_checkout": false,
+            "button_link": "https://app.cowlendar.com/cal/6a84853cbae640a3b89cae2f/54213836964167"
           }
         },
         "product_card_KDrfdL": {
@@ -116,25 +129,12 @@
             "redirect_to_checkout": true,
             "button_link": ""
           }
-        },
-        "product_card_zqyc3e": {
-          "type": "product_card",
-          "settings": {
-            "product": "float-for-two-couples",
-            "featured": true,
-            "badge_text": "Most Popular",
-            "price_override": "",
-            "price_note": "",
-            "button_label": "Book Couples  POD",
-            "redirect_to_checkout": false,
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "product_card_3LtQ9e",
-        "product_card_KDrfdL",
-        "product_card_zqyc3e"
+        "product_card_zqyc3e",
+        "product_card_KDrfdL"
       ],
       "name": "Custom Feat collection",
       "settings": {
@@ -184,7 +184,20 @@
             "price_note": "",
             "button_label": "Book Now",
             "redirect_to_checkout": false,
-            "button_link": ""
+            "button_link": "https://app.cowlendar.com/cal/6a84dc5db21db33053c9634e/54213881266503"
+          }
+        },
+        "product_card_Q9E7Qy": {
+          "type": "product_card",
+          "settings": {
+            "product": "hbot-for-two-session-60-min",
+            "featured": false,
+            "badge_text": "Most Popular",
+            "price_override": "",
+            "price_note": "",
+            "button_label": "Book Now",
+            "redirect_to_checkout": false,
+            "button_link": "https://app.cowlendar.com/cal/6a84dcb2b21db33053c96473/54213863113031"
           }
         },
         "product_card_FyTyWE": {
@@ -255,6 +268,7 @@
       },
       "block_order": [
         "product_card_9L9NRW",
+        "product_card_Q9E7Qy",
         "product_card_FyTyWE",
         "product_card_YGtyJ7",
         "product_card_4cpbfU",
@@ -309,7 +323,7 @@
             "price_note": "",
             "button_label": "Book Session",
             "redirect_to_checkout": false,
-            "button_link": ""
+            "button_link": "https://app.cowlendar.com/cal/6a84dd1bbae640a3b89e2925/54213903548743"
           }
         },
         "product_card_Knp36x": {
