@@ -142,18 +142,27 @@
         "text_mLDjBf": {
           "type": "text",
           "settings": {
-            "text": "<p>eady to discover why so many Londoners are making red light therapy part of their routine? Whether you’re an athlete, a professional battling stress, or someone seeking holistic well-being, our <strong>FloatLightPBM bed</strong> is a powerful tool to help you achieve your goals.</p><p><strong>Ready to try it out?</strong> <a href=\"https://floathub.co.uk/book-now/\">Book your Red Light Therapy or Float session</a> with us today and experience a new standard of wellness in London.</p>"
+            "text": "<p>eady to discover why so many Londoners are making red light therapy part of their routine? Whether you’re an athlete, a professional battling stress, or someone seeking holistic well-being, our <strong>FloatLightPBM bed</strong> is a powerful tool to help you achieve your goals.</p><p><strong>Ready to try it out?</strong> <a href=\"/pages/pricing\" title=\"Pricing\">Book your Red Light Therapy or Float session</a> with us today and experience a new standard of wellness in London.</p>"
           }
         },
         "button_fGamxk": {
           "type": "button",
           "settings": {
             "button_label": "Book Your Session",
-            "button_link": "shopify://pages/pricing",
+            "button_product": "",
+            "button_redirect_checkout": false,
+            "button_link": "shopify://pages/booking",
             "button_style_secondary": false,
             "button_label_2": "",
+            "button_product_2": "",
+            "button_redirect_checkout_2": false,
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": false,
+            "button_label_3": "",
+            "button_product_3": "",
+            "button_redirect_checkout_3": false,
+            "button_link_3": "",
+            "button_style_secondary_3": false
           }
         }
       },
@@ -225,9 +234,13 @@
         "contact_size": 18,
         "content_spacing": 24,
         "button_label_1": "Contact Us",
+        "button_product_1": "",
+        "button_redirect_checkout_1": false,
         "button_link_1": "shopify://pages/contact",
         "button_label_2": "Get Directions",
         "secondary_opens_map": true,
+        "button_product_2": "",
+        "button_redirect_checkout_2": false,
         "button_link_2": "",
         "map_title": "SHOREDITCH, LONDON",
         "map_address": "346 Old Street, Lower Ground Floor, London, EC1V 9NQ",
