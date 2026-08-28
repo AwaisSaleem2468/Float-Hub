@@ -3672,3 +3672,6 @@ details-disclosure > details {
 .rte blockquote p {
     padding:1rem 0;
 }
+hr {
+    margin: 0 !important;
+}
