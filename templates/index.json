@@ -965,6 +965,24 @@
         "padding_bottom": 80
       }
     },
+    "featured_blog_VpR4Bi": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "blog": "benefits-of-floating",
+        "post_limit": 3,
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "color_scheme": "scheme-4",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custom_section_small_banner_rR9WDD": {
       "type": "custom-section-small-banner",
       "name": "Custom Small Banner",
@@ -1027,6 +1045,7 @@
     "custom_section_membership_6HFMYW",
     "custom_section_testimonial_XpLhbw",
     "custom_section_gallery_CpeGTR",
+    "featured_blog_VpR4Bi",
     "custom_section_small_banner_rR9WDD"
   ]
 }
