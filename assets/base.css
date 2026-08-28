@@ -3663,3 +3663,11 @@ details-disclosure > details {
 .shopify-app-block.sesami-block sesami-experience {
   display: inherit !important;
 }
+
+.rte blockquote {
+    display: inherit !important;
+    padding: 0 1rem !important;
+}
+.rte blockquote p {
+    padding:1rem 0;
+}
