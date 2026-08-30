@@ -146,15 +146,13 @@
     },
     "content_for_index": [],
     "blocks": {
-      "6455419830187867978": {
-        "type": "shopify://apps/sesami-booking-app/blocks/app-embed/dc3b1344-0a53-477e-93d0-4b8a473ab587",
-        "disabled": false,
-        "settings": {
-          "enable_cart_verification": true
-        }
-      },
       "3886181796285292942": {
         "type": "shopify://apps/cowlendar-booking/blocks/app-embed/6d8b8f6a-9b3c-42b8-b2e6-a758c38d45bf",
+        "disabled": false,
+        "settings": {}
+      },
+      "16250556887416161327": {
+        "type": "shopify://apps/easy-appointment-booking/blocks/select_time/cc7b690c-65b5-4bb4-a46c-1e4bd73e1c12",
         "disabled": false,
         "settings": {}
       }
