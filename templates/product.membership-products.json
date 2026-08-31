@@ -44,6 +44,12 @@
           "disabled": true,
           "settings": {}
         },
+        "seal_subscriptions_subscription_widget_x37wfY": {
+          "type": "shopify://apps/seal-subscriptions/blocks/subscription-widget/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -68,6 +74,7 @@
         "description",
         "variant_picker",
         "quantity_selector",
+        "seal_subscriptions_subscription_widget_x37wfY",
         "buy_buttons",
         "share"
       ],
@@ -75,7 +82,7 @@
         "enable_sticky_info": false,
         "content_alignment": "center",
         "title_color": "#ffffff",
-        "text_color": "#C8CED8",
+        "text_color": "#c8ced8",
         "price_color": "#ffffff",
         "title_size_desktop": 42,
         "title_size_mobile": 32,
