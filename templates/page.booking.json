@@ -330,10 +330,10 @@
           "type": "product_card",
           "settings": {
             "product": "3x-red-light-discovery-pack",
-            "featured": false,
-            "badge_text": "Most Popular",
+            "featured": true,
+            "badge_text": "One-Time Purchase",
             "price_override": "",
-            "price_note": "/ month",
+            "price_note": "",
             "button_label": "Buy Discovery pack",
             "redirect_to_checkout": true,
             "button_link": ""
